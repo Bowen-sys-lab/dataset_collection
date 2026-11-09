@@ -1,0 +1,11 @@
+﻿step,item,result,evidence_path,responsible_person,date
+1,安装和驱动,NOT_TESTED,,,
+2,代码包哈希,NOT_TESTED,,,
+3,场景和递归资产,NOT_TESTED,,,
+4,软件依赖检查,NOT_TESTED,,,
+5,相机与热图试采,NOT_TESTED,,,
+6,实际移动和T记录,NOT_TESTED,,,
+7,离线出图与数值校验,NOT_TESTED,,,
+8,目标与终点人工复核,NOT_TESTED,,,
+9,标签与动作接口,NOT_TESTED,,,
+10,二人复核及发布,NOT_TESTED,,,

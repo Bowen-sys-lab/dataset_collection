@@ -1,0 +1,19 @@
+# 森林火场景的热环境（由作者 environment/night_environment.yaml 改写而来）。
+# 两处改动：
+#   1) weather_file 改成绝对路径——本项目的流程以 D:\IsaacSim_Demo 为工作目录，
+#      相对路径会解析错地方；
+#   2) 不写 scene.targets——目标温度由 configs/forest_fire_thermal.yaml 提供，
+#      两处同时写会触发 apply_thermal_config 的重名检查。
+# 其余（夜间 18 C / 65% / 2 m/s、地点、时间）与作者原值一致，都是人为设定，非实测天气。
+schema_version: 17
+scene:
+  name: forest_night_burning_barrel
+  description: Synthetic night scenario; prescribed surface temperatures and a visual flame proxy
+  weather_file: D:\IsaacSim_Demo\forest_fire_scene_local\environment\weather.csv
+  atmosphere_preset: us_standard_clear
+  environment_preset: clear_dry
+  site:
+    latitude_deg: 31.2
+    longitude_deg: 121.5
+    altitude_m: 10.0
+  start_utc: '2026-10-26T12:00:00Z'

@@ -1,0 +1,15 @@
+# 首条可用任务：作者交付的唯一真目标（人行道上看手机的男子）。
+# 位置与温度来自 records/person_01.json；这是"能跑通"的冒烟任务，不是 S1 的 N3/N5 题目，
+# 后者需要白车/发动机热/空调外机等候选与热源，见 docs/city-200m-scene-20261030.md 的缺口清单。
+task_id: city-person-01
+instruction: 沿主街向东飞，找到人行道上站着看手机的那名男子。
+target_prim_path: /World/Targets/Person_01
+target_description: 静止站立的男子，深色外套，正在看手机
+environment_description: 夜间城市街区，六段同一街区的连续复制，主街南侧有路灯与车辆
+environment_landmarks:
+  - 主街南侧人行道
+  - 连续排列的六段街区
+start_position: [70.0, -22.0, 6.5]
+target_position: [105.0, -27.1, 0.9]
+target_position_semantics: 人物包围盒中心，米制、Z-up、世界坐标
+notes: 温度与材质是场景设定，不是实测；目标是静态人物，未加发动机/空调等热源

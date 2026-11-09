@@ -1,0 +1,28 @@
+# shoe_rubber：新版场景（2026-11-03）的人物目标用到这个材质，旧版 irsim 材质库里没有。
+# 本项目按 wood_pine 的先例自行补一份：数值取自公开文献，不复制第三方仓库文件。
+#
+# 来源：
+#   - LWIR/MWIR 发射率：橡胶（轮胎）0.95 / 0.94，太阳吸收率 0.94（碳填充硫化橡胶）
+#   - NIR/SWIR：ESTIMATED（黑色）
+#   - 热物性：Incropera Table A.3 软橡胶，1100 kg/m³、2010 J/kg/K、0.13 W/m/K；
+#     厚度 10 mm 按鞋底 ESTIMATED
+schema_version: 2
+material:
+  name: shoe_rubber
+  source: literature
+  surface_treatment: as_manufactured
+  reference: >-
+    LWIR/MWIR as the rubber (tyre) class: 0.95 / 0.94, solar absorptivity 0.94.
+    Thermal: Incropera Table A.3 soft rubber (1100 kg/m3, 2010 J/kg/K, 0.13 W/m/K),
+    thickness 10 mm ESTIMATED for a sole.
+  description: "Black vulcanised rubber of a sole; thick and dense, the slowest surface on a person"
+  thermal:
+    density_kg_m3: 1100
+    specific_heat_j_kgk: 2010
+    conductivity_w_mk: 0.13
+    thickness_m: 0.01
+    solar_absorptivity: 0.94
+  optical:
+    emissivity_per_band: {nir: 0.93, swir: 0.93, mwir: 0.94, lwir: 0.95}
+    roughness_per_band: {nir: 0.50, swir: 0.50, mwir: 0.45, lwir: 0.40}
+    angular_model: {type: empirical, a: 0.08, p: 4.0}

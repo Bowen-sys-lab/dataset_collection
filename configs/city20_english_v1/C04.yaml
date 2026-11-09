@@ -1,0 +1,40 @@
+task_id: city-v2-heatmaincover-s4
+instruction: The target is initially behind you on your right. Find the round metal
+  manhole cover set flush into the asphalt in the narrow street between the buildings,
+  near low plants and parked vehicles. Look for concentric rings on the cover and
+  a bright circular region in the thermal image that stands out from the surrounding
+  road. Approach and stop where the cover and its thermal contrast are clearly visible.
+target_prim_path: /World/Targets/HeatMainCover
+target_description: 一块直径约 0.7 米的圆形金属井盖，盖面有同心圆纹路，平嵌在沥青路面上
+environment_description: 位于两侧楼体夹出的内部窄街，路边有低矮绿植和停放的车辆，这段窄街只有这一块圆形井盖
+environment_landmarks:
+- 内部窄街
+- 圆形井盖
+- 路边绿植
+start_position:
+- 102.31
+- 0.59
+- 6.5
+target_position:
+- 92.65
+- -2
+- 0.0
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 停稳并松开运动键后按 H 检查红外；目标及对应热特征清楚可见时按 T 人工确认，然后正常关闭并等待保存。T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: HeatMainCover
+  block_index: 2
+  initial_yaw_degrees: 55.0
+  target_bearing_degrees: 195.0
+  relative_direction: 右后方
+  start_distance_m: 10.0
+  start_index: 4
+  city_collection:
+    version: city20_english_v1
+    episode: C04
+    split: validation
+    language: en
+    source_task_path: D:\IsaacSim_Demo\configs\city_200m_v2_task_heatmaincover_s4.yaml
+    source_task_sha256: c4ee9f294fbc41b76f09da5406ff3e8a87e7087a2baddecf3924631c17e1dc76

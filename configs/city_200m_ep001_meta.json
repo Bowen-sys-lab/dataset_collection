@@ -1,0 +1,12 @@
+{
+  "episode": 1,
+  "kind": "n3",
+  "seed": 1,
+  "hot_van": 1,
+  "cold_person": 3,
+  "block_shift": 0,
+  "stage": "D:\\IsaacSim_Demo\\city_200m_ep001.usda",
+  "scene": "D:\\IsaacSim_Demo\\configs\\city_200m_ep001_scene.yaml",
+  "thermal": "D:\\IsaacSim_Demo\\configs\\city_200m_ep001_thermal.yaml",
+  "task": "D:\\IsaacSim_Demo\\configs\\city_200m_ep001_task.yaml"
+}

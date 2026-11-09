@@ -1,0 +1,391 @@
+{
+  "scheme": "night_low_light",
+  "targets": [
+    "HeatMainCover",
+    "HVAC",
+    "ExhaustVent",
+    "Person_02"
+  ],
+  "tasks": [
+    {
+      "task_id": "city-v2-heatmaincover-s1",
+      "target": "HeatMainCover",
+      "block": 2,
+      "start": [
+        225.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 133.85,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_trial_v1\\C01.yaml",
+      "episode": "C01",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_trial_v1",
+      "start_review_status": "candidate_pending_live_validation"
+    },
+    {
+      "task_id": "city-v2-heatmaincover-s2",
+      "target": "HeatMainCover",
+      "block": 2,
+      "start": [
+        195.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 104.29,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C02.yaml",
+      "episode": "C02",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-heatmaincover-s3",
+      "target": "HeatMainCover",
+      "block": 2,
+      "start": [
+        210.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 119.04,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C03.yaml",
+      "episode": "C03",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-heatmaincover-s4",
+      "target": "HeatMainCover",
+      "block": 2,
+      "start": [
+        240.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 148.7,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C04.yaml",
+      "episode": "C04",
+      "split": "validation",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-heatmaincover-s5",
+      "target": "HeatMainCover",
+      "block": 2,
+      "start": [
+        250.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 158.62,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C05.yaml",
+      "episode": "C05",
+      "split": "test",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-hvac-s1",
+      "target": "HVAC",
+      "block": 0,
+      "start": [
+        135.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 133.09,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_trial_v1\\C06.yaml",
+      "episode": "C06",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_trial_v1",
+      "start_review_status": "candidate_pending_live_validation"
+    },
+    {
+      "task_id": "city-v2-hvac-s2",
+      "target": "HVAC",
+      "block": 0,
+      "start": [
+        110.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 109.4,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C07.yaml",
+      "episode": "C07",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-hvac-s3",
+      "target": "HVAC",
+      "block": 0,
+      "start": [
+        125.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 123.55,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C08.yaml",
+      "episode": "C08",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-hvac-s4",
+      "target": "HVAC",
+      "block": 0,
+      "start": [
+        145.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 142.69,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C09.yaml",
+      "episode": "C09",
+      "split": "validation",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-hvac-s5",
+      "target": "HVAC",
+      "block": 0,
+      "start": [
+        160.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 157.19,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C10.yaml",
+      "episode": "C10",
+      "split": "test",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-exhaustvent-s1",
+      "target": "ExhaustVent",
+      "block": 5,
+      "start": [
+        70.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 0.0,
+      "direction": "前方偏左",
+      "start_distance_m": 151.42,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_trial_v1\\C11.yaml",
+      "episode": "C11",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_trial_v1",
+      "start_review_status": "candidate_pending_live_validation"
+    },
+    {
+      "task_id": "city-v2-exhaustvent-s2",
+      "target": "ExhaustVent",
+      "block": 5,
+      "start": [
+        55.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 0.0,
+      "direction": "前方偏左",
+      "start_distance_m": 166.38,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C12.yaml",
+      "episode": "C12",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-exhaustvent-s3",
+      "target": "ExhaustVent",
+      "block": 5,
+      "start": [
+        85.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 0.0,
+      "direction": "前方偏左",
+      "start_distance_m": 136.47,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C13.yaml",
+      "episode": "C13",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-exhaustvent-s4",
+      "target": "ExhaustVent",
+      "block": 5,
+      "start": [
+        100.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 0.0,
+      "direction": "前方偏左",
+      "start_distance_m": 121.53,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C14.yaml",
+      "episode": "C14",
+      "split": "validation",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-exhaustvent-s5",
+      "target": "ExhaustVent",
+      "block": 5,
+      "start": [
+        115.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 0.0,
+      "direction": "前方偏左",
+      "start_distance_m": 106.6,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C15.yaml",
+      "episode": "C15",
+      "split": "test",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-person_02-s1",
+      "target": "Person_02",
+      "block": 0,
+      "start": [
+        135.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 146.48,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_trial_v1\\C16.yaml",
+      "episode": "C16",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_trial_v1",
+      "start_review_status": "candidate_pending_live_validation"
+    },
+    {
+      "task_id": "city-v2-person_02-s2",
+      "target": "Person_02",
+      "block": 0,
+      "start": [
+        110.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 121.92,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C17.yaml",
+      "episode": "C17",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-person_02-s3",
+      "target": "Person_02",
+      "block": 0,
+      "start": [
+        130.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 141.56,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C18.yaml",
+      "episode": "C18",
+      "split": "train",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-person_02-s4",
+      "target": "Person_02",
+      "block": 0,
+      "start": [
+        150.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 161.28,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C19.yaml",
+      "episode": "C19",
+      "split": "validation",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    },
+    {
+      "task_id": "city-v2-person_02-s5",
+      "target": "Person_02",
+      "block": 0,
+      "start": [
+        170.0,
+        -22.0,
+        6.5
+      ],
+      "yaw": 180.0,
+      "direction": "前方偏右",
+      "start_distance_m": 181.07,
+      "file": "D:\\IsaacSim_Demo\\configs\\city20_long_start_remaining_v1\\C20.yaml",
+      "episode": "C20",
+      "split": "test",
+      "language": "en",
+      "task_version": "city20_long_start_remaining_v1",
+      "start_review_status": "candidate_pending_spawn_preflight"
+    }
+  ]
+}

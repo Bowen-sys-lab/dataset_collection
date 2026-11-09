@@ -1,0 +1,22 @@
+# 拉丝 / 轧制不锈钢（机加工状态）。这是最容易配错的一类：金属自身辐射很少，
+# 热图里会显得比实际温度“冷”，甚至映出周边环境（天冷时反而更暗）。
+# 发射率取 0.25（拉丝表面介于抛光的 0.07 与氧化的 0.5-0.8 之间），为项目估算。
+# angular_model 用 fresnel：金属的发射率随视角增大而升高，经验模型（a, p）表达不了这一点。
+# n_k 用铝的表作为“形状代理”，只借它的角度变化形状，数值大小由 emissivity_per_band 决定。
+schema_version: 2
+material:
+  name: stainless_steel_brushed
+  source: estimated
+  surface_treatment: machined
+  reference: "Project estimate; emissivity shape from nk/aluminium.csv as a metal proxy, not a steel n/k measurement"
+  description: "拉丝不锈钢：设备外壳、扶手、罐体。低发射率，会反射环境；不要当混凝土用。"
+  thermal:
+    density_kg_m3: 7900
+    specific_heat_j_kgk: 500
+    conductivity_w_mk: 15
+    thickness_m: 0.001
+    solar_absorptivity: 0.45
+  optical:
+    emissivity_per_band: {nir: 0.10, swir: 0.12, mwir: 0.20, lwir: 0.25}
+    roughness_per_band: {nir: 0.25, swir: 0.22, mwir: 0.15, lwir: 0.10}
+    angular_model: {type: fresnel, n_k_file: nk/aluminium.csv}

@@ -1,0 +1,21 @@
+# 原显示对照入口：路径/分辨率/热物理设置与学校配置相同，未配置项目显示覆盖。
+# 用于材质缓存实验及复现旧显示；新默认入口仍是 school_vln_scene.yaml。
+schema_version: 1
+scene:
+  stage: ../school_vln_01.usd
+  thermal_scene: ../third_party/isaac-thermal-camera-simulation/configs/scenes/quad_flight_clear_noon.yaml
+  static_targets: [/World/Target_01, /World/office, /World/hospital]
+drone:
+  prim_path: /World/Crazyflie
+  body_path: /World/Crazyflie/body
+  camera_path: /World/Crazyflie/body/Camera_mount/Camera
+  minimum_height: 0.5
+sensors:
+  width: 160
+  height: 128
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: school_vln_thermal.yaml
+  preview_fast: true
+  align_thermal_to_rgb: true
+  flat_field_enabled: true
+  sensor_seed: 0

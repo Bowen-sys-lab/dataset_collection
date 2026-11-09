@@ -1,0 +1,43 @@
+task_id: city-v2-exhaustvent-s1
+instruction: The target is several blocks ahead, slightly to your left. Head eastward along the southern
+  edge of the district, then search the streets near the target. Find the metal exhaust unit beside the
+  curb in the service area along the southern building, near a street tree. Identify the horizontal louvers
+  and the short duct on top. In the thermal image, look for a bright strip at the louver opening against
+  the darker ground and wall. Approach and stop where the unit and the bright strip are clearly visible.
+target_prim_path: /World/Targets/ExhaustVent
+target_description: 一个约 1 米高的金属排风基座，正面是横向百叶，顶部接短风管
+environment_description: 立在南侧建筑服务前缘的路缘旁，旁边有行道树和路缘石，这一侧只有这一个百叶基座
+environment_landmarks:
+- 南侧服务区
+- 百叶基座
+- 行道树
+start_position:
+- 70.0
+- -22.0
+- 6.5
+target_position:
+- 221
+- -10.7
+- -0.011
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 停稳并松开运动键后按 H 检查红外；目标及对应热特征清楚可见时按 T 人工确认，然后正常关闭并等待保存。T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: ExhaustVent
+  block_index: 5
+  initial_yaw_degrees: 0.0
+  target_bearing_degrees: 4.28
+  relative_direction: 前方偏左
+  start_distance_m: 151.42
+  start_index: 1
+  city_collection:
+    version: city20_long_start_trial_v1
+    episode: C11
+    split: train
+    language: en
+    source_task_path: D:\IsaacSim_Demo\configs\city_200m_v2_task_exhaustvent_s1.yaml
+    source_task_sha256: 8387d7b42bec7a07c3ba4e1be825a47175dbf2f422a5886fb534c16be75ec9a2
+    previous_task_path: D:\IsaacSim_Demo\configs\city20_english_v1\C11.yaml
+    previous_task_sha256: 6c6ea3946c1d34be65185aadc6af40dbe3b24b381c2cfaa396329558edb64951
+    start_review_status: candidate_pending_live_validation

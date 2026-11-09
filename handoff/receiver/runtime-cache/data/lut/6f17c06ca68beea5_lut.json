@@ -1,0 +1,40 @@
+{
+  "band": {
+    "id": "lwir",
+    "lambda_max_um": 13.5,
+    "lambda_min_um": 7.5,
+    "regime": "emissive",
+    "spectral_response": "boson_vox.csv"
+  },
+  "band_hash": "6f17c06ca68beea5ecfc6f6b72ce4c67381853ea0aeb730d6b8693daf8a9eeb4",
+  "config_sha256": "4ed889b8c884e3fcb7a90b5b1cfe830c352d09798e4d48db64b18a34682f8594",
+  "dt_k": 0.05,
+  "dtype": "float32",
+  "files": {
+    "dlb_dt": "6f17c06ca68beea5_dlb_dt.npy",
+    "dlb_q_dt": "6f17c06ca68beea5_dlb_q_dt.npy",
+    "lb": "6f17c06ca68beea5_lb.npy",
+    "lb_q": "6f17c06ca68beea5_lb_q.npy"
+  },
+  "irsim_version": "0.1.0",
+  "n": 16001,
+  "numpy_version": "2.3.1",
+  "quantities": [
+    "lb",
+    "lb_q",
+    "dlb_dt",
+    "dlb_q_dt"
+  ],
+  "raw_files": {
+    "dlb_dt": "6f17c06ca68beea5_dlb_dt.f32",
+    "dlb_q_dt": "6f17c06ca68beea5_dlb_q_dt.f32",
+    "lb": "6f17c06ca68beea5_lb.f32",
+    "lb_q": "6f17c06ca68beea5_lb_q.f32"
+  },
+  "raw_layout": "little-endian float32, N entries, index i <-> T = t0_k + i * dt_k",
+  "schema_version": 1,
+  "sensor_name": "flir_boson_640_lwir",
+  "spectral_sha256": "5179397529c0f37799be342b9effc2634a958f4a54443f2e1d687d3176df49cc",
+  "t0_k": 200.0,
+  "t1_k": 1000.0
+}

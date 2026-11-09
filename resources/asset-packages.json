@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "delivery_version": "20261109",
+  "acquisition": "Contact this repository's maintainer or the assigned project owner for the matching packages. No public asset download URL is available in this release.",
+  "extract_to": "D:\\",
+  "expected_project_root": "D:\\IsaacSim_Demo",
+  "packages": [
+    {
+      "name": "dataset-assets-20261109.zip",
+      "required": true,
+      "bytes": 390641443,
+      "sha256": "32c92fb6db48a7684beb9aee8f235450a7523cacac281f391779b50fe88bfbcf",
+      "contents": "Local factory, forest and city dependencies, localized cf2x robot, textures, weather and thermal materials",
+      "file_manifest": "handoff/receiver/assets-manifest.json"
+    },
+    {
+      "name": "dataset-sample-20261109.zip",
+      "required": false,
+      "bytes": 62939117,
+      "sha256": "f1c5373b4a56609825435113410989df070fc783b5e688c7ea1c7fc04a1e7846",
+      "contents": "Recorded city C20 raw trajectory, launch evidence and one complete processing batch; not an automatically approved training sample"
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+schema_version: 1
+defaults: {target: street_ground, material: asphalt_dry}
+targets:
+  street_wall: {mode: fixed, temperature_c: 39.2}
+  street_road: {mode: fixed, temperature_c: 58.2}
+  street_vegetation: {mode: fixed, temperature_c: 25.1}
+  street_window: {mode: fixed, temperature_c: 26.3}
+  street_ac_unit: {mode: fixed, temperature_c: 36.0}
+  street_ac_idle: {mode: fixed, temperature_c: 28.1}
+  street_billboard: {mode: fixed, temperature_c: 32.1}
+  street_vehicle: {mode: fixed, temperature_c: 23.8}
+  street_car_engine: {mode: fixed, temperature_c: 46.0}
+  street_light_pole: {mode: fixed, temperature_c: 28.1}
+  street_traffic_plastic: {mode: fixed, temperature_c: 29.6}
+  street_traffic_metal: {mode: fixed, temperature_c: 28.1}
+  street_ground: {mode: fixed, temperature_c: 48.6}
+  street_shade_a: {mode: fixed, temperature_c: 47.07}
+  street_shade_b: {mode: fixed, temperature_c: 37.795}
+  street_shade_c: {mode: fixed, temperature_c: 26.665000000000003}
+  street_paving_tile: {mode: fixed, temperature_c: 49.6}
+  street_paving_joint: {mode: fixed, temperature_c: 45.6}
+  street_drone: {mode: fixed, temperature_c: 35.0}
+bindings:
+- {name: vehicle_001, prim_path: /World/Parking/Car_02__car_body, include_children: false, target: street_vehicle, material: car_paint_black}
+- {name: vehicle_002, prim_path: /World/Parking/Car_02__car_bonnet_off, include_children: false, target: street_vehicle, material: car_paint_black}
+- {name: vehicle_003, prim_path: /World/Parking/Car_03__car_body, include_children: false, target: street_vehicle, material: car_paint_black}
+- {name: vehicle_004, prim_path: /World/Parking/Car_03__car_bonnet_off, include_children: false, target: street_vehicle, material: car_paint_black}
+- {name: vehicle_005, prim_path: /World/Parking/Car_04__car_body, include_children: false, target: street_vehicle, material: car_paint_black}
+- {name: vehicle_006, prim_path: /World/Parking/Car_04__car_bonnet_off, include_children: false, target: street_vehicle, material: car_paint_black}
+- {name: paving_joint_007, prim_path: /World/Paving/Paving_Joints, include_children: false, target: street_paving_joint, material: concrete}
+- {name: paving_tile_008, prim_path: /World/Paving/Paving_Tiles, include_children: false, target: street_paving_tile, material: concrete}
+- {name: shade_b_009, prim_path: /World/Shade/CanopyShade__shade_b, include_children: false, target: street_shade_b, material: asphalt_dry}
+- {name: vegetation_010, prim_path: /World/Site/Acer_large_3_LOD2_Cluster_Mat_0/Acer_large_3_LOD2_Cluster_Mat_0, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_011, prim_path: /World/Site/Acer_large_3_LOD2_Cluster_Mat_0_001/Acer_large_3_LOD2_Cluster_Mat_0_002, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_012, prim_path: /World/Site/Acer_small_1_LOD2_Bark_Mat_0/Acer_small_1_LOD2_Bark_Mat_0, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_013, prim_path: /World/Site/Acer_small_2_LOD2_Bark_Mat_0/Acer_small_2_LOD2_Bark_Mat_0, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_014, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_001/Pot_9_003_Low_PolyPlant_0_001, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_015, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_002/Pot_9_003_Low_PolyPlant_0_002, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_016, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_003/Pot_9_003_Low_PolyPlant_0_003, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_017, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_004/Pot_9_003_Low_PolyPlant_0_004, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_018, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_005/Pot_9_003_Low_PolyPlant_0_005, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_019, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_006/Pot_9_003_Low_PolyPlant_0_006, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_020, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_007/Pot_9_003_Low_PolyPlant_0_007, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_021, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_008/Pot_9_003_Low_PolyPlant_0_008, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_022, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_009/Pot_9_003_Low_PolyPlant_0_009, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_023, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_010/Pot_9_003_Low_PolyPlant_0_010, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: vegetation_024, prim_path: /World/Site/Pot_9_003_Low_PolyPlant_0_011/Pot_9_003_Low_PolyPlant_0_011, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: road_025, prim_path: /World/Site/Road_0_013/Road_0_Modular_Road_0_008/Road_0_Modular_Road_0_013, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_026, prim_path: /World/Site/Road_0_014/Road_0_Modular_Road_0_012/Road_0_Modular_Road_0_014, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_027, prim_path: /World/Site/Road_0_017/Road_0_Modular_Road_0_009/Road_0_Modular_Road_0_017, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_028, prim_path: /World/Site/Road_0_018/Road_0_Modular_Road_0_014/Road_0_Modular_Road_0_018, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_029, prim_path: /World/Site/Road_0_019/Road_0_Modular_Road_0_015/Road_0_Modular_Road_0_019, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_030, prim_path: /World/Site/Road_0_Modular_Road_0_016/Road_0_Modular_Road_0_020, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_031, prim_path: /World/Site/Road_1_001/Road_1_Modular_Road_0_001/Road_1_Modular_Road_0_001, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_032, prim_path: /World/Site/Road_2_001/Road_2_Modular_Road_0_001/Road_2_Modular_Road_0_001, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_033, prim_path: /World/Site/Road_3_001/Road_3_Modular_Road_0_001/Road_3_Modular_Road_0_001, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_034, prim_path: /World/Site/Road_3_010/Road_3_Modular_Road_0_010/Road_3_Modular_Road_0_010, include_children: false, target: street_road, material: asphalt_dry}
+- {name: road_035, prim_path: /World/Site/Road_6_003/Road_6_Modular_Road_0_003/Road_6_Modular_Road_0_003, include_children: false, target: street_road, material: asphalt_dry}
+- {name: prop_plastic_036, prim_path: /World/Site/SM_BarricadeA_BarricadeA_0_004/SM_BarricadeA_BarricadeA_0_004, include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_037, prim_path: /World/Site/SM_BarricadeB_BarricadeB_0_003/SM_BarricadeB_BarricadeB_0_003, include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_038, prim_path: /World/Site/SM_BarricadeB_BarricadeB_0_004/SM_BarricadeB_BarricadeB_0_004, include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: vehicle_039, prim_path: /World/Site/Sketchfab_model_003/BMW_E46_obj_cleaner_materialmerger_gles/Object_3/Object_1__car_body, include_children: false, target: street_vehicle, material: car_paint_black}
+- {name: car_engine_040, prim_path: /World/Site/Sketchfab_model_003/BMW_E46_obj_cleaner_materialmerger_gles/Object_3/Object_1__car_engine, include_children: false, target: street_car_engine, material: car_paint_black}
+- {name: ac_041, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_028, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_042, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_029, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_043, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_030, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_044, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_031, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_045, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_032, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_046, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_033, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_047, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_034, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_048, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_035, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_049, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_036, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_050, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_037, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_051, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_038, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_052, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_039, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_053, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_040, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_054, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_041, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_055, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_042, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_056, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_043, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_057, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_044, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_058, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_045, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_059, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_046, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_060, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_047, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_061, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_048, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_062, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_049, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_063, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_050, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_064, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_051, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_065, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_052, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_066, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_053, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_067, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_054, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_068, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_055, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_069, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_056, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_070, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_057, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_071, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_058, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_072, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_059, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_073, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_060, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_074, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__ac__AC_061, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: billboard_075, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__billboard, include_children: false, target: street_billboard, material: painted_composite}
+- {name: vegetation_076, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__plant, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: wall_077, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__wall, include_children: false, target: street_wall, material: brick_wall}
+- {name: window_078, prim_path: /World/Site/Split_Ac_AC_0_001/Split_Ac_AC_0_001__window, include_children: false, target: street_window, material: glass_windshield}
+- {name: ac_079, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_062, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_080, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_149, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_081, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_150, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_082, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_151, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_083, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_152, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_084, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_153, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_085, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_154, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_086, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_155, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_087, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_156, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_088, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_157, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_089, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_158, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_090, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_159, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_091, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_160, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_092, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_161, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_093, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_162, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_094, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_163, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_095, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_164, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_096, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_165, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_097, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_166, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_098, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__ac__AC_167, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: billboard_099, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__billboard, include_children: false, target: street_billboard, material: painted_composite}
+- {name: vegetation_100, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__plant, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: wall_101, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__wall, include_children: false, target: street_wall, material: brick_wall}
+- {name: window_102, prim_path: /World/Site/Wall_005_Wall_0_0_001/Wall_005_Wall_0_0_001__window, include_children: false, target: street_window, material: glass_windshield}
+- {name: wall_103, prim_path: /World/Site/Wall_005_Wall_0_0_024/Wall_005_Wall_0_0_025, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_104, prim_path: /World/Site/Wall_005_Wall_0_0_025/Wall_005_Wall_0_0_026, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_105, prim_path: /World/Site/Wall_005_Wall_0_0_026/Wall_005_Wall_0_0_027, include_children: false, target: street_wall, material: brick_wall}
+- {name: ac_106, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_070, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_107, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_071, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_108, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_072, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_109, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_073, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_110, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_074, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_111, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_075, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_112, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_076, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_113, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_077, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_114, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_078, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_115, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_079, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_116, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_080, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_117, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_081, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_118, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_082, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_119, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_083, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_120, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_084, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_121, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_085, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_122, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_086, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_123, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_087, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_124, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_088, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_125, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_089, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_126, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_090, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_127, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_091, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_128, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_092, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_129, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_093, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_130, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_094, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_131, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_095, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_132, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_096, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_133, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_097, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_134, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_098, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_135, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_099, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_136, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_100, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_137, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_101, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_138, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_102, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_139, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_103, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_140, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_104, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_141, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_105, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_142, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_106, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_143, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_107, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_144, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_108, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_145, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_109, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_146, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_110, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_147, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_111, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_148, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_112, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_149, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_113, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_150, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_114, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_151, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_115, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_152, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_116, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_153, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_117, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_154, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_118, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_155, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_119, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_156, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_120, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_157, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_121, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_158, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__ac__AC_122, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: billboard_159, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__billboard, include_children: false, target: street_billboard, material: painted_composite}
+- {name: vegetation_160, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__plant, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: wall_161, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__wall, include_children: false, target: street_wall, material: brick_wall}
+- {name: window_162, prim_path: /World/Site/Window_AC_AC_0_001/Window_AC_AC_0_002__window, include_children: false, target: street_window, material: glass_windshield}
+- {name: ac_163, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_001, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_164, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_168, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_165, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_169, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_166, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_170, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_167, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_171, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_168, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_172, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_169, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_173, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_170, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_174, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_171, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_175, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_172, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_176, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_173, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_177, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_174, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_178, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_175, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_179, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_176, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_180, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_177, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_181, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_178, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_182, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_179, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_183, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_180, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_184, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_181, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_185, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_182, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_186, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_183, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_187, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_184, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_188, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_185, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_189, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_186, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_190, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_187, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__ac__AC_191, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: billboard_188, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__billboard, include_children: false, target: street_billboard, material: painted_composite}
+- {name: vegetation_189, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__plant, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: wall_190, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__wall, include_children: false, target: street_wall, material: brick_wall}
+- {name: window_191, prim_path: /World/Site/node_0_Window_0_010/mesh_0_Window_0_009__window, include_children: false, target: street_window, material: glass_windshield}
+- {name: prop_plastic_192, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_BarricadeA/SM_BarricadeA_BarricadeA_0/SM_BarricadeA_BarricadeA_0, include_children: false, target: street_traffic_plastic,
+  material: abs_plastic_white}
+- {name: prop_plastic_193, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_BarricadeB/node_gltfNode_28/SM_BarricadeB_BarricadeB_0/SM_BarricadeB_BarricadeB_0, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_194, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_DelineatorPole/SM_DelineatorPole_TrafficAssets_0/SM_DelineatorPole_TrafficAssets_0, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: lamp_195, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_Light/node_gltfNode_2/SM_Light_Light_0/SM_Light_Light_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_196, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_Light/node_gltfNode_2/SM_Light_TrafficAssets_0/SM_Light_TrafficAssets_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: prop_metal_197, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_TrafficBarrierA/node_gltfNode_18/SM_TrafficBarrierA_TrafficBarrier_0/SM_TrafficBarrierA_TrafficBarrier_0,
+  include_children: false, target: street_traffic_metal, material: aircraft_aluminium_painted}
+- {name: prop_metal_198, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_TrafficBarrierB/SM_TrafficBarrierB_TrafficBarrier_0/SM_TrafficBarrierB_TrafficBarrier_0, include_children: false,
+  target: street_traffic_metal, material: aircraft_aluminium_painted}
+- {name: prop_metal_199, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_TrafficBarrierC/node_gltfNode_23/SM_TrafficBarrierC_TrafficBarrier_0/SM_TrafficBarrierC_TrafficBarrier_0,
+  include_children: false, target: street_traffic_metal, material: aircraft_aluminium_painted}
+- {name: prop_plastic_200, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_TrafficConeA/SM_TrafficConeA_TrafficAssets_0/SM_TrafficConeA_TrafficAssets_0, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_201, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_TrafficConeB/SM_TrafficConeB_TrafficAssets_0/SM_TrafficConeB_TrafficAssets_0, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_202, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_TrafficDrum/node_gltfNode_5/SM_TrafficDrum_TrafficAssets_0/SM_TrafficDrum_TrafficAssets_0, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_203, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx/RootNode_752/SM_Verticade/SM_Verticade_TrafficAssets_0/SM_Verticade_TrafficAssets_0, include_children: false, target: street_traffic_plastic,
+  material: abs_plastic_white}
+- {name: prop_metal_204, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_001/RootNode_753/SM_TrafficBarrierBSign_001/SM_TrafficBarrierBSign_TrafficBarrier_0_001/SM_TrafficBarrierBSign_TrafficBarrier_0_001,
+  include_children: false, target: street_traffic_metal, material: aircraft_aluminium_painted}
+- {name: prop_plastic_205, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_002/RootNode_754/SM_TrafficConeA_001/SM_TrafficConeA_TrafficAssets_0_001/SM_TrafficConeA_TrafficAssets_0_001, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_206, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_003/RootNode_755/SM_TrafficConeB_001/SM_TrafficConeB_TrafficAssets_0_001/SM_TrafficConeB_TrafficAssets_0_001, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_207, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_004/RootNode_756/SM_TrafficConeA_002/SM_TrafficConeA_TrafficAssets_0_002/SM_TrafficConeA_TrafficAssets_0_002, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_208, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_005/RootNode_757/SM_TrafficConeA_003/SM_TrafficConeA_TrafficAssets_0_003/SM_TrafficConeA_TrafficAssets_0_003, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_209, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_005/RootNode_757/SM_TrafficConeB_002/SM_TrafficConeB_TrafficAssets_0_002/SM_TrafficConeB_TrafficAssets_0_002, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_210, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_006/RootNode_758/SM_BarricadeA_001/SM_BarricadeA_BarricadeA_0_001/SM_BarricadeA_BarricadeA_0_001, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_211, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_007/RootNode_759/SM_BarricadeB_001/node_gltfNode_28_001/SM_BarricadeB_BarricadeB_0_001/SM_BarricadeB_BarricadeB_0_001,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_212, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_008/RootNode_760/SM_BarricadeB_002/node_gltfNode_28_002/SM_BarricadeB_BarricadeB_0_002/SM_BarricadeB_BarricadeB_0_002,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_213, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_009/RootNode_761/SM_BarricadeA_002/SM_BarricadeA_BarricadeA_0_002/SM_BarricadeA_BarricadeA_0_002, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_214, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_010/RootNode_762/SM_BarricadeA_003/SM_BarricadeA_BarricadeA_0_003/SM_BarricadeA_BarricadeA_0_003, include_children: false,
+  target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_215, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_011/RootNode_766/SM_TrafficDrum_001/node_gltfNode_5_001/SM_TrafficDrum_TrafficAssets_0_001/SM_TrafficDrum_TrafficAssets_0_001,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_216, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_015/RootNode_770/SM_DelineatorPole_001/SM_DelineatorPole_TrafficAssets_0_001/SM_DelineatorPole_TrafficAssets_0_001,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_217, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_016/RootNode_771/SM_DelineatorPole_002/SM_DelineatorPole_TrafficAssets_0_002/SM_DelineatorPole_TrafficAssets_0_002,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_218, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_017/RootNode_772/SM_DelineatorPole_003/SM_DelineatorPole_TrafficAssets_0_003/SM_DelineatorPole_TrafficAssets_0_003,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_219, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_018/RootNode_773/SM_DelineatorPole_004/SM_DelineatorPole_TrafficAssets_0_004/SM_DelineatorPole_TrafficAssets_0_004,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_220, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_019/RootNode_774/SM_DelineatorPole_005/SM_DelineatorPole_TrafficAssets_0_005/SM_DelineatorPole_TrafficAssets_0_005,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_221, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_020/RootNode_775/SM_DelineatorPole_006/SM_DelineatorPole_TrafficAssets_0_006/SM_DelineatorPole_TrafficAssets_0_006,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_222, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_021/RootNode_776/SM_DelineatorPole_007/SM_DelineatorPole_TrafficAssets_0_007/SM_DelineatorPole_TrafficAssets_0_007,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_223, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_022/RootNode_777/SM_DelineatorPole_008/SM_DelineatorPole_TrafficAssets_0_008/SM_DelineatorPole_TrafficAssets_0_008,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_224, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_023/RootNode_778/SM_DelineatorPole_009/SM_DelineatorPole_TrafficAssets_0_009/SM_DelineatorPole_TrafficAssets_0_009,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_225, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_024/RootNode_779/SM_DelineatorPole_010/SM_DelineatorPole_TrafficAssets_0_010/SM_DelineatorPole_TrafficAssets_0_010,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_plastic_226, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_025/RootNode_780/SM_DelineatorPole_011/SM_DelineatorPole_TrafficAssets_0_011/SM_DelineatorPole_TrafficAssets_0_011,
+  include_children: false, target: street_traffic_plastic, material: abs_plastic_white}
+- {name: prop_metal_227, prim_path: /World/Site/node_79d7c74b23c46759af714c5f2c8c4fa_fbx_026/RootNode_781/SM_TrafficBarrierC_001/node_gltfNode_23_001/SM_TrafficBarrierC_TrafficBarrier_0_001/SM_TrafficBarrierC_TrafficBarrier_0_001,
+  include_children: false, target: street_traffic_metal, material: aircraft_aluminium_painted}
+- {name: ac_228, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__ac__AC_063, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_229, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__ac__AC_064, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_230, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__ac__AC_065, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_231, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__ac__AC_066, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_232, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__ac__AC_067, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_233, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__ac__AC_068, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_234, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__ac__AC_069, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: billboard_235, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__billboard, include_children: false, target: street_billboard, material: painted_composite}
+- {name: vegetation_236, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__plant, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: wall_237, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__wall, include_children: false, target: street_wall, material: brick_wall}
+- {name: window_238, prim_path: /World/Site/node__Window_0_003/mesh__Window_0_004__window, include_children: false, target: street_window, material: glass_windshield}
+- {name: ac_239, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_123, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_240, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_124, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_241, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_125, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_242, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_126, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_243, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_127, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_244, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_128, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_245, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_129, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_246, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_130, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_247, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_131, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_248, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_132, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_249, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_133, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_250, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_134, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_251, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_135, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_252, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_136, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_253, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_137, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_254, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_138, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_255, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_139, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_256, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_140, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_257, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_141, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_258, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_142, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_259, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_143, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_260, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_144, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_261, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_145, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_idle_262, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_146, include_children: false, target: street_ac_idle, material: aircraft_aluminium_painted}
+- {name: ac_263, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_147, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: ac_264, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__ac__AC_148, include_children: false, target: street_ac_unit, material: aircraft_aluminium_painted}
+- {name: billboard_265, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__billboard, include_children: false, target: street_billboard, material: painted_composite}
+- {name: vegetation_266, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__plant, include_children: false, target: street_vegetation, material: vegetation_leaf}
+- {name: wall_267, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__wall, include_children: false, target: street_wall, material: brick_wall}
+- {name: window_268, prim_path: /World/Site/node__Window_0_004/mesh__Window_0_007__window, include_children: false, target: street_window, material: glass_windshield}
+- {name: road_269, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_005/RootNode_005/Road_0_001/Road_0_Modular_Road_0_001/Road_0_Modular_Road_0_001, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_270, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_007/RootNode_007/Road_3_002/Road_3_Modular_Road_0_002/Road_3_Modular_Road_0_002, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_271, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_008/RootNode_008/Road_2_002/Road_2_Modular_Road_0_002/Road_2_Modular_Road_0_002, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_272, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_013/RootNode_013/Road_6_001/Road_6_Modular_Road_0_001/Road_6_Modular_Road_0_001, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_273, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_014/RootNode_014/Road_0_002/Road_0_Modular_Road_0_002/Road_0_Modular_Road_0_002, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_274, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_017/RootNode_017/Road_0_004/Road_0_Modular_Road_0_004/Road_0_Modular_Road_0_004, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_275, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_018/RootNode_018/Road_3_003/Road_3_Modular_Road_0_003/Road_3_Modular_Road_0_003, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: ac_276, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_002, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_277, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_003, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_278, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_004, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_279, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_005, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_280, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_006, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_281, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_007, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_282, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_008, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_283, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_009, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_284, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_010, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_285, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_011, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_286, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_012, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_287, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_013, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_288, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_014, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_289, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_015, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_290, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_016, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_291, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_017, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_292, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_018, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_293, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_019, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_294, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_020, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_295, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_021, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_296, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_022, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_297, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_023, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_298, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_024, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_idle_299, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_025, include_children: false, target: street_ac_idle,
+  material: aircraft_aluminium_painted}
+- {name: ac_300, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_026, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: ac_301, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__ac__AC_027, include_children: false, target: street_ac_unit,
+  material: aircraft_aluminium_painted}
+- {name: billboard_302, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__billboard, include_children: false, target: street_billboard,
+  material: painted_composite}
+- {name: vegetation_303, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__plant, include_children: false, target: street_vegetation,
+  material: vegetation_leaf}
+- {name: wall_304, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__wall, include_children: false, target: street_wall, material: brick_wall}
+- {name: window_305, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_019/RootNode_019/node__001/node__Window_0_001/mesh__Window_0_002__window, include_children: false, target: street_window,
+  material: glass_windshield}
+- {name: road_306, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_138/RootNode_138/Road_0_005/Road_0_Modular_Road_0_005/Road_0_Modular_Road_0_005, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_307, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_139/RootNode_139/Road_0_006/Road_0_Modular_Road_0_006/Road_0_Modular_Road_0_006, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_308, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_140/RootNode_140/Road_2_003/Road_2_Modular_Road_0_003/Road_2_Modular_Road_0_003, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_309, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_151/RootNode_152/Road_0_007/Road_0_Modular_Road_0_007/Road_0_Modular_Road_0_007, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_310, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_153/RootNode_154/Road_3_004/Road_3_Modular_Road_0_004/Road_3_Modular_Road_0_004, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_311, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_155/RootNode_156/Road_2_004/Road_2_Modular_Road_0_004/Road_2_Modular_Road_0_004, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_312, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_156/RootNode_157/Road_3_005/Road_3_Modular_Road_0_005/Road_3_Modular_Road_0_005, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_313, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_158/RootNode_159/Road_0_010/Road_0_Modular_Road_0_010/Road_0_Modular_Road_0_010, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_314, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_159/RootNode_160/Road_0_011/Road_0_Modular_Road_0_011/Road_0_Modular_Road_0_011, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_315, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_164/RootNode_165/Road_3_006/Road_3_Modular_Road_0_006/Road_3_Modular_Road_0_006, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_316, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_165/RootNode_166/Road_4_002/Road_4_Modular_Road_0_001/Road_4_Modular_Road_0_001, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_317, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_166/RootNode_167/Road_3_007/Road_3_Modular_Road_0_007/Road_3_Modular_Road_0_007, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_318, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_167/RootNode_168/Road_3_008/Road_3_Modular_Road_0_008/Road_3_Modular_Road_0_008, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_319, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_168/RootNode_169/Road_0_015/Road_0_Modular_Road_0_003/Road_0_Modular_Road_0_015, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_320, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_169/RootNode_170/Road_3_009/Road_3_Modular_Road_0_009/Road_3_Modular_Road_0_009, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_321, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_170/RootNode_171/Road_0_016/Road_0_Modular_Road_0_013/Road_0_Modular_Road_0_016, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_322, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_383/RootNode_384/Road_3_011/Road_3_Modular_Road_0_011/Road_3_Modular_Road_0_011, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_323, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_389/RootNode_390/Road_0_021/Road_0_Modular_Road_0_017/Road_0_Modular_Road_0_021, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: road_324, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_485/RootNode_488/Road_2_005/Road_2_Modular_Road_0_005/Road_2_Modular_Road_0_005, include_children: false, target: street_road,
+  material: asphalt_dry}
+- {name: wall_325, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_729/RootNode_732/Wall_022/Wall_005_Wall_0_0_002/Wall_005_Wall_0_0_002, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_326, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_730/RootNode_733/Wall_023/Wall_005_Wall_0_0_003/Wall_005_Wall_0_0_003, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_327, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_731/RootNode_734/Wall_024/Wall_005_Wall_0_0_004/Wall_005_Wall_0_0_004, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_328, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_732/RootNode_735/Wall_025/Wall_005_Wall_0_0_005/Wall_005_Wall_0_0_005, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_329, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_733/RootNode_736/Wall_026/Wall_005_Wall_0_0_006/Wall_005_Wall_0_0_006, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_330, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_734/RootNode_737/Wall_027/Wall_005_Wall_0_0_007/Wall_005_Wall_0_0_007, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_331, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_735/RootNode_738/Wall_028/Wall_005_Wall_0_0_008/Wall_005_Wall_0_0_008, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_332, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_736/RootNode_739/Wall_029/Wall_005_Wall_0_0_009/Wall_005_Wall_0_0_009, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_333, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_737/RootNode_740/Wall_030/Wall_005_Wall_0_0_010/Wall_005_Wall_0_0_010, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_334, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_738/RootNode_741/Wall_031/Wall_005_Wall_0_0_011/Wall_005_Wall_0_0_011, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_335, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_739/RootNode_742/Wall_032/Wall_005_Wall_0_0_012/Wall_005_Wall_0_0_012, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_336, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_740/RootNode_743/Wall_033/Wall_005_Wall_0_0_013/Wall_005_Wall_0_0_013, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_337, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_741/RootNode_744/Wall_034/Wall_005_Wall_0_0_014/Wall_005_Wall_0_0_014, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_338, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_742/RootNode_745/Wall_035/Wall_005_Wall_0_0_015/Wall_005_Wall_0_0_015, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_339, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_744/RootNode_747/Wall_037/Wall_005_Wall_0_0_017/Wall_005_Wall_0_0_017, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_340, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_745/RootNode_748/Wall_038/Wall_005_Wall_0_0_016/Wall_005_Wall_0_0_018, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_341, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_746/RootNode_749/Wall_039/Wall_005_Wall_0_0_018/Wall_005_Wall_0_0_019, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_342, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_747/RootNode_750/Wall_040/Wall_005_Wall_0_0_019/Wall_005_Wall_0_0_020, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_343, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_748/RootNode_751/Wall_041/Wall_005_Wall_0_0_020/Wall_005_Wall_0_0_021, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_344, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_749/RootNode_763/Wall_042/Wall_005_Wall_0_0_021/Wall_005_Wall_0_0_022, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_345, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_750/RootNode_764/Wall_043/Wall_005_Wall_0_0_022/Wall_005_Wall_0_0_023, include_children: false, target: street_wall, material: brick_wall}
+- {name: wall_346, prim_path: /World/Site/node_a4626a9b10f4473829aad05fdfb103f_fbx_751/RootNode_765/Wall_044/Wall_005_Wall_0_0_023/Wall_005_Wall_0_0_024, include_children: false, target: street_wall, material: brick_wall}
+- {name: lamp_347, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_027/RootNode_812/streetLights_largeLights_013/streetLights_largeLight_small_008/streetLights_largeLight_small_streetLights_lightColors_0_008/streetLights_largeLight_small_streetLights_lightColors_0_008,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_348, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_028/RootNode_813/streetLights_largeLights_014/streetLights_largeLight_small_009/streetLights_largeLight_small_streetLights_lightColors_0_009/streetLights_largeLight_small_streetLights_lightColors_0_009,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_349, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_029/RootNode_814/streetLights_largeLights_015/streetLights_largeLight_small_010/streetLights_largeLight_small_streetLights_lightColors_0_010/streetLights_largeLight_small_streetLights_lightColors_0_010,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_350, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_030/RootNode_815/streetLights_largeLights_016/streetLights_largeLight_small_011/streetLights_largeLight_small_streetLights_lightColors_0_011/streetLights_largeLight_small_streetLights_lightColors_0_011,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_351, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_031/RootNode_816/streetLights_largeLights_017/streetLights_largeLight_small_012/streetLights_largeLight_small_streetLights_lightColors_0_012/streetLights_largeLight_small_streetLights_lightColors_0_012,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_352, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_032/RootNode_817/streetLights_largeLights_018/streetLights_largeLight_small_013/streetLights_largeLight_small_streetLights_lightColors_0_013/streetLights_largeLight_small_streetLights_lightColors_0_013,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_353, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_033/RootNode_818/streetLights_largeLights_019/streetLights_largeLight_small_014/streetLights_largeLight_small_streetLights_lightColors_0_014/streetLights_largeLight_small_streetLights_lightColors_0_014,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_354, prim_path: /World/Site/node_a889f3fd90d4b57ac05aa7374acc537_fbx_034/RootNode_819/streetLights_largeLights_020/streetLights_largeLight_small_015/streetLights_largeLight_small_streetLights_lightColors_0_015/streetLights_largeLight_small_streetLights_lightColors_0_015,
+  include_children: false, target: street_light_pole, material: aircraft_aluminium_painted}
+- {name: lamp_355, prim_path: /World/Site/streetLights_arcLight_style1_streetLights_lightColors_0/streetLights_arcLight_style1_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_356, prim_path: /World/Site/streetLights_arcLight_style1_streetLights_lightColors_0_001/streetLights_arcLight_style1_streetLights_lightColors_0_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_357, prim_path: /World/Site/streetLights_arcLight_style1_streetLights_lightColors_0_002/streetLights_arcLight_style1_streetLights_lightColors_0_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_358, prim_path: /World/Site/streetLights_globeLight_single_streetLights_lightColors_0/streetLights_globeLight_single_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_359, prim_path: /World/Site/streetLights_globeLight_single_streetLights_lightColors_0_001/streetLights_globeLight_single_streetLights_lightColors_0_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_360, prim_path: /World/Site/streetLights_globeLight_single_streetLights_lightColors_0_002/streetLights_globeLight_single_streetLights_lightColors_0_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_361, prim_path: /World/Site/streetLights_globeLight_single_streetLights_lightColors_0_003/streetLights_globeLight_single_streetLights_lightColors_0_003, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_362, prim_path: /World/Site/streetLights_globeLight_single_streetLights_lightColors_0_004/streetLights_globeLight_single_streetLights_lightColors_0_004, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_363, prim_path: /World/Site/streetLights_globeLight_single_streetLights_lightColors_0_005/streetLights_globeLight_single_streetLights_lightColors_0_005, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_364, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0/streetLights_globeLight_triple_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_365, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0_001/streetLights_globeLight_triple_streetLights_lightColors_0_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_366, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0_002/streetLights_globeLight_triple_streetLights_lightColors_0_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_367, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0_003/streetLights_globeLight_triple_streetLights_lightColors_0_003, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_368, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0_004/streetLights_globeLight_triple_streetLights_lightColors_0_004, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_369, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0_005/streetLights_globeLight_triple_streetLights_lightColors_0_005, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_370, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0_006/streetLights_globeLight_triple_streetLights_lightColors_0_006, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_371, prim_path: /World/Site/streetLights_globeLight_triple_streetLights_lightColors_0_007/streetLights_globeLight_triple_streetLights_lightColors_0_007, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_372, prim_path: /World/Site/streetLights_largeLight_LED_flat_streetLights_lightColors_0/streetLights_largeLight_LED_flat_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_373, prim_path: /World/Site/streetLights_largeLight_LED_flat_streetLights_lightColors_0_001/streetLights_largeLight_LED_flat_streetLights_lightColors_0_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_374, prim_path: /World/Site/streetLights_largeLight_LED_flat_streetLights_lightColors_0_002/streetLights_largeLight_LED_flat_streetLights_lightColors_0_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_375, prim_path: /World/Site/streetLights_largeLight_LED_flat_streetLights_lightColors_0_003/streetLights_largeLight_LED_flat_streetLights_lightColors_0_003, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_376, prim_path: /World/Site/streetLights_largeLight_LED_flat_streetLights_lightColors_0_004/streetLights_largeLight_LED_flat_streetLights_lightColors_0_004, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_377, prim_path: /World/Site/streetLights_largeLight_LED_flat_streetLights_lightColors_0_005/streetLights_largeLight_LED_flat_streetLights_lightColors_0_005, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_378, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors/streetLights_largeLight_longDouble_streetLights_lightColors, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_379, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors_0/streetLights_largeLight_longDouble_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_380, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors_001/streetLights_largeLight_longDouble_streetLights_lightColors_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_381, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors_002/streetLights_largeLight_longDouble_streetLights_lightColors_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_382, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors_003/streetLights_largeLight_longDouble_streetLights_lightColors_003, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_383, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors_004/streetLights_largeLight_longDouble_streetLights_lightColors_004, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_384, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors_005/streetLights_largeLight_longDouble_streetLights_lightColors_005, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_385, prim_path: /World/Site/streetLights_largeLight_longDouble_streetLights_lightColors_006/streetLights_largeLight_longDouble_streetLights_lightColors_006, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_386, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0/streetLights_largeLight_small_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_387, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0_001/streetLights_largeLight_small_streetLights_lightColors_0_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_388, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0_002/streetLights_largeLight_small_streetLights_lightColors_0_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_389, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0_003/streetLights_largeLight_small_streetLights_lightColors_0_003, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_390, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0_004/streetLights_largeLight_small_streetLights_lightColors_0_004, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_391, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0_005/streetLights_largeLight_small_streetLights_lightColors_0_005, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_392, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0_006/streetLights_largeLight_small_streetLights_lightColors_0_006, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_393, prim_path: /World/Site/streetLights_largeLight_small_streetLights_lightColors_0_007/streetLights_largeLight_small_streetLights_lightColors_0_007, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_394, prim_path: /World/Site/streetLights_solarPanel_frame_streetLights_lightColors_0/streetLights_solarPanel_frame_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_395, prim_path: /World/Site/streetLights_solarPanel_frame_streetLights_lightColors_0_001/streetLights_solarPanel_frame_streetLights_lightColors_0_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_396, prim_path: /World/Site/streetLights_solarPanel_frame_streetLights_lightColors_0_002/streetLights_solarPanel_frame_streetLights_lightColors_0_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_397, prim_path: /World/Site/streetLights_victorianLight_double_streetLights_lightColors/streetLights_victorianLight_double_streetLights_lightColors, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_398, prim_path: /World/Site/streetLights_victorianLight_double_streetLights_lightColors_0/streetLights_victorianLight_double_streetLights_lightColors_0, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_399, prim_path: /World/Site/streetLights_victorianLight_double_streetLights_lightColors_001/streetLights_victorianLight_double_streetLights_lightColors_001, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_400, prim_path: /World/Site/streetLights_victorianLight_double_streetLights_lightColors_002/streetLights_victorianLight_double_streetLights_lightColors_002, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_401, prim_path: /World/Site/streetLights_victorianLight_double_streetLights_lightColors_003/streetLights_victorianLight_double_streetLights_lightColors_003, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: lamp_402, prim_path: /World/Site/streetLights_victorianLight_double_streetLights_lightColors_004/streetLights_victorianLight_double_streetLights_lightColors_004, include_children: false, target: street_light_pole,
+  material: aircraft_aluminium_painted}
+- {name: drone, prim_path: /World/Crazyflie, include_children: true, target: street_drone, material: painted_composite}

@@ -1,0 +1,248 @@
+task_id: model02_v4_tank_free_search
+instruction: 从厂房附近起飞，沿外侧道路接近储罐区，找到带蓝色栏杆和红色外管的储罐。贴近罐壁缓慢环绕，用红外比较罐壁温度：某处温度明显高于周围其他表面即为异常。在距罐壁 6 至 8 米处悬停约 3 秒确认后安全撤离。
+target_prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_16/GC075_TankShell_Hotspot_Z_4337_m4937_16_Mesh
+target_description: GC075储罐罐壁局部异常
+environment_description: 储罐区位于管廊和低层厂房外侧，周围为铺装场地。 傍晚弱光工况，13盏常规灯具分布于道路、入口、管廊及设备区外围。
+  厂房与设备区接近位置新增设计铺装砖及填缝；其他地面为混凝土板与路缘。
+environment_landmarks:
+- 蓝色护栏储罐
+- 较高设备组与架空管廊
+- 沿线厂房
+- 道路灯具
+environment_evidence:
+  factory_inspection:
+    equipment_prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075
+    hotspot_prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_16/GC075_TankShell_Hotspot_Z_4337_m4937_16_Mesh
+    normal_surface_prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_ExternalPipework_PaintedRed_Z_1392_m1577_10_2_0/GC075_ExternalPipework_PaintedRed_Z_1392_m1577_10_2_0_Mesh
+    rgb_material_path: /World/_materials/_11_29_gc262_3
+    hotspot_position_m: &id002
+    - 693.6737599843345
+    - -789.9054150563137
+    - 2.8339189130529494
+    observation_position:
+    - 693.37
+    - -797.25
+    - 3.5
+    observation_yaw_rad: 1.5294615244919727
+    reference_waypoints: &id001
+    - - 700
+      - -845
+      - 8.5
+    - - 643
+      - -850
+      - 12
+    - - 662
+      - -832
+      - 12
+    - - 677
+      - -816
+      - 12
+    - - 693.37
+      - -797.25
+      - 3.5
+    - - 693.37
+      - -797.25
+      - 12
+    - - 710
+      - -807
+      - 12
+    - - 700
+      - -840
+      - 12
+    - - 700
+      - -845
+      - 8.5
+    reference_waypoint_names:
+    - 屋顶以上的起点
+    - 道路外围
+    - 道路进入点
+    - 储罐入口
+    - 观察位置
+    - 垂直爬升撤离
+    - 外围转弯
+    - 返回区
+    - 起点
+    reference_path_length_m: 200.09451918219088
+    reference_waypoints_m: *id001
+    geometry_file: factory/model02_thermal_v3/tank_inspection_geometry.npz
+    geometry_sha256: 7061bd0d258e9c68080f18dd2befa2bbfa50d9f9560a882772dcabb71060c3f1
+    body_envelope_radius_m: 0.2
+    inspection_requirements:
+      minimum_equipment_distance_m: 5.0
+      observation_distance_range_m:
+      - 6.0
+      - 8.0
+      hold_duration_s: 3.0
+      maximum_observation_speed_m_s: 0.3
+      maximum_sample_gap_s: 0.25
+      body_envelope_radius_m: 0.2
+      reference_length_range_m:
+      - 180.0
+      - 220.0
+      actual_path_length_range_m:
+      - 180.0
+      - 220.0
+      minimum_height_world_z_m: 2.0
+      minimum_agl_m: 2.5
+      require_path_length: false
+    thermal_truth:
+      hotspot_temperature_c: 78.0
+      hotspot_temperature_range_c:
+      - 78.0
+      - 78.0
+      hotspot_temperatures_c:
+        GC075_TankShell_Hotspot_Z_4333_m4937_15: 78.0
+        GC075_TankShell_Hotspot_Z_4333_m4937_16: 78.0
+        GC075_TankShell_Hotspot_Z_4333_m4937_17: 78.0
+        GC075_TankShell_Hotspot_Z_4333_m4937_18: 78.0
+        GC075_TankShell_Hotspot_Z_4333_m4937_19: 78.0
+        GC075_TankShell_Hotspot_Z_4333_m4937_20: 78.0
+        GC075_TankShell_Hotspot_Z_4334_m4937_15: 78.0
+        GC075_TankShell_Hotspot_Z_4334_m4937_16: 78.0
+        GC075_TankShell_Hotspot_Z_4334_m4937_17: 78.0
+        GC075_TankShell_Hotspot_Z_4334_m4937_18: 78.0
+        GC075_TankShell_Hotspot_Z_4334_m4937_19: 78.0
+        GC075_TankShell_Hotspot_Z_4334_m4937_20: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4938_15: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4938_16: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4938_17: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4938_18: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4938_19: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4938_20: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4937_15: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4937_16: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4937_17: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4937_18: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4937_19: 78.0
+        GC075_TankShell_Hotspot_Z_4335_m4937_20: 78.0
+        GC075_TankShell_Hotspot_Z_4336_m4937_15: 78.0
+        GC075_TankShell_Hotspot_Z_4336_m4937_16: 78.0
+        GC075_TankShell_Hotspot_Z_4336_m4937_17: 78.0
+        GC075_TankShell_Hotspot_Z_4336_m4937_18: 78.0
+        GC075_TankShell_Hotspot_Z_4336_m4937_19: 78.0
+        GC075_TankShell_Hotspot_Z_4336_m4937_20: 78.0
+        GC075_TankShell_Hotspot_Z_4337_m4937_15: 78.0
+        GC075_TankShell_Hotspot_Z_4337_m4937_16: 78.0
+        GC075_TankShell_Hotspot_Z_4337_m4937_17: 78.0
+        GC075_TankShell_Hotspot_Z_4337_m4937_18: 78.0
+        GC075_TankShell_Hotspot_Z_4337_m4937_19: 78.0
+        GC075_TankShell_Hotspot_Z_4337_m4937_20: 78.0
+      hotspot_area_m2: 0.49966330773116774
+      source_mapping: factory/model02_thermal_v4/configuration/thermal_authoring.yaml
+      basis: Estimated operating snapshot; not measured or conduction-solved
+    flight_settings:
+      horizontal_speed_m_s: 1.5
+      speed_scale: 1.0
+      vertical_speed_m_s: 0.5
+      yaw_speed_degrees_s: 45.0
+    evidence_images: []
+    distance_semantics: equipment mesh surface clearance minus conservative 0.2 m
+      body sphere; camera-to-hotspot distance separately reported
+    hotspot_prim_paths:
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_16/GC075_TankShell_Hotspot_Z_4337_m4937_16_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4333_m4937_15/GC075_TankShell_Hotspot_Z_4333_m4937_15_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4938_18/GC075_TankShell_Hotspot_Z_4335_m4938_18_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4937_19/GC075_TankShell_Hotspot_Z_4335_m4937_19_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4336_m4937_19/GC075_TankShell_Hotspot_Z_4336_m4937_19_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4333_m4937_19/GC075_TankShell_Hotspot_Z_4333_m4937_19_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4334_m4937_16/GC075_TankShell_Hotspot_Z_4334_m4937_16_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4334_m4937_15/GC075_TankShell_Hotspot_Z_4334_m4937_15_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4938_19/GC075_TankShell_Hotspot_Z_4335_m4938_19_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4336_m4937_15/GC075_TankShell_Hotspot_Z_4336_m4937_15_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4336_m4937_20/GC075_TankShell_Hotspot_Z_4336_m4937_20_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4333_m4937_16/GC075_TankShell_Hotspot_Z_4333_m4937_16_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4938_20/GC075_TankShell_Hotspot_Z_4335_m4938_20_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4938_17/GC075_TankShell_Hotspot_Z_4335_m4938_17_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4938_15/GC075_TankShell_Hotspot_Z_4335_m4938_15_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4937_20/GC075_TankShell_Hotspot_Z_4335_m4937_20_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4333_m4937_18/GC075_TankShell_Hotspot_Z_4333_m4937_18_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4937_15/GC075_TankShell_Hotspot_Z_4335_m4937_15_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4334_m4937_19/GC075_TankShell_Hotspot_Z_4334_m4937_19_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_17/GC075_TankShell_Hotspot_Z_4337_m4937_17_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_18/GC075_TankShell_Hotspot_Z_4337_m4937_18_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4333_m4937_20/GC075_TankShell_Hotspot_Z_4333_m4937_20_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4937_17/GC075_TankShell_Hotspot_Z_4335_m4937_17_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4334_m4937_18/GC075_TankShell_Hotspot_Z_4334_m4937_18_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_15/GC075_TankShell_Hotspot_Z_4337_m4937_15_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4937_16/GC075_TankShell_Hotspot_Z_4335_m4937_16_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4334_m4937_17/GC075_TankShell_Hotspot_Z_4334_m4937_17_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_19/GC075_TankShell_Hotspot_Z_4337_m4937_19_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4336_m4937_18/GC075_TankShell_Hotspot_Z_4336_m4937_18_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_20/GC075_TankShell_Hotspot_Z_4337_m4937_20_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4334_m4937_20/GC075_TankShell_Hotspot_Z_4334_m4937_20_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4336_m4937_16/GC075_TankShell_Hotspot_Z_4336_m4937_16_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4333_m4937_17/GC075_TankShell_Hotspot_Z_4333_m4937_17_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4938_16/GC075_TankShell_Hotspot_Z_4335_m4938_16_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4335_m4937_18/GC075_TankShell_Hotspot_Z_4335_m4937_18_Mesh
+    - /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4336_m4937_17/GC075_TankShell_Hotspot_Z_4336_m4937_17_Mesh
+    target_surface_ids:
+    - GC075_TankShell_Hotspot_Z_4333_m4937_15
+    - GC075_TankShell_Hotspot_Z_4333_m4937_16
+    - GC075_TankShell_Hotspot_Z_4333_m4937_17
+    - GC075_TankShell_Hotspot_Z_4333_m4937_18
+    - GC075_TankShell_Hotspot_Z_4333_m4937_19
+    - GC075_TankShell_Hotspot_Z_4333_m4937_20
+    - GC075_TankShell_Hotspot_Z_4334_m4937_15
+    - GC075_TankShell_Hotspot_Z_4334_m4937_16
+    - GC075_TankShell_Hotspot_Z_4334_m4937_17
+    - GC075_TankShell_Hotspot_Z_4334_m4937_18
+    - GC075_TankShell_Hotspot_Z_4334_m4937_19
+    - GC075_TankShell_Hotspot_Z_4334_m4937_20
+    - GC075_TankShell_Hotspot_Z_4335_m4938_15
+    - GC075_TankShell_Hotspot_Z_4335_m4938_16
+    - GC075_TankShell_Hotspot_Z_4335_m4938_17
+    - GC075_TankShell_Hotspot_Z_4335_m4938_18
+    - GC075_TankShell_Hotspot_Z_4335_m4938_19
+    - GC075_TankShell_Hotspot_Z_4335_m4938_20
+    - GC075_TankShell_Hotspot_Z_4335_m4937_15
+    - GC075_TankShell_Hotspot_Z_4335_m4937_16
+    - GC075_TankShell_Hotspot_Z_4335_m4937_17
+    - GC075_TankShell_Hotspot_Z_4335_m4937_18
+    - GC075_TankShell_Hotspot_Z_4335_m4937_19
+    - GC075_TankShell_Hotspot_Z_4335_m4937_20
+    - GC075_TankShell_Hotspot_Z_4336_m4937_15
+    - GC075_TankShell_Hotspot_Z_4336_m4937_16
+    - GC075_TankShell_Hotspot_Z_4336_m4937_17
+    - GC075_TankShell_Hotspot_Z_4336_m4937_18
+    - GC075_TankShell_Hotspot_Z_4336_m4937_19
+    - GC075_TankShell_Hotspot_Z_4336_m4937_20
+    - GC075_TankShell_Hotspot_Z_4337_m4937_15
+    - GC075_TankShell_Hotspot_Z_4337_m4937_16
+    - GC075_TankShell_Hotspot_Z_4337_m4937_17
+    - GC075_TankShell_Hotspot_Z_4337_m4937_18
+    - GC075_TankShell_Hotspot_Z_4337_m4937_19
+    - GC075_TankShell_Hotspot_Z_4337_m4937_20
+    minimum_route_body_clearance_lower_bound_m: 2.2487792720794677
+    observation_equipment_clearance_m: 7.134726333618164
+    geometry_source: v3 actual tank geometry unchanged; v4 replaces only coplanar
+      pavement surfaces
+  lighting:
+    preset: model02_v3_operating_night
+    fixtures: 13
+    manifest: factory/model02_thermal_v4/isaac_manifest.json
+  condition_assumptions:
+    authoring_condition:
+      air_temperature_c: 20
+      indoor_temperature_c: 24
+      wind_m_s: 1
+      hours_after_sunset: 2
+      weather: dry
+      equipment_state: operating
+    site: Nominal31.2N121.5E10m solely for solar/time; source model location unknown
+    background_temperatures_c:
+      factory_building: 20.0
+      factory_ground: 19.5
+      factory_equipment: 26.0
+      factory_vegetation: 19.0
+      factory_drone: 35.0
+    humidity_fraction: 0.6
+    cloud_fraction: 0.1
+    measured: false
+start_position:
+- 700.0
+- -845.0
+- 8.5
+target_position: *id002
+target_position_semantics: Area-weighted center of all actual exported independently
+  configured core facets
+notes: 人工键盘驾驶，按T只记录人工确认；完整热点包含多个独立温区，见证据清单。仿真验证截图不是人工驾驶记录。

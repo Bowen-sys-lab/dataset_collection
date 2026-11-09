@@ -1,0 +1,19 @@
+schema_version: 1
+
+scene:
+  stage: ../lesson_crazyflie.usd
+  thermal_scene: ../third_party/isaac-thermal-camera-simulation/configs/scenes/quad_flight_clear_noon.yaml
+
+drone:
+  prim_path: /World/Crazyflie
+  body_path: /World/Crazyflie/body
+  camera_path: /World/Crazyflie/body/Camera_mount/Camera
+  minimum_height: 0.5
+
+sensors:
+  # 160x128 is the smooth preview preset. Use 640x512 for research capture.
+  width: 160
+  height: 128
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: crazyflie_thermal.yaml
+  preview_fast: true

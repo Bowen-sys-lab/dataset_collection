@@ -1,0 +1,22 @@
+task_id: school_find_spot_01
+instruction: >-
+  请在学校校园的铺装空地中寻找一只静止的 Boston Dynamics Spot 机器狗。目标周围可以看到灌木绿化、树木和一段低矮边界墙或花坛边缘。
+  请通过相机画面确认目标，不提供目标的具体方向或坐标；确认找到后按 T 标记成功。
+target_prim_path: /World/Target_01
+target_description: "静止的 Boston Dynamics Spot 四足机器狗；当前渲染中机身呈黄色/浅褐色。"
+environment_description: >-
+  目标位于铺装空地上；临时近景中还能看到附近的灌木绿化、树木和低矮边界墙或花坛边缘。
+  这是视觉环境线索，不代表经过测量的精确距离或方向。
+environment_landmarks:
+  - "铺装空地"
+  - "灌木或绿化带"
+  - "树木"
+  - "低矮边界墙或花坛边缘"
+environment_evidence:
+  source: validation/dual-camera-sync/school-spot-overview-320-20261011/frame_000001_rgb.png
+  method: "临时检查相机对准 Spot 渲染，分辨率 320x256"
+  limitation: "只用于确认附近有哪些可见环境；不是无人机起始视角，未测量距离或方位。"
+start_position: null
+target_position: [200.100841, 189.002402, 15.897108]
+target_position_semantics: "世界坐标系下 Spot 组合包围盒的中心，单位米；不是与地面接触的位置。"
+notes: "试行任务；按 T 键标记成功。任务文字本身不代表双相机逐像素严格同步已经验证。"

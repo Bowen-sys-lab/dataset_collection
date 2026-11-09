@@ -1,0 +1,13 @@
+# 场景身份：让采集管线不再写死"火桶在哪、叫什么"。
+# 新场景只需要给一份同结构的 <scene>_target.yaml，管线按 --config 自动找同名的 target 文件。
+schema_version: 1
+
+target:
+  prim_path: /World/Site/Target_BurningBarrel_001
+  # 目标锚点（米，世界系）；写的是桶体锚点，不是火焰尖端
+  position_m: [55.0, 6.86424822537128, 14.714128450870785]
+  label: barrel
+  prescribed_temperature_c: 110.0
+  infrared_material: rusted_steel
+  # 数据集索引里显示的场景标识
+  dataset_scene: forest_fire

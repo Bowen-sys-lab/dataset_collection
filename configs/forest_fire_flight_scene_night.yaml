@@ -1,0 +1,29 @@
+schema_version: 1
+
+# 与 forest_fire_scene.yaml 的唯一区别：stage 换成带可飞实体的叠加层，
+# drone 指向 /World/FireFlight/Crazyflie（ArticulationRootAPI 在那里）。
+scene:
+  stage: ../forest_fire_flight.usda
+  thermal_scene: forest_fire_night_environment.yaml
+  static_targets: []
+  collision_exclude_paths:
+  - /World/Site/Target_BurningBarrel_001/Flames
+  - /World/Site/Target_BurningBarrel_001/FireAtmosphere
+
+drone:
+  prim_path: /World/FireFlight/Crazyflie
+  body_path: /World/FireFlight/Crazyflie/body
+  camera_path: /World/FireFlight/Crazyflie/body/Camera_mount/Camera
+  minimum_height: 1.5
+
+sensors:
+  width: 320
+  height: 256
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: forest_fire_thermal_flight.yaml
+  preview_fast: true
+  align_thermal_to_rgb: true
+  flat_field_enabled: true
+  sensor_seed: 741
+  display_config: forest_fire_display_night.yaml
+  material_directory: materials/forest_fire

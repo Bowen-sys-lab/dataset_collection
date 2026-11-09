@@ -1,0 +1,19 @@
+# 枯草 / 干草地（自然状态）。存活植被和枯草在可见光里颜色接近，但近红外反射差别很大；
+# 热红外波段两者都接近黑体，区分靠的是温度和含水量，不是发射率。数值为项目估算。
+schema_version: 2
+material:
+  name: dry_grass
+  source: estimated
+  surface_treatment: natural
+  reference: "Project estimate from typical dry grass/leaf litter; NIR/SWIR ESTIMATED"
+  description: "枯草、干草地。比活树叶片更亮更黄，近红外反射高；热红外下同样接近黑体。"
+  thermal:
+    density_kg_m3: 150
+    specific_heat_j_kgk: 1500
+    conductivity_w_mk: 0.08
+    thickness_m: 0.02
+    solar_absorptivity: 0.70
+  optical:
+    emissivity_per_band: {nir: 0.55, swir: 0.60, mwir: 0.88, lwir: 0.90}
+    roughness_per_band: {nir: 0.85, swir: 0.85, mwir: 0.80, lwir: 0.80}
+    angular_model: {type: empirical, a: 0.05, p: 4.0}

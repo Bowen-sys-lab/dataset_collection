@@ -1,0 +1,12 @@
+# M3：人形目标里有真有假；假人没有体温，RGB 只能看到人形。
+task_id: city-fake-person
+instruction: 街边的人形目标里有一个是服装店假人，找到那个假人。
+target_prim_path: /World/Scenario/FakePerson/Rig/Body
+target_description: 人形假人，全身 26 ℃，没有体温
+environment_description: 夜间人行道上有四个人形目标，其中一个是假人
+environment_landmarks:
+  - 人行道上分散站立的人形目标
+start_position: [40.0, -22.0, 6.5]
+target_position: [62.0, -27.0, 0.9]
+target_position_semantics: 假人包围盒中心，米制、Z-up、世界坐标
+notes: 三个真人 33/33/28 ℃，假人 26 ℃；只有 IR 能区分"冷"和"没体温"，RGB 只能确认人形

@@ -1,0 +1,33 @@
+# wood_pine：本项目补充的红外材质（irsim 旧版材质库里没有这一项）。
+#
+# 参数来源（不是拍的）：
+#   - LWIR / MWIR 发射率：MODISC UCSB Emissivity Library（Douglas Fir，FTIR + 积分球），
+#     即上游 irsim 提交 15015cd 的 configs/materials/wood_pine.yaml 所引用的同一组测量值；
+#   - 热物性（密度/比热/导热/厚度）与太阳吸收率：同上，源自 Incropera 教材与 USGS 光谱曲线的 AM1.5 平均。
+#   - NIR / SWIR 发射率：ESTIMATED。上游用 USGS 松木光谱曲线逐点计算，这里拿不到曲线，
+#     按"干燥木材近红外反射率约 0.5–0.6 → 发射率约 0.4–0.5"的量级给值。
+#     本项目的传感器是 LWIR（7.5–13.5 um），这两个波段不参与成像，但保留以免破坏
+#     Kirchhoff 闭合检查（ε + ρ + τ = 1）。
+#
+# 与上游的差别：上游 schema 用 spectral_emissivity 指向 spectra 曲线文件，这里改成四波段定值，
+# 以便在本项目现有的 irsim（2026-09-27）上加载，无需修改第三方代码。
+schema_version: 2
+material:
+  name: wood_pine
+  source: literature
+  surface_treatment: as_manufactured
+  reference: >-
+    MWIR/LWIR: MODIS UCSB Emissivity Library (Z. Wan, ICESS, UCSB) via irsim 15015cd
+    configs/materials/wood_pine.yaml; thermal properties: Incropera et al., Fundamentals of
+    Heat and Mass Transfer, Table A.3 (softwoods). NIR/SWIR: ESTIMATED for this project.
+  description: "New sawn pine timber (LWIR emissivity measured, NIR/SWIR estimated)"
+  thermal:
+    density_kg_m3: 510
+    specific_heat_j_kgk: 1380
+    conductivity_w_mk: 0.12
+    thickness_m: 0.02
+    solar_absorptivity: 0.529
+  optical:
+    emissivity_per_band: {nir: 0.45, swir: 0.50, mwir: 0.890, lwir: 0.954}
+    roughness_per_band: {nir: 0.70, swir: 0.70, mwir: 0.60, lwir: 0.55}
+    angular_model: {type: empirical, a: 0.05, p: 4.0}

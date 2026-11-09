@@ -1,0 +1,93 @@
+# 学校场景的教学用红外配置。
+#
+# temperature_c 是摄氏度的“规定表面温度”，用于产生可重复的热图，
+# 不是现实测量值，也不包含热传导、日照升温或机器人内部发热模型。
+# material 是 irsim 的红外材料名，不是 Isaac Sim 的可见光材质名。
+# 修改后请重新启动双相机脚本；当前配置不会热重载。
+schema_version: 1
+
+# 没有命中下面 bindings 的表面使用这个背景值，避免出现未映射材质。
+defaults:
+  target: school_ground
+  material: concrete
+
+targets:
+  school_ground:
+    mode: fixed
+    temperature_c: 20.0
+  school_building:
+    mode: fixed
+    temperature_c: 22.0
+  school_glass:
+    mode: fixed
+    temperature_c: 21.0
+  school_road:
+    mode: fixed
+    temperature_c: 21.0
+  school_vegetation:
+    mode: fixed
+    temperature_c: 24.0
+  school_drone:
+    mode: fixed
+    temperature_c: 35.0
+  school_spot:
+    mode: fixed
+    temperature_c: 33.0
+  school_plastic:
+    mode: fixed
+    temperature_c: 23.0
+  school_metal:
+    mode: fixed
+    temperature_c: 24.0
+
+bindings:
+  # 1-3、5-12 是学校模型中的大面积地面/铺装表面。
+  - {name: paving_001, prim_path: /World/E_school3_001_3, include_children: true, target: school_road, material: asphalt_dry}
+  - {name: paving_002, prim_path: /World/E_school3_002_4, include_children: true, target: school_road, material: asphalt_dry}
+  - {name: paving_003, prim_path: /World/E_school3_003_5, include_children: true, target: school_road, material: concrete}
+  - {name: paving_005, prim_path: /World/E_school3_005_7, include_children: true, target: school_road, material: concrete}
+  - {name: paving_006, prim_path: /World/E_school3_006_8, include_children: true, target: school_road, material: asphalt_dry}
+  - {name: paving_007, prim_path: /World/E_school3_007_9, include_children: true, target: school_road, material: concrete}
+  - {name: paving_008, prim_path: /World/E_school3_008_10, include_children: true, target: school_road, material: concrete}
+  - {name: paving_009, prim_path: /World/E_school3_009_11, include_children: true, target: school_road, material: concrete}
+  - {name: paving_010, prim_path: /World/E_school3_010_12, include_children: true, target: school_road, material: concrete}
+  - {name: paving_011, prim_path: /World/E_school3_011_13, include_children: true, target: school_road, material: concrete}
+  - {name: paving_012, prim_path: /World/E_school3_012_14, include_children: true, target: school_road, material: concrete}
+  # 4 号实际使用 grass01 贴图，所以按草地处理。
+  - {name: grass_004, prim_path: /World/E_school3_004_6, include_children: true, target: school_vegetation, material: vegetation_leaf}
+
+  # 13、20-22 是建筑/结构表面；14-19、23 按透明度与粗糙度近似为玻璃。
+  - {name: building_013, prim_path: /World/E_school3_013_15, include_children: true, target: school_building, material: concrete}
+  - {name: glass_014, prim_path: /World/E_school3_014_16, include_children: true, target: school_glass, material: glass_windshield}
+  - {name: glass_015, prim_path: /World/E_school3_015_17, include_children: true, target: school_glass, material: glass_windshield}
+  - {name: glass_016, prim_path: /World/E_school3_016_18, include_children: true, target: school_glass, material: glass_windshield}
+  - {name: glass_017, prim_path: /World/E_school3_017_19, include_children: true, target: school_glass, material: glass_windshield}
+  - {name: glass_018, prim_path: /World/E_school3_018_20, include_children: true, target: school_glass, material: glass_windshield}
+  - {name: glass_019, prim_path: /World/E_school3_019_21, include_children: true, target: school_glass, material: glass_windshield}
+  - {name: building_020, prim_path: /World/E_school3_020_22, include_children: true, target: school_building, material: concrete}
+  - {name: building_021, prim_path: /World/E_school3_021_23, include_children: true, target: school_building, material: concrete}
+  - {name: building_022, prim_path: /World/E_school3_022_24, include_children: true, target: school_building, material: concrete}
+  - {name: glass_023, prim_path: /World/E_school3_023_25, include_children: true, target: school_glass, material: glass_windshield}
+  # 24-26 是 Spot 附近的小型附属几何，分别按塑料、塑料和金属近似。
+  - {name: detail_024, prim_path: /World/E_school3_024_26, include_children: true, target: school_plastic, material: abs_plastic_white}
+  - {name: detail_025, prim_path: /World/E_school3_025_27, include_children: true, target: school_plastic, material: abs_plastic_white}
+  - {name: detail_026, prim_path: /World/E_school3_026_28, include_children: true, target: school_metal, material: aircraft_aluminium_painted}
+
+  # 地面、测试几何和植被。
+  - {name: ground, prim_path: /World/GroundPlane, include_children: true, target: school_ground, material: soil_dry}
+  - {name: cube, prim_path: /World/Cube, include_children: true, target: school_plastic, material: abs_plastic_white}
+  - {name: cylinder, prim_path: /World/Cylinder, include_children: true, target: school_metal, material: aircraft_aluminium_painted}
+  - {name: tree, prim_path: /World/tree2, include_children: true, target: school_vegetation, material: vegetation_leaf}
+  - {name: painted_tree, prim_path: /World/PaintTool/SM_AmurCork12_43200, include_children: true, target: school_vegetation, material: vegetation_leaf}
+  - {name: scattered_tree, prim_path: /World/PaintTool/tree2_e0865, include_children: true, target: school_vegetation, material: vegetation_leaf}
+  # 散布的方块用途未明确，暂按常温混凝土物体近似。
+  - {name: scattered_cube, prim_path: /World/PaintTool/cube_52187, include_children: true, target: school_ground, material: concrete}
+
+  # 可能由外部资产加载的建筑节点；未加载时不会影响运行。
+  - {name: hospital, prim_path: /World/hospital, include_children: true, target: school_building, material: concrete}
+  - {name: office, prim_path: /World/office, include_children: true, target: school_building, material: concrete}
+
+  # 无人机和搜索目标单独设定，便于在热图中区分。
+  - {name: drone, prim_path: /World/Crazyflie, include_children: true, target: school_drone, material: painted_composite}
+  - {name: spot, prim_path: /World/Target_01, include_children: true, target: school_spot, material: painted_composite}
+  - {name: spare_quadcopter, prim_path: /World/Quadcopter, include_children: true, target: school_drone, material: painted_composite}

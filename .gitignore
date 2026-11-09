@@ -1,0 +1,38 @@
+# Separately acquired software and scene assets
+/third_party/
+/assets/
+/factory/
+/forest/
+/forest_fire_scene*/
+/city_200m*/
+/city_night*/
+/*.usd
+/*.usda
+/*.usdc
+/*.usdz
+/*.zip
+/*.7z
+
+# Recordings, processed images, local caches and credentials
+/validation/
+/output/
+/scene_intake/out/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venvs/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.log
+*.bak
+*.lnk
+Thumbs.db
+~$*.docx
+
+# Retain generated numeric LUT outputs required by the pinned thermal runtime.
+!/handoff/receiver/runtime-cache/

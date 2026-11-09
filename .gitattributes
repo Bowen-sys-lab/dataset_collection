@@ -1,0 +1,6 @@
+# Preserve verified Windows payload bytes and their SHA256 manifests on checkout.
+* -text
+*.docx binary
+*.png binary
+*.npy binary
+*.f32 binary

@@ -1,0 +1,25 @@
+# 路灯 B 组（1/3/5 段）关闭，其余不变
+schema_version: 1
+
+scene:
+  stage: ../city_200m_lamps_b_off.usda
+  thermal_scene: city_200m_night_environment.yaml
+  static_targets: []
+
+drone:
+  prim_path: /World/CityFlight/Crazyflie
+  body_path: /World/CityFlight/Crazyflie/body
+  camera_path: /World/CityFlight/Crazyflie/body/CityCam
+  minimum_height: 1.5
+
+sensors:
+  width: 320
+  height: 256
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: city_200m_thermal_scenario.yaml
+  preview_fast: true
+  align_thermal_to_rgb: true
+  flat_field_enabled: true
+  sensor_seed: 741
+  display_config: city_200m_display_scenario.yaml
+  material_directory: materials/city_200m

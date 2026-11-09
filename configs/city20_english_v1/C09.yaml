@@ -1,0 +1,41 @@
+task_id: city-v2-hvac-s4
+instruction: The target is initially behind you on your right. Find the white outdoor
+  air-conditioning unit on a low base in the service strip behind the northeastern
+  building, beside a metal door and a drainpipe. Identify its circular fan grille
+  and a small bright region at the coil in the thermal image, brighter than the surrounding
+  casing. Approach and stop where the unit and the localized bright region are clearly
+  visible.
+target_prim_path: /World/Targets/HVAC
+target_description: 一台约 1 米宽、0.8 米高的白色空调外机，正面有圆形风扇格栅，落在矮基座上
+environment_description: 在东北楼后的服务带里靠墙摆放，旁边是铁门和落水管，这条服务带只有这一台外机
+environment_landmarks:
+- 楼后服务带
+- 白色外机
+- 铁门
+start_position:
+- 17.6
+- 16.5
+- 6.5
+target_position:
+- 7.6
+- 16.5
+- -0.008
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 停稳并松开运动键后按 H 检查红外；目标及对应热特征清楚可见时按 T 人工确认，然后正常关闭并等待保存。T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: HVAC
+  block_index: 0
+  initial_yaw_degrees: 40.0
+  target_bearing_degrees: 180.0
+  relative_direction: 右后方
+  start_distance_m: 10.0
+  start_index: 4
+  city_collection:
+    version: city20_english_v1
+    episode: C09
+    split: validation
+    language: en
+    source_task_path: D:\IsaacSim_Demo\configs\city_200m_v2_task_hvac_s4.yaml
+    source_task_sha256: 36cdcbe24659821528aad5e9c30ca2f3a9e3a8185cf138cf6289fe0cbcb72532

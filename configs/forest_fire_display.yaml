@@ -1,0 +1,9 @@
+# 与作者预览一致的红外显示范围（10–150 C）。500/650 C 目标必然饱和，这是原设定。
+schema_version: 1
+name: forest_fire_fixed_temperature
+mode: fixed_apparent_temperature
+temperature_min_c: 10.0
+temperature_max_c: 150.0
+dde_gain: 0.0
+polarity: white_hot
+palette: gray

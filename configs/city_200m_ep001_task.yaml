@@ -1,0 +1,13 @@
+# S1/N3 episode：三辆同款白车，只有一辆引擎盖热（目标随机落在第 1 辆）
+task_id: city-ep0-n3-van1
+instruction: 街边停着三辆同款白色面包车，找到发动机刚熄火、引擎盖还热的那一辆。
+target_prim_path: /World/Scenario/Van_01/Hood
+target_description: 三辆同款白色面包车中，引擎盖温度明显偏高的那一辆
+environment_description: 夜间城市主街，三辆同款白色面包车错开停放，附近有空调外机和排风口
+environment_landmarks:
+  - 主街北侧三辆白色面包车
+  - 路缘上的空调外机
+start_position: [70.0, -22.0, 6.5]
+target_position: [85.72, -19.9, 2.17]
+target_position_semantics: 目标车辆引擎盖中心，米制、Z-up、世界坐标
+notes: 车身 26 ℃，目标引擎盖 65 ℃；空调外机 50 ℃ 为干扰热源

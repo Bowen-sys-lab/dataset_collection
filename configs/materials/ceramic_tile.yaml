@@ -1,0 +1,19 @@
+# 釉面瓷砖 / 地砖（出厂状态）。比混凝土光滑得多：近红外反射低、可见光下显亮，
+# 但热红外依然是接近黑体的介电体。a=0.15 表示它比砖石略“镜面”一点。数值为项目估算。
+schema_version: 2
+material:
+  name: ceramic_tile
+  source: estimated
+  surface_treatment: as_manufactured
+  reference: "Project estimate from typical glazed ceramic tile; not calibrated"
+  description: "釉面瓷砖、地砖、外墙贴面。光滑但热红外仍近黑体；光滑带来的主要是角度特性差异。"
+  thermal:
+    density_kg_m3: 2300
+    specific_heat_j_kgk: 840
+    conductivity_w_mk: 1.3
+    thickness_m: 0.01
+    solar_absorptivity: 0.35
+  optical:
+    emissivity_per_band: {nir: 0.20, swir: 0.25, mwir: 0.88, lwir: 0.92}
+    roughness_per_band: {nir: 0.10, swir: 0.10, mwir: 0.08, lwir: 0.06}
+    angular_model: {type: empirical, a: 0.15, p: 4.0}

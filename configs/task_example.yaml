@@ -1,0 +1,9 @@
+task_id: find_red_box_01
+instruction: 找到教学楼旁的红色箱子
+target_prim_path: /World/RedBox
+target_description: 静止的红色箱子
+start_position: null
+target_position: null
+success: null
+success_time: null
+notes: 静态目标验证任务

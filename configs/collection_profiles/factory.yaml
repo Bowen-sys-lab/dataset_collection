@@ -1,0 +1,12 @@
+# 工厂场景采集配方（统一入口 record.ps1 -Scene factory 读取）
+scene_id: factory
+display_name: 工厂双目标夜间巡检
+backend_entry: scripts/record_factory_bc_pilot.ps1
+plan: configs/model02_v7m_bc_two_target_plan.yaml
+default_target: tank
+default_start_group: A
+backend: factory_bc
+# CLI 目标名 -> 计划里的 target_id（工厂计划用 tank_GC075 / pipe_GC089）
+targets:
+  tank: tank_GC075
+  pipe: pipe_GC089

@@ -1,0 +1,23 @@
+task_id: factory_tank_tutorial_v1
+instruction: Find the gray cylindrical storage tank with blue safety railings and
+  red external pipework. Identify it in RGB, inspect its wall in thermal imagery for
+  a localized rounded warm patch, and stop where both the tank and the anomaly can
+  be clearly inspected.
+target_prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot_Z_4337_m4937_16/GC075_TankShell_Hotspot_Z_4337_m4937_16_Mesh
+target_description: Gray cylindrical tank with blue railings and red pipes; localized
+  rounded brighter patch on its wall in the supplied white-hot thermal view.
+environment_description: Paved industrial equipment yard near low factory buildings
+  and pipe racks under the existing synthetic weak-light conditions.
+start_position:
+- 700.0
+- -845.0
+- 8.5
+target_position:
+- 693.6737599843345
+- -789.9054150563137
+- 2.8339189130529494
+target_position_semantics: Area-weighted center of all actual exported independently
+  configured core facets
+notes: Teaching example only. Generic -Config recording uses the USD spawn, not this
+  start_position field. Formal starts, split, distractors and completion thresholds
+  require separate approved task design.

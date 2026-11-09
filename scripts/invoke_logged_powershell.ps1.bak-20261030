@@ -1,0 +1,23 @@
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$ShellPath,
+
+    [Parameter(Mandatory = $true)]
+    [string]$EncodedCommand,
+
+    [Parameter(Mandatory = $true)]
+    [string]$StdoutPath,
+
+    [Parameter(Mandatory = $true)]
+    [string]$StderrPath
+)
+
+$ErrorActionPreference = 'Stop'
+$resolvedShell = (Resolve-Path -LiteralPath $ShellPath).Path
+$child = Start-Process -FilePath $resolvedShell `
+    -ArgumentList @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-EncodedCommand', $EncodedCommand) `
+    -Wait -PassThru -NoNewWindow `
+    -RedirectStandardOutput $StdoutPath `
+    -RedirectStandardError $StderrPath
+
+Write-Output ([int]$child.ExitCode)

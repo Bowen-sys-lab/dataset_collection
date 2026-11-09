@@ -1,0 +1,19 @@
+param(
+    [Parameter(Mandatory = $true, Position = 0)]
+    [string]$Replay,
+    [string]$Out = '',
+    [string]$Ffmpeg = ''
+)
+
+# Runs the existing-image video generator only. No SimulationApp is started.
+$ErrorActionPreference = 'Stop'
+$projectRoot = Split-Path -Parent $PSScriptRoot
+$replayPath = (Resolve-Path -LiteralPath $Replay).Path
+if (-not $Out) {
+    $stamp = Get-Date -Format 'yyyyMMdd-HHmmss-fff'
+    $Out = Join-Path $projectRoot "validation\videos\$((Split-Path -Leaf $replayPath))-$stamp"
+}
+$videoArgs = @('--replay', $replayPath, '--out', $Out)
+if ($Ffmpeg) { $videoArgs += @('--ffmpeg', $Ffmpeg) }
+& 'D:\isaacsim\python.bat' -B (Join-Path $PSScriptRoot 'generate_replay_video.py') @videoArgs
+exit $LASTEXITCODE

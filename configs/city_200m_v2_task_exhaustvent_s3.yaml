@@ -1,0 +1,29 @@
+task_id: city-v2-exhaustvent-s3
+instruction: 目标在你的左后方。在南侧服务前缘搜索，找这一侧唯一的百叶金属基座：约 1 米高，顶部接短风管；热像上百叶口是一条约 40 ℃ 的热带，明显亮于周围地面。 先转向目标方向，靠近后确认热异常并按 T。
+target_prim_path: /World/Targets/ExhaustVent
+target_description: 一个约 1 米高的金属排风基座，正面是横向百叶，顶部接短风管
+environment_description: 立在南侧建筑服务前缘的路缘旁，旁边有行道树和路缘石，这一侧只有这一个百叶基座
+environment_landmarks:
+- 南侧服务区
+- 百叶基座
+- 行道树
+start_position:
+- 223.59
+- -20.36
+- 6.5
+target_position:
+- 221
+- -10.7
+- -0.011
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 人工按 T 确认；自动评分独立进行，T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: ExhaustVent
+  block_index: 5
+  initial_yaw_degrees: 245.0
+  target_bearing_degrees: 105.0
+  relative_direction: 左后方
+  start_distance_m: 10.0
+  start_index: 3

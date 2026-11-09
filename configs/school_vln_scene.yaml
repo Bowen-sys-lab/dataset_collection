@@ -1,0 +1,28 @@
+schema_version: 1
+task:
+  # 默认的搜索指令与目标标签；本次采集时会复制到 run_metadata.json。
+  file: school_vln_task.yaml
+scene:
+  stage: ../school_vln_01.usd
+  thermal_scene: ../third_party/isaac-thermal-camera-simulation/configs/scenes/quad_flight_clear_noon.yaml
+  # School buildings and Spot are static, only in the anonymous runtime layer.
+  static_targets: [/World/Target_01, /World/office, /World/hospital]
+drone:
+  prim_path: /World/Crazyflie
+  body_path: /World/Crazyflie/body
+  camera_path: /World/Crazyflie/body/Camera_mount/Camera
+  # World Z safety floor, NOT height above the school ground.
+  minimum_height: 0.5
+sensors:
+  width: 160
+  height: 128
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: school_vln_thermal.yaml
+  preview_fast: true
+  # Override saved thermal pose only in the anonymous runtime layer.
+  align_thermal_to_rgb: true
+  # 仅校正热图显示分支，原始 DN/辐射量/表观温度不变。
+  flat_field_enabled: true
+  sensor_seed: 0
+  # 固定表观温度显示，保留冷天空；回退用 school_vln_scene_original_display.yaml。
+  display_config: thermal_display_fixed.yaml

@@ -1,0 +1,14 @@
+schema_version: 1
+source_run: factory-pilot30-F01-20261101T032805579693Z
+body_envelope_evidence: ../validation/diagnostics/factory-autonomous-pilot-20261103/drone-envelope.json
+body_sphere_radius_m: 0.08
+trial_bounds_m:
+  - [650.0, -950.0, 2.0]
+  - [780.0, -770.0, 16.0]
+motion:
+  cruise_speed_m_s: 1.0
+  large_turn_vertical_speed_m_s: 2.0
+  yaw_speed_rad_s: 0.7853981633974483
+  translation_yaw_threshold_rad: 0.25
+  step_s: 0.016666666666666666
+  settle_s: 0.5

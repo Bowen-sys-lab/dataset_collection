@@ -1,0 +1,29 @@
+task_id: city-v2-heatmaincover-s3
+instruction: 目标在你的左后方。在两侧楼体夹出的窄街里，找路面中央唯一的圆形金属盖板：同心圆纹路、直径约 0.7 米；热像显示盖面为亮圆盘（约 38 ℃），是这段街最热的地面目标。 先转向目标方向，靠近后确认热异常并按 T。
+target_prim_path: /World/Targets/HeatMainCover
+target_description: 一块直径约 0.7 米的圆形金属井盖，盖面有同心圆纹路，平嵌在沥青路面上
+environment_description: 位于两侧楼体夹出的内部窄街，路边有低矮绿植和停放的车辆，这段窄街只有这一块圆形井盖
+environment_landmarks:
+- 内部窄街
+- 圆形井盖
+- 路边绿植
+start_position:
+- 95.24
+- -11.66
+- 6.5
+target_position:
+- 92.65
+- -2
+- 0.0
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 人工按 T 确认；自动评分独立进行，T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: HeatMainCover
+  block_index: 2
+  initial_yaw_degrees: 245.0
+  target_bearing_degrees: 105.0
+  relative_direction: 左后方
+  start_distance_m: 10.0
+  start_index: 3

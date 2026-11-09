@@ -1,0 +1,8 @@
+schema_version: 1
+name: city_200m_v3_night_materials
+mode: fixed_apparent_temperature
+temperature_min_c: 18.0
+temperature_max_c: 45.0
+dde_gain: 0.0
+polarity: white_hot
+palette: gray

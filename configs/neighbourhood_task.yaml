@@ -1,0 +1,23 @@
+task_id: neighbourhood_find_warm_car_01
+instruction: 街区内停着几辆车，请找到刚刚熄火的那一辆。可见光画面里这几辆车同款同色、外观完全一致，无法区分；热红外画面里，只有目标的引擎盖是亮的，其余车辆的引擎盖都与车身一样冷，而且目标紧挨着一道交通护栏停放。请交替查看两路画面确认目标，不要只依赖可见光。接近到
+  5 米以内悬停 3 秒以上确认后，按 T 标记完成。
+target_prim_path: /World/Site/Sketchfab_model_003/BMW_E46_obj_cleaner_materialmerger_gles/Object_3/Object_1__car_body
+target_description: 街边停放的浅灰色四门轿车（BMW E46 模型，长约 4.5 米），刚熄火不久：引擎盖温度明显高于车身其余部分，车旁 1.5 米内有一道红白交通护栏。场景中另有 3 辆同款同色车辆作为干扰，它们的引擎盖都是冷的。
+environment_description: 傍晚的临街住宅街区：砖砌多层住宅、行道树、路灯、交通锥桶与围挡。路面与墙体仍保有白天余热，静止车辆已冷却，因此热像中车身比地面暗、只有目标引擎盖偏亮。
+environment_landmarks:
+- 砖砌住宅楼
+- 临街行道树
+- 路灯杆
+- 交通锥桶与围挡
+- 红白交通护栏
+- 沥青路面
+start_position:
+- 23.19
+- -17.35
+- 8.0
+target_position:
+- 0.45
+- 3.84
+- 0.71
+target_position_semantics: 世界坐标系（米），车辆网格包围盒中心
+notes: 双模态判别任务：目标与干扰车在可见光下无差别，只有热像能区分（引擎盖余温）。判定方式：人工按 T 标记 + 自动核查（距目标 ≤5 m、目标在画面内、悬停 ≥3 s），评估器 scripts/evaluate_neighbourhood_task.py。

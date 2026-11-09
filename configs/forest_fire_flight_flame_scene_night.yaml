@@ -1,0 +1,26 @@
+schema_version: 1
+
+# 仅供红外回放：在飞行场景的基础上，换成带烘焙火焰热代面的 stage。
+# RGB 回放仍用 forest_fire_flight_scene.yaml。
+scene:
+  stage: ../forest_fire_flight_flame.usda
+  thermal_scene: forest_fire_night_environment.yaml
+  static_targets: []
+
+drone:
+  prim_path: /World/FireFlight/Crazyflie
+  body_path: /World/FireFlight/Crazyflie/body
+  camera_path: /World/FireFlight/Crazyflie/body/Camera_mount/Camera
+  minimum_height: 1.5
+
+sensors:
+  width: 320
+  height: 256
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: forest_fire_thermal_flight.yaml
+  preview_fast: true
+  align_thermal_to_rgb: true
+  flat_field_enabled: true
+  sensor_seed: 741
+  display_config: forest_fire_display_night.yaml
+  material_directory: materials/forest_fire

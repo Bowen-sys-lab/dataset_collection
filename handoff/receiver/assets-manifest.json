@@ -1,0 +1,3626 @@
+{
+  "schema_version": 1,
+  "kind": "assets",
+  "files": [
+    {
+      "path": "assets/isaac/cf2x/cf2x.usd",
+      "size": 220590,
+      "sha256": "102030370a06f7ae22d1f318912de6e886375ccfa34ded4eff9cda540211b7db"
+    },
+    {
+      "path": "assets/isaac/cf2x/configuration/cf2x_robot_schema.usd",
+      "size": 1369,
+      "sha256": "0829c341f44877161b9b97894713ebdd2d88b6c6c0c2b20ad3bc2d0f69b15acb"
+    },
+    {
+      "path": "city_200m_flight.usda",
+      "size": 2325,
+      "sha256": "d68ccb951abaaa91efc09feedbb25490c9fd329dd4d25793ef53454af6091476"
+    },
+    {
+      "path": "city_200m_local/city_200m.usda",
+      "size": 3009480,
+      "sha256": "e422eaf821129404f8f39e3def0785cf27f8b076e5387c6bebee6bd3e232a21d"
+    },
+    {
+      "path": "city_200m_local/city_block_original.usda",
+      "size": 112962367,
+      "sha256": "bbd17d22d90e38c2b930d914b931aa867865f0a5fccbcdfd69195397c6ca1234"
+    },
+    {
+      "path": "city_200m_local/city_environment.json",
+      "size": 7132,
+      "sha256": "2703498be59563767cf6838890435a651177b52d2c2fb00498fd2eb217e06621"
+    },
+    {
+      "path": "city_200m_local/city_ir_resources/bark_base_color.jpg",
+      "size": 432533,
+      "sha256": "61f2404a6e66d9a260d7cbf7f5462a326193028173fb0b80ae7f55a258f313b6"
+    },
+    {
+      "path": "city_200m_local/city_ir_resources/daylight_sky.hdr",
+      "size": 3633,
+      "sha256": "8de7cd79024f5630893c7e3a43cf9056ea3aeec242e8b47ba14f46d88bb8a01b"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/0433398910b54c489887ea78698911ce_RGB_WindowTrim_WindowTrim_BaseColor.jpg",
+      "size": 91861,
+      "sha256": "8dc954c251c71f0b2b23a33a6a877ff99359bbb171dd09b23376f592a3b912b9"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/06476b8ad749456f83edff11d501a9bd_N_solar_normal.jpg",
+      "size": 8194,
+      "sha256": "26160e92fa303f01a5ea3c0513f8817251c514a3adcb1039c96c953794468d3b"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/06daead5d4c6494d83df192e88e80a94_R_WindowTrim_WindowTrim_Roughness.jpg",
+      "size": 234526,
+      "sha256": "3d956027a7be1e1d753c67b33df456a2195cc4c4a0ac8af15d9a758b0f9494c3"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/0c96fc92e08c4ce0ba3a1769f9d74407_N_T_BarricadeB_N.jpg",
+      "size": 299037,
+      "sha256": "ab17ebaa7daeb9a3293462f827310e1c64ffa9411d68b182a63eaf527b4800da"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/0cbb49c5b442452ab518dc4d34faf450_N_Trim_Plane_Billboards_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/0f551ac324614852bdda9ffe35dd8bde_N_T_TrafficAssets_N.jpg",
+      "size": 453546,
+      "sha256": "9f19f776bd645267e5523e687b3adef0173790594e2e6513ee2ed3e5087510cf"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/1be3bc86fe094e7ba256f4aaf68d8050_RGB_T_TrafficAssets_C.jpg",
+      "size": 534909,
+      "sha256": "0201050e0bfc38c511b4d598be45bf75814582afea676b39a467b9359756ddb5"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/1d4c315f477c41a7b82981475d16759d_RGB_T_BarricadeB_C.jpg",
+      "size": 368708,
+      "sha256": "d1832427353ef44de21b6bc8a5512dd8619a386bcf45baf0e3a9d898b664145a"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/20ecbc1e3d6340b4b6f7ca24c44e39c0_RGB_red_plaster_weathered_diff_1k.jpg",
+      "size": 115113,
+      "sha256": "8dae46f992832836c8821fbcfe1eeed70b710f96029fb35c8c7c08a1ab90535e"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/2102cabcce224a42aa781f31ec0149e3_N_brick_wall_006_nor_gl_1k.jpg",
+      "size": 330451,
+      "sha256": "eb494246baa1cedb151017ef0e44985c8cea7a52d400ec8dc23874e363181d0c"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/2d184d9cce1549d4b4e74b02d97e476d_N_marble_tiles_nor_gl_1k.jpg",
+      "size": 136717,
+      "sha256": "8e749e7c708a5dc41011776947a46a932bad79ecd0de53a35b4800eaf1903211"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/2e8fd15e309c4b1399bf2aafc88fd532_A_Low_Poly_Plant_PottedPlants_BaseColor.png",
+      "size": 829983,
+      "sha256": "1dfd295612ef9df81645a0ed3f55c5e786c47cc3eae7d4ed1a94fa36ef94b3f6"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/33af2c2a17494a0f955ba5b36911553c_N_granular_concrete_nor_gl_1k.jpg",
+      "size": 397497,
+      "sha256": "81b378f9a747ca0fe0ac6e4411aa36147763ba0b20f92c27a6ebb2512b8f94a6"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/36bf3a98535e4f9bb39efa3081575e32_N_red_plaster_weathered_nor_gl_1k.jpg",
+      "size": 85438,
+      "sha256": "d78341cb1088d91b5dfc4361760af64c4fe1313a4c9818adb3a99f6a9fca9fb6"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/3cb8d400ea344425a7acb2ba7981902c_N_floor_tiles_02_nor_gl_1k.jpg",
+      "size": 43474,
+      "sha256": "45fd66620e4441133ad63ef6b62d98be1d4c64ce88fb147fad08709b1c111f62"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/41805e5040e049cfb608012d1531f99b_RGB_illum.jpg",
+      "size": 895,
+      "sha256": "94fd8c32dadc10eadb2248d867eaa610d2d198c151f7895aa517124cb44a643e"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/41f42bf6b7604e488f53deaafb003d0a_R_T_BarricadeA_AO-74f9d3fc13aa4fb6bcdbd1b672ad1198_R_T_BarricadeA_R.jpg",
+      "size": 458123,
+      "sha256": "a4d48dc82e1f22ec6cd74ccff1c1b13b48c59fcad3bf26c05885fd3e8b5030d2"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/41f42bf6b7604e488f53deaafb003d0a_R_T_BarricadeA_AO.png-74f9d3fc13aa4fb6bcdbd1b672ad1198_R_T_BarricadeA_R.png.jpg",
+      "size": 458123,
+      "sha256": "a4d48dc82e1f22ec6cd74ccff1c1b13b48c59fcad3bf26c05885fd3e8b5030d2"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/42ac3f8d5f494f88828fca43df2745fa_N_AC_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/480d95508ff8457b8c9809c650570ac4_RGB_T_TrafficBarrier_C.jpg",
+      "size": 621984,
+      "sha256": "916f10b89e483317f1fae5c363fff7a9c680d8a309a0e95b1dc8d58303dfaa64"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/4e4fcb3a2d624e25814169df55f42dfb_N_plastered_stone_wall_nor_gl_1k.jpg",
+      "size": 296519,
+      "sha256": "5d38f02a125afb468b5f8c9b0b02a9005291096e660af6a98b4e8286bcf640b6"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/5fc2c4e555bb4cdb9b4c0d19df6ac747_RGB_T_BarricadeA_C.jpg",
+      "size": 375715,
+      "sha256": "95256fd6511fd198deebbccf5a487ed58038c1aa19fc10c729e17bfd65716cd0"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/601b212d675c4e3789195cd356176082_N_T_Light_N.jpg",
+      "size": 291536,
+      "sha256": "5d5d8ff422524c7016e8190d13fc33591baa20506c9ecfac5eddb97561d7666e"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/601d1d387ff94fa194837e33e4ee9589_RGB_AC_Diffuse.jpg",
+      "size": 220966,
+      "sha256": "07d912275dc776f9e21d97874c92de403f1327c4c0dd5324a70279114c86c7b5"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/6863f94af5d04dec86f50980981bbc8b_RGB_Modular_Roads_Road_BaseColor.jpg",
+      "size": 248589,
+      "sha256": "8541be75c4c1d38f3cf28a9194582c81d74342987f503b2e0d82bbebf8ca7a26"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/6c9440f4d0944f9a8c9c1610ba11917b_RGB_T_Light_C.jpg",
+      "size": 288229,
+      "sha256": "26aee7bd7388605a23fed34e7a5762f9b43fce1aff25e0864e00936ca005879f"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/6dedb55809df4ddfbce7b5c45964239c_RGB_marble_tiles_diff_1k.jpg",
+      "size": 259147,
+      "sha256": "79ee3f6b66c46881e552c98f0b60bd22fcebb5394e35cb661ee18b1fd77ee683"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/6df0c4701fe44c36bf8ea5b6a3de178c_R_solar_spec.jpg",
+      "size": 3184,
+      "sha256": "a8d5b50ff435a86155670d21ad219372db13a91d4bebb62e05fbdadce6401aee"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/7a91c7acaecb4be6958af932cea5c17d_RGB_solar_rgb.jpg",
+      "size": 1733,
+      "sha256": "4a2bc55e0966dc2328f21bbb5091a2f59e1fa3b5107bd2bf3353b8003b4a5db2"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/81c2461a53064a2a96352c8960661260_N_T_TrafficBarrier_N.jpg",
+      "size": 527122,
+      "sha256": "072df99616cf15542f0f3ba0f73552d7c03f589d226acc13402758d9ed3a23d3"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/8c9e6f47a1df4f1aaf8b3be8076447bc_N_Modular_Roads_Road_Normal.jpg",
+      "size": 278380,
+      "sha256": "3d07db7f9d59d9c7b5646ec892942e987b2e03f52fd5170bc4f785ed5e63563b"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/9058a73704434c0bacb0431c6065015d_N_WindowTrim_WindowTrim_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/95134b36d039436abed16f8048c468eb_N_Low_Poly_Plant_PottedPlants_Normal.jpg",
+      "size": 192195,
+      "sha256": "fd5739744c7d3077fc8e855b6f9bf0ae04b51c89dccbbc91cf05eed9ce1469e7"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/96daeb66bbf440ccaafc084253402646_R_T_TrafficAssets_AO-b724719d28474d6ea156a6998c4afe9d_R_T_TrafficAssets_R.jpg",
+      "size": 509282,
+      "sha256": "9fdd3774c016ae552a294e796523be6ed7a2fca8b7501c888043c41568b64165"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/96daeb66bbf440ccaafc084253402646_R_T_TrafficAssets_AO.png-b724719d28474d6ea156a6998c4afe9d_R_T_TrafficAssets_R.png.jpg",
+      "size": 509282,
+      "sha256": "9fdd3774c016ae552a294e796523be6ed7a2fca8b7501c888043c41568b64165"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/99189e647c944dddaa39f251820b9458_R_T_Light_AO-ce91e05d4f684a04a1d5d09763fed121_R_T_Light_R.jpg",
+      "size": 369448,
+      "sha256": "6c88c2d3d34cc3fa2c7387e9d838f6e6c847a4aae8ee93c60134646b66464a12"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/9ca83981621449b795dc8cfad6da0c48_RGB_Trim_Plane_Billboards_BaseColor.jpg",
+      "size": 299787,
+      "sha256": "befc444386db4fd53738f6194050e080837a8352eb25527a734f8f8e2aa65f86"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_0.jpg",
+      "size": 144642,
+      "sha256": "579578542d9ae2ac0a30a836e0754ebc6f4bce4b0f787cc1a781c837410e1c8b"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_1.jpg",
+      "size": 97215,
+      "sha256": "b2223692e9545462bfff4ff970791412b0eb860d7bc2c39f597dd44c8687c976"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_2.jpg",
+      "size": 185893,
+      "sha256": "94f1f647ef0faf129bbcd151b7615855c552c1b95934a8174da886cbc91a7831"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_3.jpg",
+      "size": 372641,
+      "sha256": "e31f05d27e49fdbd8673ba5d8c1669f5934460ad86aaa842003aee2be60ddc37"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_4.jpg",
+      "size": 737432,
+      "sha256": "0d9ea6db7bc2108fe670870d7cf3bff4475cc77570629cf333e58527ea22a133"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_5.png",
+      "size": 838472,
+      "sha256": "805fdc52212c4a589fc2359bfffceb4355788885506d5c3df38198dcebe2f47f"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_6.jpg",
+      "size": 165037,
+      "sha256": "b4f5ea30061b43c5fa68b3597657a00093da086a55772dce2a22d7f07b6e6283"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/Image_7.jpg",
+      "size": 321608,
+      "sha256": "9dca3de978b050ed4653127ff8529dc1a4546fac07c80cc3f669627cca77bf22"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/a98679f0e7944a0aa83516a88e18a814_RGB_colors.jpg",
+      "size": 901,
+      "sha256": "de03881858cbbced232d63c204736ad0f08db251550d3f1bb2fa25da2d93cd14"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/bc7f200f59374f84aac53203a5246182_RGB_granular_concrete_diff_1k.jpg",
+      "size": 170615,
+      "sha256": "959e46c4860248c1008cff61cb38f2ea7b37462b356dcba6f4ef587068502242"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c29dbdb06a3c420289058717738aede0_R_T_TrafficBarrier_AO-1d9d6e83b8af4da3b132f7ba79b55ef5_R_T_TrafficBarrier_R.jpg",
+      "size": 483547,
+      "sha256": "25afbd1bc7990da0f8752d222252d993247dcd5c9339bb18a8fd6fdc2ae5f11e"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c29dbdb06a3c420289058717738aede0_R_T_TrafficBarrier_AO.png-1d9d6e83b8af4da3b132f7ba79b55ef5_R_T_TrafficBarrier_R.png.jpg",
+      "size": 483547,
+      "sha256": "25afbd1bc7990da0f8752d222252d993247dcd5c9339bb18a8fd6fdc2ae5f11e"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c454fe40e84643948b5a6f3d9ebca6ab_RGB_plastered_stone_wall_diff_1k.jpg",
+      "size": 128507,
+      "sha256": "37e9c7b496d32d22d55c23c3f4f7b595531751676a20f100c61517357244bf62"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c5b305160b2a431f8e4baf207c4943f7_RGB_floor_tiles_02_diff_1k.jpg",
+      "size": 101217,
+      "sha256": "c8016c0f5718278debd505da185b10a7cbd12d530445f26490be3fd6cef72ea6"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c6e18c7717c04bdcaac29917dc559cae_R_T_BarricadeB_AO-0d46613691904d4b99b49127d136909c_R_T_BarricadeB_R.jpg",
+      "size": 470322,
+      "sha256": "09165b0a0d4e479cdcd319acb905ab3acb46cec8a4b7edcad59b6638161cf889"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c6e18c7717c04bdcaac29917dc559cae_R_T_BarricadeB_AO.png-0d46613691904d4b99b49127d136909c_R_T_BarricadeB_R.png.jpg",
+      "size": 470322,
+      "sha256": "09165b0a0d4e479cdcd319acb905ab3acb46cec8a4b7edcad59b6638161cf889"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c6ecb51321b844bd989ea0760822c0d2_N_T_BarricadeA_N.jpg",
+      "size": 295337,
+      "sha256": "c99c2cca8b469eda19d10947d68893380a1bb2b3e35b50e103000af279628d30"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/c7a16f20064c42c1a115ed14e322f44f_R_Trim_Plane_Billboards_Roughness.jpg",
+      "size": 14080,
+      "sha256": "0188a68d1a2a17a39a819eea5656c76e73cee8ea9b857ad247e9821c260bf049"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/d133878627ee4af59c17fd9589d314ee_RGB_T_Light_E.jpg",
+      "size": 183460,
+      "sha256": "349a1ea8fcb159d4b31a374fbc394da84220d1bcb5abbd6dbba27418a7f56b16"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/e918f6ebc68940d68c66a4c7ad5e83aa_R_Modular_Roads_Road_Roughness.jpg",
+      "size": 312799,
+      "sha256": "95b61424918564661735633808f1675c324727e83f9aacba723fe74433a11717"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/ef549eda9442409888c3c4418e28297c_RGB_brick_wall_006_diff_1k.jpg",
+      "size": 261518,
+      "sha256": "3c005b54b8a417662b550582c490ff81a1b126c2039328ba72eba7ee6637ac32"
+    },
+    {
+      "path": "city_200m_local/neighbourhood_usd/textures/f7ca1ef8a8e541d5966eecbc9c31e7cf_RGB_Trim_Plane_Billboards_Emissive.jpg",
+      "size": 275042,
+      "sha256": "b9ada6e4d31763a5f3f08f0e0b1ad1fead8df6fd41613677cacc60f96b46f430"
+    },
+    {
+      "path": "city_200m_scenario.usda",
+      "size": 73338,
+      "sha256": "ac4e57769d5a1b979ec937cfc94366eeaad81952bfa0e6ec7187ef8350f72d79"
+    },
+    {
+      "path": "city_200m_v2_flight.usda",
+      "size": 1646,
+      "sha256": "27b197f804c28c183604637baed71bb8ff642744c20df6d8aa457612b5228317"
+    },
+    {
+      "path": "city_200m_v2_local/city_200m.usda",
+      "size": 5524087,
+      "sha256": "b7da0c3207701afbf25e3c489d06c2d32f7407624f5f2bf808a8e4c986d243ff"
+    },
+    {
+      "path": "city_200m_v2_local/city_block_original.usda",
+      "size": 112962367,
+      "sha256": "bbd17d22d90e38c2b930d914b931aa867865f0a5fccbcdfd69195397c6ca1234"
+    },
+    {
+      "path": "city_200m_v2_local/city_environment.json",
+      "size": 7132,
+      "sha256": "2703498be59563767cf6838890435a651177b52d2c2fb00498fd2eb217e06621"
+    },
+    {
+      "path": "city_200m_v2_local/city_ir_resources/bark_base_color.jpg",
+      "size": 432533,
+      "sha256": "61f2404a6e66d9a260d7cbf7f5462a326193028173fb0b80ae7f55a258f313b6"
+    },
+    {
+      "path": "city_200m_v2_local/city_ir_resources/daylight_sky.hdr",
+      "size": 3633,
+      "sha256": "8de7cd79024f5630893c7e3a43cf9056ea3aeec242e8b47ba14f46d88bb8a01b"
+    },
+    {
+      "path": "city_200m_v2_local/environment/night_environment.yaml",
+      "size": 382,
+      "sha256": "79331a37ec0f4fe6c14e57e44d5b55ffb4033bf2c6752636a249c7384cb4f29c"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/afternoon_clear.csv",
+      "size": 230,
+      "sha256": "73b844ada19ca1feae3dead0f931dba5053eeebbc4774fa468f9cd8ee7147ce5"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/afternoon_rain.csv",
+      "size": 234,
+      "sha256": "f5693c86c7db1e85ec133c9ecdcf1c969ba15c67ae50be2a20875eb0075eda7d"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/dawn_clear.csv",
+      "size": 228,
+      "sha256": "d416fdcee7ffd7100567d215fceb05f84ed1091d74d51316784572098686ff2e"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/dawn_rain.csv",
+      "size": 230,
+      "sha256": "a9beb484ccac0443d0dbf730dff58437f96ed33135694acd0b5aa8b420d20f19"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/morning_clear.csv",
+      "size": 230,
+      "sha256": "64d37b6a38d6b13dd06c46f5303fb59d48715f33adf4230a3e50258f5246a07f"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/morning_rain.csv",
+      "size": 234,
+      "sha256": "edb0e90f180b7a2f4b1ebf770449aab550b6e7cb0c6a10b57c8727b890457765"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/night_clear.csv",
+      "size": 224,
+      "sha256": "f7fd4994c8c98435155190ca813ed88d24effef8f92354c8e6f348a39193333b"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/night_rain.csv",
+      "size": 228,
+      "sha256": "9e063c7820b586e1c600baca30ece971a2bdd876160cfdb8a8351b8f14a485ac"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/noon_clear.csv",
+      "size": 232,
+      "sha256": "fbebe551199d3d5989a44aa3a3f81dd4569d61259c9b8b41d6e80dea650bdb6b"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/noon_rain.csv",
+      "size": 234,
+      "sha256": "588736e01cbb51c6cddee3b5347ccd88f9671934e50b3fe5374fdd2a8d5a216f"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/sunset_clear.csv",
+      "size": 228,
+      "sha256": "ca8e3a5931362877c4ba2df53a6932e709ced5da6fca7c413d14382413dc3208"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/sunset_rain.csv",
+      "size": 230,
+      "sha256": "a2fcd17205a2f5bc69e13cfd8ab0484fd9f5f893746b88c9d6f30391c1647735"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/twilight_clear.csv",
+      "size": 224,
+      "sha256": "c32c03b7046ff84692a3316c9305be6f9d6ca2c23b46ab8a3621551635403829"
+    },
+    {
+      "path": "city_200m_v2_local/environment/presets/twilight_rain.csv",
+      "size": 228,
+      "sha256": "cd0228b78e45d8ae0d6025df9a955af0559cafbee8280f926ca41aae028b56b4"
+    },
+    {
+      "path": "city_200m_v2_local/environment/weather.csv",
+      "size": 221,
+      "sha256": "e6ab7b0a62fb30cad9dee0982b6815c1541295f15fdf739c1952f8a0625aacc5"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0433398910b54c489887ea78698911ce_RGB_WindowTrim_WindowTrim_BaseColor.jpg",
+      "size": 91861,
+      "sha256": "8dc954c251c71f0b2b23a33a6a877ff99359bbb171dd09b23376f592a3b912b9"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/06476b8ad749456f83edff11d501a9bd_N_solar_normal.jpg",
+      "size": 8194,
+      "sha256": "26160e92fa303f01a5ea3c0513f8817251c514a3adcb1039c96c953794468d3b"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/06daead5d4c6494d83df192e88e80a94_R_WindowTrim_WindowTrim_Roughness.jpg",
+      "size": 234526,
+      "sha256": "3d956027a7be1e1d753c67b33df456a2195cc4c4a0ac8af15d9a758b0f9494c3"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0c96fc92e08c4ce0ba3a1769f9d74407_N_T_BarricadeB_N.jpg",
+      "size": 299037,
+      "sha256": "ab17ebaa7daeb9a3293462f827310e1c64ffa9411d68b182a63eaf527b4800da"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0cbb49c5b442452ab518dc4d34faf450_N_Trim_Plane_Billboards_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0f551ac324614852bdda9ffe35dd8bde_N_T_TrafficAssets_N.jpg",
+      "size": 453546,
+      "sha256": "9f19f776bd645267e5523e687b3adef0173790594e2e6513ee2ed3e5087510cf"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/1be3bc86fe094e7ba256f4aaf68d8050_RGB_T_TrafficAssets_C.jpg",
+      "size": 534909,
+      "sha256": "0201050e0bfc38c511b4d598be45bf75814582afea676b39a467b9359756ddb5"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/1d4c315f477c41a7b82981475d16759d_RGB_T_BarricadeB_C.jpg",
+      "size": 368708,
+      "sha256": "d1832427353ef44de21b6bc8a5512dd8619a386bcf45baf0e3a9d898b664145a"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/20ecbc1e3d6340b4b6f7ca24c44e39c0_RGB_red_plaster_weathered_diff_1k.jpg",
+      "size": 115113,
+      "sha256": "8dae46f992832836c8821fbcfe1eeed70b710f96029fb35c8c7c08a1ab90535e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/2102cabcce224a42aa781f31ec0149e3_N_brick_wall_006_nor_gl_1k.jpg",
+      "size": 330451,
+      "sha256": "eb494246baa1cedb151017ef0e44985c8cea7a52d400ec8dc23874e363181d0c"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/2d184d9cce1549d4b4e74b02d97e476d_N_marble_tiles_nor_gl_1k.jpg",
+      "size": 136717,
+      "sha256": "8e749e7c708a5dc41011776947a46a932bad79ecd0de53a35b4800eaf1903211"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/2e8fd15e309c4b1399bf2aafc88fd532_A_Low_Poly_Plant_PottedPlants_BaseColor.png",
+      "size": 829983,
+      "sha256": "1dfd295612ef9df81645a0ed3f55c5e786c47cc3eae7d4ed1a94fa36ef94b3f6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/33af2c2a17494a0f955ba5b36911553c_N_granular_concrete_nor_gl_1k.jpg",
+      "size": 397497,
+      "sha256": "81b378f9a747ca0fe0ac6e4411aa36147763ba0b20f92c27a6ebb2512b8f94a6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/36bf3a98535e4f9bb39efa3081575e32_N_red_plaster_weathered_nor_gl_1k.jpg",
+      "size": 85438,
+      "sha256": "d78341cb1088d91b5dfc4361760af64c4fe1313a4c9818adb3a99f6a9fca9fb6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/3cb8d400ea344425a7acb2ba7981902c_N_floor_tiles_02_nor_gl_1k.jpg",
+      "size": 43474,
+      "sha256": "45fd66620e4441133ad63ef6b62d98be1d4c64ce88fb147fad08709b1c111f62"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/41805e5040e049cfb608012d1531f99b_RGB_illum.jpg",
+      "size": 895,
+      "sha256": "94fd8c32dadc10eadb2248d867eaa610d2d198c151f7895aa517124cb44a643e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/41f42bf6b7604e488f53deaafb003d0a_R_T_BarricadeA_AO-74f9d3fc13aa4fb6bcdbd1b672ad1198_R_T_BarricadeA_R.jpg",
+      "size": 458123,
+      "sha256": "a4d48dc82e1f22ec6cd74ccff1c1b13b48c59fcad3bf26c05885fd3e8b5030d2"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/41f42bf6b7604e488f53deaafb003d0a_R_T_BarricadeA_AO.png-74f9d3fc13aa4fb6bcdbd1b672ad1198_R_T_BarricadeA_R.png.jpg",
+      "size": 458123,
+      "sha256": "a4d48dc82e1f22ec6cd74ccff1c1b13b48c59fcad3bf26c05885fd3e8b5030d2"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/42ac3f8d5f494f88828fca43df2745fa_N_AC_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/480d95508ff8457b8c9809c650570ac4_RGB_T_TrafficBarrier_C.jpg",
+      "size": 621984,
+      "sha256": "916f10b89e483317f1fae5c363fff7a9c680d8a309a0e95b1dc8d58303dfaa64"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/4e4fcb3a2d624e25814169df55f42dfb_N_plastered_stone_wall_nor_gl_1k.jpg",
+      "size": 296519,
+      "sha256": "5d38f02a125afb468b5f8c9b0b02a9005291096e660af6a98b4e8286bcf640b6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/5fc2c4e555bb4cdb9b4c0d19df6ac747_RGB_T_BarricadeA_C.jpg",
+      "size": 375715,
+      "sha256": "95256fd6511fd198deebbccf5a487ed58038c1aa19fc10c729e17bfd65716cd0"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/601b212d675c4e3789195cd356176082_N_T_Light_N.jpg",
+      "size": 291536,
+      "sha256": "5d5d8ff422524c7016e8190d13fc33591baa20506c9ecfac5eddb97561d7666e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/601d1d387ff94fa194837e33e4ee9589_RGB_AC_Diffuse.jpg",
+      "size": 220966,
+      "sha256": "07d912275dc776f9e21d97874c92de403f1327c4c0dd5324a70279114c86c7b5"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6863f94af5d04dec86f50980981bbc8b_RGB_Modular_Roads_Road_BaseColor.jpg",
+      "size": 248589,
+      "sha256": "8541be75c4c1d38f3cf28a9194582c81d74342987f503b2e0d82bbebf8ca7a26"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6c9440f4d0944f9a8c9c1610ba11917b_RGB_T_Light_C.jpg",
+      "size": 288229,
+      "sha256": "26aee7bd7388605a23fed34e7a5762f9b43fce1aff25e0864e00936ca005879f"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6dedb55809df4ddfbce7b5c45964239c_RGB_marble_tiles_diff_1k.jpg",
+      "size": 259147,
+      "sha256": "79ee3f6b66c46881e552c98f0b60bd22fcebb5394e35cb661ee18b1fd77ee683"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6df0c4701fe44c36bf8ea5b6a3de178c_R_solar_spec.jpg",
+      "size": 3184,
+      "sha256": "a8d5b50ff435a86155670d21ad219372db13a91d4bebb62e05fbdadce6401aee"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/7a91c7acaecb4be6958af932cea5c17d_RGB_solar_rgb.jpg",
+      "size": 1733,
+      "sha256": "4a2bc55e0966dc2328f21bbb5091a2f59e1fa3b5107bd2bf3353b8003b4a5db2"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/81c2461a53064a2a96352c8960661260_N_T_TrafficBarrier_N.jpg",
+      "size": 527122,
+      "sha256": "072df99616cf15542f0f3ba0f73552d7c03f589d226acc13402758d9ed3a23d3"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/8c9e6f47a1df4f1aaf8b3be8076447bc_N_Modular_Roads_Road_Normal.jpg",
+      "size": 278380,
+      "sha256": "3d07db7f9d59d9c7b5646ec892942e987b2e03f52fd5170bc4f785ed5e63563b"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/9058a73704434c0bacb0431c6065015d_N_WindowTrim_WindowTrim_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/95134b36d039436abed16f8048c468eb_N_Low_Poly_Plant_PottedPlants_Normal.jpg",
+      "size": 192195,
+      "sha256": "fd5739744c7d3077fc8e855b6f9bf0ae04b51c89dccbbc91cf05eed9ce1469e7"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/96daeb66bbf440ccaafc084253402646_R_T_TrafficAssets_AO-b724719d28474d6ea156a6998c4afe9d_R_T_TrafficAssets_R.jpg",
+      "size": 509282,
+      "sha256": "9fdd3774c016ae552a294e796523be6ed7a2fca8b7501c888043c41568b64165"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/96daeb66bbf440ccaafc084253402646_R_T_TrafficAssets_AO.png-b724719d28474d6ea156a6998c4afe9d_R_T_TrafficAssets_R.png.jpg",
+      "size": 509282,
+      "sha256": "9fdd3774c016ae552a294e796523be6ed7a2fca8b7501c888043c41568b64165"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/99189e647c944dddaa39f251820b9458_R_T_Light_AO-ce91e05d4f684a04a1d5d09763fed121_R_T_Light_R.jpg",
+      "size": 369448,
+      "sha256": "6c88c2d3d34cc3fa2c7387e9d838f6e6c847a4aae8ee93c60134646b66464a12"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/9ca83981621449b795dc8cfad6da0c48_RGB_Trim_Plane_Billboards_BaseColor.jpg",
+      "size": 299787,
+      "sha256": "befc444386db4fd53738f6194050e080837a8352eb25527a734f8f8e2aa65f86"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_0.jpg",
+      "size": 144642,
+      "sha256": "579578542d9ae2ac0a30a836e0754ebc6f4bce4b0f787cc1a781c837410e1c8b"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_1.jpg",
+      "size": 97215,
+      "sha256": "b2223692e9545462bfff4ff970791412b0eb860d7bc2c39f597dd44c8687c976"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_2.jpg",
+      "size": 185893,
+      "sha256": "94f1f647ef0faf129bbcd151b7615855c552c1b95934a8174da886cbc91a7831"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_3.jpg",
+      "size": 372641,
+      "sha256": "e31f05d27e49fdbd8673ba5d8c1669f5934460ad86aaa842003aee2be60ddc37"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_4.jpg",
+      "size": 737432,
+      "sha256": "0d9ea6db7bc2108fe670870d7cf3bff4475cc77570629cf333e58527ea22a133"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_5.png",
+      "size": 838472,
+      "sha256": "805fdc52212c4a589fc2359bfffceb4355788885506d5c3df38198dcebe2f47f"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_6.jpg",
+      "size": 165037,
+      "sha256": "b4f5ea30061b43c5fa68b3597657a00093da086a55772dce2a22d7f07b6e6283"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_7.jpg",
+      "size": 321608,
+      "sha256": "9dca3de978b050ed4653127ff8529dc1a4546fac07c80cc3f669627cca77bf22"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/a98679f0e7944a0aa83516a88e18a814_RGB_colors.jpg",
+      "size": 901,
+      "sha256": "de03881858cbbced232d63c204736ad0f08db251550d3f1bb2fa25da2d93cd14"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/bc7f200f59374f84aac53203a5246182_RGB_granular_concrete_diff_1k.jpg",
+      "size": 170615,
+      "sha256": "959e46c4860248c1008cff61cb38f2ea7b37462b356dcba6f4ef587068502242"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c29dbdb06a3c420289058717738aede0_R_T_TrafficBarrier_AO-1d9d6e83b8af4da3b132f7ba79b55ef5_R_T_TrafficBarrier_R.jpg",
+      "size": 483547,
+      "sha256": "25afbd1bc7990da0f8752d222252d993247dcd5c9339bb18a8fd6fdc2ae5f11e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c29dbdb06a3c420289058717738aede0_R_T_TrafficBarrier_AO.png-1d9d6e83b8af4da3b132f7ba79b55ef5_R_T_TrafficBarrier_R.png.jpg",
+      "size": 483547,
+      "sha256": "25afbd1bc7990da0f8752d222252d993247dcd5c9339bb18a8fd6fdc2ae5f11e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c454fe40e84643948b5a6f3d9ebca6ab_RGB_plastered_stone_wall_diff_1k.jpg",
+      "size": 128507,
+      "sha256": "37e9c7b496d32d22d55c23c3f4f7b595531751676a20f100c61517357244bf62"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c5b305160b2a431f8e4baf207c4943f7_RGB_floor_tiles_02_diff_1k.jpg",
+      "size": 101217,
+      "sha256": "c8016c0f5718278debd505da185b10a7cbd12d530445f26490be3fd6cef72ea6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c6e18c7717c04bdcaac29917dc559cae_R_T_BarricadeB_AO-0d46613691904d4b99b49127d136909c_R_T_BarricadeB_R.jpg",
+      "size": 470322,
+      "sha256": "09165b0a0d4e479cdcd319acb905ab3acb46cec8a4b7edcad59b6638161cf889"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c6e18c7717c04bdcaac29917dc559cae_R_T_BarricadeB_AO.png-0d46613691904d4b99b49127d136909c_R_T_BarricadeB_R.png.jpg",
+      "size": 470322,
+      "sha256": "09165b0a0d4e479cdcd319acb905ab3acb46cec8a4b7edcad59b6638161cf889"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c6ecb51321b844bd989ea0760822c0d2_N_T_BarricadeA_N.jpg",
+      "size": 295337,
+      "sha256": "c99c2cca8b469eda19d10947d68893380a1bb2b3e35b50e103000af279628d30"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c7a16f20064c42c1a115ed14e322f44f_R_Trim_Plane_Billboards_Roughness.jpg",
+      "size": 14080,
+      "sha256": "0188a68d1a2a17a39a819eea5656c76e73cee8ea9b857ad247e9821c260bf049"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/d133878627ee4af59c17fd9589d314ee_RGB_T_Light_E.jpg",
+      "size": 183460,
+      "sha256": "349a1ea8fcb159d4b31a374fbc394da84220d1bcb5abbd6dbba27418a7f56b16"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/e918f6ebc68940d68c66a4c7ad5e83aa_R_Modular_Roads_Road_Roughness.jpg",
+      "size": 312799,
+      "sha256": "95b61424918564661735633808f1675c324727e83f9aacba723fe74433a11717"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/ef549eda9442409888c3c4418e28297c_RGB_brick_wall_006_diff_1k.jpg",
+      "size": 261518,
+      "sha256": "3c005b54b8a417662b550582c490ff81a1b126c2039328ba72eba7ee6637ac32"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/f7ca1ef8a8e541d5966eecbc9c31e7cf_RGB_Trim_Plane_Billboards_Emissive.jpg",
+      "size": 275042,
+      "sha256": "b9ada6e4d31763a5f3f08f0e0b1ad1fead8df6fd41613677cacc60f96b46f430"
+    },
+    {
+      "path": "city_200m_v3_flight.usdc",
+      "size": 21698001,
+      "sha256": "aefb11d33f0dd56b49cc898d643af88372d68b34e3ea4b7f71c4c0bd6627ddc7"
+    },
+    {
+      "path": "city_200m_visual_fix.usda",
+      "size": 585537,
+      "sha256": "04d82d8f3938632f3f194eaa9549098f7c20b1af68a256035f2674d0b2792f4f"
+    },
+    {
+      "path": "factory/factory_inspection.usda",
+      "size": 969040,
+      "sha256": "17d4ef68b547c60ee149ce301b36960572ea1cc8c7e5a61ac6cbc1d96bbb4181"
+    },
+    {
+      "path": "factory/import_fixed/factory_model_fixed.usd",
+      "size": 39966215,
+      "sha256": "f4644bbb5b470211199013018645dacd224356f5367fe30e2829d7c481ec8351"
+    },
+    {
+      "path": "factory/import_fixed/factory_scene_fixed.usd",
+      "size": 5434,
+      "sha256": "992a51dc098a86d155cf9cb0ee2d1c7ec74e2896001552511e03e49677c76afd"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc001.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc002.png",
+      "size": 28453,
+      "sha256": "53a352b885cad8d244183606dd9b37a37daa2eaee005a1625ad80d8572fb6e7c"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc003.tif",
+      "size": 43312,
+      "sha256": "1123c68159116d03828bf87c9da772dab5bb3548d76e1ed72b7c688ac1b3b34d"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc004.jpg",
+      "size": 1334833,
+      "sha256": "09e8e8dc9696ea847fc574a6787111da4c9b528e01fc642b03f19901b868df1e"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc006.jpg",
+      "size": 127725,
+      "sha256": "76848ace2078e3e68da98968dc5e54ced6b8489aabc669a44c6e6d3b9ea239be"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc007.jpg",
+      "size": 149338,
+      "sha256": "0dd9ae94fe3cb783118cac9faf8a550710f26dd08721f4f0c7d1aab04faaa2e9"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc010.jpg",
+      "size": 118800,
+      "sha256": "b4cb7ee46527e4db171f8df57f561657f2ce7f7c215923c7d8d7538141a8f699"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc011.jpg",
+      "size": 15136,
+      "sha256": "5f3ee6a5e38642c47448d13ca3ff8539f583d50b0bf134c1797a7ff3bb74e0fa"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc014.jpg",
+      "size": 356010,
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc015.jpg",
+      "size": 22307,
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc019.jpg",
+      "size": 2037529,
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc023.tif",
+      "size": 98496,
+      "sha256": "11e9cbdcdec8ef7230203a96b5134653d8b4ef37e43ef75ee84e348295dee058"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc026.jpg",
+      "size": 499688,
+      "sha256": "53e69171b8150738d5fa6d6a0845275995829bf2686c62ff8a01374cad962849"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc027.jpg",
+      "size": 147882,
+      "sha256": "19eb0a305be3fccbc5ec5c6127fe24542ed341a44848a0e700b34a0b39c81a0a"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc029.jpg",
+      "size": 22471,
+      "sha256": "2ef72a2fb0d49cf6c138d8d9f0a2f4d1d76eb5656899a5c151ca0cd0ffcb6510"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc032.jpg",
+      "size": 54522,
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc033.jpg",
+      "size": 348731,
+      "sha256": "0ed325de64b2936ea6177a2f3b707978628fe32366ef2cf6f0639e5ff0a17190"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc037.jpg",
+      "size": 71464,
+      "sha256": "025520ea914225b0435cad2cd24e62bb1d0552a934bc8621a2ca91153b156e41"
+    },
+    {
+      "path": "factory/import_fixed/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/import_fixed/textures/map_124.jpg",
+      "size": 49673,
+      "sha256": "60cbca94c287e2cb4b39e0aaeb72bb8203fe3f19921edbbbca93e8af1201615c"
+    },
+    {
+      "path": "factory/import_fixed/textures/map_127.jpg",
+      "size": 139142,
+      "sha256": "9cbd7fa21b456400d5ff72f311aad9b0534d9d12c2c9afb504b11339a5ad6e2e"
+    },
+    {
+      "path": "factory/import_fixed/textures/map_1709.jpg",
+      "size": 55468,
+      "sha256": "32002c509dd4219c61e2676ffcb86dc75f1bf0fba24f939b4e9c6e0209526f7d"
+    },
+    {
+      "path": "factory/import_fixed/textures/map_1974.jpg",
+      "size": 292914,
+      "sha256": "76d904a3a3314b6e3d7da3eae3e928e4a9be380533be892c7e7cfeb5e19125ad"
+    },
+    {
+      "path": "factory/model02_thermal_v3/model02_v3_asset.usdc",
+      "size": 11838143,
+      "sha256": "5335a3ba53e66ca6825d1c927899ce98084eab5a9b1fc01fc9309c834bf22db2"
+    },
+    {
+      "path": "factory/model02_thermal_v3/model02_v3_scene.usda",
+      "size": 10735234,
+      "sha256": "be6ffea746fe781acb51b50a6844117d288fa40173debda5a0af9db2c43fdf37"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc006.jpg",
+      "size": 127725,
+      "sha256": "76848ace2078e3e68da98968dc5e54ced6b8489aabc669a44c6e6d3b9ea239be"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc007.jpg",
+      "size": 149338,
+      "sha256": "0dd9ae94fe3cb783118cac9faf8a550710f26dd08721f4f0c7d1aab04faaa2e9"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc014.jpg",
+      "size": 356010,
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc015.jpg",
+      "size": 22307,
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc019.jpg",
+      "size": 2037529,
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/source_texture_2.png",
+      "size": 33308,
+      "sha256": "a09a5d396a7e3d501c7b26cfedeef6226a77bf805e5af9ad6f47b2e7c6a647ab"
+    },
+    {
+      "path": "factory/model02_thermal_v3/textures/source_texture_4.png",
+      "size": 41797,
+      "sha256": "280b1e32bba5555a4aad52060e6b60770dd9f61f0de60c9edc8462e8aff937c5"
+    },
+    {
+      "path": "factory/model02_thermal_v4/model02_v4_paving.usdc",
+      "size": 3876650,
+      "sha256": "081f4a07abe862cc5abe30b4309dc8efd629150515702556141387b49c5e1bbd"
+    },
+    {
+      "path": "factory/model02_thermal_v4/model02_v4_scene.usda",
+      "size": 157624,
+      "sha256": "d11e7ac66ca3e467242d1c5bc38a57fbe57c9e7143d2aef20881bec378f31cb1"
+    },
+    {
+      "path": "factory/model02_thermal_v4/textures/Map__127_Tiles_看图王.jpg",
+      "size": 139142,
+      "sha256": "9cbd7fa21b456400d5ff72f311aad9b0534d9d12c2c9afb504b11339a5ad6e2e"
+    },
+    {
+      "path": "factory/model02_thermal_v5/model02_v5_ground.usdc",
+      "size": 7223400,
+      "sha256": "df2d49f05ea32862d753731b9d41c6ee5db28a3ac3ff7f0f87360a10f6bc4eaa"
+    },
+    {
+      "path": "factory/model02_thermal_v5/model02_v5_scene.usda",
+      "size": 5407,
+      "sha256": "2395d07522b9a531769c388b39657dd0236ab5b098acca8995a72f5d638783c1"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/brick_basecolor.png",
+      "size": 61062,
+      "sha256": "d8216b905ad9a365c4dcd26093f50a41205e5254aaa10c4c6bfdfa15681a708a"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/brick_normal.png",
+      "size": 59639,
+      "sha256": "191813b106d4e36efece055fed279b9f7a36a219eb1cfb8db569ef106782567a"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/brick_roughness.png",
+      "size": 3274,
+      "sha256": "49ce74182f0e761c9bf904f5f5e8ff30b6c1ea922349d921f50bf5af11539e87"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/grass_basecolor.png",
+      "size": 154221,
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/grass_normal.png",
+      "size": 369389,
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/grass_roughness.png",
+      "size": 27507,
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v5/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/aluminium_anodised.yaml",
+      "size": 907,
+      "sha256": "399c8c11a6239ac4c2949f96dc17125695a0df9d1e71ecd293c64407be2e533b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/bare_aluminium.yaml",
+      "size": 834,
+      "sha256": "7ddf04b3f961eb067a183041ae85184c491440152a943325adfd92efbe2f26a8"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/concrete.yaml",
+      "size": 690,
+      "sha256": "74880cc50fbea45901d1cf4542dd800ac10b840ce1753818f2281403cb7298ad"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/etics_render.yaml",
+      "size": 742,
+      "sha256": "1255982c75f1a52412d567f76238c0ef9daccd3a291066672c42689d3258d2a0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/glass_windshield.yaml",
+      "size": 767,
+      "sha256": "4ba536496815e05381fbc9082e7b8eb4395da83cbe1db57b10ec8a558742b095"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/industrial_painted_steel.yaml",
+      "size": 936,
+      "sha256": "21884a7117155aa57c56c813843c337b700570af0258f63bd343f7b0a63c03be"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/mineral_wool.yaml",
+      "size": 751,
+      "sha256": "a7504b1d59e8daf3e77e0c22c557597d5f7ce59099475068a53350782f887b44"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/painted_aluminium.yaml",
+      "size": 827,
+      "sha256": "52fc6ac16ebef8ff17d7ecb565c975d98fb69e77faf693dbafef72b8318028d9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/paving_cement_joint.yaml",
+      "size": 764,
+      "sha256": "a84b21e0952395e35665515d39cc90db7d3cd5aaa1fc56d719bddd17b5cb30d2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/paving_concrete.yaml",
+      "size": 720,
+      "sha256": "c5059ce3b6cd7d2af00a819a84ffe9d29ffa6f24da726cf3ee5416ee89c70928"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/materials/vegetation_leaf.yaml",
+      "size": 827,
+      "sha256": "ef85921bdcee14a0fe63a7613029cc42c30aa71b836a5285fd0e428ed21f47c7"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/configuration/night_weather.csv",
+      "size": 362,
+      "sha256": "7a77a1a2a29855f305dbbe9cd4da06a351bf442928a43ff8646f113dd3a6f1fa"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/model02_v7m_flight.usda",
+      "size": 22367634,
+      "sha256": "06ab8e22af7343c5559d9fc1a90b0e16f40e3aeaf74e44550ff76dd073c9b16c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/model02_v7m_scene.usda",
+      "size": 97858,
+      "sha256": "75cb40039653a13a1b07888a8f9338046bcc7001703a2d4f79990ea21d16b93c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/model02_v7m_surfaces.usdc",
+      "size": 2670,
+      "sha256": "1344f0d1601937b07927b0a12382382996f6bb47f2d917b26632dd56b39434d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z01_p000/geometry.usdc",
+      "size": 8009888,
+      "sha256": "34305b332ce2576501989dd9a4697c39d46aa6eb0d6f69e7136a1a0d3a8b4f17"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z01_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z01_p000/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z01_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z01_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z01_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/geometry.usdc",
+      "size": 4579305,
+      "sha256": "758d92d8bbd4af0cb85b86b6fc17d43573d237109f21a478abdb6473e6b6a329"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z02_p000/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z10_p000/geometry.usdc",
+      "size": 880599,
+      "sha256": "e4425a4236934567e1c03987a0be25ef8c3c3afc40d2dbeeb898d9e80374a32d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z10_p000/textures/11-29-gc003.tif",
+      "size": 43312,
+      "sha256": "1123c68159116d03828bf87c9da772dab5bb3548d76e1ed72b7c688ac1b3b34d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z10_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z10_p000/textures/11-29-gc023.tif",
+      "size": 98496,
+      "sha256": "11e9cbdcdec8ef7230203a96b5134653d8b4ef37e43ef75ee84e348295dee058"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z10_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z10_p000/textures/11-29-gc032.jpg",
+      "size": 54522,
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z10_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/geometry.usdc",
+      "size": 6594040,
+      "sha256": "91740a12557d09673daa7f5998f9e635dc36d0f414a6a6675d7c172511c45f32"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z11_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z12_p000/geometry.usdc",
+      "size": 2060055,
+      "sha256": "8acb0c7478f18be7ee080683c54837357081734991f47aa968fa7cd7c139c2a5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z12_p000/textures/11-29-gc004.jpg",
+      "size": 1334833,
+      "sha256": "09e8e8dc9696ea847fc574a6787111da4c9b528e01fc642b03f19901b868df1e"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z12_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z12_p000/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z12_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z12_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z12_p000/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z13_p000/geometry.usdc",
+      "size": 7625789,
+      "sha256": "5fb5e8962c6ba15469e7ee36e46d1db9a1066f0f798a016f0dcee7fc636c5cc1"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z13_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z13_p000/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z13_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z13_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z20_p000/geometry.usdc",
+      "size": 286781,
+      "sha256": "b7dfa81325b2267be394dc769c16a6dda91fcc73af1993f1f84c32eb0ebd7a3c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z20_p000/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z20_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z20_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z20_p000/textures/11-29-gc032.jpg",
+      "size": 54522,
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/geometry.usdc",
+      "size": 8037640,
+      "sha256": "0c112c0f9d8c190168ce8e1acec09a0d1f9655682eb9cc4efc886b40c77c429b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc014.jpg",
+      "size": 356010,
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z21_p000/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/geometry.usdc",
+      "size": 15172528,
+      "sha256": "1a17b27c8aa307bd53137382257f35ac5a8ed63683c7a57fdeea3dc4763fe9d7"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc002.png",
+      "size": 28453,
+      "sha256": "53a352b885cad8d244183606dd9b37a37daa2eaee005a1625ad80d8572fb6e7c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/geometry.usdc",
+      "size": 3109778,
+      "sha256": "211c03dea156ab309c93d8e33bb057d92383dbf90e082df7b9cd4a94548f42dd"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/textures/11-29-gc014.jpg",
+      "size": 356010,
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z23_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z31_p000/geometry.usdc",
+      "size": 176027,
+      "sha256": "127e0aa7887a3e196928c2c85511d7c8ae6d854fb43a06df8fdc7d1ff8cbebea"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z31_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z31_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z32_p000/geometry.usdc",
+      "size": 5473051,
+      "sha256": "91e6d845b7c21ef0615022201000872ce4591cbb906f4c69b733f244fbdd13ac"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z32_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z32_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z32_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z32_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z32_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/geometry.usdc",
+      "size": 11265513,
+      "sha256": "02b893620b84fe1898d8ac9536251bea0dddb29b6081bfb8d38556a5d9081c3c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/geometry.usdc",
+      "size": 17856202,
+      "sha256": "b883874e8d7b1034b6fdd62ba0e876a94b49ea85b2cae49a99f98c655200f57f"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc011.jpg",
+      "size": 15136,
+      "sha256": "5f3ee6a5e38642c47448d13ca3ff8539f583d50b0bf134c1797a7ff3bb74e0fa"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/geometry.usdc",
+      "size": 11559958,
+      "sha256": "5915ee67e8ed82926361377c90d726f8bd4ca28ab4f7437bb01e326bdf3f3586"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/geometry.usdc",
+      "size": 9534466,
+      "sha256": "bfc8622f5ffb0591fb5c9cf3912572d07a72c5bdbe1dfb4e2834e02fc6e90174"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z03_p000/geometry.usdc",
+      "size": 15001144,
+      "sha256": "478fcc25f76f0f47150ac352d9ba0873a3371ca1e7dc676ff030cc34f9088a5f"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z03_p000/textures/11-29-gc011.jpg",
+      "size": 15136,
+      "sha256": "5f3ee6a5e38642c47448d13ca3ff8539f583d50b0bf134c1797a7ff3bb74e0fa"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/geometry.usdc",
+      "size": 12269482,
+      "sha256": "18c02cc048b3469185f01154550cd84c10d5b4038613a57eebdd42b82c632081"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc015.jpg",
+      "size": 22307,
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc019.jpg",
+      "size": 2037529,
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc032.jpg",
+      "size": 54522,
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/geometry.usdc",
+      "size": 11667849,
+      "sha256": "816ac6e3599d99e48603079a028a7a6ba68a6314af981b62f1a232b5402a4c9a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc032.jpg",
+      "size": 54522,
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/geometry.usdc",
+      "size": 9434442,
+      "sha256": "abc0de8a661a6eece93951d94f8e616c46312884d0f940a45324ec85ca6b6d29"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/geometry.usdc",
+      "size": 10262481,
+      "sha256": "716a1e956cf64a4c9948d8999e2e09dd449d9de085c711038818dd0d398d3b7f"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc015.jpg",
+      "size": 22307,
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc019.jpg",
+      "size": 2037529,
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc026.jpg",
+      "size": 499688,
+      "sha256": "53e69171b8150738d5fa6d6a0845275995829bf2686c62ff8a01374cad962849"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc027.jpg",
+      "size": 147882,
+      "sha256": "19eb0a305be3fccbc5ec5c6127fe24542ed341a44848a0e700b34a0b39c81a0a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc029.jpg",
+      "size": 22471,
+      "sha256": "2ef72a2fb0d49cf6c138d8d9f0a2f4d1d76eb5656899a5c151ca0cd0ffcb6510"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc033.jpg",
+      "size": 348731,
+      "sha256": "0ed325de64b2936ea6177a2f3b707978628fe32366ef2cf6f0639e5ff0a17190"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc035.tif",
+      "size": 196800,
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/geometry.usdc",
+      "size": 12197599,
+      "sha256": "98bd601501ebc6d8c81a9d3a8572c88330c816f77995fb0c8c9354d1263304dd"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc014.jpg",
+      "size": 356010,
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc015.jpg",
+      "size": 22307,
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc019.jpg",
+      "size": 2037529,
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p002/geometry.usdc",
+      "size": 13058312,
+      "sha256": "23c24c6267568198f8800b99e09e6560ff56b2928b0461f4a4a127c2d85417a4"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p002/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p002/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p002/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/geometry.usdc",
+      "size": 15697704,
+      "sha256": "6ba363f56a7291fb4ca6077bcd3dc35e908ef1c39aae8efd3564b22c61be1c60"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc001.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc034.tif",
+      "size": 98496,
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/geometry.usdc",
+      "size": 11962379,
+      "sha256": "6c9a92eabeb55ee853f640a6c7e447e76ca8703fadab98213e877eabb5c669d2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc032.jpg",
+      "size": 54522,
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/geometry.usdc",
+      "size": 12596819,
+      "sha256": "0965aa79dfcbfd584991aed65daa9990788e1d68fc622ffb9a21760ff812d6a7"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc032.jpg",
+      "size": 54522,
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p000/geometry.usdc",
+      "size": 11281042,
+      "sha256": "8b95390b53e04f113c405dc5040cb91ebaf0530ebd21abd547d36ea9386b4395"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p001/geometry.usdc",
+      "size": 8445614,
+      "sha256": "d564eeebbfb60d80279e6f50cebd239525e9211e2e25bf53766c2a31fba1fc89"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p001/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p001/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p002/geometry.usdc",
+      "size": 8735111,
+      "sha256": "1ca63a373d6ffbba2998d3a866d893c37a13d33a57179f81c2efe0dc51c1e427"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p002/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p002/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p003/geometry.usdc",
+      "size": 8914990,
+      "sha256": "4f08c535940850fa6415e24560c36a090bf5e1c3ae08a6b03561f76ccf5b404f"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p003/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p003/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p004/geometry.usdc",
+      "size": 8999593,
+      "sha256": "95163ddb9a84fa7fa78da9b3409139e69145a5b9b56803c18f15fc3a7499aa89"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p004/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p004/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p004/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p005/geometry.usdc",
+      "size": 8743588,
+      "sha256": "ae4df256bf3fd95d1b126ca703606953f9c19be8dd268128562045e6fe2a706e"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p005/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p005/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/geometry.usdc",
+      "size": 10493204,
+      "sha256": "1ac05538e72963afad37279079e30b9f427bad027ede55229245ff26a0aad076"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/geometry.usdc",
+      "size": 11152781,
+      "sha256": "4b06b2a9557dd6a03989fa50c3a69ae3afaf6365932b74ef9ad867b8266bbdde"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/geometry.usdc",
+      "size": 17111218,
+      "sha256": "d3c1adf687d75da9e5883817b8ee97764010328d27a038e63bd09389aaa97b21"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/geometry.usdc",
+      "size": 14625063,
+      "sha256": "762f56485ddbf2a6fb1411a803d29b944129cfec4e5ef1c1666bf59517bfa3ed"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/geometry.usdc",
+      "size": 16752463,
+      "sha256": "a1092c98d8e71a84f99e8fc1cb88d78d370aa956e2c93c75f11598cb67b79170"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/geometry.usdc",
+      "size": 11097078,
+      "sha256": "c98ca8aecdc09a6cae50aba423c6b07b83024a6b7236bf035f7a46f87b582fa9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p012/geometry.usdc",
+      "size": 10941579,
+      "sha256": "886d58b9a4891d89ecfe1854b6d283b8e4878d47b8125cbb1b13900b427514ea"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p012/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p012/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p012/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/geometry.usdc",
+      "size": 11908853,
+      "sha256": "a49557c1be6c9f9ce2a4de8d0215cc222cf2883b9470d4105a0c2d4eaf367c90"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/geometry.usdc",
+      "size": 11020889,
+      "sha256": "bb18aec83862db605722053e94c186b8020346354d4f658e48c969f3b7a16425"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc001.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/geometry.usdc",
+      "size": 4793136,
+      "sha256": "df801d61d17a4e5d506d657f216971d5eca46741cc8b9d3d54549d2e8aa3b24b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc037.jpg",
+      "size": 71464,
+      "sha256": "025520ea914225b0435cad2cd24e62bb1d0552a934bc8621a2ca91153b156e41"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/geometry.usdc",
+      "size": 10955701,
+      "sha256": "0a31598bb181217636f866334def73310cab0ecbb898fc66392c7a306634caa1"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc010.jpg",
+      "size": 118800,
+      "sha256": "b4cb7ee46527e4db171f8df57f561657f2ce7f7c215923c7d8d7538141a8f699"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p001/geometry.usdc",
+      "size": 11523848,
+      "sha256": "fe932656586c3ca782d8c5861faedcd90af7e0b7b8f376ad28f76edef5950711"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p001/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p002/geometry.usdc",
+      "size": 11311749,
+      "sha256": "c63d818943399091e64bf35e2c5750e3f97b2197960f52bb41df218867225178"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p002/textures/11-29-gc014.jpg",
+      "size": 356010,
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p002/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p002/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/geometry.usdc",
+      "size": 10436143,
+      "sha256": "2d185ffaf0a7012dbdde6ed017ad5cdf03cd29cbdb8d4014dbd71e1d30b3d009"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc015.jpg",
+      "size": 22307,
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc019.jpg",
+      "size": 2037529,
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p004/geometry.usdc",
+      "size": 9883513,
+      "sha256": "296ef9c100fa9d689fe0451e7e4bae7945f5be3625a5313e2021de94498c08ea"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/geometry.usdc",
+      "size": 14000391,
+      "sha256": "82a9c3d10225917a655b2f373a6ea09f6f48b13475725610af14075bc38e236d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc011.jpg",
+      "size": 15136,
+      "sha256": "5f3ee6a5e38642c47448d13ca3ff8539f583d50b0bf134c1797a7ff3bb74e0fa"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc020.jpg",
+      "size": 95210,
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/geometry.usdc",
+      "size": 15307633,
+      "sha256": "b35879dab4c960679851e95906d6caf0ae321000c46c38f0a3f15943a77f2cd9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc002.png",
+      "size": 28453,
+      "sha256": "53a352b885cad8d244183606dd9b37a37daa2eaee005a1625ad80d8572fb6e7c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc008.jpg",
+      "size": 60146,
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p007/geometry.usdc",
+      "size": 4802301,
+      "sha256": "ea147f1804ea256c3ae056089939bb6fa9ed63c6d908091e694739b85138f45d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p007/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p007/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p007/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/geometry.usdc",
+      "size": 10177338,
+      "sha256": "46cfc836c8b8c2a061a4c28424ba3a5a6ca4154fb8f2730db0e0200692f249c2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc005.jpg",
+      "size": 47446,
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/geometry.usdc",
+      "size": 13860211,
+      "sha256": "d1c8fcb10791d650da23af28e3ae3f37507db9f971d1ed447bf9b021748d97eb"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc022.jpg",
+      "size": 92146,
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc024.png",
+      "size": 49759,
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc036.tif",
+      "size": 72928,
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc037.jpg",
+      "size": 71464,
+      "sha256": "025520ea914225b0435cad2cd24e62bb1d0552a934bc8621a2ca91153b156e41"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc038.jpg",
+      "size": 59487,
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p002/geometry.usdc",
+      "size": 5849662,
+      "sha256": "3a90a5b31492d82291a2444c34241732da81c2573b8096be021e12db166010ab"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p002/textures/11-29-gc013.jpg",
+      "size": 48798,
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p002/textures/11-29-gc021.png",
+      "size": 57596,
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p002/textures/11-29-gc031.jpg",
+      "size": 80037,
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z31_p000/geometry.usdc",
+      "size": 838833,
+      "sha256": "cab0bc2be1b4a3a64151f203022c525fe6b4484198f62257473a71faf7695f2f"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z31_p000/textures/11-29-gc028.jpg",
+      "size": 12845,
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/geometry.usdc",
+      "size": 1488796,
+      "sha256": "5c602d8d393f3e2a09652f5713695179d2c133b91b76995d3e5b9647656a2055"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/11-29-gc016.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/grass_basecolor.png",
+      "size": 154221,
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/grass_normal.png",
+      "size": 369389,
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/grass_roughness.png",
+      "size": 27507,
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z01_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/geometry.usdc",
+      "size": 2749416,
+      "sha256": "7d394509ea2b924b44022e643ee786a015c7b5e80c58e8eee7d15a7cdf93b543"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/textures/11-29-gc030.jpg",
+      "size": 5300,
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z10_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/geometry.usdc",
+      "size": 12037026,
+      "sha256": "a4d6b90a7e23493ba97d6314f359d554c54f194d5acde4a8b028c73098a35830"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/11-29-gc009.jpg",
+      "size": 155181,
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/grass_basecolor.png",
+      "size": 154221,
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/grass_normal.png",
+      "size": 369389,
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/grass_roughness.png",
+      "size": 27507,
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/geometry.usdc",
+      "size": 13573578,
+      "sha256": "bcff7fb19b350e9ecbef3e890bc9afaaf77d00d1d593db13b144b07733d3798e"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/Map__1974_颜色校正_看图王.jpg",
+      "size": 292914,
+      "sha256": "76d904a3a3314b6e3d7da3eae3e928e4a9be380533be892c7e7cfeb5e19125ad"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p001/geometry.usdc",
+      "size": 11932810,
+      "sha256": "b65ec7f57fb4e106f3bdc2eb503faf49de7d54b3baa4aae1f6d94d7eba0ae29a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p001/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p001/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p001/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p002/geometry.usdc",
+      "size": 10753926,
+      "sha256": "7741116649110d114695bd6275d0cb9ecc659ec7f2722382d0466b1f62f8cce5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p002/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p002/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p002/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/geometry.usdc",
+      "size": 12509887,
+      "sha256": "83b8bbae4524212077db2573ac9d6196cda2920b8bd00fdf29af13815afa3261"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p004/geometry.usdc",
+      "size": 8881328,
+      "sha256": "78a9326bbcce4944b20930c8c957c41e9c65b7308c4c25ebb4681a8723f9e1df"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p004/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p004/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p004/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/geometry.usdc",
+      "size": 485681,
+      "sha256": "a10eceb8b78092abe6770c90a995168ce0ebe7ab7c2ac2a79a0e08c39f42f8a8"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/grass_basecolor.png",
+      "size": 154221,
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/grass_normal.png",
+      "size": 369389,
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/grass_roughness.png",
+      "size": 27507,
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/geometry.usdc",
+      "size": 13519303,
+      "sha256": "abccc31352b840cea904c975c4470658c69abc8a1a0a070a55abdbbbf5aff959"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/brick_basecolor.png",
+      "size": 61062,
+      "sha256": "d8216b905ad9a365c4dcd26093f50a41205e5254aaa10c4c6bfdfa15681a708a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/brick_normal.png",
+      "size": 59639,
+      "sha256": "191813b106d4e36efece055fed279b9f7a36a219eb1cfb8db569ef106782567a"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/brick_roughness.png",
+      "size": 3274,
+      "sha256": "49ce74182f0e761c9bf904f5f5e8ff30b6c1ea922349d921f50bf5af11539e87"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/grass_basecolor.png",
+      "size": 154221,
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/grass_normal.png",
+      "size": 369389,
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/grass_roughness.png",
+      "size": 27507,
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/geometry.usdc",
+      "size": 6254812,
+      "sha256": "f7543fe450f5ef3f4696d0348c30cd97970156fa996279a5b4b3164d33d361ea"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/11-29-gc012.jpg",
+      "size": 901363,
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/grass_basecolor.png",
+      "size": 154221,
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/grass_normal.png",
+      "size": 369389,
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/grass_roughness.png",
+      "size": 27507,
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/geometry.usdc",
+      "size": 58129,
+      "sha256": "f7715b85d179d52babfccff639849a08c1ef8e549cc1f2487b34af61890b0a02"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/concrete_basecolor.png",
+      "size": 56521,
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/concrete_normal.png",
+      "size": 71892,
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/concrete_roughness.png",
+      "size": 3158,
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/grass_basecolor.png",
+      "size": 154221,
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/grass_normal.png",
+      "size": 369389,
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/grass_roughness.png",
+      "size": 27507,
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/joint_basecolor.png",
+      "size": 51536,
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/joint_normal.png",
+      "size": 73081,
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/joint_roughness.png",
+      "size": 4035,
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff"
+    },
+    {
+      "path": "forest_fire_flight_1103.usda",
+      "size": 2642,
+      "sha256": "6c7021db4ffb3c93023ca77129ddc9c6abe0150f90809c9107561fb542d3ac7c"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/SOURCES.md",
+      "size": 3052,
+      "sha256": "89bc527ba9f077b10a1fff693439df9cdc8378ce9c6fb0fe0ab05d3f9c6f2771"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/fire/embers.png",
+      "size": 200520,
+      "sha256": "b42bb83e051829ab63053c6185d7fe34d26c854fb2cfe1088593c1eb8304952d"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/fire/fire_cards.mdl",
+      "size": 861,
+      "sha256": "bb4cb7caecae9daf21ac38c15bda11cfcf59806c8573d0554b51a3cb3d0f0d34"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/fire/flame_0.png",
+      "size": 1721411,
+      "sha256": "edcf2d9cc8aba11ed6938a1830537372a113e1ce3e7ad0ed019f16a515c4f1ec"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/fire/flame_1.png",
+      "size": 1672931,
+      "sha256": "5e0d08bcdcbd394d434993fd5487726a58a0f5f4f6f894cbd55cc5fd243c1daa"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/fire/flame_2.png",
+      "size": 1685930,
+      "sha256": "99980fa67416b345b112ba5217c498828e52034b636970d269eb46da64854597"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/fire/smoke.png",
+      "size": 137237,
+      "sha256": "ff6b9d092ef1d68b7bc473dc5d59fd6e47511169a07813ebe475656de9ba7db3"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/forest/forest.usdc",
+      "size": 2994741,
+      "sha256": "d44c06162c703364af174b3e3a8b3133ce01ad4994309bcf00195ac81b7b4f59"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/forest/textures/Material.003_baseColor.jpg",
+      "size": 1525274,
+      "sha256": "a429c7cc70d4a9a1de932d57a18850b86e74cd6090aea596d8402d50925a2f0a"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/forest/textures/Material.003_normal.jpg",
+      "size": 4137982,
+      "sha256": "48fa3c19ae2ad3cc3221fe4da4ae34f307d47b5209d72e40200efa8e7729cb9e"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/forest/textures/Material.004_baseColor.jpg",
+      "size": 259030,
+      "sha256": "a870158464a27da3263132678e27eb60fcca06e8992e0cf929328a1fa6af01ba"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/forest/textures/Material.004_normal.jpg",
+      "size": 113876,
+      "sha256": "e64c5b0686c19ee481ce44faa15de32c1f123228ce08e9eca3e5bfa33c480341"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/forest/textures/Material_baseColor.png",
+      "size": 3296891,
+      "sha256": "b9358314f5f6e6ced74736f93de4a6baf69f65732d7eb27128dd5b951bb1823d"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/target_details/bandage_weave.png",
+      "size": 210672,
+      "sha256": "f9154a4734f5e3bd2a65baebe098b499634f63288a482a21688487d3f668704f"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/target_details/charred_bark.png",
+      "size": 236343,
+      "sha256": "f29869b350f5880d9754429a9299b675865ebb3624ea3aeb44594ad325467784"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/target_details/coal_ash.png",
+      "size": 297576,
+      "sha256": "209ebb44cee28d6d2ed5005f8a38f8314e465a8543f73bcd7e380b3987690cde"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/target_details/coal_fissures.png",
+      "size": 63696,
+      "sha256": "5b82ce8e6568e8133db4f7260801ff6e3d7fd638494889858a5b6d8d1d400f63"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/assets/target_details/end_grain.png",
+      "size": 145521,
+      "sha256": "a3197f427ba7fb3eb9c4b687f185c1f6a20ec11593a333a90f3aa5f355f87634"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/configs/display.yaml",
+      "size": 192,
+      "sha256": "932fe850952af9f61af20eed7d6da6f454b7de86080dfc1cbff4cf8000f03520"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/configs/materials/local/wood_pine.yaml",
+      "size": 1906,
+      "sha256": "f0ca2fd760a1fdcf7790c5231ac95830751b2f1d513f41f2d86586110387ce97"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/configs/scene.yaml",
+      "size": 673,
+      "sha256": "11fa9b597a41a430e51eba7d79a1a9986135d61824b950d169daf699d7404629"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/configs/thermal.yaml",
+      "size": 5989,
+      "sha256": "e5e96222963cc5940c6f3682024f62355f37bbc3f2a5f2be32a2193c98200221"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/night_environment.yaml",
+      "size": 384,
+      "sha256": "7eefd3d77e866fd747f63f147c2fdb79a3e87cbe97654280e4415ecaedffd64a"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/afternoon_clear.csv",
+      "size": 230,
+      "sha256": "73b844ada19ca1feae3dead0f931dba5053eeebbc4774fa468f9cd8ee7147ce5"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/afternoon_rain.csv",
+      "size": 234,
+      "sha256": "f5693c86c7db1e85ec133c9ecdcf1c969ba15c67ae50be2a20875eb0075eda7d"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/dawn_clear.csv",
+      "size": 228,
+      "sha256": "d416fdcee7ffd7100567d215fceb05f84ed1091d74d51316784572098686ff2e"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/dawn_rain.csv",
+      "size": 230,
+      "sha256": "a9beb484ccac0443d0dbf730dff58437f96ed33135694acd0b5aa8b420d20f19"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/morning_clear.csv",
+      "size": 230,
+      "sha256": "64d37b6a38d6b13dd06c46f5303fb59d48715f33adf4230a3e50258f5246a07f"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/morning_rain.csv",
+      "size": 234,
+      "sha256": "edb0e90f180b7a2f4b1ebf770449aab550b6e7cb0c6a10b57c8727b890457765"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/night_clear.csv",
+      "size": 224,
+      "sha256": "f7fd4994c8c98435155190ca813ed88d24effef8f92354c8e6f348a39193333b"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/night_rain.csv",
+      "size": 228,
+      "sha256": "9e063c7820b586e1c600baca30ece971a2bdd876160cfdb8a8351b8f14a485ac"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/noon_clear.csv",
+      "size": 232,
+      "sha256": "fbebe551199d3d5989a44aa3a3f81dd4569d61259c9b8b41d6e80dea650bdb6b"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/noon_rain.csv",
+      "size": 234,
+      "sha256": "588736e01cbb51c6cddee3b5347ccd88f9671934e50b3fe5374fdd2a8d5a216f"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/sunset_clear.csv",
+      "size": 228,
+      "sha256": "ca8e3a5931362877c4ba2df53a6932e709ced5da6fca7c413d14382413dc3208"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/sunset_rain.csv",
+      "size": 230,
+      "sha256": "a2fcd17205a2f5bc69e13cfd8ab0484fd9f5f893746b88c9d6f30391c1647735"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/twilight_clear.csv",
+      "size": 224,
+      "sha256": "c32c03b7046ff84692a3316c9305be6f9d6ca2c23b46ab8a3621551635403829"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/presets/twilight_rain.csv",
+      "size": 228,
+      "sha256": "cd0228b78e45d8ae0d6025df9a955af0559cafbee8280f926ca41aae028b56b4"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/environment/weather.csv",
+      "size": 221,
+      "sha256": "2ad2ada3be5c9d5d17eac714aae3455802a6e614e1f7d82fc875349cf9430e4a"
+    },
+    {
+      "path": "forest_fire_scene_20261103_local/scene.usda",
+      "size": 7464453,
+      "sha256": "42d577c916278b1d73649e116dd0300684edb0120ed7fd2610e5f026c918c94c"
+    },
+    {
+      "path": "forest_fire_scene_local/SOURCES.md",
+      "size": 2211,
+      "sha256": "39ef811585441a7426935985829932e2f69dc70c0aed48ff01cc9aa92f572bb0"
+    },
+    {
+      "path": "forest_fire_scene_local/environment/night_environment.yaml",
+      "size": 384,
+      "sha256": "7eefd3d77e866fd747f63f147c2fdb79a3e87cbe97654280e4415ecaedffd64a"
+    },
+    {
+      "path": "forest_fire_scene_local/environment/weather.csv",
+      "size": 221,
+      "sha256": "2ad2ada3be5c9d5d17eac714aae3455802a6e614e1f7d82fc875349cf9430e4a"
+    },
+    {
+      "path": "lesson_crazyflie.usd",
+      "size": 9831,
+      "sha256": "a17c9ede900b1b4e4db75c818ea10c69cf252603cd13baa87449550a3fd58db9"
+    }
+  ]
+}

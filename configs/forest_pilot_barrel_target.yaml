@@ -1,0 +1,10 @@
+schema_version: 1
+target:
+  prim_path: /World/Site/Target_BurningBarrel_001
+  position_m: [55.0, 6.86424822537128, 15.2]
+  label: barrel
+  prescribed_temperature_c: 110.0
+  infrared_material: rusted_steel
+  dataset_scene: forest_fire
+  verification_profile: forest_two_target_v1
+  expected_temperatures_c: [110.0, 180.0, 500.0, 650.0]

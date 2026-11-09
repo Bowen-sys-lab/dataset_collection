@@ -1,0 +1,9 @@
+# 与作者 configs/display.yaml 一致（18–38 ℃）；城市本体温差只有 24–28 ℃，靠人物 33 ℃ 拉开。
+schema_version: 1
+name: city_200m_fixed_temperature
+mode: fixed_apparent_temperature
+temperature_min_c: 18.0
+temperature_max_c: 38.0
+dde_gain: 0.0
+polarity: white_hot
+palette: gray

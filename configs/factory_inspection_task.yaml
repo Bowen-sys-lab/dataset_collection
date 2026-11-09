@@ -1,0 +1,109 @@
+task_id: factory_tank_hotspot_01
+instruction: 请沿园区道路前往储罐区，检查边缘一排带蓝色护栏的圆柱储罐中最外侧的一座。先用可见光确认储罐外观及周围管廊、厂房，再用热红外查找罐壁上的异常热点。到达目标附近后，保持约
+  6–8 米安全观察距离悬停 6 秒，确认故障位置后按 T 标记完成，随后返回外围安全区域。
+target_prim_path: /World/LimeExp_02/node_1_29_gc075/InspectionSurface/Hotspot
+target_description: 蓝色护栏圆柱储罐的罐壁局部表面；模型未提供可读设备铭牌。
+environment_description: 储罐区位于管廊和低层厂房外侧，周围为铺装场地。
+environment_landmarks:
+- 成排圆柱储罐
+- 蓝色护栏
+- 架空管廊
+- 低层厂房
+environment_evidence:
+  factory_inspection:
+    equipment_prim_path: /World/LimeExp_02/node_1_29_gc075
+    hotspot_prim_path: /World/LimeExp_02/node_1_29_gc075/InspectionSurface/Hotspot
+    normal_surface_prim_path: /World/LimeExp_02/node_1_29_gc075/InspectionSurface/Normal
+    comparison_equipment_prim_path: /World/LimeExp_02/node_1_29_gc076/mesh_1_29_gc076
+    rgb_material_path: /World/LimeExp_02/Looks/material_1_29_gc262_3
+    hotspot_position_m: &id003
+    - 693.6720569660132
+    - -789.8881293022548
+    - 2.8340754109684805
+    ground_world_z_m: 0.009999999776482582
+    route_ground_height_range_m:
+    - -0.10000000149011612
+    - 6.36610221862793
+    route_ground_height_semantics: highest model surface below each route sample;
+      includes roofs and pipe structures, not only terrain
+    observation_position:
+    - 693.37
+    - -797.25
+    - 3.5
+    observation_yaw_rad: 1.5297894075340313
+    reference_waypoints: &id001
+    - &id002
+      - 640.0
+      - -855.0
+      - 15.0
+    - - 662.0
+      - -832.0
+      - 15.0
+    - - 677.0
+      - -816.0
+      - 15.0
+    - - 693.37
+      - -797.25
+      - 3.5
+    - - 710.0
+      - -807.0
+      - 15.0
+    - - 700.0
+      - -840.0
+      - 15.0
+    - - 640.0
+      - -855.0
+      - 15.0
+    reference_waypoint_names:
+    - 外围悬停起点
+    - 沿道路进入
+    - 储罐区入口
+    - 目标观察点
+    - 撤离转弯点
+    - 返回安全区
+    - 起点上空
+    reference_path_length_m: 199.9536504843664
+    reference_waypoints_m: *id001
+    geometry_file: factory/factory_inspection_geometry.npz
+    geometry_sha256: b123b8995aa57b70b08c53c9240a9e8a99afb6a9663e8756425d9ad749e1f1c3
+    body_envelope_radius_m: 0.2
+    inspection_requirements:
+      minimum_equipment_distance_m: 5.0
+      observation_distance_range_m:
+      - 6.0
+      - 8.0
+      hold_duration_s: 6.0
+      maximum_observation_speed_m_s: 0.3
+      maximum_sample_gap_s: 0.25
+      body_envelope_radius_m: 0.2
+      reference_length_range_m:
+      - 180.0
+      - 220.0
+      actual_path_length_range_m:
+      - 180.0
+      - 220.0
+      minimum_height_world_z_m: 2.0
+      minimum_agl_m: 2.5
+    thermal_truth:
+      hotspot_temperature_c: 78.0
+      normal_equipment_temperature_c: 30.0
+      source_face_indices:
+      - 536
+      - 537
+      - 538
+      - 539
+      hotspot_area_m2: 6.524237396500564
+    flight_settings:
+      horizontal_speed_m_s: 1.5
+      speed_scale: 1.0
+      vertical_speed_m_s: 0.5
+      yaw_speed_degrees_s: 45.0
+    evidence_images:
+    - validation/factory-inspection/selection-20261016/rgb/equipment_row.png
+    distance_semantics: equipment mesh surface clearance minus conservative 0.2 m
+      body sphere; camera-to-hotspot distance separately reported
+start_position: *id002
+target_position: *id003
+target_position_semantics: selected source shell triangles area-weighted world center,
+  meters
+notes: 人工键盘驾驶；T 只记录人工确认，客观安全距离、悬停和视觉证据由独立评估器检查。

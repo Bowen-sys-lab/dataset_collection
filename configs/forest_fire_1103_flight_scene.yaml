@@ -1,0 +1,26 @@
+# 2026-11-03 新版包的飞行场景配置（与 forest_fire_flight_scene_night.yaml 同构）
+# 只换 stage 与热配置来源；传感器仍用旧版 irsim 的模型（pin 版带 isp 字段，旧 loader 会拒）。
+schema_version: 1
+
+scene:
+  stage: ../forest_fire_flight_1103.usda
+  thermal_scene: forest_fire_night_environment.yaml
+  static_targets: []
+
+drone:
+  prim_path: /World/FireFlight/Crazyflie
+  body_path: /World/FireFlight/Crazyflie/body
+  camera_path: /World/FireFlight/Crazyflie/body/Camera_mount/Camera
+  minimum_height: 1.5
+
+sensors:
+  width: 320
+  height: 256
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: ../forest_fire_scene_20261103_local/configs/thermal.yaml
+  preview_fast: true
+  align_thermal_to_rgb: true
+  flat_field_enabled: true
+  sensor_seed: 741
+  display_config: forest_fire_display_night.yaml
+  material_directory: materials/forest_fire

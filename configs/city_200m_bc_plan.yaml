@@ -1,0 +1,121 @@
+# 城市夜间 200 m 场景的 BC 人工示范配方。
+# 场景、目标、描述、起点都从这里取；运行时是否放行由核对过的配置/验收证据决定。
+schema_version: 1
+status: runtime_recipe_requires_readiness_evidence
+purpose: city night scene lightweight BC pilot (candidate heat sources + persons)
+scene_family: city_night_200m
+runtime_entry_support: checked_target_instruction_start_selection
+counts_are_independent_flights: true
+total_planned_demonstrations: 36
+
+collection:
+  pilot_per_target: 3
+  pilot_included_in_training_if_accepted: true
+  demonstrations_per_target: 9
+  train_per_target: 6
+  validation_per_target: 3
+  test_per_target: 0
+  train_start_groups: [A, B]
+  validation_start_groups: [D]
+  test_start_groups: []
+  per_start_per_target: 3
+  instruction_assignment: one_independent_flight_per_variant_at_each_start
+  split_unit: start_group_and_whole_trajectory
+  do_not_split_frames_or_rewordings_of_one_flight_across_splits: true
+  lighting: fixed_night_scene_snapshot
+  confirm_mode: manual_only
+
+proposed_common_acceptance:
+  observation_distance_range_m: [3.0, 30.0]
+  distance_semantics: target_prim_bbox_center_minus_body_envelope_note_only
+  maximum_observation_speed_m_s: 0.3
+  continuous_hold_simulation_s: 3.0
+  maximum_sample_gap_s: 0.25
+  hotspot_evidence: prescribed_surface_temperature_and_binding_table
+  current_renderer_minimum_visible_pixels: 20
+  human_confirmation: keyboard_T_then_close_recording
+  missing_evidence_result: UNJUDGED_unless_a_known_failure_already_exists
+  whole_scene_collision: separate_check_not_certified_by_target_clearance
+
+targets:
+  - target_id: van
+    description: 三辆同款白色面包车中引擎盖仍有余热的一辆
+    environment_description: 夜间城市主街，三辆同款白色面包车错开停在路缘，附近有空调外机和排风口
+    stage: city_200m_scenario.usda
+    scene_template: configs/city_200m_scenario_scene.yaml
+    target_prim_path: /World/Scenario/Van_02/Hood
+    target_position: [97.72, -21.8, 2.17]
+    landmarks: [主街北侧三辆白色面包车, 路缘上的空调外机]
+    instruction_variants:
+      - id: van_01
+        text: 街边停着三辆白色面包车，找到发动机刚熄火、引擎盖还热的那一辆。
+      - id: van_02
+        text: 请在三辆同款白色面包车中，找到引擎盖温度明显偏高的一辆，停在能清楚观察的位置。
+      - id: van_03
+        text: 夜间街道上并排停着几辆白色面包车，找出刚熄火、仍有余热的那一辆。
+  - target_id: person
+    description: 三名行人中体温明显偏低的一位
+    environment_description: 夜间城市人行道，三名同款行人分散站立，附近有空调外机和排风口
+    stage: city_200m_scenario.usda
+    scene_template: configs/city_200m_scenario_scene.yaml
+    target_prim_path: /World/Scenario/Person_03/Rig/Body
+    target_position: [135.0, -27.0, 0.9]
+    landmarks: [人行道上分散站立的三名行人, 路缘上的空调外机]
+    instruction_variants:
+      - id: person_01
+        text: 街上有三个人，找到体温明显偏低、可能已经失温的那一个。
+      - id: person_02
+        text: 人行道上有几名行人，请找出皮肤温度异常偏低的一位，停稳观察。
+      - id: person_03
+        text: 夜间街区里有三个人，其中一人体温明显低于其他人，找到他。
+  - target_id: black_car
+    description: 刚熄火、车身和引擎盖仍有余热的黑色面包车
+    environment_description: 夜间城市主街东段，三辆白色面包车与一辆黑色面包车沿街停放
+    stage: city_200m_decoys.usda
+    scene_template: configs/city_200m_decoys_scene.yaml
+    target_prim_path: /World/Scenario/BlackVan_01
+    target_position: [120.0, -21.6, 0.9]
+    landmarks: [三辆白色面包车东侧的深色车, 主街北侧路缘]
+    instruction_variants:
+      - id: black_car_01
+        text: 街边停着一辆黑色面包车，刚熄火不久，找到它。
+      - id: black_car_02
+        text: 请找到那辆车身和引擎盖还带着余热的黑色面包车。
+      - id: black_car_03
+        text: 夜间街道上有一辆深色车刚停下，发动机还有余温，找到它。
+  - target_id: fake_person
+    description: 人形目标中没有体温的服装店假人
+    environment_description: 夜间城市人行道，人形目标中有真人与一个服装店假人
+    stage: city_200m_decoys.usda
+    scene_template: configs/city_200m_decoys_scene.yaml
+    target_prim_path: /World/Scenario/FakePerson/Rig/Body
+    target_position: [62.0, -27.0, 0.9]
+    landmarks: [人行道上的人形目标, 街区南侧人行道]
+    instruction_variants:
+      - id: fake_person_01
+        text: 街边的人形目标里有一个是服装店假人，找到那个假人。
+      - id: fake_person_02
+        text: 人行道上有几个人形目标，其中没有体温的那个是假人，请找到它。
+      - id: fake_person_03
+        text: 请找出街边唯一一个没有体温的人形目标。
+
+# 四个目标共用同一组起点，避免起点泄露目标；D 组只做验证。
+start_groups:
+  - group: A
+    split: train
+    position_m: [70.0, -22.0, 6.5]
+    yaw_degrees: 0.0
+  - group: B
+    split: train
+    position_m: [40.0, -22.0, 6.5]
+    yaw_degrees: 0.0
+  - group: D
+    split: validation
+    position_m: [135.0, -22.0, 6.5]
+    yaw_degrees: 180.0
+
+readiness_gaps:
+  - No real manual city demonstration exists yet; only synthetic probe runs.
+  - Spawn clearance and observation views are checked for the three groups but not certified as full collision-free routes.
+  - The exact T/STOP export path must be verified on the first real city run before training data is claimed.
+  - The repeated block appearance and the empty south apron remain scene-content limits.

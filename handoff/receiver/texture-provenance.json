@@ -1,0 +1,1764 @@
+{
+  "restored": [
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc002.png",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc002.png",
+      "sha256": "53a352b885cad8d244183606dd9b37a37daa2eaee005a1625ad80d8572fb6e7c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc005.jpg",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc005.jpg",
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc009.jpg",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc009.jpg",
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc012.jpg",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc012.jpg",
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc028.jpg",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc028.jpg",
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc030.jpg",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc030.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc034.tif",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc034.tif",
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/buildings_Z22_p000/textures/11-29-gc035.tif",
+      "source": "factory/model02_thermal_v7/usd/buildings_Z22_p000/textures/11-29-gc035.tif",
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc005.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc005.jpg",
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc012.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc012.jpg",
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc028.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc028.jpg",
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z01_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z01_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p000/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc011.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p000/textures/11-29-gc011.jpg",
+      "sha256": "5f3ee6a5e38642c47448d13ca3ff8539f583d50b0bf134c1797a7ff3bb74e0fa",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p000/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p000/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p000/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p001/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p001/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p001/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p001/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p001/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p001/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p002/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p002/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p002/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p002/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p002/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z02_p002/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z02_p002/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z03_p000/textures/11-29-gc011.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z03_p000/textures/11-29-gc011.jpg",
+      "sha256": "5f3ee6a5e38642c47448d13ca3ff8539f583d50b0bf134c1797a7ff3bb74e0fa",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc015.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc015.jpg",
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc019.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc019.jpg",
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc032.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc032.jpg",
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc036.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc036.tif",
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p001/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p001/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p001/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p001/textures/11-29-gc032.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p001/textures/11-29-gc032.jpg",
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p002/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p002/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p002/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p002/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z10_p002/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z10_p002/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc005.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc005.jpg",
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc009.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc009.jpg",
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc015.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc015.jpg",
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc019.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc019.jpg",
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc026.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc026.jpg",
+      "sha256": "53e69171b8150738d5fa6d6a0845275995829bf2686c62ff8a01374cad962849",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc027.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc027.jpg",
+      "sha256": "19eb0a305be3fccbc5ec5c6127fe24542ed341a44848a0e700b34a0b39c81a0a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc029.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc029.jpg",
+      "sha256": "2ef72a2fb0d49cf6c138d8d9f0a2f4d1d76eb5656899a5c151ca0cd0ffcb6510",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc033.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc033.jpg",
+      "sha256": "0ed325de64b2936ea6177a2f3b707978628fe32366ef2cf6f0639e5ff0a17190",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc034.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc034.tif",
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc035.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc035.tif",
+      "sha256": "4f120d74b01895f9b29c94eeaf1fdf21cf28880de5dd23e857428c512f87859d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p000/textures/11-29-gc036.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p000/textures/11-29-gc036.tif",
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc014.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc014.jpg",
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc015.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc015.jpg",
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc019.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc019.jpg",
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc030.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc030.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p001/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p001/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p002/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p002/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p002/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p002/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p002/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p002/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc001.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc001.tif",
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc034.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc034.tif",
+      "sha256": "2ac081e40a2fbf534faffe5fa0b176ba9274d4528e002d86fe898bdf0122cf11",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p003/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p003/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p004/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p004/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p004/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p004/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p004/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc032.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p004/textures/11-29-gc032.jpg",
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p004/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p004/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p005/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p005/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p005/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p005/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc032.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p005/textures/11-29-gc032.jpg",
+      "sha256": "c4e7979d6dc331393f61aeffffe724807c66ab432cf5a428d39b1f5a550d6908",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z11_p005/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z11_p005/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p000/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p000/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p001/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p001/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p001/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p001/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p002/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p002/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p002/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p002/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p003/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p003/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p003/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p003/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p004/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p004/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p004/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p004/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p004/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p004/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p005/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p005/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p005/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p005/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p006/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p006/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p006/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p006/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p006/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p006/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p006/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p006/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p007/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p007/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p007/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p007/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p007/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p007/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p008/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p008/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p008/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p008/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc028.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p008/textures/11-29-gc028.jpg",
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p008/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p008/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p008/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p009/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p009/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p010/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p010/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p010/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p010/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p010/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p011/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p011/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p011/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p011/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p011/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p011/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p012/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p012/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p012/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p012/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z12_p012/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z12_p012/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p000/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p000/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p000/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc001.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc001.tif",
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc028.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc028.jpg",
+      "sha256": "e031a660057147b4fb7068dd5255a85a2bfb1098237d2fc65a88c7b5dd57c133",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z13_p001/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z13_p001/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z20_p000/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z20_p000/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z20_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z20_p000/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z20_p000/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc037.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z20_p000/textures/11-29-gc037.jpg",
+      "sha256": "025520ea914225b0435cad2cd24e62bb1d0552a934bc8621a2ca91153b156e41",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z20_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z20_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p000/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc010.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p000/textures/11-29-gc010.jpg",
+      "sha256": "b4cb7ee46527e4db171f8df57f561657f2ce7f7c215923c7d8d7538141a8f699",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p001/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p001/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p002/textures/11-29-gc014.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p002/textures/11-29-gc014.jpg",
+      "sha256": "c68ff2b44fdfc20afd2d968a6cb982bbe8f45a7f0cd0bba4eb8185b14a9bcb1b",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p002/textures/11-29-gc036.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p002/textures/11-29-gc036.tif",
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p002/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p002/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p003/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc015.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p003/textures/11-29-gc015.jpg",
+      "sha256": "8f741f1b0d266200d8e499971f3b16597afb5d2893926627ed354d1fbc73763c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p003/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc019.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p003/textures/11-29-gc019.jpg",
+      "sha256": "d18307c33ab507698696eb8c539f1285eb6d1808b667e092a96eec01ff5dc893",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p003/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p003/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p003/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p003/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc011.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc011.jpg",
+      "sha256": "5f3ee6a5e38642c47448d13ca3ff8539f583d50b0bf134c1797a7ff3bb74e0fa",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc020.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc020.jpg",
+      "sha256": "af9920313c6c26ec5902470b9febffda6be79b77dc467f20393bb035b1e382e2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p005/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p005/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc002.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p006/textures/11-29-gc002.png",
+      "sha256": "53a352b885cad8d244183606dd9b37a37daa2eaee005a1625ad80d8572fb6e7c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc008.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p006/textures/11-29-gc008.jpg",
+      "sha256": "3b5bab9025eb4e1315b304d33289d5af2d8f04d26ba9719d24461f954acc8398",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p006/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p006/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p006/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p006/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p006/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p007/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p007/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p007/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p007/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z21_p007/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z21_p007/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc005.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc005.jpg",
+      "sha256": "60f45c3b9bc3170e1d83c5029fcf7878c18e5ccd2acd13d4f986185d78c547df",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc012.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc012.jpg",
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc036.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc036.tif",
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p000/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p000/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc013.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc013.jpg",
+      "sha256": "2b15dfcb4452c2ef5ee68e0ab05572a05cb3d1061e624dd87a650593f92846d5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc016.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc016.jpg",
+      "sha256": "931c3ae17c62eb888b861b9aec1f8895940b23f847d086a5951db67cf26f4794",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc021.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc021.png",
+      "sha256": "d0f89d0b8a0f7c8362923727dc3e0a5433bfd3e2f03d24c1d81e6c97d73afacc",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc022.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc022.jpg",
+      "sha256": "1ce862b6107849cb9e2d6b53d18ffc4910d6ab16fa3fb2a787fad83a07de0223",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc024.png",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc024.png",
+      "sha256": "8b526cec2414ddc24e784c6a3ed2e398088a13808994c91db93aad55dd51f765",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc031.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc031.jpg",
+      "sha256": "ec70b4e280f9f2444e02a9b39418ada32b6f81cd15f228a715cfa0e042a1e415",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc036.tif",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc036.tif",
+      "sha256": "1c7ba3203faa6c65c90cc6d20a0f7d87f37821116201b24f937cbda9354ec30a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc037.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc037.jpg",
+      "sha256": "025520ea914225b0435cad2cd24e62bb1d0552a934bc8621a2ca91153b156e41",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/equipment_Z22_p001/textures/11-29-gc038.jpg",
+      "source": "factory/model02_thermal_v7/usd/equipment_Z22_p001/textures/11-29-gc038.jpg",
+      "sha256": "6befebffb25b8a38d438301e279f3cffd6f269a70b1ad09755b86fa856687b83",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/11-29-gc009.jpg",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/11-29-gc009.jpg",
+      "sha256": "20ac0a568c18746f8450a564181513371d462f1f003073df7002e60dc90af0a2",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/grass_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/grass_basecolor.png",
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/grass_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/grass_normal.png",
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/grass_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/grass_roughness.png",
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z11_p000/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z11_p000/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/Map__1974_颜色校正_看图王.jpg",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p000/textures/Map__1974_颜色校正_看图王.jpg",
+      "sha256": "76d904a3a3314b6e3d7da3eae3e928e4a9be380533be892c7e7cfeb5e19125ad",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p000/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p000/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p000/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p000/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p000/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p000/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p000/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p001/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p001/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p001/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p001/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p001/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p001/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p002/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p002/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p002/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p002/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p002/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p002/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p003/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p003/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p003/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p003/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p003/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p003/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p003/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p004/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p004/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p004/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p004/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z12_p004/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z12_p004/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/grass_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/grass_basecolor.png",
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/grass_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/grass_normal.png",
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/grass_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/grass_roughness.png",
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z13_p000/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z13_p000/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/brick_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/brick_basecolor.png",
+      "sha256": "d8216b905ad9a365c4dcd26093f50a41205e5254aaa10c4c6bfdfa15681a708a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/brick_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/brick_normal.png",
+      "sha256": "191813b106d4e36efece055fed279b9f7a36a219eb1cfb8db569ef106782567a",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/brick_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/brick_roughness.png",
+      "sha256": "49ce74182f0e761c9bf904f5f5e8ff30b6c1ea922349d921f50bf5af11539e87",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/grass_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/grass_basecolor.png",
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/grass_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/grass_normal.png",
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/grass_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/grass_roughness.png",
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z21_p000/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z21_p000/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/11-29-gc012.jpg",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/11-29-gc012.jpg",
+      "sha256": "1cf16ffa558555a0d7a82fc3923315736d6b08fdc38936385ce0fdf0f586d77c",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/grass_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/grass_basecolor.png",
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/grass_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/grass_normal.png",
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/grass_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/grass_roughness.png",
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z22_p000/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z22_p000/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/concrete_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/concrete_basecolor.png",
+      "sha256": "bfddf937ca1b5af3b6e0269a4ad617e3f395070c37dfb7cde8883f5b770948f5",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/concrete_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/concrete_normal.png",
+      "sha256": "3524bfb3b793522a44acf40895d0bf39577cca31058ef00c754b970f3bc0fa72",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/concrete_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/concrete_roughness.png",
+      "sha256": "ecd3791fe17fdfebe2202aa9cded859d4c350f6c1c0c142117f644b921f0f9b0",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/grass_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/grass_basecolor.png",
+      "sha256": "5675f13bc7c5b96af9a3e054f669a1c17bb20d0ee1e78113419357fe7934c13b",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/grass_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/grass_normal.png",
+      "sha256": "d37e5d32ba5bd4c6adb940091e2ee18f30f5dfc362fce763d77a625fdbcb7237",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/grass_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/grass_roughness.png",
+      "sha256": "3ee0c8e0159642a610f9fce551488aad024d5c550db6f66c863740c4a824b7ff",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/joint_basecolor.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/joint_basecolor.png",
+      "sha256": "fb54d1b9218a11c21f3a60792de7df638220f1f79c0e05a17aabb8cfb11a805d",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/joint_normal.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/joint_normal.png",
+      "sha256": "e27b51a4e06efb493d2cf9cc86720140b0b692f4843698c4792f3c016339c9c9",
+      "reason": "same relative export location in retained v7 source"
+    },
+    {
+      "path": "factory/model02_thermal_v7m/usd/ground_Z32_p000/textures/joint_roughness.png",
+      "source": "factory/model02_thermal_v7/usd/ground_Z32_p000/textures/joint_roughness.png",
+      "sha256": "8d91d18aa8aa234eaa503f0a0401e5c15a3cae8032df8c278bf47578ca2609ff",
+      "reason": "same relative export location in retained v7 source"
+    }
+  ],
+  "not_restored": [],
+  "scope": "Delivery copy only. No replacement based on approximate names and no source assets modified."
+}

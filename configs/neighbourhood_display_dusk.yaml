@@ -1,0 +1,1 @@
+{schema_version: 1, name: neighbourhood_dusk, mode: fixed_apparent_temperature, temperature_min_c: 18.0, temperature_max_c: 48.0, dde_gain: 0.0, polarity: white_hot, palette: gray}

@@ -1,0 +1,29 @@
+task_id: city-v2-heatmaincover-s1
+instruction: 目标在你的左侧。沿内部窄街找唯一一块圆形金属井盖：直径约 0.7 米，盖面有同心圆纹路，平嵌在沥青里；热像上是一整块亮圆盘（约 38 ℃），比周围路面明显更热。 先转向目标方向，靠近后确认热异常并按 T。
+target_prim_path: /World/Targets/HeatMainCover
+target_description: 一块直径约 0.7 米的圆形金属井盖，盖面有同心圆纹路，平嵌在沥青路面上
+environment_description: 位于两侧楼体夹出的内部窄街，路边有低矮绿植和停放的车辆，这段窄街只有这一块圆形井盖
+environment_landmarks:
+- 内部窄街
+- 圆形井盖
+- 路边绿植
+start_position:
+- 79.13
+- -5.62
+- 6.5
+target_position:
+- 92.65
+- -2
+- 0.0
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 人工按 T 确认；自动评分独立进行，T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: HeatMainCover
+  block_index: 2
+  initial_yaw_degrees: 115.0
+  target_bearing_degrees: 15.0
+  relative_direction: 左侧
+  start_distance_m: 14.0
+  start_index: 1

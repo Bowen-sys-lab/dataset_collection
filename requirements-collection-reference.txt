@@ -1,0 +1,9 @@
+# Reference application versions from the validated Windows Isaac environment.
+# Install only missing/incompatible application modules with Isaac's python.bat.
+# Do not replace Isaac's Kit, USD, torch or Warp packages by installing a full stack.
+numpy==2.3.1
+scipy==1.17.0
+pydantic==2.11.10
+PyYAML==6.0.3
+imageio==2.37.2
+Pillow==12.3.0

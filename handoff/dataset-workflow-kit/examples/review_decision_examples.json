@@ -1,0 +1,31 @@
+{
+  "illustrative_only": true,
+  "not_dataset_annotations": true,
+  "examples": [
+    {
+      "case": "正确目标、有效T、图像和路线检查通过，二人审核一致",
+      "decision": "INCLUDE",
+      "note": "实际使用时必须填写真实RunId、证据和两位审核人。"
+    },
+    {
+      "case": "正确目标但漏按T",
+      "decision": "PENDING",
+      "reason": "优先重采；补标需独立来源与导出适配。"
+    },
+    {
+      "case": "仅看见亮点，无法确认指定目标",
+      "decision": "PENDING",
+      "reason": "不能根据亮度推定身份。"
+    },
+    {
+      "case": "确认飞到了错误目标",
+      "decision": "EXCLUDE",
+      "reason": "保留失败及错误目标证据，单列失败集。"
+    },
+    {
+      "case": "单元测试或合成探针通过，但未人工飞行",
+      "decision": "PENDING",
+      "reason": "不能计入人工示范数量。"
+    }
+  ]
+}

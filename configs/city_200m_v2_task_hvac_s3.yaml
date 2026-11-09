@@ -1,0 +1,29 @@
+task_id: city-v2-hvac-s3
+instruction: 目标在你的左后方。绕到东北楼后，在服务带里找唯一的白色外机：约 0.8 米高、1 米宽，圆形风扇格栅很显眼；热像上盘管位置约 43 ℃，比机壳和墙面都亮。 先转向目标方向，靠近后确认热异常并按 T。
+target_prim_path: /World/Targets/HVAC
+target_description: 一台约 1 米宽、0.8 米高的白色空调外机，正面有圆形风扇格栅，落在矮基座上
+environment_description: 在东北楼后的服务带里靠墙摆放，旁边是铁门和落水管，这条服务带只有这一台外机
+environment_landmarks:
+- 楼后服务带
+- 白色外机
+- 铁门
+start_position:
+- 7.6
+- 6.5
+- 6.5
+target_position:
+- 7.6
+- 16.5
+- -0.008
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 人工按 T 确认；自动评分独立进行，T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: HVAC
+  block_index: 0
+  initial_yaw_degrees: 230.0
+  target_bearing_degrees: 90.0
+  relative_direction: 左后方
+  start_distance_m: 10.0
+  start_index: 3

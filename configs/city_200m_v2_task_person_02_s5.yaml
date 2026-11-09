@@ -1,0 +1,29 @@
+task_id: city-v2-person_02-s5
+instruction: 目标在你的左侧。找西侧人行道上唯一的行人：约 1.76 米高，深色外套、长裤、帽子；热像上皮肤约 33 ℃、衣物 28–31 ℃，暖色人形和冷背景分得很开。 先转向目标方向，靠近后确认热异常并按 T。
+target_prim_path: /World/Targets/Person_02/CC_Base_Body
+target_description: 一名身高约 1.76 米的行人，穿深色外套、长裤，戴帽子，站在人行道上
+environment_description: 位于西侧楼旁，身旁有绿植和一层阳台，这段人行道只有这一名行人
+environment_landmarks:
+- 西侧人行道
+- 绿植
+- 阳台
+start_position:
+- -11.94
+- 12.56
+- 6.5
+target_position:
+- -9.35
+- 2.9
+- -0.011
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 人工按 T 确认；自动评分独立进行，T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: Person_02
+  block_index: 0
+  initial_yaw_degrees: 5.0
+  target_bearing_degrees: 285.0
+  relative_direction: 左侧
+  start_distance_m: 10.0
+  start_index: 5

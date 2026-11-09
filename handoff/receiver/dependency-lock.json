@@ -1,0 +1,1852 @@
+{
+  "repository": "https://github.com/reza-shahriari/isaac-thermal-camera-simulation",
+  "commit": "563a51b82938d7e03f4b41dfbbf8a6476b9e0be3",
+  "directory": "third_party/isaac-thermal-camera-simulation",
+  "redistribution": "Source excluded. Obtain this exact revision from upstream under its terms.",
+  "files": [
+    {
+      "path": "configs/assets/phantom4.yaml",
+      "size": 15242,
+      "sha256": "a9f7fc1dfa19af04f594d0256a7b1eb6a2acfb039f8ec2fdd6ee1e6ec73aa096"
+    },
+    {
+      "path": "configs/assets/phantom4_parts.yaml",
+      "size": 15248,
+      "sha256": "50b3caea838fc29d8fa8a9df9917e94162f97ce7846390b17be883b71a97cbac"
+    },
+    {
+      "path": "configs/atmospheres/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "configs/atmospheres/fog_dense_50m.yaml",
+      "size": 2022,
+      "sha256": "da6f98f8481a39cd5e0cfe2b440141dd98a0834e283b993791cab4a3a8209b6b"
+    },
+    {
+      "path": "configs/atmospheres/fog_light_200m.yaml",
+      "size": 2000,
+      "sha256": "6d72f60418adac3d90b77fcedbafd7d70fdde5536cbe5747f36a91336ecc35a9"
+    },
+    {
+      "path": "configs/atmospheres/haze.yaml",
+      "size": 2064,
+      "sha256": "f7786ae68b8af15b1c77e1a95d75d04ae25b3328aa6e3bc24281a304405d9fae"
+    },
+    {
+      "path": "configs/atmospheres/midlat_summer_humid.yaml",
+      "size": 1990,
+      "sha256": "ac43ec9237f457232e49ef09e072286fadec60fbda79c15c2c43667ca08d9192"
+    },
+    {
+      "path": "configs/atmospheres/midlat_winter_dry.yaml",
+      "size": 1994,
+      "sha256": "8e8ef767bf9cbab98b80bec31971705d85ce66309279f1bb2aadaea0e8ea2bdc"
+    },
+    {
+      "path": "configs/atmospheres/tropical.yaml",
+      "size": 2052,
+      "sha256": "56e5ea6b97b31c5065c67d678342a8d14072d2de5a7043c3dd6d15dcb2d60cf1"
+    },
+    {
+      "path": "configs/atmospheres/us_standard_clear.yaml",
+      "size": 2035,
+      "sha256": "ee5e73a82a639ba86847cd387e920db4dcfac0d63fc15715e94fef51959f9365"
+    },
+    {
+      "path": "configs/environments/clear_dry.yaml",
+      "size": 912,
+      "sha256": "ecc032eddca1260cd96d7ac638b130846e4a8d5bdf5b37df750737cb529b390c"
+    },
+    {
+      "path": "configs/environments/humid.yaml",
+      "size": 698,
+      "sha256": "e07643e5bfdd69361bd10faf4f4b914bac54f5297044829bba3841cd775afe83"
+    },
+    {
+      "path": "configs/environments/overcast.yaml",
+      "size": 655,
+      "sha256": "0db3e186081fbda04f8c571841c5e22193475d0c4e95e76c161d1e4a3d44e716"
+    },
+    {
+      "path": "configs/environments/scattered_cumulus.yaml",
+      "size": 1778,
+      "sha256": "d2773b68bb73fd709460bc7e7083d0d98e980451112ebb2e79b811e346dcba48"
+    },
+    {
+      "path": "configs/environments/sea_clear_day.yaml",
+      "size": 1261,
+      "sha256": "150bc945af8a525476ce1ef5e52c5d91b30b5de4b3311e41ba5628f013d9fb35"
+    },
+    {
+      "path": "configs/materials/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "configs/materials/abs_plastic_white.yaml",
+      "size": 2914,
+      "sha256": "68bce55c1a3a808b83875c1d2bc99bc94167937c8054574b925ec88f48fcdb4a"
+    },
+    {
+      "path": "configs/materials/aircraft_aluminium_painted.yaml",
+      "size": 2296,
+      "sha256": "8762b4dfef293623640548e15929042655ef25eb28e288266351fc0fda58936b"
+    },
+    {
+      "path": "configs/materials/aluminium_anodised.yaml",
+      "size": 2570,
+      "sha256": "652523be52348730263868819f4b1efffdf485982808ab4a6291220191f23e50"
+    },
+    {
+      "path": "configs/materials/aluminium_polished.yaml",
+      "size": 2121,
+      "sha256": "333ac9c68f8a2d43e3a02dae620df8473a92fbf63e415b8c89807e5051382c3f"
+    },
+    {
+      "path": "configs/materials/asphalt_dry.yaml",
+      "size": 1019,
+      "sha256": "705aac5f5b3e0af19a0dead79e0099214b965ca558dfebcf767b24e2bb67e035"
+    },
+    {
+      "path": "configs/materials/bare_aluminium.yaml",
+      "size": 2032,
+      "sha256": "af695ed671c075ba6a184ee0a705a15cba6bfc59705d3eed5f65336beb61e2a7"
+    },
+    {
+      "path": "configs/materials/car_paint_black.yaml",
+      "size": 1802,
+      "sha256": "75d1f73ce8c8b0f255b980435a418edb958e632966123004b59fd5887bb78bec"
+    },
+    {
+      "path": "configs/materials/car_paint_white.yaml",
+      "size": 1504,
+      "sha256": "a1cc9f4944a9e9232ba0dcf323db65b0bf6ef041edf1871c0e5cb05446710925"
+    },
+    {
+      "path": "configs/materials/carbon_fibre.yaml",
+      "size": 1702,
+      "sha256": "9b52e4dd426504732aa06aeade8e45ed896c15c1eb3659310be3ba1a91f576ae"
+    },
+    {
+      "path": "configs/materials/concrete.yaml",
+      "size": 1067,
+      "sha256": "85c49d5f2370fbd90765190515ec221efd410e70cf61a48ed018e4b0f23729d7"
+    },
+    {
+      "path": "configs/materials/cotton_clothing.yaml",
+      "size": 1101,
+      "sha256": "2a5fe2bba7e54e3c0c4db83884aacf1695eedd564652b2731713dcdc97c98317"
+    },
+    {
+      "path": "configs/materials/etics_render.yaml",
+      "size": 1737,
+      "sha256": "12fd53342ebf300a998d00b3c61953827953e6184b825133c366d0dcc1364d86"
+    },
+    {
+      "path": "configs/materials/glass_windshield.yaml",
+      "size": 2393,
+      "sha256": "324223a70032c4a5374be2dbcf13203bae7aa356f83ed3a1e17ef812462aacc6"
+    },
+    {
+      "path": "configs/materials/human_skin.yaml",
+      "size": 697,
+      "sha256": "ccadee6ea6963c7882779633348687bc58863c0f769cfaeae1f0fcc418feabed"
+    },
+    {
+      "path": "configs/materials/mapping.yaml",
+      "size": 3447,
+      "sha256": "5d3474b25b67bc8633fe76a3a6fe0e2d69b2a2e6e19bb9c1c98802e815b71b39"
+    },
+    {
+      "path": "configs/materials/painted_composite.yaml",
+      "size": 2315,
+      "sha256": "28d38240fcd586837c833385f007b4e266ad7f18f8fa98ed8f989d70e86956d9"
+    },
+    {
+      "path": "configs/materials/propeller_rubber.yaml",
+      "size": 1539,
+      "sha256": "8061002f7459436fcff1e2dbd19048190c4d9b09d1b8927bf216747e815703f0"
+    },
+    {
+      "path": "configs/materials/rubber_tyre.yaml",
+      "size": 958,
+      "sha256": "e090f6f29c9bc93d0a1defd13406806b99cb573cf82e6bc9c0b7e31a67860758"
+    },
+    {
+      "path": "configs/materials/rusted_steel.yaml",
+      "size": 1024,
+      "sha256": "ba18514bed91f12577557c804650dc9db990ff968d56fcab301e96c3b01bae6f"
+    },
+    {
+      "path": "configs/materials/snow.yaml",
+      "size": 1278,
+      "sha256": "ae97d6de1708ec658679e57dcdf8a2a5182da3a3e58bdd1ca727cdb1614c10d8"
+    },
+    {
+      "path": "configs/materials/soil_dry.yaml",
+      "size": 772,
+      "sha256": "06c65c2bcf04f2f73c5fce30b64e089139eed0976e0e8494cc73c0515eff67e7"
+    },
+    {
+      "path": "configs/materials/soil_wet.yaml",
+      "size": 1063,
+      "sha256": "5e30dad8931a9ab17f6e19cfa7aa2b3624760dfaafa9edffe0ea8b49222c94ee"
+    },
+    {
+      "path": "configs/materials/vegetation_leaf.yaml",
+      "size": 1385,
+      "sha256": "3cbd0f8e0f7bebef24f887eb19573b8b88acc83a9278a6a7aaf6653a5108aade"
+    },
+    {
+      "path": "configs/materials/water.yaml",
+      "size": 1769,
+      "sha256": "143a96ca7a47741c869e0ffae2c8e2dbb7f1c7625fd4c6fda7974f4eb1ec4e03"
+    },
+    {
+      "path": "configs/scenes/aircraft_pass_clear_noon.yaml",
+      "size": 2725,
+      "sha256": "ca7f0cd1ac55b0701e4af57cb762f42fd6e55247d2de120a54f454cd8bfa37fc"
+    },
+    {
+      "path": "configs/scenes/car_exhaust_plume.yaml",
+      "size": 4339,
+      "sha256": "0fae2b1bbbab9e59f13d57b80409d86bbf364d8802235c5a0d068a1e0d6de647"
+    },
+    {
+      "path": "configs/scenes/car_ignition_clear_night.yaml",
+      "size": 9630,
+      "sha256": "2b1d876e12f281b48a44a4e2a91fe0f47894b532c336f2eb55a5e6268a88311d"
+    },
+    {
+      "path": "configs/scenes/car_ignition_overcast_night.yaml",
+      "size": 9242,
+      "sha256": "070aab54e12f95d5ef1ea75a805d25169e29d624b5a51cb390618ae392b3695a"
+    },
+    {
+      "path": "configs/scenes/parked_car_cabin.yaml",
+      "size": 5226,
+      "sha256": "d7aa1913a231ddfa6f53389ad7fefa80484a4c7454bb573510b7d05c9171d1a1"
+    },
+    {
+      "path": "configs/scenes/phantom3_outbound_pointwise.yaml",
+      "size": 8042,
+      "sha256": "28fd1c8798cfb113aad28d9a82794b3d0ded24b82e5042ab8af51252078541bd"
+    },
+    {
+      "path": "configs/scenes/phantom4_parts.yaml",
+      "size": 9188,
+      "sha256": "45681863f621cd7936f824eb9cdcf1ffb142bcee3fbc2767a490e58839010cdd"
+    },
+    {
+      "path": "configs/scenes/phantom4_perpart.yaml",
+      "size": 12617,
+      "sha256": "28bc255673f9d00e7e7eb7d510816de0476a5ed53a665aa822ddc6f3b802b79a"
+    },
+    {
+      "path": "configs/scenes/phantom4_pointwise.yaml",
+      "size": 8949,
+      "sha256": "c61292cbfa8bb540aeeab10f6191f8e729845196b0909a5b6d1e12c1906fa5a4"
+    },
+    {
+      "path": "configs/scenes/quad_flight_clear_noon.yaml",
+      "size": 3253,
+      "sha256": "5986cccbcfad36a2e5fb6e9ed78be63f469050004481328286180cb0fdcedd35"
+    },
+    {
+      "path": "configs/scenes/quad_flight_mesh.yaml",
+      "size": 8427,
+      "sha256": "a4f43ca012d839122e5ecaa0443659fe84ffb71ce34c3ad74034e93f6adbe9b7"
+    },
+    {
+      "path": "configs/scenes/quad_flight_pointwise.yaml",
+      "size": 7036,
+      "sha256": "b136af07194564b5cff01fe062d36619026b0fa1766cbe3b5dc87045d06f65ef"
+    },
+    {
+      "path": "configs/scenes/quad_outbound_pointwise.yaml",
+      "size": 8075,
+      "sha256": "4d3c7ce0c831e0d9215c97217d2fa634a90f7fd66e1e7d9b10d6f0db3226a052"
+    },
+    {
+      "path": "configs/scenes/sky_only.yaml",
+      "size": 1068,
+      "sha256": "803981972246a70b781b1525e0268b67f08db2494de871456e6aedfffcc01f0e"
+    },
+    {
+      "path": "configs/scenes/sky_target_clear_day.yaml",
+      "size": 1130,
+      "sha256": "a70b768b2568989a256656dc8a5ca2b3e7c4814e3e24d8a595644d60b586ba30"
+    },
+    {
+      "path": "configs/scenes/thermal_facet_scene.yaml",
+      "size": 3459,
+      "sha256": "8f91b46816d44e5f6c91d151c461bcbf38399e81511173db1916fb51b665be8c"
+    },
+    {
+      "path": "configs/scenes/vessel_departure_clear_day.yaml",
+      "size": 3492,
+      "sha256": "9ba49ba16f2c47d771b5260f8cfe12eb4588d9280ba8cab127f72a903968e4f2"
+    },
+    {
+      "path": "configs/scenes/vessel_pointwise_clear_day.yaml",
+      "size": 6942,
+      "sha256": "a68dabc447909de185a63a9d2ba97e57de8765365689a0010f4fe136b6eba704"
+    },
+    {
+      "path": "configs/scenes/vessel_transit_clear_day.yaml",
+      "size": 3324,
+      "sha256": "f2cea3ca711c75d8a6600339337ce24d60e894ef4f2ce9e31f4aa31f3618008b"
+    },
+    {
+      "path": "configs/scenes/wall_half_in_sun.yaml",
+      "size": 6273,
+      "sha256": "c65d711afb3f01fb37abb8ce5b72d83d29d9f249c3b8f6dee18d8506f5b29b39"
+    },
+    {
+      "path": "configs/scenes/wet_road_noon.yaml",
+      "size": 3186,
+      "sha256": "f10412b71887867a710ab8d67b20fa21825e4a9f9593a46e9a9a6d7355f5cd66"
+    },
+    {
+      "path": "configs/sensors/example_mwir_insb_640.yaml",
+      "size": 4553,
+      "sha256": "e05b971f65293bf5b117bb79946d49b70a4bff913406d32be2fb1ef47fedd086"
+    },
+    {
+      "path": "configs/sensors/example_nir_si_1280.yaml",
+      "size": 8999,
+      "sha256": "8807751113048f436d1dd11e2a8ca09fe92ef0d26d2f9e0dabf566a12ae37f45"
+    },
+    {
+      "path": "configs/sensors/example_swir_ingaas_640.yaml",
+      "size": 5495,
+      "sha256": "e862965db6317877513ecde46ded91eb8d7cff52720869186b09851157e465c1"
+    },
+    {
+      "path": "configs/sensors/flir_boson_640_lwir.yaml",
+      "size": 6377,
+      "sha256": "66f653994c3d597fd772fcffed6f466e409374f58cad713ad61f124b9977c7b2"
+    },
+    {
+      "path": "configs/sensors/halmstad_boson_320.yaml",
+      "size": 10058,
+      "sha256": "72769c6d3987c8fd7abc8433a85d5b16b12efd19a7850acae1502a405fe196d4"
+    },
+    {
+      "path": "configs/thermal/joints.yaml",
+      "size": 3112,
+      "sha256": "312d380dd802d339d352ca41d6cc1cfbd6b62c3626638d626167490c3d5f1147"
+    },
+    {
+      "path": "data/gas/boson_vox_co2.npy",
+      "size": 9384,
+      "sha256": "3052a23f676399200fd8415f37a7460819b9f363d50677a4f6ff83af7cbcfee4"
+    },
+    {
+      "path": "data/gas/boson_vox_gas.json",
+      "size": 2846,
+      "sha256": "8e1c4642ef8481a2d0688ae7ed301c595745f28bf6fc942c46813e72ba459a8c"
+    },
+    {
+      "path": "data/gas/boson_vox_h2o.npy",
+      "size": 9384,
+      "sha256": "16dbf9ee28bbccced94e3bc961f2c515e1f11d3a146c7a44b7a20557c861bb98"
+    },
+    {
+      "path": "data/gas/ingaas_co2.npy",
+      "size": 9384,
+      "sha256": "75edf0d8e2a07b33fca107970b2c68134ee98b8855afec80bf9501e2937ead6f"
+    },
+    {
+      "path": "data/gas/ingaas_gas.json",
+      "size": 2849,
+      "sha256": "300102689d52ba0f83eb12e44bd34fb1721e7a52d48befd3ec5ab317a6d3aed9"
+    },
+    {
+      "path": "data/gas/ingaas_h2o.npy",
+      "size": 9384,
+      "sha256": "33ecc45b62592ce901b66608e090b7c593fd86e9a20a5b8c561497702aaf16a6"
+    },
+    {
+      "path": "data/gas/insb_co2.npy",
+      "size": 9384,
+      "sha256": "47f6f5b6899cdd3af8231a3e6e07973af1fbff7e4692b70632153062415fa612"
+    },
+    {
+      "path": "data/gas/insb_flame_window_co2.npy",
+      "size": 9384,
+      "sha256": "e2b2d7304465fda029d6ae0d2759a81601aea4e047de542ddb247b70635f49e4"
+    },
+    {
+      "path": "data/gas/insb_flame_window_gas.json",
+      "size": 2878,
+      "sha256": "e3b9786230fb1e6ec4b64964f4af23d2d5926f10285a3cb78c5d0bfe003b20e5"
+    },
+    {
+      "path": "data/gas/insb_flame_window_h2o.npy",
+      "size": 9384,
+      "sha256": "0444f208eb151bda1c9ac839f0a3fa348bd8074b98ace1a562b0785f100d2fc8"
+    },
+    {
+      "path": "data/gas/insb_gas.json",
+      "size": 2826,
+      "sha256": "f9fe50c5bfe5f44a952e246a358b88033d5a9f9e8eb61df916bffbb24a1f7ce2"
+    },
+    {
+      "path": "data/gas/insb_h2o.npy",
+      "size": 9384,
+      "sha256": "7efacc4b03f641027090cd4372ae3340269d0d25ea396670147ba62688c2f84d"
+    },
+    {
+      "path": "data/gas/lwir_co2.npy",
+      "size": 9384,
+      "sha256": "82e86c6f2a6ff1c70e3a0bc4e8d8dd79172683decf45aba8d21614e9a396032f"
+    },
+    {
+      "path": "data/gas/lwir_gas.json",
+      "size": 2822,
+      "sha256": "f39c6668132df130dd23393d93f76c2322744b394a8e966e0aeeb184bcbe33e6"
+    },
+    {
+      "path": "data/gas/lwir_h2o.npy",
+      "size": 9384,
+      "sha256": "97adebe4da111f535f1e2dfdbc7c3ef80e7e76d7fe07171ec3009ce2e03cfdc4"
+    },
+    {
+      "path": "data/gas/mwir_co2.npy",
+      "size": 9384,
+      "sha256": "20d40651c6e108f92e23ae1bf11c342c0d0d216b66987256d98159bcc330f050"
+    },
+    {
+      "path": "data/gas/mwir_gas.json",
+      "size": 2817,
+      "sha256": "08accae01fd075eadb1d43f2549af12e9cb6463a9c037402a16f482398fdd529"
+    },
+    {
+      "path": "data/gas/mwir_h2o.npy",
+      "size": 9384,
+      "sha256": "26c8bb171af31dfbd4e76300c3035a633da6f6b6bd2ebb72f1dbacbb7706f1ad"
+    },
+    {
+      "path": "data/gas/nir_co2.npy",
+      "size": 9384,
+      "sha256": "75edf0d8e2a07b33fca107970b2c68134ee98b8855afec80bf9501e2937ead6f"
+    },
+    {
+      "path": "data/gas/nir_gas.json",
+      "size": 2817,
+      "sha256": "a19f29defb28d8ef5468543b310680edbf0afc898c01f43eb45084a587d01f34"
+    },
+    {
+      "path": "data/gas/nir_h2o.npy",
+      "size": 9384,
+      "sha256": "75edf0d8e2a07b33fca107970b2c68134ee98b8855afec80bf9501e2937ead6f"
+    },
+    {
+      "path": "data/gas/nir_si_co2.npy",
+      "size": 9384,
+      "sha256": "75edf0d8e2a07b33fca107970b2c68134ee98b8855afec80bf9501e2937ead6f"
+    },
+    {
+      "path": "data/gas/nir_si_gas.json",
+      "size": 2853,
+      "sha256": "f03a845f3fcc0a72909369c1d3a0d64b27411d2cb0a6ecd5cc7a036c50c5e4d4"
+    },
+    {
+      "path": "data/gas/nir_si_h2o.npy",
+      "size": 9384,
+      "sha256": "4c72b0d4bae984438a757dc2c51680d67e9cdb128352e563a0a3f36037ec1847"
+    },
+    {
+      "path": "data/gas/swir_co2.npy",
+      "size": 9384,
+      "sha256": "75edf0d8e2a07b33fca107970b2c68134ee98b8855afec80bf9501e2937ead6f"
+    },
+    {
+      "path": "data/gas/swir_gas.json",
+      "size": 2836,
+      "sha256": "fb921cd91a2fdebd3c7aee89946000dfdd71460617f2053374d41f6998b13ef3"
+    },
+    {
+      "path": "data/gas/swir_h2o.npy",
+      "size": 9384,
+      "sha256": "1352b5dedfcf6bf8f5a6f72548344fbf70a7412c9e1e586ea32e7affe6d02014"
+    },
+    {
+      "path": "data/lut/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_dlb_dt.f32",
+      "size": 64004,
+      "sha256": "130858fc39b4ec431f6c6b0abdb02f35b43a5d59221fb6c5f5b53f6458b4449d",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_dlb_dt.npy",
+      "size": 64132,
+      "sha256": "b4702ff7a6fda7b6030830ae06626cdb1de36890f77a21b65cc0944247481576",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_dlb_q_dt.f32",
+      "size": 64004,
+      "sha256": "4c94fda316150e64bf03c43730e5db0c4f0927f1869079303fa34ddebe91eab1",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_dlb_q_dt.npy",
+      "size": 64132,
+      "sha256": "e7cfc93112d5211631e96ee2e25bf98dd31473c93d478e46524bd8377da727e5",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_lb.f32",
+      "size": 64004,
+      "sha256": "e3939a109068596bdc700db116a0ce872820e909bce95c29f026f95da8c7a25d",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_lb.npy",
+      "size": 64132,
+      "sha256": "c6d82e29d286f8bd1d01ec644a4911cfd0d9ebd73ee1b67444d5dfb0a69da431",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_lb_q.f32",
+      "size": 64004,
+      "sha256": "ca493728da40aa438646ad31d61d0bc6f53830b933651efe637e06b0840bed1e",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_lb_q.npy",
+      "size": 64132,
+      "sha256": "6c28128c50e5d1b0fc4a46e2384af5f1f75e27475ae0ecd766d1d4b601e33dd3",
+      "generated_cache": true
+    },
+    {
+      "path": "data/lut/6f17c06ca68beea5_lut.json",
+      "size": 1204,
+      "sha256": "38e3c73532d709adf747bd9f13282b1f0272e53e7b31603bdb3bc1d5eed7d296",
+      "generated_cache": true
+    },
+    {
+      "path": "data/nk/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/nk/aluminium.csv",
+      "size": 11745,
+      "sha256": "62871f79d83ccb207ad80fc4c502bd0eb895cfdd240d860766a8987116c3b3cb"
+    },
+    {
+      "path": "data/nk/glass.csv",
+      "size": 46747,
+      "sha256": "f99fbfd8b22dbfb4ad0b049df6627ed277e604aaa77e34f2709bca6d47af7d32"
+    },
+    {
+      "path": "data/nk/paint_proxy.csv",
+      "size": 15215,
+      "sha256": "802b5e1582884f089c4464bcd954310dd8ba44de622698ede3c7f05d320bc4b5"
+    },
+    {
+      "path": "data/nk/water.csv",
+      "size": 19028,
+      "sha256": "f9a49bd8573292048b2d7dea08bfd37abc79eab3c583f692f4c91dc986b27c97"
+    },
+    {
+      "path": "data/spectra/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/spectra/airglow_oh_meinel.csv",
+      "size": 43204,
+      "sha256": "44300990aeb01549294f3b4d347ef276d8803ede9ee0ff72f9073ff63e7de237"
+    },
+    {
+      "path": "data/spectra/materials/car_paint_black.csv",
+      "size": 430,
+      "sha256": "22f65a2efc251cd00e055375a882b2a483fdfa44644f084a12c9f06442633af2"
+    },
+    {
+      "path": "data/spectra/radcal/co2_sd15.csv",
+      "size": 3530,
+      "sha256": "1134ae6e18ebb7167c3b76f3aa3f83b8733bb8d83ae0e3f32dd91162ed222f84"
+    },
+    {
+      "path": "data/spectra/radcal/h2o_sd.csv",
+      "size": 19097,
+      "sha256": "aa3d718a971d5d5957640b40405a4a47df514009374e0a7fff9e5628af1c20df"
+    },
+    {
+      "path": "data/spectra/responses/boson_vox.csv",
+      "size": 11542,
+      "sha256": "5179397529c0f37799be342b9effc2634a958f4a54443f2e1d687d3176df49cc"
+    },
+    {
+      "path": "data/spectra/responses/ingaas.csv",
+      "size": 4528,
+      "sha256": "af115922b8271655299282ecff46c4ad986b19a95447c8cf246fddfa3781dff0"
+    },
+    {
+      "path": "data/spectra/responses/insb.csv",
+      "size": 12603,
+      "sha256": "4c8dc07fd6a957ec9835a90a792aeb84e2a8a0afee5859f1e245ad763ee028c3"
+    },
+    {
+      "path": "data/spectra/responses/insb_flame_window.csv",
+      "size": 3462,
+      "sha256": "9db6e6d8132b4ada7b8034ade3b878caa739a6979e3216e7d2908f2fc4001a66"
+    },
+    {
+      "path": "data/spectra/responses/nir_si.csv",
+      "size": 3349,
+      "sha256": "751aee9d1dedda39e3488fee46ddb45995c17e404763044ff93d2274e5fbd3de"
+    },
+    {
+      "path": "data/spectra/solar/direct_normal_am1p5.csv",
+      "size": 214520,
+      "sha256": "a300525f11654a0dba9a6b795d782e4d78222fd233987a1c832458387e2207fb"
+    },
+    {
+      "path": "data/spectra/solar/toa_planck_5778k.csv",
+      "size": 213400,
+      "sha256": "40b4d1389705193692a9b96e282e88cfd1957d86a45beff645dfc42f2d2dfb5e"
+    },
+    {
+      "path": "data/validation/README.md",
+      "size": 18567,
+      "sha256": "c904a0fa9c5517e8a145b4a7971d3187a24b4f2522bbf9337db774b2fd2e4fc7"
+    },
+    {
+      "path": "data/validation/datasets.yaml",
+      "size": 28930,
+      "sha256": "731b086a9d2eb0129a20642222768afbf7b5aa5dcc6396218d83827a3a4a79f7"
+    },
+    {
+      "path": "data/weather/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/weather/clear_midlat_summer_48h.csv",
+      "size": 5561,
+      "sha256": "efa2fb75edc706f6c18df6782e95ba2841af29fe88e857f85d1db24df3254ed0"
+    },
+    {
+      "path": "data/weather/coastal_sea_breeze_48h.csv",
+      "size": 5959,
+      "sha256": "c1420681409b49817b9776c8479d1fee30f1e9ee2d5e8ee9709a8c55037838bc"
+    },
+    {
+      "path": "data/weather/overcast_still_48h.csv",
+      "size": 5273,
+      "sha256": "3bc4fd43942f38cadd28e669f53d2ca36a805c088ae57d757e863f3b535946c0"
+    },
+    {
+      "path": "data/weather/scattered_cumulus_48h.csv",
+      "size": 5672,
+      "sha256": "0663757fe8bde9b1912e2a8791237b1441dcde7d986ca831ae485762a0eea01f"
+    },
+    {
+      "path": "src/irsim/__init__.py",
+      "size": 355,
+      "sha256": "8f43d52297c61e1b499d34d2344d939183bbea2ad4ed2b468c22e3de10e57c81"
+    },
+    {
+      "path": "src/irsim/atmosphere/__init__.py",
+      "size": 2848,
+      "sha256": "67315822c845acfde5e74300c300e359b673d99d75241019927ea4ad32840b06"
+    },
+    {
+      "path": "src/irsim/atmosphere/beer_lambert.py",
+      "size": 3663,
+      "sha256": "4c84a02c70d6ec3d23b7cff92b6806a80879d4e485e17aa0fa6e699b5be15122"
+    },
+    {
+      "path": "src/irsim/atmosphere/cloud.py",
+      "size": 28291,
+      "sha256": "cc0e218ce8fd587cb0177624f86e59c0547438d507ea24a26fa1eb44a04a41e5"
+    },
+    {
+      "path": "src/irsim/atmosphere/cloud_deck.py",
+      "size": 33183,
+      "sha256": "8bcc6c5b81efc1adf96a7aabbf5891fa3cfd71b5212895be1d53a57f54304851"
+    },
+    {
+      "path": "src/irsim/atmosphere/droplets.py",
+      "size": 4536,
+      "sha256": "d44b2f9f6292f98532164b12730c6f288dd4684160e2ef8586c5f082f9d75c81"
+    },
+    {
+      "path": "src/irsim/atmosphere/extinction.py",
+      "size": 7010,
+      "sha256": "7f48e7e70aea1acc0868033565a2a11e6c36c4965a0731e177d07c9f453543d5"
+    },
+    {
+      "path": "src/irsim/atmosphere/humidity.py",
+      "size": 3262,
+      "sha256": "c585fb83d1cdb0bce393852b990cbc2568a30f8f152c80fc65871e6d9488a794"
+    },
+    {
+      "path": "src/irsim/atmosphere/layered.py",
+      "size": 47395,
+      "sha256": "515e9ef4ce0c4d84ce21285edc19a3dda79cc602ec06ac6560a41cd7ff5846f8"
+    },
+    {
+      "path": "src/irsim/atmosphere/library.py",
+      "size": 2055,
+      "sha256": "3946cabd4105896467c04bbad583b0e8232a7e95672e9d7f16304b7ce8eab076"
+    },
+    {
+      "path": "src/irsim/atmosphere/mie.py",
+      "size": 4043,
+      "sha256": "1362d1103c92ab49c293f44540fd21644b8b8e3ca8363f2dbed8a39d42afe862"
+    },
+    {
+      "path": "src/irsim/atmosphere/model.py",
+      "size": 5646,
+      "sha256": "04f74f2cfb7e39756f31c6ac0fced54f95dcf57997d00d82781cc83d6af1ca77"
+    },
+    {
+      "path": "src/irsim/atmosphere/sea.py",
+      "size": 25531,
+      "sha256": "1242e402955597709a3ae968172b9bda363db25792b428e4e48c2f3c61d7e7b0"
+    },
+    {
+      "path": "src/irsim/atmosphere/sea_envelope.py",
+      "size": 9657,
+      "sha256": "e18c36644be9854374f5937a3bcda6cc067b469d4334821a7c45158e3a798070"
+    },
+    {
+      "path": "src/irsim/atmosphere/sky.py",
+      "size": 29315,
+      "sha256": "a7fac74305b3b57d681e865334a52c7fef47ecd5fd8287503068428fcfb81d26"
+    },
+    {
+      "path": "src/irsim/atmosphere/skylight.py",
+      "size": 7766,
+      "sha256": "ac29bf735666b0290dd1f7e0af91fb2ae8007c921d57318c0ec25954f3b79331"
+    },
+    {
+      "path": "src/irsim/atmosphere/spectral.py",
+      "size": 3964,
+      "sha256": "2e2d8b89e53f2750ba936c33e4359c84eca6ebeca4fae075f841137ea818aa63"
+    },
+    {
+      "path": "src/irsim/atmosphere/weather_fx.py",
+      "size": 15127,
+      "sha256": "eea60f40cb6c05c7b7c719894c48522a02368e0574bc97fb6c4c4e1d33d047eb"
+    },
+    {
+      "path": "src/irsim/config/__init__.py",
+      "size": 34,
+      "sha256": "eaa72bf12a3b0c0d30d15e48a9bdeb943dca89f5dd2daef4b441fc7e00b5b065"
+    },
+    {
+      "path": "src/irsim/config/atmosphere.py",
+      "size": 7018,
+      "sha256": "4c1ee7b3fe463520cc7d77697f995b815a3de24e1d3a5ded91442427a05f0665"
+    },
+    {
+      "path": "src/irsim/config/bands.py",
+      "size": 7969,
+      "sha256": "c81ece6a8599a21f6ab8dd879953d5929710c55f05a944a6f23411bb1399b6a1"
+    },
+    {
+      "path": "src/irsim/config/environment.py",
+      "size": 12634,
+      "sha256": "ff5c42af766c00346e17f0fd8cd13bf79dcf82c81085c80944000a487a057e36"
+    },
+    {
+      "path": "src/irsim/config/gbuffer.py",
+      "size": 11117,
+      "sha256": "612ae2e4dcda185bfb3931b30d59bc433fc0245a3a2624d2b25d08a9d03ae825"
+    },
+    {
+      "path": "src/irsim/config/joints.py",
+      "size": 4440,
+      "sha256": "cb74153b7c9668232cd48468545c2fbaff034bfbd9ea4fa623fcd34ab921990a"
+    },
+    {
+      "path": "src/irsim/config/loader.py",
+      "size": 11355,
+      "sha256": "b17fc3fbf3a73dfd11e70ebc367aee2bde85841595891c0d259027a3823d8b9e"
+    },
+    {
+      "path": "src/irsim/config/materials.py",
+      "size": 11468,
+      "sha256": "b9cff65eaf960ff4766c381fc7a309c8425a9c773dab578f9c8cb36fc9df8001"
+    },
+    {
+      "path": "src/irsim/config/scene.py",
+      "size": 62148,
+      "sha256": "a3098fa7a4590c7d4ac474fde5fb853cc24ed9bdc588eea71dab8e5bcd117f02"
+    },
+    {
+      "path": "src/irsim/config/sensor.py",
+      "size": 35862,
+      "sha256": "b4c6e6afb5576e1d27bce8bc21a9a866c4bad958986f218717cfff2441156022"
+    },
+    {
+      "path": "src/irsim/detector/__init__.py",
+      "size": 1998,
+      "sha256": "a8664e63108f39aa4844bc72c32b876f5d1f786ec7ed99e49e7b50156922ede3"
+    },
+    {
+      "path": "src/irsim/detector/anchor.py",
+      "size": 3668,
+      "sha256": "dfbe36f3c77ee117b77ccf69611b3038546122d772c1e13b13f5b35a0e94e39f"
+    },
+    {
+      "path": "src/irsim/detector/bolometer.py",
+      "size": 7625,
+      "sha256": "4d03be44c914653d0c5f3a9457c94200ea160ff11650f1f0b661ad1250bd8347"
+    },
+    {
+      "path": "src/irsim/detector/cold_shield.py",
+      "size": 5796,
+      "sha256": "0a81b7b2d2dfc15e9e44cd60360a164c93d1a9d3990e6a42c61371b073c3f681"
+    },
+    {
+      "path": "src/irsim/detector/dark_current.py",
+      "size": 2010,
+      "sha256": "4980f424111ab9e70df60f7090d48297049c6f1033ae795b50d8b23531e30bb7"
+    },
+    {
+      "path": "src/irsim/detector/figures_of_merit.py",
+      "size": 5377,
+      "sha256": "a40c2042d9abbbfa156cee34ba715f79c213f1a3c0e6766a8331253867987590"
+    },
+    {
+      "path": "src/irsim/detector/fpa_thermal.py",
+      "size": 8646,
+      "sha256": "f011126827bfb4d7e4b1932f65cb0c233135b161e5a43c4456d4252d771c9e96"
+    },
+    {
+      "path": "src/irsim/detector/gain_state.py",
+      "size": 4483,
+      "sha256": "9d4f8c1cdc7872c7a3a6d62ed8b83b37a3357e9a7b99dc7843b603aed613c28a"
+    },
+    {
+      "path": "src/irsim/detector/lowpass.py",
+      "size": 7352,
+      "sha256": "3f7c024096a254a7e13d4dca537b921dcd474c158ba01c540d6c2b47e7592a09"
+    },
+    {
+      "path": "src/irsim/detector/netd.py",
+      "size": 7040,
+      "sha256": "427d421f750f55de6f2bb5881feae24a405ebd9da4c0f82d70ffa9787db01cda"
+    },
+    {
+      "path": "src/irsim/detector/params.py",
+      "size": 5170,
+      "sha256": "59e46ffb716d1550e3a843b57c6f5d2b1438839a4d066b21af3803f6719b6977"
+    },
+    {
+      "path": "src/irsim/detector/photon.py",
+      "size": 6021,
+      "sha256": "c6a54e97dcd366554e705b14ac8f1ee2d29b532c84141bea7f9f948f0b84da0e"
+    },
+    {
+      "path": "src/irsim/detector/quantise.py",
+      "size": 1559,
+      "sha256": "eb7041077c592c39e90ef7013cd2688bfc34eab3bcc548275ab7ada82734379d"
+    },
+    {
+      "path": "src/irsim/detector/response.py",
+      "size": 1721,
+      "sha256": "90ef45b75dd1eb1d16b65f4a20cdf32257618977dbcfbe7fb5fe5c71dfb4fa81"
+    },
+    {
+      "path": "src/irsim/io/__init__.py",
+      "size": 1227,
+      "sha256": "9bce0f5d819ab8a968736b7f673b29bc6a76b0dae1e1d51ee8f5f2f23adc0f3e"
+    },
+    {
+      "path": "src/irsim/io/asset_budget.py",
+      "size": 11474,
+      "sha256": "81aa9d12aafde06151584247779f282e5d8626d2ef86336e36b89ce097cf5e30"
+    },
+    {
+      "path": "src/irsim/io/asset_material_split.py",
+      "size": 10668,
+      "sha256": "5b1241b1ba93e8d74b9d7bfac826a502b77514d6bf93c2a704658077c5e5e966"
+    },
+    {
+      "path": "src/irsim/io/asset_parts.py",
+      "size": 23245,
+      "sha256": "e24331be0d6859b001b6641ba7b5dc97a984269150cec16d713d0e7c62e8d839"
+    },
+    {
+      "path": "src/irsim/io/assets.py",
+      "size": 9715,
+      "sha256": "3805f61eab76c1cb4571ddb0b8b60913236397587bffb937f434668c2ec46d33"
+    },
+    {
+      "path": "src/irsim/io/dataset.py",
+      "size": 13401,
+      "sha256": "1adcbd3688f2094e9a6636d979e6108b86f084cf97355b264629682cb08698fd"
+    },
+    {
+      "path": "src/irsim/io/exr.py",
+      "size": 8815,
+      "sha256": "259aacdf29cbac69d78dd6a1aeaca78aa8e9682e44930ba1d1c346a2eb11d1d5"
+    },
+    {
+      "path": "src/irsim/io/png.py",
+      "size": 3004,
+      "sha256": "3fad558009e2f5795fff94abc6c30f5c2b99bd863e5030275762fa6810b197bd"
+    },
+    {
+      "path": "src/irsim/io/sketchfab.py",
+      "size": 14035,
+      "sha256": "b9bd3fd9360c4d21569503dd030cd3572aed113651562be9baa4875d3e1ca879"
+    },
+    {
+      "path": "src/irsim/isp/__init__.py",
+      "size": 1159,
+      "sha256": "6925566ebc87fa2b557b70cf9f3316583b2b3f17ccba6dfb53db6bf65bb9fdc4"
+    },
+    {
+      "path": "src/irsim/isp/agc.py",
+      "size": 14005,
+      "sha256": "0f85917dc2efcc1d956507bbfe777d54a72f909a913a56d193efb0e13dc0ed1e"
+    },
+    {
+      "path": "src/irsim/isp/bad_pixel.py",
+      "size": 6477,
+      "sha256": "d8a805505c42e180cd373413c103819a52845e98385112e8e7555f5a79c21043"
+    },
+    {
+      "path": "src/irsim/isp/dde.py",
+      "size": 2490,
+      "sha256": "382a26e022b2fa3dab5497eaf00d819fa4fd44e8d2bae65d71174acd736a4938"
+    },
+    {
+      "path": "src/irsim/isp/display.py",
+      "size": 5898,
+      "sha256": "d7016c099fe52cc6a0f1e276ea32637a7cecfb2dc2f3cb6f68328700ea8957cd"
+    },
+    {
+      "path": "src/irsim/isp/ffc.py",
+      "size": 9632,
+      "sha256": "70c2200cb0b98811794bec1d04ea2ef90620c8927e74301d8de134d32ef13d4c"
+    },
+    {
+      "path": "src/irsim/isp/information.py",
+      "size": 12864,
+      "sha256": "ac206f93c9444cd1e39a10b6e1c78d03e125ca18c2bb9be91d629cb3038df534"
+    },
+    {
+      "path": "src/irsim/isp/nuc.py",
+      "size": 5145,
+      "sha256": "d3dddff1825eea55789af8a563cf06541970c87c43201e6ec44b008fb0d02109"
+    },
+    {
+      "path": "src/irsim/isp/palette.py",
+      "size": 4946,
+      "sha256": "2f97d3927a2c286ad05607e2d3a196ae6c2ec9adf193c0c505a14eda12ef933c"
+    },
+    {
+      "path": "src/irsim/isp/radiometric.py",
+      "size": 7519,
+      "sha256": "8ca276e3fcbf9bf40e5a774ef030a74cb6bdb0a2d80dbd096ec1a1920fd8afe4"
+    },
+    {
+      "path": "src/irsim/materials/__init__.py",
+      "size": 1780,
+      "sha256": "6a1c9211ae7e8f0154d21baadea4e3f031e5ff65f2001e9ac4ad8443eb27745f"
+    },
+    {
+      "path": "src/irsim/materials/angular.py",
+      "size": 11655,
+      "sha256": "7d71a889a8169e3cb425f44c8156828b06893a41d495787ae761f3236a72be2d"
+    },
+    {
+      "path": "src/irsim/materials/directional.py",
+      "size": 6592,
+      "sha256": "7c0c31cb3f74038b8fec8f55986f710c09b6823bdf03fe55a2ef3ddf333954f8"
+    },
+    {
+      "path": "src/irsim/materials/fresnel.py",
+      "size": 5382,
+      "sha256": "35655ff8d46a0f1767c353d1e98c24719487e3ba957bd17ce017c6cd339dd09f"
+    },
+    {
+      "path": "src/irsim/materials/hemispherical.py",
+      "size": 13176,
+      "sha256": "0762f6693b4b7eafeb4f51f0f677eb6e06b2eefa1faee242dc433fcfb5c2d3dc"
+    },
+    {
+      "path": "src/irsim/materials/library.py",
+      "size": 9710,
+      "sha256": "4ecc10ba4890bf4a6e68baff67bee647b5c4348ee385c966c6c53a8c00a2a59e"
+    },
+    {
+      "path": "src/irsim/materials/lobe.py",
+      "size": 14298,
+      "sha256": "7917539c7e7b001be0ea85ae193204f85c2d310d37d2333cba81dd9a8ff04783"
+    },
+    {
+      "path": "src/irsim/materials/mapping.py",
+      "size": 17773,
+      "sha256": "30c5217bf5f5305a1c6107992bb72ea43b38f5d832597ae919431675009f3da4"
+    },
+    {
+      "path": "src/irsim/materials/nk.py",
+      "size": 10931,
+      "sha256": "d7106ce77defe3f746d8d7cd92dc0eefacffdd6b2b67288dccc1992a90df471a"
+    },
+    {
+      "path": "src/irsim/materials/spectra.py",
+      "size": 5783,
+      "sha256": "2bca23b686e3d2e898e4fde62a029d4fc40fa77d60b8ea61bec9335c870ebf9c"
+    },
+    {
+      "path": "src/irsim/materials/surface.py",
+      "size": 2707,
+      "sha256": "f893d7b2242abfaff5df13ffc7be837773e5e82c8467648136b324473ef89711"
+    },
+    {
+      "path": "src/irsim/materials/table.py",
+      "size": 21136,
+      "sha256": "13d6970d65eade5e7933680b7f6e5942c2df8576b3149b450dc6b497f06d7b68"
+    },
+    {
+      "path": "src/irsim/noise/__init__.py",
+      "size": 1517,
+      "sha256": "e5656c8c7125989ff91ec10093fa7c274ee219e196839011a118035d537b25e9"
+    },
+    {
+      "path": "src/irsim/noise/defects.py",
+      "size": 16155,
+      "sha256": "cb3bcdd17fa4465ff531086fc38677e600ef39b16d39b6ca9db004a60832efa5"
+    },
+    {
+      "path": "src/irsim/noise/drift.py",
+      "size": 9617,
+      "sha256": "9787c08e60a37305fb1d3ea500750745b3eef453aacab0c8005554eacf801d6c"
+    },
+    {
+      "path": "src/irsim/noise/electron.py",
+      "size": 7939,
+      "sha256": "512d834639f3daecfeabe8c3f71ffd426bd1a1f404a0a008633abcd1e4d09479"
+    },
+    {
+      "path": "src/irsim/noise/nuc_residual.py",
+      "size": 9334,
+      "sha256": "8c0bfdc8861fabd1392bd9f55cf61b07e86ff3cefaa220897b2556df4ae46f6b"
+    },
+    {
+      "path": "src/irsim/noise/seeding.py",
+      "size": 6526,
+      "sha256": "800728188981e212d4121628bb56ad434ee5fc1e91f95dba6054bc5e69feb368"
+    },
+    {
+      "path": "src/irsim/noise/stage.py",
+      "size": 5151,
+      "sha256": "31644b3c5948aded19f8359ed78883bc3ae6f243085c1e73428a4eb959663d33"
+    },
+    {
+      "path": "src/irsim/noise/three_d.py",
+      "size": 5271,
+      "sha256": "380e766c673f7b8e723d8009e32fcc167f5b92cb142b3bca776b1d1688fc2721"
+    },
+    {
+      "path": "src/irsim/optics/__init__.py",
+      "size": 3104,
+      "sha256": "33c77cd69e25e05dbf8f6c3d9ea97e2f2206401a1b8a5c4c0241950e5ba33f1a"
+    },
+    {
+      "path": "src/irsim/optics/aperture.py",
+      "size": 3404,
+      "sha256": "4fbbdff82d965992030f942157feda19256560cbc04340202a2b2eecd9beb43d"
+    },
+    {
+      "path": "src/irsim/optics/autofocus.py",
+      "size": 6788,
+      "sha256": "8ba59ee626175fe3836053f6d23263b72214ce11413a798da57e1ff850ca5add"
+    },
+    {
+      "path": "src/irsim/optics/defocus.py",
+      "size": 8556,
+      "sha256": "2c443d8c70c96a20778a2d9073964c6c9d833db478b6b18a9dd9dbc20c49de76"
+    },
+    {
+      "path": "src/irsim/optics/housing.py",
+      "size": 11925,
+      "sha256": "291392ab37b994502f4d71d60b7a2a104a0cb64e426a0ce3b7015a4b0b5e5073"
+    },
+    {
+      "path": "src/irsim/optics/layered.py",
+      "size": 23622,
+      "sha256": "9305100d787c3b270ab37a0eb0a7ed70139943dba4a04e7045df80b9414614f7"
+    },
+    {
+      "path": "src/irsim/optics/motion.py",
+      "size": 7522,
+      "sha256": "d790447ce40c3d604d29f6e4199c73dbafe79fe0f12c8b2012e973faa8e2016c"
+    },
+    {
+      "path": "src/irsim/optics/mtf.py",
+      "size": 14604,
+      "sha256": "f5886c729781448dbbd6fbe0d18d5b7995672bdb5d444ad546e42dd4f81057c5"
+    },
+    {
+      "path": "src/irsim/optics/projection.py",
+      "size": 15758,
+      "sha256": "fc1101bf228978b593e19d4550fc4ea88899e0dcb9fcf6fd004f790983f3947a"
+    },
+    {
+      "path": "src/irsim/optics/psf.py",
+      "size": 11085,
+      "sha256": "5ef7e3d690e7143f1a0a87f9920faf187cdaaf6b3a910b6de2c06cc28bdcde28"
+    },
+    {
+      "path": "src/irsim/optics/rotor.py",
+      "size": 21285,
+      "sha256": "53e564e85e782b79c475e4795a760ba740f8c01fa3f5efad20724ca1d0c3581f"
+    },
+    {
+      "path": "src/irsim/optics/sampling.py",
+      "size": 2750,
+      "sha256": "e19eb78d45fe855d14450aae608b10957565894917417a7497824dda256b32a2"
+    },
+    {
+      "path": "src/irsim/optics/self_emission.py",
+      "size": 6520,
+      "sha256": "7061c1a948858db92668b9c3d7ed954834bda3b8dc94c47beb56106a58a16a42"
+    },
+    {
+      "path": "src/irsim/optics/smear.py",
+      "size": 6971,
+      "sha256": "f8639e344755b44b45fadea862ca7bf64779b2faab8995ee7e183b9a170fb182"
+    },
+    {
+      "path": "src/irsim/optics/stage.py",
+      "size": 7086,
+      "sha256": "bc34c048353dd02ca276dd413a80acd4d9954b9b90f6b32d33cb9479307ed8de"
+    },
+    {
+      "path": "src/irsim/optics/thermal_defocus.py",
+      "size": 7469,
+      "sha256": "4d79ec1b0c269bab7f25ab2eb38be519537f7476b410ab5d3a22f6673e5a31ef"
+    },
+    {
+      "path": "src/irsim/optics/vignetting.py",
+      "size": 5924,
+      "sha256": "b3c227012a70170f7194bf4a7dbf81271e36f2c01f0c5c73b12595c289a50526"
+    },
+    {
+      "path": "src/irsim/pipeline/__init__.py",
+      "size": 1171,
+      "sha256": "210017448923dc93d071c647cb4bb8d058acdf468998c73358aea869704851dc"
+    },
+    {
+      "path": "src/irsim/pipeline/atmosphere.py",
+      "size": 6075,
+      "sha256": "145ec4792df6ac3396942a189af70fc62d093afbd80a68600e317fb455b5948d"
+    },
+    {
+      "path": "src/irsim/pipeline/core.py",
+      "size": 21617,
+      "sha256": "4669206490030359870ae4440a3e99c0d7b0ca957166b776b878213748e1cbee"
+    },
+    {
+      "path": "src/irsim/pipeline/detector.py",
+      "size": 5593,
+      "sha256": "867d1b222eb3f72f70a7deb8291fd4982bd9057903c1b80f90e10dbbd6c3c275"
+    },
+    {
+      "path": "src/irsim/pipeline/environment.py",
+      "size": 4153,
+      "sha256": "295ab1e4c169e26fc08226963e457c9a1d8fc825bf06b2d7779f24a207add110"
+    },
+    {
+      "path": "src/irsim/pipeline/flat_field.py",
+      "size": 5605,
+      "sha256": "1cb7f5ae900a5e22632c47f0b1857787ffbe57255a89f808c5d635815bd9cb89"
+    },
+    {
+      "path": "src/irsim/pipeline/frame.py",
+      "size": 20164,
+      "sha256": "9d7db2402c6e9ffbac7cbcb8403c806f41dda52bfc1ddefde2bfcd9f938873cb"
+    },
+    {
+      "path": "src/irsim/pipeline/gas_slab.py",
+      "size": 22075,
+      "sha256": "d4de5782ca68e326f6fa96dba842e27af5202559bcdf1abcc4f16135e2b8433c"
+    },
+    {
+      "path": "src/irsim/pipeline/gas_tables.py",
+      "size": 7594,
+      "sha256": "776195d4dd8da141e3913fc6cb7e5ea2122e52f9702b4ab6ef65f23dcd855cba"
+    },
+    {
+      "path": "src/irsim/pipeline/illumination.py",
+      "size": 7872,
+      "sha256": "42c534c9201558edf9453c7b2edd13a5520db2ac9a0c87a5531520ea2731bc38"
+    },
+    {
+      "path": "src/irsim/pipeline/night.py",
+      "size": 5890,
+      "sha256": "53314ff9258042f56318db7ad21f68d5b2011965bf603d69f97bdb31269a6f5c"
+    },
+    {
+      "path": "src/irsim/pipeline/optics.py",
+      "size": 3494,
+      "sha256": "d05de196b1ab26eb63494df8db2f3aa739e59979d92dffdf280732a859730b2c"
+    },
+    {
+      "path": "src/irsim/pipeline/plume.py",
+      "size": 24403,
+      "sha256": "a563cc4e766ddb42249e27ad4e1a53779f0d15883dd59d2f8c4ce024050f326f"
+    },
+    {
+      "path": "src/irsim/pipeline/point_target.py",
+      "size": 7422,
+      "sha256": "b11686e369a048f908810457c10074e5e54c57564c7f5e7277f55f2a862de58e"
+    },
+    {
+      "path": "src/irsim/pipeline/radiance.py",
+      "size": 7596,
+      "sha256": "240b5e8e1d1ab96bdc0e6774ab04c07df55a0fc923a38f7a98133bb2e3efbbf8"
+    },
+    {
+      "path": "src/irsim/pipeline/rotor_veil.py",
+      "size": 7226,
+      "sha256": "5cdbc92c12dee6109e6a855de94160d430ed068d2fd5331e0b4fec0d596fcd47"
+    },
+    {
+      "path": "src/irsim/pipeline/sensor_chain.py",
+      "size": 15591,
+      "sha256": "2861d61d26d2ed45e64f3721455af8ef427d9dc8c26fcac657ba0acc68a76b9e"
+    },
+    {
+      "path": "src/irsim/pipeline/solar.py",
+      "size": 5275,
+      "sha256": "00e3baf3f69efa0cdf68a867f0db74bd06f226eb1c9c1c29b65e16e800458f63"
+    },
+    {
+      "path": "src/irsim/pipeline/specular.py",
+      "size": 4040,
+      "sha256": "73564a03c6df9ce0425565ca655c9ad07219348e9a8300690deae39af1807ec7"
+    },
+    {
+      "path": "src/irsim/radiometry/__init__.py",
+      "size": 34,
+      "sha256": "eaa72bf12a3b0c0d30d15e48a9bdeb943dca89f5dd2daef4b441fc7e00b5b065"
+    },
+    {
+      "path": "src/irsim/radiometry/band.py",
+      "size": 2312,
+      "sha256": "e13d95095dbf21a4537649fa908380cf4e37da196edf793c6024ecc0a398306c"
+    },
+    {
+      "path": "src/irsim/radiometry/band_average.py",
+      "size": 3710,
+      "sha256": "4486af67b4fef26f2c7a88d656fc56059c80000267fa3fa6079f3345b0ad52de"
+    },
+    {
+      "path": "src/irsim/radiometry/band_integration.py",
+      "size": 4092,
+      "sha256": "c2027459d7f19eadec2e688458b351491d6b14438c89bc21eff327aaabbb3963"
+    },
+    {
+      "path": "src/irsim/radiometry/constants.py",
+      "size": 14319,
+      "sha256": "afa1355d968958c50f1a08f6e05966635e10cb9ae72637e846948997e460cca0"
+    },
+    {
+      "path": "src/irsim/radiometry/encoding.py",
+      "size": 4908,
+      "sha256": "dfcddef86e3ac215f37a2c3ff71e8e280dcb981dff3339e0e26ef3f8a5f8cb5a"
+    },
+    {
+      "path": "src/irsim/radiometry/lut.py",
+      "size": 8026,
+      "sha256": "c5748b281122ddd5279d7f270c9ccd17508b71c5d66d98d94acd8eb4aa94efdc"
+    },
+    {
+      "path": "src/irsim/radiometry/lut_files.py",
+      "size": 10077,
+      "sha256": "daee9188f7b1da80b7000d2987198caa52719dd71744a7118d20eedd254a9a58"
+    },
+    {
+      "path": "src/irsim/radiometry/night.py",
+      "size": 9194,
+      "sha256": "c03a444541422854d6b7c74ed45d264ec1c5cd23db4594e0a64892be9d17811d"
+    },
+    {
+      "path": "src/irsim/radiometry/planck.py",
+      "size": 13600,
+      "sha256": "77fe07238a814bf86b99ea533f9d0808fb902dc3b28d057518f9c5ae6dad3941"
+    },
+    {
+      "path": "src/irsim/radiometry/solar.py",
+      "size": 5769,
+      "sha256": "66615788a33f050e8fbd0127f6b77f900c52161d64c2fd6fdfd5e26c9d00d82a"
+    },
+    {
+      "path": "src/irsim/radiometry/spectral_response.py",
+      "size": 7593,
+      "sha256": "6e68b3bc47264938b2f1a8288e5341a26815be42c21a08bce11d9b0f35de4f8d"
+    },
+    {
+      "path": "src/irsim/radiometry/spectral_table.py",
+      "size": 3473,
+      "sha256": "2a0e52e13b1eaad33841989dd290f857b40a44cd694fd0ab4421853af0d917f1"
+    },
+    {
+      "path": "src/irsim/scene.py",
+      "size": 69346,
+      "sha256": "bd16d0ff7444a01aed1221f58da3ca9b7d3937d1fedce3bc197885f2b4a98b0c"
+    },
+    {
+      "path": "src/irsim/thermal/__init__.py",
+      "size": 4740,
+      "sha256": "487aca2bcdeec82365d4614421efd8d9adcd6f554310175d176d620ca0946d51"
+    },
+    {
+      "path": "src/irsim/thermal/aerial.py",
+      "size": 15876,
+      "sha256": "1958ee0d3a2656f957e23e8e839419aa80c5c5d13be97957773aecdd95d870f5"
+    },
+    {
+      "path": "src/irsim/thermal/balance.py",
+      "size": 10588,
+      "sha256": "8c8abd7a967d61f62de7337e13ab1e77c210a45636f2fe303346c7a3f23d916b"
+    },
+    {
+      "path": "src/irsim/thermal/cabin.py",
+      "size": 14969,
+      "sha256": "adf08043ce642c888a70eccb59f3cd41314818b6514b849d1e9b86f711e495a1"
+    },
+    {
+      "path": "src/irsim/thermal/conduction.py",
+      "size": 9249,
+      "sha256": "cac49c5ffd826e15220391bfff1d40c53ba44643630c4e00068962ec46212988"
+    },
+    {
+      "path": "src/irsim/thermal/convection.py",
+      "size": 3375,
+      "sha256": "1af60e78dfcc2ac9a988a2fa5a3f74cb0c920708540580a9744895e9563058e5"
+    },
+    {
+      "path": "src/irsim/thermal/coupling.py",
+      "size": 25724,
+      "sha256": "63fd3a11f56a8c0a05664d70c8ed4e55f897e52d2e92d0d5d711781ff1363ade"
+    },
+    {
+      "path": "src/irsim/thermal/drive_cycle.py",
+      "size": 10238,
+      "sha256": "8a76cb201dce87a8974d6bc5ef96ca1fabd99edd23a9e9c59ff061c751cfaa40"
+    },
+    {
+      "path": "src/irsim/thermal/engine.py",
+      "size": 13215,
+      "sha256": "4b5b8c4f35ea04a4a760d9cf8a18c0ffa420d036f259012c2a26d36720ee9375"
+    },
+    {
+      "path": "src/irsim/thermal/exhaust_line.py",
+      "size": 28235,
+      "sha256": "c5b7e48d30a2a3fa0b4b4a3d160854bb283777eaec70e84ba3f871b725516448"
+    },
+    {
+      "path": "src/irsim/thermal/facets.py",
+      "size": 19470,
+      "sha256": "3bcf2f91f380ed20966c2ceec8545d4a35e7b61f7c9b07dac1870d0c1d992b11"
+    },
+    {
+      "path": "src/irsim/thermal/field.py",
+      "size": 10573,
+      "sha256": "3d45ebc51aeaf2dec3217e227aa9a826069cb92131f4dfa76b9d539e080f6333"
+    },
+    {
+      "path": "src/irsim/thermal/fire.py",
+      "size": 13514,
+      "sha256": "4a98c1ed6ca76839850459c1afcacb0ee2f5d2d5b5709ac311825b51ffa67421"
+    },
+    {
+      "path": "src/irsim/thermal/frames.py",
+      "size": 3410,
+      "sha256": "182c48b7bb9679cd16903ec6487c52434fe1354f2436bfa8e9fbdffc254a26a3"
+    },
+    {
+      "path": "src/irsim/thermal/human.py",
+      "size": 10659,
+      "sha256": "9c5398605e8e082872b0dc588a9e3bb0658713c190e3369d2a1e776d9141e1b4"
+    },
+    {
+      "path": "src/irsim/thermal/latent.py",
+      "size": 7506,
+      "sha256": "5a24fcac700f587d7de8cf1bd6037b7c3b0cc3ba22cde602d352358490f5fc80"
+    },
+    {
+      "path": "src/irsim/thermal/layers.py",
+      "size": 8998,
+      "sha256": "84da4f80c672d4b502f8465396b189f3c28bc515e24fb7e484883601ea46431a"
+    },
+    {
+      "path": "src/irsim/thermal/longwave.py",
+      "size": 4228,
+      "sha256": "90fba7c9bb96f44c322bc7e9af7cbf125e1c5ab6eb36a9d3aa772f0f80866ab8"
+    },
+    {
+      "path": "src/irsim/thermal/maps.py",
+      "size": 12581,
+      "sha256": "a066c24871cc3302c42acb8c5fe08b38b4b7090841dd4d989ae030dc90793861"
+    },
+    {
+      "path": "src/irsim/thermal/mesh_conduction.py",
+      "size": 11157,
+      "sha256": "b7c7458559585436441763b6afbc83e23d46104a2d77658da094217c6537eb42"
+    },
+    {
+      "path": "src/irsim/thermal/mesh_field.py",
+      "size": 26172,
+      "sha256": "ff78d42c63635ce5ad677be2d8a1500a33d07d4cff30ca07bfa3d3494c0379f4"
+    },
+    {
+      "path": "src/irsim/thermal/mesh_geometry.py",
+      "size": 9504,
+      "sha256": "834b3863a8cd5d30b484e7605b0290069fff84adaad167fff0fa3244bf42d89b"
+    },
+    {
+      "path": "src/irsim/thermal/network.py",
+      "size": 19071,
+      "sha256": "d86023d7e227c9256a67554f8b7b03941a90f3e46f14f70cd1b0e70479700beb"
+    },
+    {
+      "path": "src/irsim/thermal/raycast.py",
+      "size": 21446,
+      "sha256": "28f4a980e30b082b0297ca6bcf90d0060e71439a93b28880a7a0fa60996d7a21"
+    },
+    {
+      "path": "src/irsim/thermal/scene_forcing.py",
+      "size": 26349,
+      "sha256": "d9b767b7c12d38ae002715e1d2636c70978d7e10d1ce4de443d2c50b619db8db"
+    },
+    {
+      "path": "src/irsim/thermal/sea_skin.py",
+      "size": 12142,
+      "sha256": "bd15d837ac63b3cba5f6ba94b18a729105a344aebd42cc4b0279bd0d395d0366"
+    },
+    {
+      "path": "src/irsim/thermal/shadow.py",
+      "size": 7655,
+      "sha256": "9b20d0b96e40c81268b50f3a466fedb175fcadaf24ac87654013e221a606d8a9"
+    },
+    {
+      "path": "src/irsim/thermal/skyview.py",
+      "size": 7687,
+      "sha256": "55f70aba6d88d376ee098cbb734cccdb32656ccec1905a4ed538d89c5e9c3823"
+    },
+    {
+      "path": "src/irsim/thermal/snow.py",
+      "size": 8219,
+      "sha256": "74d9669bbd9a6fe2eb62936ae3184b0390108313811efe8883a5a24ff6f233c6"
+    },
+    {
+      "path": "src/irsim/thermal/solar.py",
+      "size": 7728,
+      "sha256": "78e88d74bf160bf8ed75a2747086f7b61b6a5a46c9b89f3b7a5deee5a131e548"
+    },
+    {
+      "path": "src/irsim/thermal/solvers.py",
+      "size": 6999,
+      "sha256": "16652940ff5de643d35375c1e80c5f976355a0da259ab4a3f5c4ff26d0638183"
+    },
+    {
+      "path": "src/irsim/thermal/spatial_sources.py",
+      "size": 15563,
+      "sha256": "1ce7a851d0a4a09c7dc6ee6aee62e115d0d9113d5bd1eb152c2872b70dcdf3c7"
+    },
+    {
+      "path": "src/irsim/thermal/still_water.py",
+      "size": 8055,
+      "sha256": "536d3931ae2de99882c248bbfb24eba5122e7cf8d5a517bb9c49cbcbe4b44ff4"
+    },
+    {
+      "path": "src/irsim/thermal/surface_field.py",
+      "size": 15007,
+      "sha256": "4aaec7efac749bf7ebbf3b12ee4d8aac85a882be11d9fd8d20e6c0c12be2666c"
+    },
+    {
+      "path": "src/irsim/thermal/traces.py",
+      "size": 8741,
+      "sha256": "70faf60001548380395ad08d3f788732784a7ddcfc70d13f4467d09b564cd74d"
+    },
+    {
+      "path": "src/irsim/thermal/two_node.py",
+      "size": 10645,
+      "sha256": "4ae0c41850e96cf3115a3fb41f527936603481d4aa53797a031e90139c573b4b"
+    },
+    {
+      "path": "src/irsim/thermal/vegetation.py",
+      "size": 17821,
+      "sha256": "21c446fdcc208c8561d7af2cb99ea0045524e0f04a32a7eaf50d7c99b176fb4e"
+    },
+    {
+      "path": "src/irsim/thermal/vehicle.py",
+      "size": 15311,
+      "sha256": "83c20ae564a15c0801fa5ea8d184819923335d750528727d7d3262d041dcd63b"
+    },
+    {
+      "path": "src/irsim/thermal/weather.py",
+      "size": 10795,
+      "sha256": "90bcbab93bc4a811a5e0de4708bed8df622c427c0246f7be8894a11fba048d6f"
+    },
+    {
+      "path": "src/irsim/thermal/weather_fx_series.py",
+      "size": 6801,
+      "sha256": "659154ed14379f5aac54adbab42805a3ac0097a715d764d5330bf319f53a9ce1"
+    },
+    {
+      "path": "src/irsim/thermal/weather_io.py",
+      "size": 8983,
+      "sha256": "4516cac79b734521e342e710f0413fe44e49a1deb6e0d73a2da230030927e3e2"
+    },
+    {
+      "path": "src/irsim/validation/__init__.py",
+      "size": 4094,
+      "sha256": "b112ee475d02f6a15f26e131d1aefa16c19dcc42eb05de07e74604d409be10ef"
+    },
+    {
+      "path": "src/irsim/validation/aerial.py",
+      "size": 5952,
+      "sha256": "e359655d11750aa33ca70fcfb62848fd33a9799f7a066dd9261dea714958f83d"
+    },
+    {
+      "path": "src/irsim/validation/aerial_scene.py",
+      "size": 10952,
+      "sha256": "9f51ffc6ee12eeed1c67abd11815778f51e7dd4e29f589b94718b43ce17b4414"
+    },
+    {
+      "path": "src/irsim/validation/bench.py",
+      "size": 6058,
+      "sha256": "4fd37e550c5f89988acb46b7e773f4b56d7490d5c54a00c2b7b57dc293180c27"
+    },
+    {
+      "path": "src/irsim/validation/codec.py",
+      "size": 12189,
+      "sha256": "74bd65c5f20b7066ca280fe6664f7ed79e1ef08e7acca8b86c44928018c6811e"
+    },
+    {
+      "path": "src/irsim/validation/compare.py",
+      "size": 25726,
+      "sha256": "44e0962052aa683f73939450c8e39e5ead965f9c61f698c0fe00175a8a5b46f0"
+    },
+    {
+      "path": "src/irsim/validation/display_signature.py",
+      "size": 15550,
+      "sha256": "b1d851f11ac13639bae593a306717fc13b799f83c765235f5c2645d3dc312b83"
+    },
+    {
+      "path": "src/irsim/validation/flat.py",
+      "size": 13719,
+      "sha256": "921472a1b9019fdc11401a8993af8a99df4c98f6aad94f5feb5a3fee99bcb5ec"
+    },
+    {
+      "path": "src/irsim/validation/maritime_scene.py",
+      "size": 11055,
+      "sha256": "a47bf20c38cbf115b35e76c1e8d84bb6df8c8e44aa91afb674c6c7b9a1ff6d9e"
+    },
+    {
+      "path": "src/irsim/validation/measured.py",
+      "size": 7766,
+      "sha256": "b281003e5e726f717936ab0f6d11baa1661c955188048c8581137adb32835aaa"
+    },
+    {
+      "path": "src/irsim/validation/mtf.py",
+      "size": 5570,
+      "sha256": "fe9437619730358551ee7e5ac97bfe1c81101c0b1c88eda794c23aaeaf2ce686"
+    },
+    {
+      "path": "src/irsim/validation/noise.py",
+      "size": 15920,
+      "sha256": "954a0b55b3391e72290360415b0bb7c110a47f107b59ffee379074737df50270"
+    },
+    {
+      "path": "src/irsim/validation/radial.py",
+      "size": 5982,
+      "sha256": "11fd5afc5b7fc3486c15bfbfbde598c75755db64c6354d99a085717b32ae37a4"
+    },
+    {
+      "path": "src/irsim/validation/scenario.py",
+      "size": 7722,
+      "sha256": "03b714d91eb09d81e2144a61b0ba3e7dbb82d084a0b8ac4a8ea7980e934e1120"
+    },
+    {
+      "path": "src/irsim/validation/shutter.py",
+      "size": 13291,
+      "sha256": "a449add9ce9fb826cc27f733d83a4c82e09c985cf2354b2784d321880786b1ed"
+    },
+    {
+      "path": "src/irsim/validation/signal_path.py",
+      "size": 10669,
+      "sha256": "ae14d3b5870f0b6fddf1bfff71669ce634ce7c0b4e351a4eeb9f0f2ee2216d5e"
+    },
+    {
+      "path": "src/irsim/validation/targets.py",
+      "size": 15012,
+      "sha256": "2aee2bb471101ca7ed9f20556fe7a44bb09896c8acb3321d1aa84815832c1ad4"
+    },
+    {
+      "path": "src/irsim_eval/__init__.py",
+      "size": 1419,
+      "sha256": "093e93cd28c6bd499c62d0518a4457f6f309016a432782a3f02ec2c7e2308c42"
+    },
+    {
+      "path": "src/irsim_eval/admission.py",
+      "size": 6777,
+      "sha256": "8071f7d8087e34ad95c951ba742dff475d1950ed29c3c8b786a48270ea40be88"
+    },
+    {
+      "path": "src/irsim_eval/data.py",
+      "size": 20275,
+      "sha256": "45d2047f1ac59ba668eac0ef462c506150e0660cf6725dca47687894e4dd5b00"
+    },
+    {
+      "path": "src/irsim_eval/decode.py",
+      "size": 5545,
+      "sha256": "dac99c331681e999896a251680dd78c231ad02290d89c8ece2aae7f9cd47a59c"
+    },
+    {
+      "path": "src/irsim_eval/detection.py",
+      "size": 10479,
+      "sha256": "34052230153e4d509526008f1195138dbcf7c8e24f44e4fd2cfbbaef0a6a3d0d"
+    },
+    {
+      "path": "src/irsim_eval/discriminator.py",
+      "size": 12565,
+      "sha256": "acceab3c689147723f318d144984327d457952bc0ad0c81545c5e354440af98e"
+    },
+    {
+      "path": "src/irsim_eval/fetch.py",
+      "size": 7365,
+      "sha256": "8bb516c5e2dce6645c49888f8d5bc4d981ac8273e4e6ef25cff4d178a00e234c"
+    },
+    {
+      "path": "src/irsim_eval/manifest.py",
+      "size": 15617,
+      "sha256": "504ae2974d1cabacc4330973090b09a36df5b29c0e16d2122d6265c98b0a9e47"
+    },
+    {
+      "path": "src/irsim_eval/motion.py",
+      "size": 9544,
+      "sha256": "e654427b59e70a1648199f7e736f7f645fd42366fb042f93163c43fa01298b57"
+    },
+    {
+      "path": "src/irsim_eval/reference.py",
+      "size": 17481,
+      "sha256": "6d3e33e12598ca259afce8572bbe9decdad9d9a4025a48f892855e730c350e2b"
+    },
+    {
+      "path": "src/irsim_eval/transcode.py",
+      "size": 4626,
+      "sha256": "de2e81aa5764eb0348eb05fc8ce8cbfffa1319cd8133166959a084fd1b547f25"
+    },
+    {
+      "path": "src/irsim_eval/video.py",
+      "size": 14310,
+      "sha256": "caf6448ab6b4c3cb049234c707e81648988dbabb2d6709525b547e1f5cf5fedc"
+    },
+    {
+      "path": "src/irsim_isaac/__init__.py",
+      "size": 76,
+      "sha256": "aea18a4092ba88718de4c278f3270632786a048692f961ffe3978791bcb158bd"
+    },
+    {
+      "path": "src/irsim_isaac/aerial_demo.py",
+      "size": 14716,
+      "sha256": "ae50110dfa096a8e96f2ea2fea2c3e28c3cb5c0fd76b5d1f7cc1709b7ee89b4b"
+    },
+    {
+      "path": "src/irsim_isaac/aircraft.py",
+      "size": 7607,
+      "sha256": "00696beb17a9f5e3975546bd9dc35de8194f322fd662520acf76308170cdd0d2"
+    },
+    {
+      "path": "src/irsim_isaac/aircraft_pass.py",
+      "size": 13915,
+      "sha256": "37400861f8d6510572149998292f5ed7f9910c7b3e236ef5d2ed8b48e821a0b6"
+    },
+    {
+      "path": "src/irsim_isaac/airframe.py",
+      "size": 5633,
+      "sha256": "e28d33c390a6ba03754bf69ef8c205a47616b48a717816742714586708dec880"
+    },
+    {
+      "path": "src/irsim_isaac/asset_flight.py",
+      "size": 15308,
+      "sha256": "d30ece0c8d92508724c9167f6edba4837f6f81a434e45f57344920a3f5c5e462"
+    },
+    {
+      "path": "src/irsim_isaac/camera_probe.py",
+      "size": 4344,
+      "sha256": "b1671bc40c04c83c6e880e8ec41dab71bc7055c77c080be803ce32d6341082ff"
+    },
+    {
+      "path": "src/irsim_isaac/car_demo.py",
+      "size": 54265,
+      "sha256": "ea7c7d90e3ddde7bf16b5896bb188924d098b01146c746f2f7679d8fbb205c50"
+    },
+    {
+      "path": "src/irsim_isaac/cloud_volume.py",
+      "size": 23459,
+      "sha256": "ec8b99d7be503bcbb7e65d918ab14ae9ea42768061dd6696283382ab63702bd4"
+    },
+    {
+      "path": "src/irsim_isaac/display_span.py",
+      "size": 7450,
+      "sha256": "2fa9ff5986e3a1830bf826e0a85ddaf5d7ddf487a1e0b1c9bb4f6ae2d938d06d"
+    },
+    {
+      "path": "src/irsim_isaac/env.py",
+      "size": 13509,
+      "sha256": "66f758cf7bcb11a474d4ef1f49d5a2beb7e8fa63da48014f5d3c972614c04e73"
+    },
+    {
+      "path": "src/irsim_isaac/geometry_probe.py",
+      "size": 32924,
+      "sha256": "54aafffee49e0e59b1d811f03a49b8d439580c91317aa6d0bec306a0d322724e"
+    },
+    {
+      "path": "src/irsim_isaac/maritime_demo.py",
+      "size": 26350,
+      "sha256": "bd291fd87826270d0b56ae5efd2ee0cf3ba17618f3c2094d70146fb31b21cf01"
+    },
+    {
+      "path": "src/irsim_isaac/material_probe.py",
+      "size": 9872,
+      "sha256": "a15d069d2feb5ed7a4dda4a58e293092d9e461eb9239c2af6ffa2498c59d00d2"
+    },
+    {
+      "path": "src/irsim_isaac/phantom3.py",
+      "size": 11979,
+      "sha256": "2becca8cccd4b0b6c9bc8573a93d527ca0c9a3fd2f884dd600530da17b466018"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/__init__.py",
+      "size": 67,
+      "sha256": "876ceb860ebe098a5ddae0d0dc1f140dc4ff8befb765519a5836997585d1e801"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/aerial_bridge.py",
+      "size": 28216,
+      "sha256": "dded72292344935b0c7999322408833147f7e03466ab74a2640bfc4e0afc5bea"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/gbuffer_isaac.py",
+      "size": 34091,
+      "sha256": "dac9a7629db05d8763b471a42a7c24a80df47a96d486032bd22fe1e1096e2282"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/illumination_isaac.py",
+      "size": 9123,
+      "sha256": "f27709bff0f38a72d407a14e7abbbac4828f36dd827da66df7d256b47304168b"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/ir_camera.py",
+      "size": 62920,
+      "sha256": "29387086bc3c0b809fa59f354afc4b472bbe5b2720432b720886daeb1f2b0e3a"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/material_ids.py",
+      "size": 10905,
+      "sha256": "dcf5b1b89db23e50fb92dc360fd6f40bc7db3df18f19b850977216f6fce3ca18"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/materials_usd.py",
+      "size": 10018,
+      "sha256": "0cc5d505fb15e9074ab737c7a406ac16bf68fdaf017946da1f5a52ee2e343fb5"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/mesh_bridge.py",
+      "size": 15508,
+      "sha256": "d8d6b0df036f66cbb9dda0ce9d030d7d77da70ff7cadf9533a622bf99ccf302a"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/motion_isaac.py",
+      "size": 8691,
+      "sha256": "6576d84a3e14326fb54b8734458501bedfa730a2d2cc8daf12cbf1434f8924f2"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/point_bridge.py",
+      "size": 14518,
+      "sha256": "57d045b16ad8b19bfc5b0599e6b6bf16e1772564af8607078e5e7c1cda3ba0b2"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/rotor_isaac.py",
+      "size": 10665,
+      "sha256": "18f266926f88d75d8b7416b29737bb3e88cf0e1bb8c934f55e35a0f6790f8838"
+    },
+    {
+      "path": "src/irsim_isaac/pipeline/warp_stages.py",
+      "size": 94731,
+      "sha256": "9fab1fea0829a3f06bd4e4cf6f22b0834b40e76bcfc27b4d326bebbc01c6c433"
+    },
+    {
+      "path": "src/irsim_isaac/probe.py",
+      "size": 36251,
+      "sha256": "cc97eff9ad162ec0598b35ea7607f229b3d6f4221b269cbde7d0da05bda2d9ea"
+    },
+    {
+      "path": "src/irsim_isaac/quad_flight.py",
+      "size": 8288,
+      "sha256": "50cbf28498f5ff8c79aa18e6ee05aef1bbfbc9a38f1e3c59b1d7d05889a45304"
+    },
+    {
+      "path": "src/irsim_isaac/quad_outbound.py",
+      "size": 19810,
+      "sha256": "bb622dfdd01095920855b878321adda1175dd557d278d7c5bbd8d052169c75c5"
+    },
+    {
+      "path": "src/irsim_isaac/quadrotor.py",
+      "size": 10559,
+      "sha256": "e9e7cb407afb37ee6d2e8699a88d8a01ecc6dc7d07e0eaf684e0daf6de35b015"
+    },
+    {
+      "path": "src/irsim_isaac/ros2_bridge.py",
+      "size": 7920,
+      "sha256": "2ee92fb70a046bc1830d076cf852b05b101d45a027a4b7454036a3e4c2f95100"
+    },
+    {
+      "path": "src/irsim_isaac/spg/README.md",
+      "size": 4843,
+      "sha256": "085bf8332d7c18a4da1bda5b27e0cc8fcd5cd2836ffabca778858ba9b6ff5fe0"
+    },
+    {
+      "path": "src/irsim_isaac/spg_probe.py",
+      "size": 29550,
+      "sha256": "8911ee7cd423df535a0ac7096c652fae5db1a0aa0361eb1679c6d79db0a35901"
+    },
+    {
+      "path": "src/irsim_isaac/stage.py",
+      "size": 7272,
+      "sha256": "5bea9d3ea1c78e6712d2017bbe875d7c6bbf71e4c1c0d26fb1015dd9759ae51a"
+    },
+    {
+      "path": "src/irsim_isaac/vessel_pointwise.py",
+      "size": 5290,
+      "sha256": "78d9421cf2d71151da0e3615860ff8baa71283998db08bf656879cd9e896a9df"
+    },
+    {
+      "path": "src/irsim_isaac/visible_sky.py",
+      "size": 29722,
+      "sha256": "360bf52d1c81ecee36004e2620b2c54d443186950b3354e3ad376de7682aa160"
+    },
+    {
+      "path": "src/irsim_isaac/weather_fx_stage.py",
+      "size": 6177,
+      "sha256": "dd2a6c5d2774a5b78695024d74ccb67083b9101145286f324244e5401248029e"
+    }
+  ]
+}

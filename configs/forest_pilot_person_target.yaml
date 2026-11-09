@@ -1,0 +1,10 @@
+schema_version: 1
+target:
+  prim_path: /World/Site/Target_Person_Injured_002
+  position_m: [91.5, 17.85, 19.2]
+  label: seated_person
+  prescribed_temperature_c: 33.0
+  infrared_material: human_skin
+  dataset_scene: forest_fire
+  verification_profile: forest_two_target_v1
+  expected_temperatures_c: [23.0, 27.0, 30.0, 33.0]

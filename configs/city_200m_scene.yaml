@@ -1,0 +1,28 @@
+# 静态取图：作者交付的场景入口 + 自带固定机位（没有机体）
+schema_version: 1
+
+scene:
+  stage: ../city_200m_local/city_200m.usda
+  thermal_scene: city_200m_night_environment.yaml
+  static_targets: []
+
+drone:
+  prim_path: /World/Cameras/Middle
+  body_path: /World/Cameras
+  camera_path: /World/Cameras/Middle
+  minimum_height: 1.5
+
+sensors:
+  # 与作者预览一致：320x256（放大虚拟像元保持 FOV），原生 640x512
+  width: 320
+  height: 256
+  # 沿用现有流程的旧版 irsim，不为了这个场景切版本
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: city_200m_thermal.yaml
+  preview_fast: true
+  align_thermal_to_rgb: true
+  flat_field_enabled: true
+  sensor_seed: 741
+  display_config: city_200m_display.yaml
+  # 人物用到的 polyester_clothing / shoe_rubber 旧版 irsim 没有，从作者用的 15015cd 抄定义
+  material_directory: materials/city_200m

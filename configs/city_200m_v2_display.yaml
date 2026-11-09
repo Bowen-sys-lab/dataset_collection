@@ -1,0 +1,9 @@
+# 2026-11-03 城市 v2：夜间 10–70 ℃，热目标 43–62 ℃ 留在线性区。
+schema_version: 1
+name: city_200m_v2_night_clear
+mode: fixed_apparent_temperature
+temperature_min_c: 10.0
+temperature_max_c: 70.0
+dde_gain: 0.0
+polarity: white_hot
+palette: gray

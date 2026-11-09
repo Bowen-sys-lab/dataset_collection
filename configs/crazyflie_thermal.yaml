@@ -1,0 +1,53 @@
+# 教学用设定值，不是 Crazyflie 或真实地物的实测温度。
+# 修改后保存，并关闭/重新启动双相机预览；当前不支持热重载。
+# YAML 用空格缩进，不要用 Tab。温度单位是摄氏度（C）。
+schema_version: 1
+
+# 没有命中 bindings 的几何使用这里的默认温度目标和红外材料。
+# ambient 读取天气文件的空气温度，不保证等于下面的地面 20 C。
+defaults:
+  target: ambient
+  material: abs_plastic_white
+
+targets:
+  ambient:
+    mode: ambient
+
+  drone_body:
+    mode: fixed
+    temperature_c: 35.0  # 无人机机身，恒定 35 C
+
+  ground:
+    mode: fixed
+    temperature_c: 20.0  # 地面，恒定 20 C
+
+  cube:
+    mode: fixed
+    temperature_c: 45.0  # 方块热目标，先试着改成 25.0 或 60.0
+
+  # 相对空气温度示例，尚未绑定任何物体：
+  warm_relative:
+    mode: offset
+    offset_c: 10.0       # 空气温度 +10 C；不是绝对温度 10 C
+
+# prim_path 要与 Isaac Sim Stage 中的完整路径一致，区分大小写。
+# include_children: true 覆盖该节点下面的网格；更具体的路径优先。
+# material 是第三方库的红外材质名称，不是 USD 的 RGB 贴图名。
+bindings:
+  - name: drone_body
+    prim_path: /World/Crazyflie/body
+    include_children: true
+    target: drone_body
+    material: painted_composite
+
+  - name: ground
+    prim_path: /World/GroundPlane
+    include_children: true
+    target: ground
+    material: soil_dry
+
+  - name: cube
+    prim_path: /World/Cube
+    include_children: true
+    target: cube
+    material: concrete

@@ -1,0 +1,13 @@
+# S1/N5 episode：三个人外观一致，只有一个人体温偏低（目标随机落在 Person_01）
+task_id: city-ep0-n5-person1
+instruction: 街上有三个人，找到体温明显偏低、可能已经失温的那一个。
+target_prim_path: /World/Targets/Person_01
+target_description: 三名同款行人中，皮肤温度只有 28 ℃ 的那一个
+environment_description: 夜间城市人行道，三名行人分散站立，附近的空调外机和排风口也有热辐射
+environment_landmarks:
+  - 人行道上分散站立的三名行人
+  - 路缘上的空调外机
+start_position: [70.0, -22.0, 6.5]
+target_position: [105.0, -27.0, 0.9]
+target_position_semantics: 目标人物包围盒中心，米制、Z-up、世界坐标
+notes: 另外两人 33 ℃；目标皮肤 28 ℃、衣物 24–26 ℃

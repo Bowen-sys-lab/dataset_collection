@@ -1,0 +1,2137 @@
+schema_version: 1
+defaults:
+  target: factory_building
+  material: concrete
+targets:
+  factory_building:
+    mode: fixed
+    temperature_c: 24.0
+  factory_ground:
+    mode: fixed
+    temperature_c: 26.0
+  factory_equipment:
+    mode: fixed
+    temperature_c: 30.0
+  factory_vegetation:
+    mode: fixed
+    temperature_c: 25.0
+  factory_drone:
+    mode: fixed
+    temperature_c: 35.0
+  factory_hotspot:
+    mode: fixed
+    temperature_c: 78.0
+  entry_003_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  entry_003_housing:
+    mode: fixed
+    temperature_c: 34.0
+  entry_003_mountplate:
+    mode: fixed
+    temperature_c: 24.0
+  road_004_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  road_004_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  road_004_footing:
+    mode: fixed
+    temperature_c: 23.0
+  road_004_arm:
+    mode: fixed
+    temperature_c: 24.0
+  road_004_pole:
+    mode: fixed
+    temperature_c: 23.0
+  road_004_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  road_004_housing:
+    mode: fixed
+    temperature_c: 34.0
+  road_002_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  road_002_pole:
+    mode: fixed
+    temperature_c: 23.0
+  road_002_footing:
+    mode: fixed
+    temperature_c: 23.0
+  road_002_housing:
+    mode: fixed
+    temperature_c: 34.0
+  road_002_arm:
+    mode: fixed
+    temperature_c: 24.0
+  road_002_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  road_002_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  road_001_footing:
+    mode: fixed
+    temperature_c: 23.0
+  road_001_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  road_001_arm:
+    mode: fixed
+    temperature_c: 24.0
+  road_001_housing:
+    mode: fixed
+    temperature_c: 34.0
+  road_001_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  road_001_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  road_001_pole:
+    mode: fixed
+    temperature_c: 23.0
+  road_003_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  road_003_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  road_003_pole:
+    mode: fixed
+    temperature_c: 23.0
+  road_003_arm:
+    mode: fixed
+    temperature_c: 24.0
+  road_003_footing:
+    mode: fixed
+    temperature_c: 23.0
+  road_003_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  road_003_housing:
+    mode: fixed
+    temperature_c: 34.0
+  road_005_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  road_005_footing:
+    mode: fixed
+    temperature_c: 23.0
+  road_005_arm:
+    mode: fixed
+    temperature_c: 24.0
+  road_005_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  road_005_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  road_005_housing:
+    mode: fixed
+    temperature_c: 34.0
+  road_005_pole:
+    mode: fixed
+    temperature_c: 23.0
+  area_002_footing:
+    mode: fixed
+    temperature_c: 23.0
+  area_002_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  area_002_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  area_002_housing:
+    mode: fixed
+    temperature_c: 34.0
+  area_002_pole:
+    mode: fixed
+    temperature_c: 23.0
+  area_002_arm:
+    mode: fixed
+    temperature_c: 24.0
+  area_002_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  area_001_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  area_001_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  area_001_pole:
+    mode: fixed
+    temperature_c: 23.0
+  area_001_arm:
+    mode: fixed
+    temperature_c: 24.0
+  area_001_footing:
+    mode: fixed
+    temperature_c: 23.0
+  area_001_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  area_001_housing:
+    mode: fixed
+    temperature_c: 34.0
+  area_003_footing:
+    mode: fixed
+    temperature_c: 23.0
+  area_003_arm:
+    mode: fixed
+    temperature_c: 24.0
+  area_003_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  area_003_housing:
+    mode: fixed
+    temperature_c: 34.0
+  area_003_pole:
+    mode: fixed
+    temperature_c: 23.0
+  area_003_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  area_003_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  entry_001_mountplate:
+    mode: fixed
+    temperature_c: 24.0
+  entry_001_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  entry_001_housing:
+    mode: fixed
+    temperature_c: 34.0
+  entry_002_mountplate:
+    mode: fixed
+    temperature_c: 24.0
+  entry_002_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  entry_002_housing:
+    mode: fixed
+    temperature_c: 34.0
+  wall_001_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  wall_001_mountplate:
+    mode: fixed
+    temperature_c: 24.0
+  wall_001_housing:
+    mode: fixed
+    temperature_c: 34.0
+  road_006_housing:
+    mode: fixed
+    temperature_c: 34.0
+  road_006_pole:
+    mode: fixed
+    temperature_c: 23.0
+  road_006_baseplate:
+    mode: fixed
+    temperature_c: 23.0
+  road_006_diffuser:
+    mode: fixed
+    temperature_c: 42.0
+  road_006_footing:
+    mode: fixed
+    temperature_c: 23.0
+  road_006_arm:
+    mode: fixed
+    temperature_c: 24.0
+  road_006_servicedoor:
+    mode: fixed
+    temperature_c: 23.0
+  gc021_wall_east:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_003_frame:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_003_panel:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_003_glass:
+    mode: fixed
+    temperature_c: 23.0
+  gc021_wall_west:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_window_008_glass_002:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_008_glass_004:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_008_glass_005:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_008_glass_001:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_008_glass_006:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_008_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_008_glass_003:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_007_glass_005:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_007_glass_006:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_007_glass_004:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_007_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_007_glass_001:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_007_glass_003:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_007_glass_002:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_soffit_underside:
+    mode: fixed
+    temperature_c: 23.5
+  gc021_window_004_glass_004:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_006:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_011:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_009:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_004_glass_008:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_007:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_001:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_005:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_003:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_012:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_002:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_004_glass_010:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_005_glass_018:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_013:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_003:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_017:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_010:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_016:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_005_glass_015:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_001:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_007:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_005:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_012:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_002:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_008:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_006:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_014:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_011:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_009:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_005_glass_004:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_door_005_frame:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_005_glass:
+    mode: fixed
+    temperature_c: 23.0
+  gc021_door_005_panel:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_wall_rear:
+    mode: fixed
+    temperature_c: 23.5
+  gc021_stepsandplinth_horizontal:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_window_001_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_001_glass_007:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_011:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_002:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_010:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_006:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_001:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_009:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_003:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_012:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_004:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_008:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_window_001_glass_005:
+    mode: fixed
+    temperature_c: 22.65
+  gc021_door_007_frame:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_007_panel:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_window_003_glass_009:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_011:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_012:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_002:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_001:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_005:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_007:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_010:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_003_glass_003:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_006:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_008:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_003_glass_004:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_door_002_frame:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_002_glass:
+    mode: fixed
+    temperature_c: 23.0
+  gc021_door_002_panel:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_wall_front:
+    mode: fixed
+    temperature_c: 26.0
+  gc021_window_002_glass_010:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_007:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_005:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_002_glass_004:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_012:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_001:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_006:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_008:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_002:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_009:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_003:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_window_002_glass_011:
+    mode: fixed
+    temperature_c: 22.8
+  gc021_door_006_frame:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_006_panel:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_window_006_glass_006:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_006_glass_001:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_006_frame:
+    mode: fixed
+    temperature_c: 24.0
+  gc021_window_006_glass_004:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_006_glass_003:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_006_glass_002:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_window_006_glass_005:
+    mode: fixed
+    temperature_c: 22.5
+  gc021_door_001_frame:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_001_panel:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_001_glass:
+    mode: fixed
+    temperature_c: 23.0
+  gc021_roof_roofcover:
+    mode: fixed
+    temperature_c: 25.5
+  gc021_door_004_frame:
+    mode: fixed
+    temperature_c: 24.5
+  gc021_door_004_glass:
+    mode: fixed
+    temperature_c: 23.0
+  gc021_door_004_panel:
+    mode: fixed
+    temperature_c: 24.5
+  gc075_basering_skirt:
+    mode: fixed
+    temperature_c: 28.0
+  gc075_accessattachments_material_01:
+    mode: fixed
+    temperature_c: 27.0
+  gc075_tankroof_cap:
+    mode: fixed
+    temperature_c: 29.0
+  gc075_railingandsupports_paintedblue:
+    mode: fixed
+    temperature_c: 27.5
+  gc075_accessattachments_material_00:
+    mode: fixed
+    temperature_c: 27.0
+  gc075_tankshell_transition_001:
+    mode: fixed
+    temperature_c: 72.0
+  gc075_tankshell_normal_south:
+    mode: fixed
+    temperature_c: 30.0
+  gc075_tankshell_normal_north:
+    mode: fixed
+    temperature_c: 30.0
+  gc075_tankshell_transition_004:
+    mode: fixed
+    temperature_c: 53.0
+  gc075_tankshell_transition_006:
+    mode: fixed
+    temperature_c: 40.0
+  gc075_tankshell_transition_008:
+    mode: fixed
+    temperature_c: 32.0
+  gc075_tankshell_transition_003:
+    mode: fixed
+    temperature_c: 60.0
+  gc075_tankshell_hotspot:
+    mode: fixed
+    temperature_c: 78.0
+  gc075_tankshell_transition_002:
+    mode: fixed
+    temperature_c: 66.0
+  gc075_tankshell_normal_east:
+    mode: fixed
+    temperature_c: 30.0
+  gc075_tankshell_transition_007:
+    mode: fixed
+    temperature_c: 35.0
+  gc075_tankshell_transition_005:
+    mode: fixed
+    temperature_c: 46.0
+  gc075_tankshell_normal_west:
+    mode: fixed
+    temperature_c: 30.0
+  gc075_foundation_base:
+    mode: fixed
+    temperature_c: 26.0
+  gc075_externalpipework_paintedred:
+    mode: fixed
+    temperature_c: 30.8
+  gc078_railingandsupports_paintedblue:
+    mode: fixed
+    temperature_c: 27.5
+  gc078_foundation_base:
+    mode: fixed
+    temperature_c: 26.0
+  gc078_tankshell_normal_south:
+    mode: fixed
+    temperature_c: 30.0
+  gc078_tankshell_normal_east:
+    mode: fixed
+    temperature_c: 30.0
+  gc078_tankshell_normal_west:
+    mode: fixed
+    temperature_c: 30.0
+  gc078_tankshell_normal_north:
+    mode: fixed
+    temperature_c: 30.0
+  gc078_basering_skirt:
+    mode: fixed
+    temperature_c: 28.0
+  gc078_tankroof_cap:
+    mode: fixed
+    temperature_c: 29.0
+  gc078_accessattachments_material_01:
+    mode: fixed
+    temperature_c: 27.0
+  gc078_accessattachments_material_00:
+    mode: fixed
+    temperature_c: 27.0
+  gc078_externalpipework_paintedred:
+    mode: fixed
+    temperature_c: 30.8
+  gc076_railingandsupports_paintedblue:
+    mode: fixed
+    temperature_c: 27.5
+  gc076_foundation_base:
+    mode: fixed
+    temperature_c: 26.0
+  gc076_externalpipework_paintedred:
+    mode: fixed
+    temperature_c: 30.8
+  gc076_tankshell_normal_south:
+    mode: fixed
+    temperature_c: 30.0
+  gc076_tankshell_normal_north:
+    mode: fixed
+    temperature_c: 30.0
+  gc076_tankshell_normal_east:
+    mode: fixed
+    temperature_c: 30.0
+  gc076_tankshell_normal_west:
+    mode: fixed
+    temperature_c: 30.0
+  gc076_tankroof_cap:
+    mode: fixed
+    temperature_c: 29.0
+  gc076_accessattachments_material_00:
+    mode: fixed
+    temperature_c: 27.0
+  gc076_accessattachments_material_01:
+    mode: fixed
+    temperature_c: 27.0
+  gc076_basering_skirt:
+    mode: fixed
+    temperature_c: 28.0
+  gc077_accessattachments_material_01:
+    mode: fixed
+    temperature_c: 27.0
+  gc077_basering_skirt:
+    mode: fixed
+    temperature_c: 28.0
+  gc077_foundation_base:
+    mode: fixed
+    temperature_c: 26.0
+  gc077_railingandsupports_paintedblue:
+    mode: fixed
+    temperature_c: 27.5
+  gc077_externalpipework_paintedred:
+    mode: fixed
+    temperature_c: 30.8
+  gc077_tankshell_normal_south:
+    mode: fixed
+    temperature_c: 30.0
+  gc077_tankshell_normal_north:
+    mode: fixed
+    temperature_c: 30.0
+  gc077_tankshell_normal_west:
+    mode: fixed
+    temperature_c: 30.0
+  gc077_tankshell_normal_east:
+    mode: fixed
+    temperature_c: 30.0
+  gc077_tankroof_cap:
+    mode: fixed
+    temperature_c: 29.0
+  gc077_accessattachments_material_00:
+    mode: fixed
+    temperature_c: 27.0
+bindings:
+- name: drone
+  prim_path: /World/Crazyflie
+  include_children: true
+  target: factory_drone
+  material: painted_composite
+- name: ground_node_1_29_gc010
+  prim_path: /World/LimeExp_02/node_1_29_gc010/mesh_1_29_gc010
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc051
+  prim_path: /World/LimeExp_02/node_1_29_gc051/mesh_1_29_gc051
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc052
+  prim_path: /World/LimeExp_02/node_1_29_gc052/mesh_1_29_gc052
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc054
+  prim_path: /World/LimeExp_02/node_1_29_gc054/mesh_1_29_gc054
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc055
+  prim_path: /World/LimeExp_02/node_1_29_gc055/mesh_1_29_gc055
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc056
+  prim_path: /World/LimeExp_02/node_1_29_gc056/mesh_1_29_gc056
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc057
+  prim_path: /World/LimeExp_02/node_1_29_gc057/mesh_1_29_gc057
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc058
+  prim_path: /World/LimeExp_02/node_1_29_gc058/mesh_1_29_gc058
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc059
+  prim_path: /World/LimeExp_02/node_1_29_gc059/mesh_1_29_gc059
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc060
+  prim_path: /World/LimeExp_02/node_1_29_gc060/mesh_1_29_gc060
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc061
+  prim_path: /World/LimeExp_02/node_1_29_gc061/mesh_1_29_gc061
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc064
+  prim_path: /World/LimeExp_02/node_1_29_gc064/mesh_1_29_gc064
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc066
+  prim_path: /World/LimeExp_02/node_1_29_gc066/mesh_1_29_gc066
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc069
+  prim_path: /World/LimeExp_02/node_1_29_gc069/mesh_1_29_gc069
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc072
+  prim_path: /World/LimeExp_02/node_1_29_gc072/mesh_1_29_gc072
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc073
+  prim_path: /World/LimeExp_02/node_1_29_gc073/mesh_1_29_gc073
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc074
+  prim_path: /World/LimeExp_02/node_1_29_gc074/mesh_1_29_gc074
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc091
+  prim_path: /World/LimeExp_02/node_1_29_gc091/mesh_1_29_gc091
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc116
+  prim_path: /World/LimeExp_02/node_1_29_gc116/mesh_1_29_gc116
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc993
+  prim_path: /World/LimeExp_02/node_1_29_gc993/mesh_1_29_gc993
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: ground_node_1_29_gc1750
+  prim_path: /World/LimeExp_02/node_1_29_gc1750/mesh_1_29_gc1750
+  include_children: false
+  target: factory_ground
+  material: concrete
+- name: tank_79
+  prim_path: /World/LimeExp_02/node_1_29_gc079
+  include_children: true
+  target: factory_equipment
+  material: aircraft_aluminium_painted
+- name: tank_80
+  prim_path: /World/LimeExp_02/node_1_29_gc080
+  include_children: true
+  target: factory_equipment
+  material: aircraft_aluminium_painted
+- name: tank_81
+  prim_path: /World/LimeExp_02/node_1_29_gc081
+  include_children: true
+  target: factory_equipment
+  material: aircraft_aluminium_painted
+- name: tank_82
+  prim_path: /World/LimeExp_02/node_1_29_gc082
+  include_children: true
+  target: factory_equipment
+  material: aircraft_aluminium_painted
+- name: tank_83
+  prim_path: /World/LimeExp_02/node_1_29_gc083
+  include_children: true
+  target: factory_equipment
+  material: aircraft_aluminium_painted
+- name: tank_84
+  prim_path: /World/LimeExp_02/node_1_29_gc084
+  include_children: true
+  target: factory_equipment
+  material: aircraft_aluminium_painted
+- name: tank_85
+  prim_path: /World/LimeExp_02/node_1_29_gc085
+  include_children: true
+  target: factory_equipment
+  material: aircraft_aluminium_painted
+- name: entry_003_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_003/ENTRY_003_Diffuser/ENTRY_003_Diffuser_Mesh
+  include_children: false
+  target: entry_003_diffuser
+  material: glass_windshield
+- name: entry_003_housing
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_003/ENTRY_003_Housing/ENTRY_003_Housing_Mesh
+  include_children: false
+  target: entry_003_housing
+  material: aircraft_aluminium_painted
+- name: entry_003_mountplate
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_003/ENTRY_003_MountPlate/ENTRY_003_MountPlate_Mesh
+  include_children: false
+  target: entry_003_mountplate
+  material: aluminium_anodised
+- name: road_004_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_004/ROAD_004_BasePlate/ROAD_004_BasePlate_Mesh
+  include_children: false
+  target: road_004_baseplate
+  material: aluminium_anodised
+- name: road_004_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_004/ROAD_004_Diffuser/ROAD_004_Diffuser_Mesh
+  include_children: false
+  target: road_004_diffuser
+  material: glass_windshield
+- name: road_004_footing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_004/ROAD_004_Footing/ROAD_004_Footing_Mesh
+  include_children: false
+  target: road_004_footing
+  material: concrete
+- name: road_004_arm
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_004/ROAD_004_Arm/ROAD_004_Arm_Mesh
+  include_children: false
+  target: road_004_arm
+  material: aluminium_anodised
+- name: road_004_pole
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_004/ROAD_004_Pole/ROAD_004_Pole_Mesh
+  include_children: false
+  target: road_004_pole
+  material: aluminium_anodised
+- name: road_004_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_004/ROAD_004_ServiceDoor/ROAD_004_ServiceDoor_Mesh
+  include_children: false
+  target: road_004_servicedoor
+  material: aircraft_aluminium_painted
+- name: road_004_housing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_004/ROAD_004_Housing/ROAD_004_Housing_Mesh
+  include_children: false
+  target: road_004_housing
+  material: aircraft_aluminium_painted
+- name: road_002_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_002/ROAD_002_BasePlate/ROAD_002_BasePlate_Mesh
+  include_children: false
+  target: road_002_baseplate
+  material: aluminium_anodised
+- name: road_002_pole
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_002/ROAD_002_Pole/ROAD_002_Pole_Mesh
+  include_children: false
+  target: road_002_pole
+  material: aluminium_anodised
+- name: road_002_footing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_002/ROAD_002_Footing/ROAD_002_Footing_Mesh
+  include_children: false
+  target: road_002_footing
+  material: concrete
+- name: road_002_housing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_002/ROAD_002_Housing/ROAD_002_Housing_Mesh
+  include_children: false
+  target: road_002_housing
+  material: aircraft_aluminium_painted
+- name: road_002_arm
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_002/ROAD_002_Arm/ROAD_002_Arm_Mesh
+  include_children: false
+  target: road_002_arm
+  material: aluminium_anodised
+- name: road_002_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_002/ROAD_002_ServiceDoor/ROAD_002_ServiceDoor_Mesh
+  include_children: false
+  target: road_002_servicedoor
+  material: aircraft_aluminium_painted
+- name: road_002_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_002/ROAD_002_Diffuser/ROAD_002_Diffuser_Mesh
+  include_children: false
+  target: road_002_diffuser
+  material: glass_windshield
+- name: road_001_footing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_001/ROAD_001_Footing/ROAD_001_Footing_Mesh
+  include_children: false
+  target: road_001_footing
+  material: concrete
+- name: road_001_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_001/ROAD_001_Diffuser/ROAD_001_Diffuser_Mesh
+  include_children: false
+  target: road_001_diffuser
+  material: glass_windshield
+- name: road_001_arm
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_001/ROAD_001_Arm/ROAD_001_Arm_Mesh
+  include_children: false
+  target: road_001_arm
+  material: aluminium_anodised
+- name: road_001_housing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_001/ROAD_001_Housing/ROAD_001_Housing_Mesh
+  include_children: false
+  target: road_001_housing
+  material: aircraft_aluminium_painted
+- name: road_001_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_001/ROAD_001_BasePlate/ROAD_001_BasePlate_Mesh
+  include_children: false
+  target: road_001_baseplate
+  material: aluminium_anodised
+- name: road_001_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_001/ROAD_001_ServiceDoor/ROAD_001_ServiceDoor_Mesh
+  include_children: false
+  target: road_001_servicedoor
+  material: aircraft_aluminium_painted
+- name: road_001_pole
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_001/ROAD_001_Pole/ROAD_001_Pole_Mesh
+  include_children: false
+  target: road_001_pole
+  material: aluminium_anodised
+- name: road_003_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_003/ROAD_003_BasePlate/ROAD_003_BasePlate_Mesh
+  include_children: false
+  target: road_003_baseplate
+  material: aluminium_anodised
+- name: road_003_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_003/ROAD_003_Diffuser/ROAD_003_Diffuser_Mesh
+  include_children: false
+  target: road_003_diffuser
+  material: glass_windshield
+- name: road_003_pole
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_003/ROAD_003_Pole/ROAD_003_Pole_Mesh
+  include_children: false
+  target: road_003_pole
+  material: aluminium_anodised
+- name: road_003_arm
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_003/ROAD_003_Arm/ROAD_003_Arm_Mesh
+  include_children: false
+  target: road_003_arm
+  material: aluminium_anodised
+- name: road_003_footing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_003/ROAD_003_Footing/ROAD_003_Footing_Mesh
+  include_children: false
+  target: road_003_footing
+  material: concrete
+- name: road_003_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_003/ROAD_003_ServiceDoor/ROAD_003_ServiceDoor_Mesh
+  include_children: false
+  target: road_003_servicedoor
+  material: aircraft_aluminium_painted
+- name: road_003_housing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_003/ROAD_003_Housing/ROAD_003_Housing_Mesh
+  include_children: false
+  target: road_003_housing
+  material: aircraft_aluminium_painted
+- name: road_005_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_005/ROAD_005_ServiceDoor/ROAD_005_ServiceDoor_Mesh
+  include_children: false
+  target: road_005_servicedoor
+  material: aircraft_aluminium_painted
+- name: road_005_footing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_005/ROAD_005_Footing/ROAD_005_Footing_Mesh
+  include_children: false
+  target: road_005_footing
+  material: concrete
+- name: road_005_arm
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_005/ROAD_005_Arm/ROAD_005_Arm_Mesh
+  include_children: false
+  target: road_005_arm
+  material: aluminium_anodised
+- name: road_005_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_005/ROAD_005_Diffuser/ROAD_005_Diffuser_Mesh
+  include_children: false
+  target: road_005_diffuser
+  material: glass_windshield
+- name: road_005_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_005/ROAD_005_BasePlate/ROAD_005_BasePlate_Mesh
+  include_children: false
+  target: road_005_baseplate
+  material: aluminium_anodised
+- name: road_005_housing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_005/ROAD_005_Housing/ROAD_005_Housing_Mesh
+  include_children: false
+  target: road_005_housing
+  material: aircraft_aluminium_painted
+- name: road_005_pole
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_005/ROAD_005_Pole/ROAD_005_Pole_Mesh
+  include_children: false
+  target: road_005_pole
+  material: aluminium_anodised
+- name: area_002_footing
+  prim_path: /World/IndustrialPark02/Lighting/AREA_002/AREA_002_Footing/AREA_002_Footing_Mesh
+  include_children: false
+  target: area_002_footing
+  material: concrete
+- name: area_002_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/AREA_002/AREA_002_Diffuser/AREA_002_Diffuser_Mesh
+  include_children: false
+  target: area_002_diffuser
+  material: glass_windshield
+- name: area_002_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/AREA_002/AREA_002_BasePlate/AREA_002_BasePlate_Mesh
+  include_children: false
+  target: area_002_baseplate
+  material: aluminium_anodised
+- name: area_002_housing
+  prim_path: /World/IndustrialPark02/Lighting/AREA_002/AREA_002_Housing/AREA_002_Housing_Mesh
+  include_children: false
+  target: area_002_housing
+  material: aircraft_aluminium_painted
+- name: area_002_pole
+  prim_path: /World/IndustrialPark02/Lighting/AREA_002/AREA_002_Pole/AREA_002_Pole_Mesh
+  include_children: false
+  target: area_002_pole
+  material: aluminium_anodised
+- name: area_002_arm
+  prim_path: /World/IndustrialPark02/Lighting/AREA_002/AREA_002_Arm/AREA_002_Arm_Mesh
+  include_children: false
+  target: area_002_arm
+  material: aluminium_anodised
+- name: area_002_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/AREA_002/AREA_002_ServiceDoor/AREA_002_ServiceDoor_Mesh
+  include_children: false
+  target: area_002_servicedoor
+  material: aircraft_aluminium_painted
+- name: area_001_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/AREA_001/AREA_001_BasePlate/AREA_001_BasePlate_Mesh
+  include_children: false
+  target: area_001_baseplate
+  material: aluminium_anodised
+- name: area_001_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/AREA_001/AREA_001_ServiceDoor/AREA_001_ServiceDoor_Mesh
+  include_children: false
+  target: area_001_servicedoor
+  material: aircraft_aluminium_painted
+- name: area_001_pole
+  prim_path: /World/IndustrialPark02/Lighting/AREA_001/AREA_001_Pole/AREA_001_Pole_Mesh
+  include_children: false
+  target: area_001_pole
+  material: aluminium_anodised
+- name: area_001_arm
+  prim_path: /World/IndustrialPark02/Lighting/AREA_001/AREA_001_Arm/AREA_001_Arm_Mesh
+  include_children: false
+  target: area_001_arm
+  material: aluminium_anodised
+- name: area_001_footing
+  prim_path: /World/IndustrialPark02/Lighting/AREA_001/AREA_001_Footing/AREA_001_Footing_Mesh
+  include_children: false
+  target: area_001_footing
+  material: concrete
+- name: area_001_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/AREA_001/AREA_001_Diffuser/AREA_001_Diffuser_Mesh
+  include_children: false
+  target: area_001_diffuser
+  material: glass_windshield
+- name: area_001_housing
+  prim_path: /World/IndustrialPark02/Lighting/AREA_001/AREA_001_Housing/AREA_001_Housing_Mesh
+  include_children: false
+  target: area_001_housing
+  material: aircraft_aluminium_painted
+- name: area_003_footing
+  prim_path: /World/IndustrialPark02/Lighting/AREA_003/AREA_003_Footing/AREA_003_Footing_Mesh
+  include_children: false
+  target: area_003_footing
+  material: concrete
+- name: area_003_arm
+  prim_path: /World/IndustrialPark02/Lighting/AREA_003/AREA_003_Arm/AREA_003_Arm_Mesh
+  include_children: false
+  target: area_003_arm
+  material: aluminium_anodised
+- name: area_003_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/AREA_003/AREA_003_ServiceDoor/AREA_003_ServiceDoor_Mesh
+  include_children: false
+  target: area_003_servicedoor
+  material: aircraft_aluminium_painted
+- name: area_003_housing
+  prim_path: /World/IndustrialPark02/Lighting/AREA_003/AREA_003_Housing/AREA_003_Housing_Mesh
+  include_children: false
+  target: area_003_housing
+  material: aircraft_aluminium_painted
+- name: area_003_pole
+  prim_path: /World/IndustrialPark02/Lighting/AREA_003/AREA_003_Pole/AREA_003_Pole_Mesh
+  include_children: false
+  target: area_003_pole
+  material: aluminium_anodised
+- name: area_003_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/AREA_003/AREA_003_BasePlate/AREA_003_BasePlate_Mesh
+  include_children: false
+  target: area_003_baseplate
+  material: aluminium_anodised
+- name: area_003_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/AREA_003/AREA_003_Diffuser/AREA_003_Diffuser_Mesh
+  include_children: false
+  target: area_003_diffuser
+  material: glass_windshield
+- name: entry_001_mountplate
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_001/ENTRY_001_MountPlate/ENTRY_001_MountPlate_Mesh
+  include_children: false
+  target: entry_001_mountplate
+  material: aluminium_anodised
+- name: entry_001_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_001/ENTRY_001_Diffuser/ENTRY_001_Diffuser_Mesh
+  include_children: false
+  target: entry_001_diffuser
+  material: glass_windshield
+- name: entry_001_housing
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_001/ENTRY_001_Housing/ENTRY_001_Housing_Mesh
+  include_children: false
+  target: entry_001_housing
+  material: aircraft_aluminium_painted
+- name: entry_002_mountplate
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_002/ENTRY_002_MountPlate/ENTRY_002_MountPlate_Mesh
+  include_children: false
+  target: entry_002_mountplate
+  material: aluminium_anodised
+- name: entry_002_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_002/ENTRY_002_Diffuser/ENTRY_002_Diffuser_Mesh
+  include_children: false
+  target: entry_002_diffuser
+  material: glass_windshield
+- name: entry_002_housing
+  prim_path: /World/IndustrialPark02/Lighting/ENTRY_002/ENTRY_002_Housing/ENTRY_002_Housing_Mesh
+  include_children: false
+  target: entry_002_housing
+  material: aircraft_aluminium_painted
+- name: wall_001_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/WALL_001/WALL_001_Diffuser/WALL_001_Diffuser_Mesh
+  include_children: false
+  target: wall_001_diffuser
+  material: glass_windshield
+- name: wall_001_mountplate
+  prim_path: /World/IndustrialPark02/Lighting/WALL_001/WALL_001_MountPlate/WALL_001_MountPlate_Mesh
+  include_children: false
+  target: wall_001_mountplate
+  material: aluminium_anodised
+- name: wall_001_housing
+  prim_path: /World/IndustrialPark02/Lighting/WALL_001/WALL_001_Housing/WALL_001_Housing_Mesh
+  include_children: false
+  target: wall_001_housing
+  material: aircraft_aluminium_painted
+- name: road_006_housing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_006/ROAD_006_Housing/ROAD_006_Housing_Mesh
+  include_children: false
+  target: road_006_housing
+  material: aircraft_aluminium_painted
+- name: road_006_pole
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_006/ROAD_006_Pole/ROAD_006_Pole_Mesh
+  include_children: false
+  target: road_006_pole
+  material: aluminium_anodised
+- name: road_006_baseplate
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_006/ROAD_006_BasePlate/ROAD_006_BasePlate_Mesh
+  include_children: false
+  target: road_006_baseplate
+  material: aluminium_anodised
+- name: road_006_diffuser
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_006/ROAD_006_Diffuser/ROAD_006_Diffuser_Mesh
+  include_children: false
+  target: road_006_diffuser
+  material: glass_windshield
+- name: road_006_footing
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_006/ROAD_006_Footing/ROAD_006_Footing_Mesh
+  include_children: false
+  target: road_006_footing
+  material: concrete
+- name: road_006_arm
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_006/ROAD_006_Arm/ROAD_006_Arm_Mesh
+  include_children: false
+  target: road_006_arm
+  material: aluminium_anodised
+- name: road_006_servicedoor
+  prim_path: /World/IndustrialPark02/Lighting/ROAD_006/ROAD_006_ServiceDoor/ROAD_006_ServiceDoor_Mesh
+  include_children: false
+  target: road_006_servicedoor
+  material: aircraft_aluminium_painted
+- name: gc021_wall_east
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Wall_East/GC021_Wall_East_Mesh
+  include_children: false
+  target: gc021_wall_east
+  material: etics_render
+- name: gc021_door_003_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_003/GC021_Door_003_Frame/GC021_Door_003_Frame_Mesh
+  include_children: false
+  target: gc021_door_003_frame
+  material: aircraft_aluminium_painted
+- name: gc021_door_003_panel
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_003/GC021_Door_003_Panel/GC021_Door_003_Panel_Mesh
+  include_children: false
+  target: gc021_door_003_panel
+  material: aircraft_aluminium_painted
+- name: gc021_door_003_glass
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_003/GC021_Door_003_Glass/GC021_Door_003_Glass_Mesh
+  include_children: false
+  target: gc021_door_003_glass
+  material: glass_windshield
+- name: gc021_wall_west
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Wall_West/GC021_Wall_West_Mesh
+  include_children: false
+  target: gc021_wall_west
+  material: etics_render
+- name: gc021_window_008_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_008/GC021_Window_008_Glass_002/GC021_Window_008_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_008_glass_002
+  material: glass_windshield
+- name: gc021_window_008_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_008/GC021_Window_008_Glass_004/GC021_Window_008_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_008_glass_004
+  material: glass_windshield
+- name: gc021_window_008_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_008/GC021_Window_008_Glass_005/GC021_Window_008_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_008_glass_005
+  material: glass_windshield
+- name: gc021_window_008_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_008/GC021_Window_008_Glass_001/GC021_Window_008_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_008_glass_001
+  material: glass_windshield
+- name: gc021_window_008_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_008/GC021_Window_008_Glass_006/GC021_Window_008_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_008_glass_006
+  material: glass_windshield
+- name: gc021_window_008_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_008/GC021_Window_008_Frame/GC021_Window_008_Frame_Mesh
+  include_children: false
+  target: gc021_window_008_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_008_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_008/GC021_Window_008_Glass_003/GC021_Window_008_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_008_glass_003
+  material: glass_windshield
+- name: gc021_window_007_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_007/GC021_Window_007_Glass_005/GC021_Window_007_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_007_glass_005
+  material: glass_windshield
+- name: gc021_window_007_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_007/GC021_Window_007_Glass_006/GC021_Window_007_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_007_glass_006
+  material: glass_windshield
+- name: gc021_window_007_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_007/GC021_Window_007_Glass_004/GC021_Window_007_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_007_glass_004
+  material: glass_windshield
+- name: gc021_window_007_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_007/GC021_Window_007_Frame/GC021_Window_007_Frame_Mesh
+  include_children: false
+  target: gc021_window_007_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_007_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_007/GC021_Window_007_Glass_001/GC021_Window_007_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_007_glass_001
+  material: glass_windshield
+- name: gc021_window_007_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_007/GC021_Window_007_Glass_003/GC021_Window_007_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_007_glass_003
+  material: glass_windshield
+- name: gc021_window_007_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_007/GC021_Window_007_Glass_002/GC021_Window_007_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_007_glass_002
+  material: glass_windshield
+- name: gc021_soffit_underside
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Soffit_Underside/GC021_Soffit_Underside_Mesh
+  include_children: false
+  target: gc021_soffit_underside
+  material: etics_render
+- name: gc021_window_004_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_004/GC021_Window_004_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_004_glass_004
+  material: glass_windshield
+- name: gc021_window_004_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_006/GC021_Window_004_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_004_glass_006
+  material: glass_windshield
+- name: gc021_window_004_glass_011
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_011/GC021_Window_004_Glass_011_Mesh
+  include_children: false
+  target: gc021_window_004_glass_011
+  material: glass_windshield
+- name: gc021_window_004_glass_009
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_009/GC021_Window_004_Glass_009_Mesh
+  include_children: false
+  target: gc021_window_004_glass_009
+  material: glass_windshield
+- name: gc021_window_004_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Frame/GC021_Window_004_Frame_Mesh
+  include_children: false
+  target: gc021_window_004_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_004_glass_008
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_008/GC021_Window_004_Glass_008_Mesh
+  include_children: false
+  target: gc021_window_004_glass_008
+  material: glass_windshield
+- name: gc021_window_004_glass_007
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_007/GC021_Window_004_Glass_007_Mesh
+  include_children: false
+  target: gc021_window_004_glass_007
+  material: glass_windshield
+- name: gc021_window_004_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_001/GC021_Window_004_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_004_glass_001
+  material: glass_windshield
+- name: gc021_window_004_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_005/GC021_Window_004_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_004_glass_005
+  material: glass_windshield
+- name: gc021_window_004_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_003/GC021_Window_004_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_004_glass_003
+  material: glass_windshield
+- name: gc021_window_004_glass_012
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_012/GC021_Window_004_Glass_012_Mesh
+  include_children: false
+  target: gc021_window_004_glass_012
+  material: glass_windshield
+- name: gc021_window_004_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_002/GC021_Window_004_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_004_glass_002
+  material: glass_windshield
+- name: gc021_window_004_glass_010
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_004/GC021_Window_004_Glass_010/GC021_Window_004_Glass_010_Mesh
+  include_children: false
+  target: gc021_window_004_glass_010
+  material: glass_windshield
+- name: gc021_window_005_glass_018
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_018/GC021_Window_005_Glass_018_Mesh
+  include_children: false
+  target: gc021_window_005_glass_018
+  material: glass_windshield
+- name: gc021_window_005_glass_013
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_013/GC021_Window_005_Glass_013_Mesh
+  include_children: false
+  target: gc021_window_005_glass_013
+  material: glass_windshield
+- name: gc021_window_005_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_003/GC021_Window_005_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_005_glass_003
+  material: glass_windshield
+- name: gc021_window_005_glass_017
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_017/GC021_Window_005_Glass_017_Mesh
+  include_children: false
+  target: gc021_window_005_glass_017
+  material: glass_windshield
+- name: gc021_window_005_glass_010
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_010/GC021_Window_005_Glass_010_Mesh
+  include_children: false
+  target: gc021_window_005_glass_010
+  material: glass_windshield
+- name: gc021_window_005_glass_016
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_016/GC021_Window_005_Glass_016_Mesh
+  include_children: false
+  target: gc021_window_005_glass_016
+  material: glass_windshield
+- name: gc021_window_005_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Frame/GC021_Window_005_Frame_Mesh
+  include_children: false
+  target: gc021_window_005_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_005_glass_015
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_015/GC021_Window_005_Glass_015_Mesh
+  include_children: false
+  target: gc021_window_005_glass_015
+  material: glass_windshield
+- name: gc021_window_005_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_001/GC021_Window_005_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_005_glass_001
+  material: glass_windshield
+- name: gc021_window_005_glass_007
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_007/GC021_Window_005_Glass_007_Mesh
+  include_children: false
+  target: gc021_window_005_glass_007
+  material: glass_windshield
+- name: gc021_window_005_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_005/GC021_Window_005_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_005_glass_005
+  material: glass_windshield
+- name: gc021_window_005_glass_012
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_012/GC021_Window_005_Glass_012_Mesh
+  include_children: false
+  target: gc021_window_005_glass_012
+  material: glass_windshield
+- name: gc021_window_005_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_002/GC021_Window_005_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_005_glass_002
+  material: glass_windshield
+- name: gc021_window_005_glass_008
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_008/GC021_Window_005_Glass_008_Mesh
+  include_children: false
+  target: gc021_window_005_glass_008
+  material: glass_windshield
+- name: gc021_window_005_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_006/GC021_Window_005_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_005_glass_006
+  material: glass_windshield
+- name: gc021_window_005_glass_014
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_014/GC021_Window_005_Glass_014_Mesh
+  include_children: false
+  target: gc021_window_005_glass_014
+  material: glass_windshield
+- name: gc021_window_005_glass_011
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_011/GC021_Window_005_Glass_011_Mesh
+  include_children: false
+  target: gc021_window_005_glass_011
+  material: glass_windshield
+- name: gc021_window_005_glass_009
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_009/GC021_Window_005_Glass_009_Mesh
+  include_children: false
+  target: gc021_window_005_glass_009
+  material: glass_windshield
+- name: gc021_window_005_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_005/GC021_Window_005_Glass_004/GC021_Window_005_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_005_glass_004
+  material: glass_windshield
+- name: gc021_door_005_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_005/GC021_Door_005_Frame/GC021_Door_005_Frame_Mesh
+  include_children: false
+  target: gc021_door_005_frame
+  material: aircraft_aluminium_painted
+- name: gc021_door_005_glass
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_005/GC021_Door_005_Glass/GC021_Door_005_Glass_Mesh
+  include_children: false
+  target: gc021_door_005_glass
+  material: glass_windshield
+- name: gc021_door_005_panel
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_005/GC021_Door_005_Panel/GC021_Door_005_Panel_Mesh
+  include_children: false
+  target: gc021_door_005_panel
+  material: aircraft_aluminium_painted
+- name: gc021_wall_rear
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Wall_Rear/GC021_Wall_Rear_Mesh
+  include_children: false
+  target: gc021_wall_rear
+  material: etics_render
+- name: gc021_stepsandplinth_horizontal
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_StepsAndPlinth_Horizontal/GC021_StepsAndPlinth_Horizontal_Mesh
+  include_children: false
+  target: gc021_stepsandplinth_horizontal
+  material: etics_render
+- name: gc021_window_001_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Frame/GC021_Window_001_Frame_Mesh
+  include_children: false
+  target: gc021_window_001_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_001_glass_007
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_007/GC021_Window_001_Glass_007_Mesh
+  include_children: false
+  target: gc021_window_001_glass_007
+  material: glass_windshield
+- name: gc021_window_001_glass_011
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_011/GC021_Window_001_Glass_011_Mesh
+  include_children: false
+  target: gc021_window_001_glass_011
+  material: glass_windshield
+- name: gc021_window_001_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_002/GC021_Window_001_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_001_glass_002
+  material: glass_windshield
+- name: gc021_window_001_glass_010
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_010/GC021_Window_001_Glass_010_Mesh
+  include_children: false
+  target: gc021_window_001_glass_010
+  material: glass_windshield
+- name: gc021_window_001_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_006/GC021_Window_001_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_001_glass_006
+  material: glass_windshield
+- name: gc021_window_001_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_001/GC021_Window_001_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_001_glass_001
+  material: glass_windshield
+- name: gc021_window_001_glass_009
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_009/GC021_Window_001_Glass_009_Mesh
+  include_children: false
+  target: gc021_window_001_glass_009
+  material: glass_windshield
+- name: gc021_window_001_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_003/GC021_Window_001_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_001_glass_003
+  material: glass_windshield
+- name: gc021_window_001_glass_012
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_012/GC021_Window_001_Glass_012_Mesh
+  include_children: false
+  target: gc021_window_001_glass_012
+  material: glass_windshield
+- name: gc021_window_001_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_004/GC021_Window_001_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_001_glass_004
+  material: glass_windshield
+- name: gc021_window_001_glass_008
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_008/GC021_Window_001_Glass_008_Mesh
+  include_children: false
+  target: gc021_window_001_glass_008
+  material: glass_windshield
+- name: gc021_window_001_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_001/GC021_Window_001_Glass_005/GC021_Window_001_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_001_glass_005
+  material: glass_windshield
+- name: gc021_door_007_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_007/GC021_Door_007_Frame/GC021_Door_007_Frame_Mesh
+  include_children: false
+  target: gc021_door_007_frame
+  material: aircraft_aluminium_painted
+- name: gc021_door_007_panel
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_007/GC021_Door_007_Panel/GC021_Door_007_Panel_Mesh
+  include_children: false
+  target: gc021_door_007_panel
+  material: aircraft_aluminium_painted
+- name: gc021_window_003_glass_009
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_009/GC021_Window_003_Glass_009_Mesh
+  include_children: false
+  target: gc021_window_003_glass_009
+  material: glass_windshield
+- name: gc021_window_003_glass_011
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_011/GC021_Window_003_Glass_011_Mesh
+  include_children: false
+  target: gc021_window_003_glass_011
+  material: glass_windshield
+- name: gc021_window_003_glass_012
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_012/GC021_Window_003_Glass_012_Mesh
+  include_children: false
+  target: gc021_window_003_glass_012
+  material: glass_windshield
+- name: gc021_window_003_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_002/GC021_Window_003_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_003_glass_002
+  material: glass_windshield
+- name: gc021_window_003_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_001/GC021_Window_003_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_003_glass_001
+  material: glass_windshield
+- name: gc021_window_003_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_005/GC021_Window_003_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_003_glass_005
+  material: glass_windshield
+- name: gc021_window_003_glass_007
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_007/GC021_Window_003_Glass_007_Mesh
+  include_children: false
+  target: gc021_window_003_glass_007
+  material: glass_windshield
+- name: gc021_window_003_glass_010
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_010/GC021_Window_003_Glass_010_Mesh
+  include_children: false
+  target: gc021_window_003_glass_010
+  material: glass_windshield
+- name: gc021_window_003_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Frame/GC021_Window_003_Frame_Mesh
+  include_children: false
+  target: gc021_window_003_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_003_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_003/GC021_Window_003_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_003_glass_003
+  material: glass_windshield
+- name: gc021_window_003_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_006/GC021_Window_003_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_003_glass_006
+  material: glass_windshield
+- name: gc021_window_003_glass_008
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_008/GC021_Window_003_Glass_008_Mesh
+  include_children: false
+  target: gc021_window_003_glass_008
+  material: glass_windshield
+- name: gc021_window_003_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_003/GC021_Window_003_Glass_004/GC021_Window_003_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_003_glass_004
+  material: glass_windshield
+- name: gc021_door_002_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_002/GC021_Door_002_Frame/GC021_Door_002_Frame_Mesh
+  include_children: false
+  target: gc021_door_002_frame
+  material: aircraft_aluminium_painted
+- name: gc021_door_002_glass
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_002/GC021_Door_002_Glass/GC021_Door_002_Glass_Mesh
+  include_children: false
+  target: gc021_door_002_glass
+  material: glass_windshield
+- name: gc021_door_002_panel
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_002/GC021_Door_002_Panel/GC021_Door_002_Panel_Mesh
+  include_children: false
+  target: gc021_door_002_panel
+  material: aircraft_aluminium_painted
+- name: gc021_wall_front
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Wall_Front/GC021_Wall_Front_Mesh
+  include_children: false
+  target: gc021_wall_front
+  material: etics_render
+- name: gc021_window_002_glass_010
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_010/GC021_Window_002_Glass_010_Mesh
+  include_children: false
+  target: gc021_window_002_glass_010
+  material: glass_windshield
+- name: gc021_window_002_glass_007
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_007/GC021_Window_002_Glass_007_Mesh
+  include_children: false
+  target: gc021_window_002_glass_007
+  material: glass_windshield
+- name: gc021_window_002_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_005/GC021_Window_002_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_002_glass_005
+  material: glass_windshield
+- name: gc021_window_002_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Frame/GC021_Window_002_Frame_Mesh
+  include_children: false
+  target: gc021_window_002_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_002_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_004/GC021_Window_002_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_002_glass_004
+  material: glass_windshield
+- name: gc021_window_002_glass_012
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_012/GC021_Window_002_Glass_012_Mesh
+  include_children: false
+  target: gc021_window_002_glass_012
+  material: glass_windshield
+- name: gc021_window_002_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_001/GC021_Window_002_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_002_glass_001
+  material: glass_windshield
+- name: gc021_window_002_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_006/GC021_Window_002_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_002_glass_006
+  material: glass_windshield
+- name: gc021_window_002_glass_008
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_008/GC021_Window_002_Glass_008_Mesh
+  include_children: false
+  target: gc021_window_002_glass_008
+  material: glass_windshield
+- name: gc021_window_002_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_002/GC021_Window_002_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_002_glass_002
+  material: glass_windshield
+- name: gc021_window_002_glass_009
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_009/GC021_Window_002_Glass_009_Mesh
+  include_children: false
+  target: gc021_window_002_glass_009
+  material: glass_windshield
+- name: gc021_window_002_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_003/GC021_Window_002_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_002_glass_003
+  material: glass_windshield
+- name: gc021_window_002_glass_011
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_002/GC021_Window_002_Glass_011/GC021_Window_002_Glass_011_Mesh
+  include_children: false
+  target: gc021_window_002_glass_011
+  material: glass_windshield
+- name: gc021_door_006_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_006/GC021_Door_006_Frame/GC021_Door_006_Frame_Mesh
+  include_children: false
+  target: gc021_door_006_frame
+  material: aircraft_aluminium_painted
+- name: gc021_door_006_panel
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_006/GC021_Door_006_Panel/GC021_Door_006_Panel_Mesh
+  include_children: false
+  target: gc021_door_006_panel
+  material: aircraft_aluminium_painted
+- name: gc021_window_006_glass_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_006/GC021_Window_006_Glass_006/GC021_Window_006_Glass_006_Mesh
+  include_children: false
+  target: gc021_window_006_glass_006
+  material: glass_windshield
+- name: gc021_window_006_glass_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_006/GC021_Window_006_Glass_001/GC021_Window_006_Glass_001_Mesh
+  include_children: false
+  target: gc021_window_006_glass_001
+  material: glass_windshield
+- name: gc021_window_006_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_006/GC021_Window_006_Frame/GC021_Window_006_Frame_Mesh
+  include_children: false
+  target: gc021_window_006_frame
+  material: aircraft_aluminium_painted
+- name: gc021_window_006_glass_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_006/GC021_Window_006_Glass_004/GC021_Window_006_Glass_004_Mesh
+  include_children: false
+  target: gc021_window_006_glass_004
+  material: glass_windshield
+- name: gc021_window_006_glass_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_006/GC021_Window_006_Glass_003/GC021_Window_006_Glass_003_Mesh
+  include_children: false
+  target: gc021_window_006_glass_003
+  material: glass_windshield
+- name: gc021_window_006_glass_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_006/GC021_Window_006_Glass_002/GC021_Window_006_Glass_002_Mesh
+  include_children: false
+  target: gc021_window_006_glass_002
+  material: glass_windshield
+- name: gc021_window_006_glass_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Window_006/GC021_Window_006_Glass_005/GC021_Window_006_Glass_005_Mesh
+  include_children: false
+  target: gc021_window_006_glass_005
+  material: glass_windshield
+- name: gc021_door_001_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_001/GC021_Door_001_Frame/GC021_Door_001_Frame_Mesh
+  include_children: false
+  target: gc021_door_001_frame
+  material: aircraft_aluminium_painted
+- name: gc021_door_001_panel
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_001/GC021_Door_001_Panel/GC021_Door_001_Panel_Mesh
+  include_children: false
+  target: gc021_door_001_panel
+  material: aircraft_aluminium_painted
+- name: gc021_door_001_glass
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_001/GC021_Door_001_Glass/GC021_Door_001_Glass_Mesh
+  include_children: false
+  target: gc021_door_001_glass
+  material: glass_windshield
+- name: gc021_roof_roofcover
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Roof_RoofCover/GC021_Roof_RoofCover_Mesh
+  include_children: false
+  target: gc021_roof_roofcover
+  material: etics_render
+- name: gc021_door_004_frame
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_004/GC021_Door_004_Frame/GC021_Door_004_Frame_Mesh
+  include_children: false
+  target: gc021_door_004_frame
+  material: aircraft_aluminium_painted
+- name: gc021_door_004_glass
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_004/GC021_Door_004_Glass/GC021_Door_004_Glass_Mesh
+  include_children: false
+  target: gc021_door_004_glass
+  material: glass_windshield
+- name: gc021_door_004_panel
+  prim_path: /World/IndustrialPark02/InspectionZone01/BLD_GC021/GC021_Door_004/GC021_Door_004_Panel/GC021_Door_004_Panel_Mesh
+  include_children: false
+  target: gc021_door_004_panel
+  material: aircraft_aluminium_painted
+- name: gc075_basering_skirt
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_BaseRing_Skirt/GC075_BaseRing_Skirt_Mesh
+  include_children: false
+  target: gc075_basering_skirt
+  material: aircraft_aluminium_painted
+- name: gc075_accessattachments_material_01
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_AccessAttachments_Material_01/GC075_AccessAttachments_Material_01_Mesh
+  include_children: false
+  target: gc075_accessattachments_material_01
+  material: aircraft_aluminium_painted
+- name: gc075_tankroof_cap
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_TankRoof_Cap/GC075_TankRoof_Cap_Mesh
+  include_children: false
+  target: gc075_tankroof_cap
+  material: aircraft_aluminium_painted
+- name: gc075_railingandsupports_paintedblue
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_RailingAndSupports_PaintedBlue/GC075_RailingAndSupports_PaintedBlue_Mesh
+  include_children: false
+  target: gc075_railingandsupports_paintedblue
+  material: aircraft_aluminium_painted
+- name: gc075_accessattachments_material_00
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_AccessAttachments_Material_00/GC075_AccessAttachments_Material_00_Mesh
+  include_children: false
+  target: gc075_accessattachments_material_00
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_001
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_001/GC075_TankShell_Transition_001_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_001
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_normal_south
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Normal_South/GC075_TankShell_Normal_South_Mesh
+  include_children: false
+  target: gc075_tankshell_normal_south
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_normal_north
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Normal_North/GC075_TankShell_Normal_North_Mesh
+  include_children: false
+  target: gc075_tankshell_normal_north
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_004
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_004/GC075_TankShell_Transition_004_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_004
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_006
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_006/GC075_TankShell_Transition_006_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_006
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_008
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_008/GC075_TankShell_Transition_008_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_008
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_003
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_003/GC075_TankShell_Transition_003_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_003
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_hotspot
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Hotspot/GC075_TankShell_Hotspot_Mesh
+  include_children: false
+  target: gc075_tankshell_hotspot
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_002
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_002/GC075_TankShell_Transition_002_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_002
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_normal_east
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Normal_East/GC075_TankShell_Normal_East_Mesh
+  include_children: false
+  target: gc075_tankshell_normal_east
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_007
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_007/GC075_TankShell_Transition_007_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_007
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_transition_005
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Transition_005/GC075_TankShell_Transition_005_Mesh
+  include_children: false
+  target: gc075_tankshell_transition_005
+  material: aircraft_aluminium_painted
+- name: gc075_tankshell_normal_west
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/Shell_GC075/GC075_TankShell_Normal_West/GC075_TankShell_Normal_West_Mesh
+  include_children: false
+  target: gc075_tankshell_normal_west
+  material: aircraft_aluminium_painted
+- name: gc075_foundation_base
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_Foundation_Base/GC075_Foundation_Base_Mesh
+  include_children: false
+  target: gc075_foundation_base
+  material: concrete
+- name: gc075_externalpipework_paintedred
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC075/GC075_ExternalPipework_PaintedRed/GC075_ExternalPipework_PaintedRed_Mesh
+  include_children: false
+  target: gc075_externalpipework_paintedred
+  material: aircraft_aluminium_painted
+- name: gc078_railingandsupports_paintedblue
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/GC078_RailingAndSupports_PaintedBlue/GC078_RailingAndSupports_PaintedBlue_Mesh
+  include_children: false
+  target: gc078_railingandsupports_paintedblue
+  material: aircraft_aluminium_painted
+- name: gc078_foundation_base
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/GC078_Foundation_Base/GC078_Foundation_Base_Mesh
+  include_children: false
+  target: gc078_foundation_base
+  material: concrete
+- name: gc078_tankshell_normal_south
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/Shell_GC078/GC078_TankShell_Normal_South/GC078_TankShell_Normal_South_Mesh
+  include_children: false
+  target: gc078_tankshell_normal_south
+  material: aircraft_aluminium_painted
+- name: gc078_tankshell_normal_east
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/Shell_GC078/GC078_TankShell_Normal_East/GC078_TankShell_Normal_East_Mesh
+  include_children: false
+  target: gc078_tankshell_normal_east
+  material: aircraft_aluminium_painted
+- name: gc078_tankshell_normal_west
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/Shell_GC078/GC078_TankShell_Normal_West/GC078_TankShell_Normal_West_Mesh
+  include_children: false
+  target: gc078_tankshell_normal_west
+  material: aircraft_aluminium_painted
+- name: gc078_tankshell_normal_north
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/Shell_GC078/GC078_TankShell_Normal_North/GC078_TankShell_Normal_North_Mesh
+  include_children: false
+  target: gc078_tankshell_normal_north
+  material: aircraft_aluminium_painted
+- name: gc078_basering_skirt
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/GC078_BaseRing_Skirt/GC078_BaseRing_Skirt_Mesh
+  include_children: false
+  target: gc078_basering_skirt
+  material: aircraft_aluminium_painted
+- name: gc078_tankroof_cap
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/GC078_TankRoof_Cap/GC078_TankRoof_Cap_Mesh
+  include_children: false
+  target: gc078_tankroof_cap
+  material: aircraft_aluminium_painted
+- name: gc078_accessattachments_material_01
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/GC078_AccessAttachments_Material_01/GC078_AccessAttachments_Material_01_Mesh
+  include_children: false
+  target: gc078_accessattachments_material_01
+  material: aircraft_aluminium_painted
+- name: gc078_accessattachments_material_00
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/GC078_AccessAttachments_Material_00/GC078_AccessAttachments_Material_00_Mesh
+  include_children: false
+  target: gc078_accessattachments_material_00
+  material: aircraft_aluminium_painted
+- name: gc078_externalpipework_paintedred
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC078/GC078_ExternalPipework_PaintedRed/GC078_ExternalPipework_PaintedRed_Mesh
+  include_children: false
+  target: gc078_externalpipework_paintedred
+  material: aircraft_aluminium_painted
+- name: gc076_railingandsupports_paintedblue
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/GC076_RailingAndSupports_PaintedBlue/GC076_RailingAndSupports_PaintedBlue_Mesh
+  include_children: false
+  target: gc076_railingandsupports_paintedblue
+  material: aircraft_aluminium_painted
+- name: gc076_foundation_base
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/GC076_Foundation_Base/GC076_Foundation_Base_Mesh
+  include_children: false
+  target: gc076_foundation_base
+  material: concrete
+- name: gc076_externalpipework_paintedred
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/GC076_ExternalPipework_PaintedRed/GC076_ExternalPipework_PaintedRed_Mesh
+  include_children: false
+  target: gc076_externalpipework_paintedred
+  material: aircraft_aluminium_painted
+- name: gc076_tankshell_normal_south
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/Shell_GC076/GC076_TankShell_Normal_South/GC076_TankShell_Normal_South_Mesh
+  include_children: false
+  target: gc076_tankshell_normal_south
+  material: aircraft_aluminium_painted
+- name: gc076_tankshell_normal_north
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/Shell_GC076/GC076_TankShell_Normal_North/GC076_TankShell_Normal_North_Mesh
+  include_children: false
+  target: gc076_tankshell_normal_north
+  material: aircraft_aluminium_painted
+- name: gc076_tankshell_normal_east
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/Shell_GC076/GC076_TankShell_Normal_East/GC076_TankShell_Normal_East_Mesh
+  include_children: false
+  target: gc076_tankshell_normal_east
+  material: aircraft_aluminium_painted
+- name: gc076_tankshell_normal_west
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/Shell_GC076/GC076_TankShell_Normal_West/GC076_TankShell_Normal_West_Mesh
+  include_children: false
+  target: gc076_tankshell_normal_west
+  material: aircraft_aluminium_painted
+- name: gc076_tankroof_cap
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/GC076_TankRoof_Cap/GC076_TankRoof_Cap_Mesh
+  include_children: false
+  target: gc076_tankroof_cap
+  material: aircraft_aluminium_painted
+- name: gc076_accessattachments_material_00
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/GC076_AccessAttachments_Material_00/GC076_AccessAttachments_Material_00_Mesh
+  include_children: false
+  target: gc076_accessattachments_material_00
+  material: aircraft_aluminium_painted
+- name: gc076_accessattachments_material_01
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/GC076_AccessAttachments_Material_01/GC076_AccessAttachments_Material_01_Mesh
+  include_children: false
+  target: gc076_accessattachments_material_01
+  material: aircraft_aluminium_painted
+- name: gc076_basering_skirt
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC076/GC076_BaseRing_Skirt/GC076_BaseRing_Skirt_Mesh
+  include_children: false
+  target: gc076_basering_skirt
+  material: aircraft_aluminium_painted
+- name: gc077_accessattachments_material_01
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/GC077_AccessAttachments_Material_01/GC077_AccessAttachments_Material_01_Mesh
+  include_children: false
+  target: gc077_accessattachments_material_01
+  material: aircraft_aluminium_painted
+- name: gc077_basering_skirt
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/GC077_BaseRing_Skirt/GC077_BaseRing_Skirt_Mesh
+  include_children: false
+  target: gc077_basering_skirt
+  material: aircraft_aluminium_painted
+- name: gc077_foundation_base
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/GC077_Foundation_Base/GC077_Foundation_Base_Mesh
+  include_children: false
+  target: gc077_foundation_base
+  material: concrete
+- name: gc077_railingandsupports_paintedblue
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/GC077_RailingAndSupports_PaintedBlue/GC077_RailingAndSupports_PaintedBlue_Mesh
+  include_children: false
+  target: gc077_railingandsupports_paintedblue
+  material: aircraft_aluminium_painted
+- name: gc077_externalpipework_paintedred
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/GC077_ExternalPipework_PaintedRed/GC077_ExternalPipework_PaintedRed_Mesh
+  include_children: false
+  target: gc077_externalpipework_paintedred
+  material: aircraft_aluminium_painted
+- name: gc077_tankshell_normal_south
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/Shell_GC077/GC077_TankShell_Normal_South/GC077_TankShell_Normal_South_Mesh
+  include_children: false
+  target: gc077_tankshell_normal_south
+  material: aircraft_aluminium_painted
+- name: gc077_tankshell_normal_north
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/Shell_GC077/GC077_TankShell_Normal_North/GC077_TankShell_Normal_North_Mesh
+  include_children: false
+  target: gc077_tankshell_normal_north
+  material: aircraft_aluminium_painted
+- name: gc077_tankshell_normal_west
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/Shell_GC077/GC077_TankShell_Normal_West/GC077_TankShell_Normal_West_Mesh
+  include_children: false
+  target: gc077_tankshell_normal_west
+  material: aircraft_aluminium_painted
+- name: gc077_tankshell_normal_east
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/Shell_GC077/GC077_TankShell_Normal_East/GC077_TankShell_Normal_East_Mesh
+  include_children: false
+  target: gc077_tankshell_normal_east
+  material: aircraft_aluminium_painted
+- name: gc077_tankroof_cap
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/GC077_TankRoof_Cap/GC077_TankRoof_Cap_Mesh
+  include_children: false
+  target: gc077_tankroof_cap
+  material: aircraft_aluminium_painted
+- name: gc077_accessattachments_material_00
+  prim_path: /World/IndustrialPark02/InspectionZone01/Equipment/TANK_GC077/GC077_AccessAttachments_Material_00/GC077_AccessAttachments_Material_00_Mesh
+  include_children: false
+  target: gc077_accessattachments_material_00
+  material: aircraft_aluminium_painted

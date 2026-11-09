@@ -1,0 +1,9 @@
+# 出题版显示：外墙/地面 24 ℃ 左右保留层次，窗户 33 ℃ 偏亮，引擎盖 65 ℃、空调 60 ℃、灯头 90 ℃ 顶部饱和。
+schema_version: 1
+name: city_200m_scenario
+mode: fixed_apparent_temperature
+temperature_min_c: 18.0
+temperature_max_c: 42.0
+dde_gain: 0.0
+polarity: white_hot
+palette: gray

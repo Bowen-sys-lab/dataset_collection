@@ -1,0 +1,6 @@
+# One actual RunId or absolute recording directory per line. UTF-8 text.
+# Copy this file to your own list and replace the examples before starting.
+# These are existing new F07/F08 recordings, not the old broken F07.
+# Reprocessing creates NEW outputs even if another processing pass already exists.
+factory-pilot30-F07-20261104T143602433711Z
+factory-pilot30-F08-20261104T153626010280Z

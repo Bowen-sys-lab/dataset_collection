@@ -1,0 +1,8 @@
+# 城市场景采集配方（统一入口 record.ps1 -Scene city 读取）
+scene_id: city
+display_name: 夜间城市 200 m
+backend_entry: scripts/record_city_bc_pilot.ps1
+plan: configs/city_200m_bc_plan.yaml
+default_target: van
+default_start_group: A
+backend: city_bc

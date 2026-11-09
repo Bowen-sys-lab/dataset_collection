@@ -1,0 +1,8 @@
+schema_version: 1
+name: model02_v7m_fixed_night
+mode: fixed_apparent_temperature
+temperature_min_c: 16.9
+temperature_max_c: 36.0
+dde_gain: 0.0
+polarity: white_hot
+palette: gray

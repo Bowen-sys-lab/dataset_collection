@@ -1,0 +1,25 @@
+schema_version: 1
+task:
+  file: model02_v4_tank_task.yaml
+scene:
+  stage: ../factory/model02_thermal_v5/model02_v5_scene.usda
+  thermal_scene: model02_v4_night_environment.yaml
+  static_targets:
+  - /World/LimeExp_02
+  - /World/IndustrialPark02
+drone:
+  prim_path: /World/Crazyflie
+  body_path: /World/Crazyflie/body
+  camera_path: /World/Crazyflie/body/Camera_mount/Camera
+  minimum_height: 2.0
+sensors:
+  width: 160
+  height: 128
+  sensor_config: ../third_party/isaac-thermal-camera-simulation/configs/sensors/flir_boson_640_lwir.yaml
+  thermal_config: model02_v4_thermal.yaml
+  preview_fast: true
+  align_thermal_to_rgb: true
+  flat_field_enabled: true
+  sensor_seed: 0
+  display_config: model02_v4_display.yaml
+  material_directory: ../factory/model02_thermal_v4/configuration/materials

@@ -1,0 +1,4 @@
+# 回退到原传感器 ISP；AGC/DDE/调色沿用原传感器配置。
+schema_version: 1
+name: original_sensor_isp
+mode: vendor

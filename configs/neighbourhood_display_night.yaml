@@ -1,0 +1,1 @@
+{schema_version: 1, name: neighbourhood_night, mode: fixed_apparent_temperature, temperature_min_c: 10.0, temperature_max_c: 38.0, dde_gain: 0.0, polarity: white_hot, palette: gray}

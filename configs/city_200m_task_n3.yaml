@@ -1,0 +1,13 @@
+# S1/N3：三辆同款白车，只有一辆引擎盖还热。外观在 RGB 里完全一致，热像给出唯一交集。
+task_id: city-n3-warm-engine
+instruction: 街边停着三辆同款白色面包车，找到发动机刚熄火、引擎盖还热的那一辆。
+target_prim_path: /World/Scenario/Van_02/Hood
+target_description: 三辆同款白色面包车中，引擎盖温度明显偏高的那一辆
+environment_description: 夜间城市主街南侧，三辆白色面包车平行停放，附近有空调外机和地面排风口
+environment_landmarks:
+  - 主街北侧三辆并排的白色面包车
+  - 路缘上的空调外机
+start_position: [70.0, -22.0, 6.5]
+target_position: [97.7, -21.8, 2.2]
+target_position_semantics: 目标车辆引擎盖中心，米制、Z-up、世界坐标
+notes: 三辆车身都是 26 ℃，只有中间一辆引擎盖 65 ℃；空调外机 50 ℃ 是干扰热源

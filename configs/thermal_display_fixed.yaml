@@ -1,0 +1,11 @@
+# 项目自己的显示方案，不修改传感器噪声、温度、辐射或原始 DN。
+# 学校现有 43 帧约为 -24..35 C，范围包含冷天空和热目标。
+# 超出范围仅影响 PNG/display8，原始 apparent_t 仍完整保存。
+schema_version: 1
+name: school_fixed_apparent_temperature
+mode: fixed_apparent_temperature
+temperature_min_c: -30.0
+temperature_max_c: 45.0
+dde_gain: 0.0
+polarity: white_hot
+palette: gray

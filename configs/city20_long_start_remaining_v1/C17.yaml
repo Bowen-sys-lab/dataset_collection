@@ -1,0 +1,43 @@
+task_id: city-v2-person_02-s2
+instruction: The target is several blocks ahead, slightly to your right. Head westward along the southern
+  edge of the district, then search the streets near the target. Find the person wearing a dark coat,
+  long trousers, and a hat on the sidewalk beside the western building, near plants and a low balcony.
+  In the thermal image, look for a human-shaped region that is brighter than the background wall. Approach
+  and stop where the person and the thermal silhouette are clearly visible.
+target_prim_path: /World/Targets/Person_02/CC_Base_Body
+target_description: 一名身高约 1.76 米的行人，穿深色外套、长裤，戴帽子，站在人行道上
+environment_description: 位于西侧楼旁，身旁有绿植和一层阳台，这段人行道只有这一名行人
+environment_landmarks:
+- 西侧人行道
+- 绿植
+- 阳台
+start_position:
+- 110.0
+- -22.0
+- 6.5
+target_position:
+- -9.35
+- 2.9
+- -0.011
+target_position_semantics: 目标底部放置点，米制、Z-up、世界坐标
+notes: 停稳并松开运动键后按 H 检查红外；目标及对应热特征清楚可见时按 T 人工确认，然后正常关闭并等待保存。T 不等于自动任务通过。
+environment_evidence:
+  scene: city_200m_v2
+  scheme: night_low_light
+  target: Person_02
+  block_index: 0
+  initial_yaw_degrees: 180.0
+  target_bearing_degrees: 168.22
+  relative_direction: 前方偏右
+  start_distance_m: 121.92
+  start_index: 2
+  city_collection:
+    version: city20_long_start_remaining_v1
+    episode: C17
+    split: train
+    language: en
+    source_task_path: D:\IsaacSim_Demo\configs\city_200m_v2_task_person_02_s2.yaml
+    source_task_sha256: 8ba57ee518254228b3efa8b5c8fdd12b10cd8910832ffe9300d62647e4deb959
+    previous_task_path: D:\IsaacSim_Demo\configs\city20_english_v1\C17.yaml
+    previous_task_sha256: 9f391acb5a5099ff90fa0747f7bca75347019fffb51d15d442aeca27e7ebf7d6
+    start_review_status: candidate_pending_spawn_preflight

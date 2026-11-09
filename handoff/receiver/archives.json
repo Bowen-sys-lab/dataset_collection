@@ -1,0 +1,23 @@
+{
+  "scope": "Local controlled handoff; no GitHub upload",
+  "archives": [
+    {
+      "path": "dataset-code-20261109.zip",
+      "files": 688,
+      "bytes": 7092723,
+      "sha256": "8e9d67766ae583e3d5285453a8271387df04fc51e83f5074e3a199d082b7ef74"
+    },
+    {
+      "path": "dataset-assets-20261109.zip",
+      "files": 725,
+      "bytes": 390641443,
+      "sha256": "32c92fb6db48a7684beb9aee8f235450a7523cacac281f391779b50fe88bfbcf"
+    },
+    {
+      "path": "dataset-sample-20261109.zip",
+      "files": 684,
+      "bytes": 62939117,
+      "sha256": "f1c5373b4a56609825435113410989df070fc783b5e688c7ea1c7fc04a1e7846"
+    }
+  ]
+}

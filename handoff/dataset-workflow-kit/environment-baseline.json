@@ -1,0 +1,18 @@
+{
+  "platform": "Windows x64",
+  "isaac_sim": "6.1.0-rc.26+release.49347.2d230af4.gl",
+  "isaac_root": "D:\\isaacsim",
+  "project_root": "D:\\IsaacSim_Demo",
+  "imported_versions": {
+    "numpy": "2.3.1", "scipy": "1.17.0", "pydantic": "2.11.10",
+    "PyYAML": "6.0.3", "imageio": "2.37.2", "Pillow": "12.3.0"
+  },
+  "install_policy": "Use Isaac Python. Do not blindly upgrade existing Kit/USD/Warp packages. Install missing application dependencies only and record changes.",
+  "sensor_code": "third_party/isaac-thermal-camera-simulation/src",
+  "raw_trajectory_period_s": 1.0,
+  "offline_pair_period_s": 1.0,
+  "rgb_resolution": [256,256],
+  "thermal_resolution": [256,256],
+  "preview_policy": "unchanged",
+  "receiver_gpu_acceptance": "REQUIRED"
+}

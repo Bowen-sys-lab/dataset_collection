@@ -1,0 +1,19 @@
+# 屋面改性沥青防水卷材（SBS/APP，风化状态）。黑色、低反照率：白天吸热明显，
+# 是屋顶巡检里最典型的“白天异常热、夜里快速冷”的表面。数值为项目估算，未标定。
+schema_version: 2
+material:
+  name: roof_waterproof_bitumen
+  source: estimated
+  surface_treatment: weathered
+  reference: "Project estimate from typical black bituminous membrane properties; not calibrated"
+  description: "屋面防水卷材。黑色高吸收，日照下温升快；材料的发射率本身接近黑体。"
+  thermal:
+    density_kg_m3: 1100
+    specific_heat_j_kgk: 1000
+    conductivity_w_mk: 0.2
+    thickness_m: 0.004
+    solar_absorptivity: 0.90
+  optical:
+    emissivity_per_band: {nir: 0.05, swir: 0.06, mwir: 0.90, lwir: 0.93}
+    roughness_per_band: {nir: 0.55, swir: 0.55, mwir: 0.50, lwir: 0.45}
+    angular_model: {type: empirical, a: 0.05, p: 4.0}

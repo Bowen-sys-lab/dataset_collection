@@ -1,0 +1,13 @@
+# 2026-11-03 城市 v2 夜间热环境；weather_file 改绝对路径（运行时 cwd 是项目根）。
+schema_version: 17
+scene:
+  name: city_night_200m_person
+  description: Synthetic 200 m night city with six targets and prescribed surface temperatures
+  weather_file: D:\IsaacSim_Demo\city_200m_v2_local\environment\weather.csv
+  atmosphere_preset: us_standard_clear
+  environment_preset: clear_dry
+  site:
+    latitude_deg: 31.2
+    longitude_deg: 121.5
+    altitude_m: 10.0
+  start_utc: '2026-10-26T12:00:00Z'

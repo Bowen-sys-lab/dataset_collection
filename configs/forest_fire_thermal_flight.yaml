@@ -1,0 +1,98 @@
+# 飞行版场景专用的热配置：在静态版基础上，把叠加进来的 Crazyflie 也绑上。
+# 静态场景用 configs/forest_fire_thermal.yaml（不含无人机，避免出现 unmatched 绑定）。
+schema_version: 1
+
+defaults:
+  target: soil
+  material: soil_dry
+
+targets:
+  soil:
+    mode: fixed
+    temperature_c: 18.0
+  leaves:
+    mode: fixed
+    temperature_c: 16.0
+  wood:
+    mode: fixed
+    temperature_c: 17.0
+  barrel:
+    mode: fixed
+    temperature_c: 110.0
+  rim:
+    mode: fixed
+    temperature_c: 180.0
+  embers:
+    mode: fixed
+    temperature_c: 500.0
+  flame_proxy:
+    mode: fixed
+    temperature_c: 650.0
+  smoke:
+    mode: fixed
+    temperature_c: 30.0
+  drone_body:
+    mode: fixed
+    temperature_c: 35.0
+
+bindings:
+  - name: binding_00_terrain
+    prim_path: /World/Site/Forest/Terrain
+    include_children: true
+    target: soil
+    material: soil_dry
+
+  - name: binding_01_vegetation
+    prim_path: /World/Site/Forest/Vegetation
+    include_children: true
+    target: leaves
+    material: vegetation_leaf
+
+  - name: binding_02_trunks
+    prim_path: /World/Site/Forest/Trunks
+    include_children: true
+    target: wood
+    material: wood_pine
+
+  - name: binding_03_trail
+    prim_path: /World/Site/Trail
+    include_children: true
+    target: soil
+    material: soil_dry
+
+  - name: binding_04_barrel_body
+    prim_path: /World/Site/Target_BurningBarrel_001/Body
+    include_children: true
+    target: barrel
+    material: rusted_steel
+
+  - name: binding_05_barrel_rim
+    prim_path: /World/Site/Target_BurningBarrel_001/HotRim
+    include_children: true
+    target: rim
+    material: rusted_steel
+
+  - name: binding_06_hotspot
+    prim_path: /World/Site/Target_BurningBarrel_001/Hotspot
+    include_children: true
+    target: embers
+    material: soil_dry
+
+  - name: binding_07_flames
+    prim_path: /World/Site/Target_BurningBarrel_001/Flames
+    include_children: true
+    target: flame_proxy
+    material: soil_dry
+
+  - name: binding_08_fire_atmosphere
+    prim_path: /World/Site/Target_BurningBarrel_001/FireAtmosphere
+    include_children: true
+    target: smoke
+    material: soil_dry
+
+  # 只有飞行叠加层里才有这个 prim
+  - name: binding_09_fire_flight
+    prim_path: /World/FireFlight
+    include_children: true
+    target: drone_body
+    material: painted_composite

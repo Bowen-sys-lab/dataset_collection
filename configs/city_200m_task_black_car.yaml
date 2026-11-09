@@ -1,0 +1,13 @@
+# M3/控制集：黑色车刚熄火，RGB 用颜色定位，IR 确认余热。
+task_id: city-black-car
+instruction: 街边停着一辆黑色面包车，刚熄火不久，找到它。
+target_prim_path: /World/Scenario/BlackVan_01
+target_description: 黑色面包车，车身和引擎盖还带着余热（35 ℃）
+environment_description: 夜间城市主街，三辆白色面包车与一辆黑色面包车沿街停放
+environment_landmarks:
+  - 主街北侧并排的白色面包车
+  - 黑色面包车在它们东侧
+start_position: [40.0, -22.0, 6.5]
+target_position: [120.0, -21.6, 0.9]
+target_position_semantics: 黑色车包围盒中心，米制、Z-up、世界坐标
+notes: 车身 35 ℃、白车 26 ℃、热引擎盖 65 ℃，三个温度档位

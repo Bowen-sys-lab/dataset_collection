@@ -1,0 +1,16 @@
+# 夜间城市的热环境（由作者 environment/night_environment.yaml 改写）。
+# 改动只有一处：weather_file 改成绝对路径——本项目以 D:\IsaacSim_Demo 为工作目录，
+# 相对路径会解析到 configs/ 下。
+# 不写 scene.targets：目标温度由 configs/city_200m_thermal.yaml 提供，两处同时写会触发重名检查。
+schema_version: 17
+scene:
+  name: city_night_200m_person
+  description: Synthetic 200 m night city with a static person and prescribed surface temperatures
+  weather_file: D:\IsaacSim_Demo\city_200m_local\environment\weather.csv
+  atmosphere_preset: us_standard_clear
+  environment_preset: clear_dry
+  site:
+    latitude_deg: 31.2
+    longitude_deg: 121.5
+    altitude_m: 10.0
+  start_utc: '2026-10-26T12:00:00Z'

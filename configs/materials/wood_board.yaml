@@ -1,0 +1,19 @@
+# 木板 / 木饰面（风化状态）。木材热红外接近黑体，可见光/近红外偏红棕、反射中等。
+# LWIR 取文献典型值 0.90；NIR/SWIR 为估计。
+schema_version: 2
+material:
+  name: wood_board
+  source: literature
+  surface_treatment: weathered
+  reference: "LWIR literature typical 0.90; NIR/SWIR ESTIMATED"
+  description: "木板、木栈道、木质围挡。热红外接近黑体；潮湿后温度变化明显，发射率变化很小。"
+  thermal:
+    density_kg_m3: 600
+    specific_heat_j_kgk: 1700
+    conductivity_w_mk: 0.15
+    thickness_m: 0.02
+    solar_absorptivity: 0.60
+  optical:
+    emissivity_per_band: {nir: 0.45, swir: 0.50, mwir: 0.88, lwir: 0.90}
+    roughness_per_band: {nir: 0.70, swir: 0.68, mwir: 0.60, lwir: 0.55}
+    angular_model: {type: empirical, a: 0.05, p: 4.0}
