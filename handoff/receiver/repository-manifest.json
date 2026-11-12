@@ -1321,8 +1321,8 @@
     },
     {
       "path": "handoff/receiver/SOURCE_NOTICES.txt",
-      "size": 1781,
-      "sha256": "3db6e98af3e4caf14d32a7e233747711a2c2614ec499303b8e57b4c99347332e"
+      "size": 1883,
+      "sha256": "2578a5aebfa48d35b0fe7752bbae4ee552912fd319e08db2cd494008af2e9fd7"
     },
     {
       "path": "handoff/receiver/START_HERE.txt",
@@ -1341,8 +1341,8 @@
     },
     {
       "path": "README.md",
-      "size": 7080,
-      "sha256": "fcb551037ac1a5f1f80fb95835e3737207ba0aed8e08c89d81786aae63cb892a"
+      "size": 7397,
+      "sha256": "0af8302829780dd71437ef7aa93a631ed8b435e25950b743eee798b8739e1f26"
     },
     {
       "path": "requirements-collection-reference.txt",
