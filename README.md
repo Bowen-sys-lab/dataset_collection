@@ -34,6 +34,7 @@
 git clone https://github.com/Bowen-sys-lab/dataset_collection.git D:\IsaacSim_Demo
 Set-Location D:\IsaacSim_Demo
 Set-ExecutionPolicy -Scope Process Bypass
+. .\handoff\receiver\start_session.ps1
 Test-Path D:\isaacsim\python.bat
 Get-Content D:\isaacsim\VERSION
 nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv,noheader
@@ -57,13 +58,13 @@ nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv,noheader
 .\handoff\receiver\fetch_thermal.ps1
 ```
 
-最后做一次仓库、City 资源和红外组件检查：
+注意：截至 2026-11-12，锁定的上游地址在干净电脑上返回 `Repository not found`。因此项目负责人需要先提供该固定提交的本地目录或受控压缩包，或确认新的可访问地址，再让本科生执行这一步；不要让本科生自行替换红外版本。拿到依赖后再做完整检查：
 
 ```powershell
 & D:\isaacsim\python.bat -B tools\verify_repository.py --assets --dependency
 ```
 
-看到 `"result": "PASS"` 才进入采集。红外组件来自外部仓库，首次下载需要网络并接受其使用条款。
+看到 `"result": "PASS"` 才进入采集。红外组件来自外部仓库，使用和再分发条件需要项目负责人确认。
 
 ## 先做不启动 Isaac 的检查
 
