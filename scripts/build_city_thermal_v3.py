@@ -77,7 +77,6 @@ def build():
     scene['scene']['stage']='../city_200m_v3_flight.usdc'
     material_dir=ROOT/'configs/materials/city_200m_v3'
     shutil.copytree(ROOT/'configs/materials/city_200m_v2',material_dir)
-    shutil.copy2(ROOT/'configs/materials/forest_fire/wood_pine.yaml',material_dir/'wood_pine.yaml')
     scene['sensors'].update(thermal_config='city_200m_v3_thermal.yaml',display_config='city_200m_v3_display.yaml',material_directory='materials/city_200m_v3')
     write('city_200m_v3_scene.yaml',scene)
     actual=set(renderable_paths(stage))

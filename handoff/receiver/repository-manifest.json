@@ -615,6 +615,11 @@
       "sha256": "1ff344621b963e64ab499b945c13a62b9e70d6f11c6ef0ae740e4d357a4cad95"
     },
     {
+      "path": "configs/materials/city_200m_v2/wood_pine.yaml",
+      "size": 1906,
+      "sha256": "f0ca2fd760a1fdcf7790c5231ac95830751b2f1d513f41f2d86586110387ce97"
+    },
+    {
       "path": "configs/materials/city_200m_v3/aluminium_weathered.yaml",
       "size": 1471,
       "sha256": "0fd11a659485ee9a1b92c0974e4032d6cab7073b34fbee9bbb0bb1b043307976"
@@ -921,8 +926,8 @@
     },
     {
       "path": "README.md",
-      "size": 7610,
-      "sha256": "5f9298eda7d0ce627a9192b74cbd979a8648c1ebfa50b5004321f0501bb2d93c"
+      "size": 7802,
+      "sha256": "a1385fee7feac20ff758b6ac3d6f81ff79250f317cdc7f158293e517d27c9a56"
     },
     {
       "path": "requirements-collection-reference.txt",
@@ -1010,6 +1015,11 @@
       "sha256": "392a085c44514c35b50b7e6ed6727b0cd0d90a27c574b8704145b516bbb767cf"
     },
     {
+      "path": "scene_intake/capture_integrity.py",
+      "size": 3082,
+      "sha256": "52552ddd71f6ddfd8137f33332fddc64423c3e7f7d07089a510e36f8a625c4ce"
+    },
+    {
       "path": "scene_intake/convert_city_200m.py",
       "size": 21808,
       "sha256": "483c5c712cbfdc40327bf18c1c5b20ec8d19dc0d37a79cb60d11e984f371bc89"
@@ -1075,6 +1085,16 @@
       "sha256": "57dead5710394c34cf0f36ce595be5c101a3f974e24a62cb90deab377fea07ba"
     },
     {
+      "path": "scripts/bc_action_protocol.py",
+      "size": 5014,
+      "sha256": "2ff22ca2ea754d1c3d3f65dbf2a1fb12e8d801517151a99a615d6b633c24e45c"
+    },
+    {
+      "path": "scripts/bc_pose_targets.py",
+      "size": 3459,
+      "sha256": "2a2b028a19c5fc89cfd31f03a6013c50901368c383d21686fd818b2c5f33f1e7"
+    },
+    {
       "path": "scripts/benchmark_driving_acceptance.ps1",
       "size": 2113,
       "sha256": "1c678e26390425ce5c53a240d3f9dd2c01955e76145e926813a85c47a717ce91"
@@ -1096,8 +1116,8 @@
     },
     {
       "path": "scripts/build_city_thermal_v3.py",
-      "size": 5931,
-      "sha256": "844b7250d719eff309873faa0a0baefc396543c402146881bb35c0f92be4e7dd"
+      "size": 5831,
+      "sha256": "91d8ddecc9fbcadeaee3413ab02f8968dbf78047e3c351f39ada2cdc54ae1a7b"
     },
     {
       "path": "scripts/build_neighbourhood_scene.py",
@@ -1391,8 +1411,8 @@
     },
     {
       "path": "scripts/record_city_v2_task.ps1",
-      "size": 5717,
-      "sha256": "6d17966b3af5c0955c2e59dd75f8eaf67786d85afdf0404cd569832718bc7375"
+      "size": 6279,
+      "sha256": "fcb6686b805477028f9764ff6caec0f691215cd4c8c4083cf0c79b8817ccce52"
     },
     {
       "path": "scripts/recording_quality.py",
@@ -1635,9 +1655,19 @@
       "sha256": "bf673c85711a1f6b8a3e00ee8cb5099e3a011837536701d12d6cac534059a6e0"
     },
     {
+      "path": "tests/test_city_launch_portability.py",
+      "size": 1955,
+      "sha256": "81a54ce2df6d1fc047061a46977fe8c884906e47ad05dea89e44a9109ad53759"
+    },
+    {
       "path": "tests/test_city_material_partition.py",
       "size": 5232,
       "sha256": "5036882f5f9b72920e2e0a795b631929e2a8cff5dfa7aa78722c5467c00da806"
+    },
+    {
+      "path": "tests/test_city_review_entry.py",
+      "size": 677,
+      "sha256": "f3e154d685cd20fe4929740c82825cf04051d29f992a1226403aa1021de6750a"
     },
     {
       "path": "tests/test_city_v2_long_start_trial.py",

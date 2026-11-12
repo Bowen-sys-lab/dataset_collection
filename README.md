@@ -96,7 +96,7 @@ nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv,noheader
 .\scripts\record_city_v2_task.ps1 -Task city-v2-hvac-s1
 ```
 
-打开 Isaac Sim 后按窗口提示操作。用键盘控制无人机沿城市街区飞行；发生碰撞时等待回退完成，再继续。停在目标附近后按 `T` 做人工确认，然后正常关闭窗口并等待保存完成。
+打开 Isaac Sim 后按窗口提示操作。用键盘控制无人机沿城市街区飞行；发生碰撞时先松开控制键，点击窗口中的 `Undo collision: back 3 seconds`，待回退完成后继续飞行。停在目标附近后按 `T` 做人工确认，然后正常关闭窗口并等待保存完成。
 
 采集结束后记下终端打印的 `RunId`。原始轨迹位于：
 
@@ -114,7 +114,7 @@ D:\IsaacSim_Demo\validation\trajectory_runs\<RunId>\
 .\scripts\process.ps1 -Run <RunId>
 ```
 
-回放会使用采集时保存的配置，按 1 秒间隔取轨迹，生成 256×256 RGB 和 256×256 红外图像，并执行文件、时间戳、位姿和任务来源检查。输出目录类似：
+回放会读取原始记录中指定的场景配置路径并校验配置哈希；请保留采集时的项目版本和配置，避免修改后再回放。回放按 1 秒间隔取轨迹，生成 256×256 RGB 和 256×256 红外图像，并执行文件、时间戳、位姿和任务来源检查。输出目录类似：
 
 ```text
 D:\IsaacSim_Demo\validation\episodes\<RunId>\<处理时间>\

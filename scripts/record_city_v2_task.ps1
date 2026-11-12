@@ -9,7 +9,16 @@ $projectRoot = Split-Path -Parent $PSScriptRoot
 $table = Get-Content -LiteralPath (Join-Path $projectRoot 'configs\city_200m_v2_task_table.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $entry = $table.tasks | Where-Object { $_.task_id -eq $Task } | Select-Object -First 1
 if (-not $entry) { throw "Unknown task '$Task'. See configs\city_200m_v2_task_table.json" }
-$taskFile = $entry.file
+$taskReference = [string]$entry.file
+$legacyRoot = 'D:\IsaacSim_Demo\'
+if ($taskReference.StartsWith($legacyRoot, [StringComparison]::OrdinalIgnoreCase)) {
+    $taskReference = $taskReference.Substring($legacyRoot.Length)
+}
+if ([IO.Path]::IsPathRooted($taskReference)) { throw "Task file must be inside the project: $taskReference" }
+$taskFile = [IO.Path]::GetFullPath((Join-Path $projectRoot $taskReference))
+if (-not $taskFile.StartsWith($projectRoot.TrimEnd('\') + '\', [StringComparison]::OrdinalIgnoreCase)) {
+    throw "Task file must be inside the project: $taskFile"
+}
 if (-not (Test-Path -LiteralPath $taskFile)) { throw "Task file missing: $taskFile" }
 
 # Escape non-ASCII characters so Windows PowerShell can decode native stdout with any console code page.
