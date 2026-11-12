@@ -3,7 +3,6 @@ import argparse
 import copy
 import tempfile
 import unittest
-from pathlib import Path
 from unittest.mock import patch
 
 from scripts.trajectory_recorder import TrajectoryRecorder
@@ -40,29 +39,13 @@ class SharedCollectionRecoveryTests(unittest.TestCase):
         self.assertFalse(self.parse_live(['--record-trajectory', '--no-collision-undo']).collision_undo)
         self.assertTrue(self.parse_live(['--record-trajectory', '--probe-control', '--collision-undo']).collision_undo)
 
-    def test_factory_and_forest_episode_arguments_inherit_recovery(self):
-        from scripts.collection_episode import episode_preview_args, recording_identity, load_episodes
-        for scene in ('factory', 'forest'):
-            row = next(r for r in load_episodes() if r['scene'] == scene)
-            identity = recording_identity(row, 'contract')
-            args = episode_preview_args(row, Path('launch'), identity)
-            parsed = self.parse_live(args[2:])
-            self.assertTrue(parsed.collision_undo)
-            self.assertEqual((parsed.trajectory_period, parsed.preview_fps, parsed.thermal_preview_fps), (1., 15., 2.))
-            off = episode_preview_args(row, Path('launch'), identity, collision_undo=False)
-            self.assertFalse(self.parse_live(off[2:]).collision_undo)
-
     def test_pilot_snapshot_matches_preview_recovery_policy(self):
-        from scripts import factory_bc_pilot as factory, city_bc_pilot as city
-        from scripts.factory_collection_config import resolve_selection
-        with patch.object(factory, 'resolve_selection',
-                          side_effect=lambda *a: resolve_selection(*a, require_ready=False)):
-            for scene, module in (('factory', factory), ('city', city)):
-                for requested in (None, False, True):
-                    launch = module.build_launch(f'{scene}-bc-pilot-recovery-contract', collision_undo=requested)
-                    enabled = requested is not False
-                    self.assertEqual(launch['collision_undo'], enabled)
-                    self.assertEqual(self.parse_live(launch['preview_args']).collision_undo, enabled)
+        from scripts import city_bc_pilot as city
+        for requested in (None, False, True):
+            launch = city.build_launch('city-bc-pilot-recovery-contract', collision_undo=requested)
+            enabled = requested is not False
+            self.assertEqual(launch['collision_undo'], enabled)
+            self.assertEqual(self.parse_live(launch['preview_args']).collision_undo, enabled)
 
     def recovered_run(self, folder):
         recorder = TrajectoryRecorder.create(folder, {'trajectory_source': 'manual_driving', 'sample_period_s': 1.}, 'recovery')
@@ -75,7 +58,7 @@ class SharedCollectionRecoveryTests(unittest.TestCase):
         return recorder.records, recorder.metadata
 
     def test_quality_accepts_only_documented_recovery_gap_and_keeps_raw_count(self):
-        from scripts.factory_bc_pilot import recording_quality
+        from scripts.city_bc_pilot import recording_quality
         with tempfile.TemporaryDirectory() as folder:
             rows, metadata = self.recovered_run(folder)
             original = copy.deepcopy(rows)
@@ -87,7 +70,7 @@ class SharedCollectionRecoveryTests(unittest.TestCase):
             self.assertEqual(rows, original)
 
     def test_quality_still_rejects_missing_samples_and_unresolved_collision(self):
-        from scripts.factory_bc_pilot import recording_quality
+        from scripts.city_bc_pilot import recording_quality
         with tempfile.TemporaryDirectory() as folder:
             rows, metadata = self.recovered_run(folder)
             for kind in ('gap', 'clock', 'unresolved', 'fake_undo'):
@@ -100,7 +83,7 @@ class SharedCollectionRecoveryTests(unittest.TestCase):
                     self.assertEqual(recording_quality(r, sample_period_s=1., metadata=m)['result'], 'FAIL')
 
     def test_second_collision_before_next_one_hz_sample_is_valid(self):
-        from scripts.factory_bc_pilot import recording_quality
+        from scripts.city_bc_pilot import recording_quality
         with tempfile.TemporaryDirectory() as folder:
             r = TrajectoryRecorder.create(folder, {'trajectory_source': 'manual_driving', 'sample_period_s': 1.}, 'chain')
             for i in range(7):

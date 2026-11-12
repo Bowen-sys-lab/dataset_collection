@@ -1,12 +1,12 @@
-先读仓库根目录 README.md。本仓库面向本科生试复现，只走 City 场景路径。
+先读仓库根目录 README.md。本仓库当前只走 City 场景路径。
 
 最短步骤：
 1. 安装匹配的 Isaac Sim 到 D:\\isaacsim。
 2. 克隆仓库到 D:\\IsaacSim_Demo。
-3. 运行 tools\\install_city_assets.py 安装并校验仓库内 City 资源包。
-4. 运行 fetch_thermal.ps1 取得固定版本红外组件。
+3. 从项目负责人领取私有 City 资源包，运行 tools\\install_city_assets.py --archive <资源包路径> 安装并校验。
+4. 运行 fetch_thermal.ps1 取得固定版本红外组件；若上游不可访问，追加 -LocalDirectory <本地 Git checkout>。
 5. 运行 tools\\verify_repository.py --assets --dependency。
 6. 运行 scripts\\record_city_v2_task.ps1 -Task city-v2-hvac-s1 -CheckOnly。
 7. 按 README 进行一次真实采集和 scripts\\process.ps1 离线回放。
 
-工厂、森林资源本次不上传；历史代码和文档中的相关目录不属于本科生复现路径。资源授权和跨硬件实测状态见 README.md 与 SOURCE_NOTICES.txt。
+工厂、森林场景及代码已移除；City 资产不在公开仓库中。红外组件也需由项目负责人提供固定版本副本。资源授权和跨硬件实测状态见 README.md 与 SOURCE_NOTICES.txt。

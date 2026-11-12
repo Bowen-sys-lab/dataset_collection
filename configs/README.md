@@ -3,15 +3,13 @@
 从 [按场景分类的目录](by_scene/README.md) 查找配置：
 
 - [City 城市](by_scene/city/README.md)
-- [Factory 工厂](by_scene/factory/README.md)
-- [Forest 森林](by_scene/forest/README.md)
 - [Neighbourhood 街区](by_scene/neighbourhood/README.md)
 - [School 学校](by_scene/school/README.md)
 - [共享材料、采集清单与示例](by_scene/shared/README.md)
 
 `by_scene` 是分类导航，里面的 Windows 快捷方式打开原文件。现有配置的路径和内容均保留，录制、回放与历史哈希仍使用原文件。
 
-在资源管理器中，打开 `by_scene` 下对应场景；`current` 汇集 City、工厂、森林的当前入口及其依赖。`current` 只表示配置入口，不代表任务、碰撞或数据质量已经验收。
+在资源管理器中，打开 `by_scene` 下对应场景；City 是本仓库当前支持的采集入口。
 
 ## 文件类型
 

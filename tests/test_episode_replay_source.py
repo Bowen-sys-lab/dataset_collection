@@ -49,7 +49,7 @@ class ReplaySourceTests(unittest.TestCase):
         with self.assertRaises(ValueError):replay.recorded_backend({'scene_config_path':'forest_fake.yaml'})
     def test_legacy_derived_provenance_keeps_its_existing_shape(self):
         from scripts.trajectory_recorder import trajectory_provenance
-        from scripts.replay_factory_inspection import write_terminal_replay_source
+        from scripts.replay_source import write_terminal_replay_source
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);source=root/'raw';source.mkdir()
             row={'frame_id':0,'simulation_time':0,'position':[0,0,0]}

@@ -1,23 +1,24 @@
 {
   "schema_version": 1,
-  "delivery_version": "20261112-city-undergraduate",
-  "scope": "City-only undergraduate reproduction package. Factory and forest assets are intentionally omitted.",
+  "delivery_version": "20261112-city-handoff",
+  "scope": "City-only reproduction code handoff. Scene assets are private and intentionally omitted from GitHub.",
   "extract_to": "D:\\IsaacSim_Demo",
   "expected_project_root": "D:\\IsaacSim_Demo",
   "packages": [
     {
       "name": "city-assets-20261112.zip",
-      "path": "resources/city/city-assets-20261112.zip",
+      "location": "project-owner-controlled private delivery",
       "required": true,
       "bytes": 33079566,
       "sha256": "820bf5c58d763d91fd7938ffc04fb52da36f088902ab514626d96327107b8ac1",
-      "contents": "City v3 flight scene, City v2 local layers and textures, localized Crazyflie files, weather and thermal scene support",
+      "contents": "City v3 flight scene, City v2 local layers and textures, localized Crazyflie files, weather and thermal scene support; provide separately",
       "manifest": "resources/city/city-assets-manifest.json"
     }
   ],
   "not_included": [
-    "factory assets",
-    "forest assets",
+    "public City assets",
+    "factory assets and code",
+    "forest assets and code",
     "Isaac Sim installer",
     "third-party thermal simulator source",
     "recorded dataset"

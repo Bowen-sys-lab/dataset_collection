@@ -105,8 +105,8 @@ class OnDemandIRTests(unittest.TestCase):
         self.assertNotIn('play',calls)
 
     def test_launcher_defaults_to_on_demand_instead_of_periodic_thermal(self):
-        from scripts.factory_bc_pilot import build_launch
-        launch=build_launch('factory-bc-pilot-demand-contract')
+        from scripts.city_bc_pilot import build_launch
+        launch=build_launch('city-bc-pilot-demand-contract')
         args=launch['preview_args']
         self.assertEqual(args[args.index('--live-refresh')+1],'on-demand')
 

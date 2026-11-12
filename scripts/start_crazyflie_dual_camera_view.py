@@ -972,7 +972,7 @@ def main(argv=None):
         _target = task.get('target_position') or _task_ev.get('hotspot_position_m')
         if (task.get('environment_evidence') or {}).get('collection_episode',{}).get('scene')=='forest':
             preview.anchor_guidance_note='Forest: anchor distance is a point distance; aim about 8m. T remains manual.'
-        elif _target:
+        elif _target and _task_ev:
             _req = _task_ev.get('inspection_requirements') or {}
             preview.set_pilot_target(_target,
                                      hold_required_s=_req.get('hold_duration_s', 3.0),

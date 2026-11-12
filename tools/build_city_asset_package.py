@@ -1,4 +1,4 @@
-"""Build the single City asset package used by the undergraduate quickstart."""
+"""Build the private City asset package used by the collection workflow."""
 from pathlib import Path
 import hashlib
 import json
@@ -8,7 +8,9 @@ REPO = Path(__file__).resolve().parents[1]
 PROJECT = REPO.parents[1]
 STAGING = PROJECT / 'handoff/reproduction-20261109/staging/IsaacSim_Demo'
 AUDIT = PROJECT / 'validation/handoff/city-assets-20261109.json'
-OUTPUT = REPO / 'resources/city/city-assets-20261112.zip'
+# Keep the private archive outside the GitHub checkout so a build cannot
+# accidentally stage the restricted scene asset.
+OUTPUT = PROJECT / 'handoff/private-city-assets/city-assets-20261112.zip'
 MANIFEST = REPO / 'resources/city/city-assets-manifest.json'
 RECEIVER_MANIFEST = REPO / 'handoff/receiver/assets-manifest.json'
 

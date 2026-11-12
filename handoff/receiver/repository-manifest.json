@@ -15,24 +15,9 @@
       "sha256": "7ae9eb7a01ed146ab5ca74f7677e0d8294e919d1897008ee934146dc0d912ef2"
     },
     {
-      "path": "configs/by_scene/catalog.json",
-      "size": 85959,
-      "sha256": "085cc48287119eef1073fa2aa2dd2bad90d259cb9e4cd11f62b0254ac438f1aa"
-    },
-    {
       "path": "configs/by_scene/city/README.md",
       "size": 8318,
       "sha256": "6184c7c4a9b56b72130280f808bedf6993ccba3bd89a22181bf11575b3f8b3ee"
-    },
-    {
-      "path": "configs/by_scene/factory/README.md",
-      "size": 3718,
-      "sha256": "6f366022d3001714ef52715e39eca8a6ee92b543105e3db10cd5a87635697a03"
-    },
-    {
-      "path": "configs/by_scene/forest/README.md",
-      "size": 2310,
-      "sha256": "1a7f3d17f814528719175fdf991267fcc28c09872e2145be948ef94f79228ec5"
     },
     {
       "path": "configs/by_scene/neighbourhood/README.md",
@@ -41,8 +26,8 @@
     },
     {
       "path": "configs/by_scene/README.md",
-      "size": 1301,
-      "sha256": "096192425d40c958908f973931c5edf4d2d24836a83a9c9fac0a2e181cf8968a"
+      "size": 861,
+      "sha256": "57859c9edcdb1e19ccb08ed04d0bed62764a8f16e4a606c9dbeff5de2a49ba5c"
     },
     {
       "path": "configs/by_scene/school/README.md",
@@ -555,19 +540,9 @@
       "sha256": "2541ce119471d4296a59bad4bfd8ad4adf525028559ab730bb0b84da32d4a97d"
     },
     {
-      "path": "configs/collection_episodes/pilot30.json",
-      "size": 43025,
-      "sha256": "dac37abdaf9904292347a1c84542eb1f36b63ad23719c8d280191b8cb4ecf4c0"
-    },
-    {
       "path": "configs/collection_profiles/city.yaml",
       "size": 268,
       "sha256": "a299eb6e01156f26ec5f8770aab9f2bf9a25fd2fa88a7c3c69114119a37febd0"
-    },
-    {
-      "path": "configs/collection_profiles/factory.yaml",
-      "size": 437,
-      "sha256": "d731f9baf833675f5e724a36c1d5ad3c9d68e9887312d5dad67b59f6fc6bb0ff"
     },
     {
       "path": "configs/crazyflie_scene.yaml",
@@ -578,161 +553,6 @@
       "path": "configs/crazyflie_thermal.yaml",
       "size": 1584,
       "sha256": "10ec1b59461c849c87d414501d03e1e07735b42fca79a652dd68def20d39e609"
-    },
-    {
-      "path": "configs/factory_autonomous_pilot.yaml",
-      "size": 463,
-      "sha256": "26e48fbf705e9839ccc35a36e724177c0d3e7096d5479faf91d256dc89a3e312"
-    },
-    {
-      "path": "configs/factory_inspection_display.yaml",
-      "size": 198,
-      "sha256": "7d4458a82da00c12ec90cc5765b9f0177297c107e458a6c038d89ec220bb24a2"
-    },
-    {
-      "path": "configs/factory_inspection_scene.yaml",
-      "size": 768,
-      "sha256": "51435c1977e42a5639327076b1b53312027eafdcecbf154a47c6599596c206cc"
-    },
-    {
-      "path": "configs/factory_inspection_task.yaml",
-      "size": 3893,
-      "sha256": "7eb756a0542fe768fdc1fca354671564b33b4c856edb08d68fe7f1a750d63711"
-    },
-    {
-      "path": "configs/factory_inspection_thermal.yaml",
-      "size": 6155,
-      "sha256": "bcc6905033c63bf679a6b2d2a04afad9ba62092681e7e94f4450523b263675a8"
-    },
-    {
-      "path": "configs/forest_fire_1103_flight_scene.yaml",
-      "size": 951,
-      "sha256": "db04a204580e5386de73ba7b4701d1f6acbbe91f422997fd7cbcc25c2f9ade14"
-    },
-    {
-      "path": "configs/forest_fire_1103_scene.yaml",
-      "size": 1289,
-      "sha256": "b06bdfb6a2878f6050e89e9f21b8404009d9cd98d4b99b966a731b57453e7095"
-    },
-    {
-      "path": "configs/forest_fire_display.yaml",
-      "size": 297,
-      "sha256": "3c20ac24c6f6c110b51b8754b27b76e7a9e3dc24b447de66c472021c6ac63971"
-    },
-    {
-      "path": "configs/forest_fire_display_night.yaml",
-      "size": 485,
-      "sha256": "c8828c032d2dd11b656ea2f831af8814df1a9cb035f89e5c4e0d8ceef813f756"
-    },
-    {
-      "path": "configs/forest_fire_display_wide.yaml",
-      "size": 263,
-      "sha256": "4a6c210e7a60769ee7fcad99d97ffa3ff74b008ecb595b210742a99e766eef41"
-    },
-    {
-      "path": "configs/forest_fire_flight_flame_scene.yaml",
-      "size": 849,
-      "sha256": "ef71d2b75b9c485c2d244631a6b5c9c9833a0822ca349b2db809aa5abae2ea4b"
-    },
-    {
-      "path": "configs/forest_fire_flight_flame_scene_night.yaml",
-      "size": 855,
-      "sha256": "c4802daa5cd4783976d4b64045b5503af2621dd32855c687324a08ea3d27974e"
-    },
-    {
-      "path": "configs/forest_fire_flight_scene.yaml",
-      "size": 866,
-      "sha256": "8cccc413912ce028c9d140501fe995ffdf40f3a915c993169a5d07f51f6067c1"
-    },
-    {
-      "path": "configs/forest_fire_flight_scene_night.yaml",
-      "size": 1003,
-      "sha256": "35fc83d4b650ac3e189d23959827def9587cf63eee01f6f6af6eb11f68e38966"
-    },
-    {
-      "path": "configs/forest_fire_night_environment.yaml",
-      "size": 967,
-      "sha256": "a1c47c365e5a87132d217947097cf995f2896c587b2754c53817d015444e5805"
-    },
-    {
-      "path": "configs/forest_fire_scene.yaml",
-      "size": 1000,
-      "sha256": "03d73d3796de7f20cd986b4b76992ad71022b56bb303ac39a7bc80721dffd91c"
-    },
-    {
-      "path": "configs/forest_fire_scene_night.yaml",
-      "size": 1006,
-      "sha256": "962ce8e78a6bf2c42b669f0f8e9f1577e922194f721bb26db9a02a9e86ff50e1"
-    },
-    {
-      "path": "configs/forest_fire_target.yaml",
-      "size": 569,
-      "sha256": "fbf7e8ca2ff80ed324961940d7a738a5753ec486223fa2445429c016195ca40f"
-    },
-    {
-      "path": "configs/forest_fire_task.yaml",
-      "size": 1886,
-      "sha256": "c88d24c85c7f456c750cf4f28e4fd9c01e37564b9b66bf68aed3f46d5f01f1bd"
-    },
-    {
-      "path": "configs/forest_fire_task_v1.yaml",
-      "size": 1795,
-      "sha256": "87cbd1176571164e9f601f1ebe712b2d9b10f15e833f4c88505ceebd8820e751"
-    },
-    {
-      "path": "configs/forest_fire_task_v2.yaml",
-      "size": 1526,
-      "sha256": "f1c63acd227a37337ae85261118274f0c41a7c347b4f2839de83c6f1d16775b8"
-    },
-    {
-      "path": "configs/forest_fire_task_v3.yaml",
-      "size": 1534,
-      "sha256": "6549288b1c06d43d5e82a3b202ced725c6f9aee77c9a0dee5539f6303ab1b090"
-    },
-    {
-      "path": "configs/forest_fire_thermal.yaml",
-      "size": 2449,
-      "sha256": "63a70757d258a139da9bf8aa5e72a8098577711728d07f217a44b4d4260a569e"
-    },
-    {
-      "path": "configs/forest_fire_thermal_flight.yaml",
-      "size": 2325,
-      "sha256": "719b2d182efc2ea540e357788ffc1ca401789cb0d1fe16dd74971217428af7f6"
-    },
-    {
-      "path": "configs/forest_pilot_barrel_target.yaml",
-      "size": 335,
-      "sha256": "14df2fcfcd0f4dcccc9e88c872aef81f857017fb70091bf163dc34573b126d07"
-    },
-    {
-      "path": "configs/forest_pilot_display.yaml",
-      "size": 183,
-      "sha256": "63d4f96ec8de480013c876661431f5c413b43fca2a1cd669f0916fc5e27c3c1e"
-    },
-    {
-      "path": "configs/forest_pilot_person_target.yaml",
-      "size": 325,
-      "sha256": "8b28ba5e8fbdbab675bfe746d6d1ada782a5f524ea12d392070cb744064af091"
-    },
-    {
-      "path": "configs/forest_pilot_targets.yaml",
-      "size": 616,
-      "sha256": "f2080f470fa020d9fd4b1edbec3d966fd69d52a33d2920975a54e23fdc72d92e"
-    },
-    {
-      "path": "configs/forest_pilot_two_target_scene.yaml",
-      "size": 941,
-      "sha256": "9d48788f321873ab0361e7c056a455ff23c9d4ca14f005e74ded574e82631023"
-    },
-    {
-      "path": "configs/handoff_factory_example_scene.yaml",
-      "size": 837,
-      "sha256": "35188d0faabde3c03f233d25be0249e639fd1662a44c8a097986e0b4007569d2"
-    },
-    {
-      "path": "configs/handoff_factory_example_task.yaml",
-      "size": 1262,
-      "sha256": "50b3c38ed0a2ec8fc2aff76f8fc253a310dc178c7f26ea150aefe748249f7845"
     },
     {
       "path": "configs/materials/brick_wall.yaml",
@@ -840,21 +660,6 @@
       "sha256": "7d536a78a3d29f424fd0b11764aaf295a41dc71b35e98eff0907da2f89d6bb65"
     },
     {
-      "path": "configs/materials/forest_fire/polyester_clothing.yaml",
-      "size": 1613,
-      "sha256": "84bfdf3e69563f41bb75233ee7e08d1a68cee27eee5d896b26dd668f824e7ebf"
-    },
-    {
-      "path": "configs/materials/forest_fire/shoe_rubber.yaml",
-      "size": 1303,
-      "sha256": "cf2b99b9cb6f22580e42b8b8b99da3660eb6c800fbc3a81be5ba1f2c410fd9ef"
-    },
-    {
-      "path": "configs/materials/forest_fire/wood_pine.yaml",
-      "size": 1906,
-      "sha256": "f0ca2fd760a1fdcf7790c5231ac95830751b2f1d513f41f2d86586110387ce97"
-    },
-    {
       "path": "configs/materials/roof_waterproof_bitumen.yaml",
       "size": 909,
       "sha256": "9512726514e79d0f92c0d4d6787d9cda8fd2180faa75bbda11121df3794b86e6"
@@ -868,201 +673,6 @@
       "path": "configs/materials/wood_board.yaml",
       "size": 821,
       "sha256": "e6ea4fac7d7dfbd038f75ae15bf23474dc6b4ed04ee2dd823d7c80b83ecebcdf"
-    },
-    {
-      "path": "configs/model02_refined_display.yaml",
-      "size": 198,
-      "sha256": "7d4458a82da00c12ec90cc5765b9f0177297c107e458a6c038d89ec220bb24a2"
-    },
-    {
-      "path": "configs/model02_refined_scene.yaml",
-      "size": 810,
-      "sha256": "46c6634338d1169999c692e7b156e12a6f77fe353efb02b975f797d8dfca7866"
-    },
-    {
-      "path": "configs/model02_refined_task.yaml",
-      "size": 4822,
-      "sha256": "3a30a79d2c40f04966d58ae518531a2a8a4ce40950f798bd5161ec3c1d90a464"
-    },
-    {
-      "path": "configs/model02_refined_thermal.yaml",
-      "size": 84952,
-      "sha256": "1b17e9bb06bd11842af2aa7226cbd52bb5be9669ad60959e277ea35fe961ef79"
-    },
-    {
-      "path": "configs/model02_v3_display.yaml",
-      "size": 189,
-      "sha256": "175076e58615bd9392e4915dd3a18d65117048b459dacdea54111e05688f1fd9"
-    },
-    {
-      "path": "configs/model02_v3_night_environment.yaml",
-      "size": 1556,
-      "sha256": "27336616b95f73a995f369fba1843bcc7e852e220d970201eaefe67c9cbde124"
-    },
-    {
-      "path": "configs/model02_v3_pipe_scene.yaml",
-      "size": 816,
-      "sha256": "09a64e03306f66b2e1d722f7c36a8574b1aba0c5d1cdebbb5ae4c09c412e31b6"
-    },
-    {
-      "path": "configs/model02_v3_pipe_task.yaml",
-      "size": 17383,
-      "sha256": "760fca1a69020c33203a4922bed832e0e55d646d4f0b2c62db87a8b36105e16f"
-    },
-    {
-      "path": "configs/model02_v3_tank_scene.yaml",
-      "size": 816,
-      "sha256": "9aa0ffdb61de9c2fcd0fde978d92fca9ec6773502149821e22b698f4ea363edb"
-    },
-    {
-      "path": "configs/model02_v3_tank_task.yaml",
-      "size": 14407,
-      "sha256": "93aace50f27d82325a7d482c625be01ed50b2512e2f6ec830472df896cd7b55e"
-    },
-    {
-      "path": "configs/model02_v3_thermal.yaml",
-      "size": 3411685,
-      "sha256": "b0f24eb5ab5519fcf23ad0d8bcae6d33010e6f544dbb03b8162eb02a44f9bd00"
-    },
-    {
-      "path": "configs/model02_v4_detail_display.yaml",
-      "size": 191,
-      "sha256": "8a0456392cf5c16145a4272d8d969e3dd1c79ef9c8eb89721a85f317aa7534c3"
-    },
-    {
-      "path": "configs/model02_v4_detail_scene.yaml",
-      "size": 823,
-      "sha256": "a5f4522c70d7c5dd1f4d21580ba954bb0ae2f93ef9504691b594e07a22a3b7be"
-    },
-    {
-      "path": "configs/model02_v4_display.yaml",
-      "size": 183,
-      "sha256": "04d87816f9290eef33852b0ea66a18e9e9b9440fa39e33f22b0c350c1720f3da"
-    },
-    {
-      "path": "configs/model02_v4_night_environment.yaml",
-      "size": 1571,
-      "sha256": "b4133a995e8d923adc87773cf43f927df9f586ccec81c1e05d8f994629a8b458"
-    },
-    {
-      "path": "configs/model02_v4_tank_scene.yaml",
-      "size": 816,
-      "sha256": "a0a040afb6bb3321d0007d7edfaeea11180de382baad2d7f473a0c4978c90e3a"
-    },
-    {
-      "path": "configs/model02_v4_tank_task.yaml",
-      "size": 14821,
-      "sha256": "1693ff0937752d44788f3219cfafe5c819e1803f4942359cf782c475b85e6271"
-    },
-    {
-      "path": "configs/model02_v4_tank_task.yaml.bak-20261025-050826",
-      "size": 14756,
-      "sha256": "1087b5439eb6edf4034f9d28b29170e082987b1b48d5e79cb9864b2227f87dd8"
-    },
-    {
-      "path": "configs/model02_v4_thermal.yaml",
-      "size": 5042426,
-      "sha256": "96b59eb3e0e369fdb4e17e9d01729791ec72265fde88468c4b79ac449384c603"
-    },
-    {
-      "path": "configs/model02_v5_detail_scene.yaml",
-      "size": 823,
-      "sha256": "d0d8193071d7fa2eb91812dc6b6a5b025b3400a9f853683a2ae2dde774553154"
-    },
-    {
-      "path": "configs/model02_v5_tank_scene.yaml",
-      "size": 816,
-      "sha256": "615f73e3e3b0796d062c73669c9460e3a6c067f44098cdc9fe489fcafbfd4c6e"
-    },
-    {
-      "path": "configs/model02_v6_night_environment.yaml",
-      "size": 1585,
-      "sha256": "ee7e57d7363d62c4d65a8ba2b8718fe68debace466beaff6b891914a0c3915e2"
-    },
-    {
-      "path": "configs/model02_v7m_bc_pilot_scene.yaml",
-      "size": 839,
-      "sha256": "92e5e56d5f24036ad083d096fe8c36fd846fa5257f36bcf69084ec34834fcfbd"
-    },
-    {
-      "path": "configs/model02_v7m_bc_pilot_starts.yaml",
-      "size": 2577,
-      "sha256": "9556a066b5a08ae1c92f1d98ddc6ef8420674390d7a79ef22b7e3a0b32bca0d9"
-    },
-    {
-      "path": "configs/model02_v7m_bc_pilot_task.yaml",
-      "size": 15107,
-      "sha256": "79c510ebd2f98ca14b97daf9b322f02a111aa0be3204c9b856e9bc808713e119"
-    },
-    {
-      "path": "configs/model02_v7m_bc_two_target_plan.yaml",
-      "size": 5021,
-      "sha256": "f01ca1f5e8d282e5222115ef6989573af9152206015db5bff6524936fbc8b75b"
-    },
-    {
-      "path": "configs/model02_v7m_detail_scene.yaml",
-      "size": 828,
-      "sha256": "92f36c9eaf799f158ed0c900057aafab9c3711494baad4e4e398dda2ec05866d"
-    },
-    {
-      "path": "configs/model02_v7m_display_fixed.yaml",
-      "size": 185,
-      "sha256": "31b7cb02e9faf3b849bfa893e2f3e54987483d5218a2e1e261b0a344a9517c7d"
-    },
-    {
-      "path": "configs/model02_v7m_flight_scene.yaml",
-      "size": 834,
-      "sha256": "333e2165d10a37f323698e31a946e128715ad0c1dff21deb2fdc1599bec6967e"
-    },
-    {
-      "path": "configs/model02_v7m_night_environment.yaml",
-      "size": 1591,
-      "sha256": "30d28565006552e70143af758ff3941fb714824efd1426092e3a8dea4db69d5b"
-    },
-    {
-      "path": "configs/model02_v7m_pipe_detail_scene.yaml",
-      "size": 828,
-      "sha256": "5d4c9854dff5eacdd99f847915139e4a7101703aad4fdf149ea94504021d7840"
-    },
-    {
-      "path": "configs/model02_v7m_pipe_scene.yaml",
-      "size": 828,
-      "sha256": "5d4c9854dff5eacdd99f847915139e4a7101703aad4fdf149ea94504021d7840"
-    },
-    {
-      "path": "configs/model02_v7m_tank_scene.yaml",
-      "size": 828,
-      "sha256": "92f36c9eaf799f158ed0c900057aafab9c3711494baad4e4e398dda2ec05866d"
-    },
-    {
-      "path": "configs/model02_v7m_thermal.yaml",
-      "size": 5974309,
-      "sha256": "ffa4ff80ae1ecca123d5f68b2f62abd0764d15634d7d96da8e1a5c416c49448e"
-    },
-    {
-      "path": "configs/model02_v7m_thermal_perprim.yaml",
-      "size": 42810228,
-      "sha256": "ee57e44b4f0419f9104884d5f284634c9e95fe580331c4aec065336eef32d20e"
-    },
-    {
-      "path": "configs/model02_weaklight_display.yaml",
-      "size": 198,
-      "sha256": "7d4458a82da00c12ec90cc5765b9f0177297c107e458a6c038d89ec220bb24a2"
-    },
-    {
-      "path": "configs/model02_weaklight_scene.yaml",
-      "size": 821,
-      "sha256": "a2cc9ac112176472518c9a741ee790ac39d229fb91b5d925ddc8aa8d639eea06"
-    },
-    {
-      "path": "configs/model02_weaklight_task.yaml",
-      "size": 4242,
-      "sha256": "ef73279d24b8709589b75d06fc4732de0048b9a448d8e9d6de742a334cb3766a"
-    },
-    {
-      "path": "configs/model02_weaklight_thermal.yaml",
-      "size": 17374,
-      "sha256": "a502d23b9f1a5e9c5a4ff06d027268fa6323c24a30f486626da1833769d4e1cd"
     },
     {
       "path": "configs/neighbourhood_display.yaml",
@@ -1121,8 +731,8 @@
     },
     {
       "path": "configs/README.md",
-      "size": 2457,
-      "sha256": "ad4808c0a0098eb94751c0c0e4648c8f0dab06e95778a3cc18ee1105e986fed5"
+      "size": 2255,
+      "sha256": "2adb7e7a6a00e4a0796ff40283cd073a209a0914fb8159682bcc13e286fdb66c"
     },
     {
       "path": "configs/replay_queue.example.txt",
@@ -1165,19 +775,14 @@
       "sha256": "e7aaa996456d6c0c527c5308e7a6a3348cdc4c8fc96ef6c9873067a9b19efff2"
     },
     {
-      "path": "docs/dataset-package-setup.docx",
-      "size": 43873,
-      "sha256": "0506de271e0d050ad6b726b5468800ea8a7a4f5f7f7b484a7cab50aa5d9ce5e4"
-    },
-    {
       "path": "docs/dataset-workflow-personal-guide.docx",
-      "size": 493269,
-      "sha256": "b60b84db5d6f06d65e93d41c6b35dceeb88e672e8c9a7038cc6b625b31348474"
+      "size": 41296,
+      "sha256": "1d89eed9032d5e8513582d91062360a1edabaa27644bfbed156bcb60c0a3e224"
     },
     {
       "path": "docs/dataset-workflow-practical-guide.docx",
-      "size": 496916,
-      "sha256": "3b20427259dbf83c1d2cd8ab707a121ee19ad51f9e9edd91e8d68d72aefc3c10"
+      "size": 41309,
+      "sha256": "448504d00dec9faa86a71d8cd22c7830e4f2afa18672b358882d7472611db433"
     },
     {
       "path": "handoff/dataset-workflow-kit/check_environment.ps1",
@@ -1193,16 +798,6 @@
       "path": "handoff/dataset-workflow-kit/environment-baseline.json",
       "size": 752,
       "sha256": "f163db42ac66c37b42edd7be20018d1920da6852502cb8199eaa26e9f999d84e"
-    },
-    {
-      "path": "handoff/dataset-workflow-kit/examples/factory-target-reference.png",
-      "size": 447300,
-      "sha256": "2aba2b434bc44b931e302d954483d37a2c759fb7513a67d10a3f01ea008f0bff"
-    },
-    {
-      "path": "handoff/dataset-workflow-kit/examples/factory_task_card.json",
-      "size": 1567,
-      "sha256": "9ca4cdbf1eba656daa89c55dac11a286bf5b66f2f10cc868d57d342b294e6407"
     },
     {
       "path": "handoff/dataset-workflow-kit/examples/review_decision_examples.json",
@@ -1241,8 +836,8 @@
     },
     {
       "path": "handoff/receiver/archives.json",
-      "size": 293,
-      "sha256": "2adcb3b0d37d5f33369b4401f651eb5e1fd3ce2de96e0c03bb2ece1cfa228b7d"
+      "size": 291,
+      "sha256": "6ba95fb97dee2f9923f613a9a4df8a729f968fa27e42b559dd0681ad1943f266"
     },
     {
       "path": "handoff/receiver/assets-manifest.json",
@@ -1255,24 +850,14 @@
       "sha256": "221e1350952fe675196c70125d8c81a7a640e073d4cba1190cf5d814ca62f3c7"
     },
     {
-      "path": "handoff/receiver/dataset-package-setup.docx",
-      "size": 43873,
-      "sha256": "0506de271e0d050ad6b726b5468800ea8a7a4f5f7f7b484a7cab50aa5d9ce5e4"
-    },
-    {
       "path": "handoff/receiver/dependency-lock.json",
       "size": 63000,
       "sha256": "844f6c0ce68792cf6e729ac03d490b0cb02fbd41d61dd281377261c3618eac0b"
     },
     {
       "path": "handoff/receiver/fetch_thermal.ps1",
-      "size": 1985,
-      "sha256": "21605b10b99a3862fd240c68df85710b9de6bfca207e6c0883d2e6867ac45e5e"
-    },
-    {
-      "path": "handoff/receiver/packaged-scene-check.json",
-      "size": 1374,
-      "sha256": "819c231886913859045db7f218d91084399c7945fc84a27f60a46e113cec99d9"
+      "size": 2890,
+      "sha256": "7972006f77c7de3365e39a37181494a4b217ce4f34c64e9f8cd38e07a8de354e"
     },
     {
       "path": "handoff/receiver/runtime-cache/data/lut/6f17c06ca68beea5_dlb_dt.f32",
@@ -1321,13 +906,13 @@
     },
     {
       "path": "handoff/receiver/SOURCE_NOTICES.txt",
-      "size": 1883,
-      "sha256": "2578a5aebfa48d35b0fe7752bbae4ee552912fd319e08db2cd494008af2e9fd7"
+      "size": 1704,
+      "sha256": "a36fad47143c58ea639c9372604af5d9fa357380eaa18c3f329b7c72606d806c"
     },
     {
       "path": "handoff/receiver/START_HERE.txt",
-      "size": 758,
-      "sha256": "4046c7b8c9cfff242f5ff0b472aea0f22cc8b6fe205b50becbcc06e98e1c00ab"
+      "size": 889,
+      "sha256": "89ecbf25527eef828d4ffce41570684c46df4843014fa0168b93aeb876e71040"
     },
     {
       "path": "handoff/receiver/start_session.ps1",
@@ -1335,14 +920,9 @@
       "sha256": "8e9aaa9f8e540c5bf2ed0ba7c50848add64771af10d4c821ff3fc1a513e3e820"
     },
     {
-      "path": "handoff/receiver/texture-provenance.json",
-      "size": 105822,
-      "sha256": "60aeb6d7f2560f60b8e6432900634ae241fee71c677dc78415ea322bee8a5f48"
-    },
-    {
       "path": "README.md",
-      "size": 7397,
-      "sha256": "0af8302829780dd71437ef7aa93a631ed8b435e25950b743eee798b8739e1f26"
+      "size": 7610,
+      "sha256": "5f9298eda7d0ce627a9192b74cbd979a8648c1ebfa50b5004321f0501bb2d93c"
     },
     {
       "path": "requirements-collection-reference.txt",
@@ -1351,23 +931,13 @@
     },
     {
       "path": "resources/asset-packages.json",
-      "size": 904,
-      "sha256": "122d7a5abb2e11c36860856d415d7e8cfcdddd5203b8afe42db18ac6644dbaa8"
-    },
-    {
-      "path": "resources/city/city-assets-20261112.zip",
-      "size": 33079566,
-      "sha256": "820bf5c58d763d91fd7938ffc04fb52da36f088902ab514626d96327107b8ac1"
+      "size": 970,
+      "sha256": "dcf3a0d4337bd8d5d3e29f9146e548531dc21c76d9fa5c0c85e6033fb006893f"
     },
     {
       "path": "resources/city/city-assets-manifest.json",
       "size": 17091,
       "sha256": "9e7c95d9452738e692038c93fa7050c98d7c35602a1b4923c2c3d905da604f89"
-    },
-    {
-      "path": "run_bc_pilot_collect.bat",
-      "size": 251,
-      "sha256": "d70bf7ab34b417370969093b153c04098549e1c14d51ccc7760399caf9ec25fa"
     },
     {
       "path": "run_city_bc_pilot.bat",
@@ -1405,51 +975,6 @@
       "sha256": "4cf1a31bfc8c254d1d97d0743b2764e33543f29db1aa4238a5b5eabfb352ed7a"
     },
     {
-      "path": "run_collect_live.bat",
-      "size": 1066,
-      "sha256": "cb08011496c6c3a2b6d77b9bcfeddbd142d69eb68531f3e82ac333c3411e84fa"
-    },
-    {
-      "path": "run_collect_replay.bat",
-      "size": 1339,
-      "sha256": "26af41827f4bc4bbf2c4e96113a29ddd9fa3354638c691530fc702eba78502f5"
-    },
-    {
-      "path": "run_factory_bc_pilot.bat",
-      "size": 257,
-      "sha256": "d56cdaaea200bdab0953042aa1bc7da90af98a33ba6bbfaa3e1a60ab8ae57d23"
-    },
-    {
-      "path": "run_finalize_run.bat",
-      "size": 1697,
-      "sha256": "1f5c9ff7e6a0a0eed5135a42a6687c16d1c2678b6a55100263ae59ed0c213355"
-    },
-    {
-      "path": "run_forest_collection.bat",
-      "size": 1690,
-      "sha256": "a55b43d3e6027a5d361242a03313068ced06e6e828c33c83173bf595d81e421a"
-    },
-    {
-      "path": "run_forest_fire_capture.bat",
-      "size": 1079,
-      "sha256": "d9bbf7ba04e6810af0d07a20c723be1903db63f04f195c374b7919ea6ed712dc"
-    },
-    {
-      "path": "run_forest_flight_capture.bat",
-      "size": 3558,
-      "sha256": "a3e39186b5b4b1e3af2a3cacae48884d9deef6aa8c56bad3b2b9cb678bcaacf7"
-    },
-    {
-      "path": "run_forest_live_record.bat",
-      "size": 1591,
-      "sha256": "86ffa90b7bfa678de36451e2f1f1756086c7d7988c7eaf236fdce74c8549772a"
-    },
-    {
-      "path": "run_pack_dataset.bat",
-      "size": 1164,
-      "sha256": "78e1bddd989deb84a49cd3133176167ddc08f80bf3554c9b71a6300686c6081b"
-    },
-    {
       "path": "scene_intake/add_city_200m_collision.py",
       "size": 3232,
       "sha256": "03e085b5f443f2f6e26a42273f6134b2faa0b8675c9dcde3dd330411e0fa0e79"
@@ -1470,21 +995,6 @@
       "sha256": "9cd7c1cd4d20a94629d0efc2e48797746aa3fb52c2d35492e608d7d9c9c842f4"
     },
     {
-      "path": "scene_intake/aim_camera.py",
-      "size": 2507,
-      "sha256": "6db1a1de7823029a5dc7faeed3d552f66f31cc1f1d3649a5ef605b104c4a4ebe"
-    },
-    {
-      "path": "scene_intake/aim_camera_matrix.py",
-      "size": 2698,
-      "sha256": "e96f2c33fb62f1908d077c434f29fe47274e599c35f566e8c90f82407e945919"
-    },
-    {
-      "path": "scene_intake/bake_flame_proxy.py",
-      "size": 2625,
-      "sha256": "e1829e4e50923feb01a6bcb16f992a999f7e49203f8ba89a59988894a6588b07"
-    },
-    {
       "path": "scene_intake/build_city_v2_episodes.py",
       "size": 1132,
       "sha256": "0cb859cd5a804c6412fb82cf385da16ae17dff42ecf6fcc2b2da625b8a5ed2c0"
@@ -1500,31 +1010,6 @@
       "sha256": "392a085c44514c35b50b7e6ed6727b0cd0d90a27c574b8704145b516bbb767cf"
     },
     {
-      "path": "scene_intake/capture_fire_with_flame.py",
-      "size": 8821,
-      "sha256": "7ab902445e48289eb8646f1431c679dc0f8ee172f56c1065e98d0124f04ef215"
-    },
-    {
-      "path": "scene_intake/capture_integrity.py",
-      "size": 3082,
-      "sha256": "52552ddd71f6ddfd8137f33332fddc64423c3e7f7d07089a510e36f8a625c4ce"
-    },
-    {
-      "path": "scene_intake/check_flame_stage.py",
-      "size": 1418,
-      "sha256": "afe56809972cd19496707509838fd1cfe9d3bc66bad310de747d8af04b2aa8b3"
-    },
-    {
-      "path": "scene_intake/check_irsim.py",
-      "size": 5895,
-      "sha256": "1d5bd57a6f2b3ab27bc58a6ef61d83f5c3dffae02ca0e1f4e711d8e0219ab74a"
-    },
-    {
-      "path": "scene_intake/compute_camera_mount.py",
-      "size": 2919,
-      "sha256": "aaf6d42e0997bfa5b58235989414554b33cacf1022c95bec9ed3cefdce8ebadb"
-    },
-    {
       "path": "scene_intake/convert_city_200m.py",
       "size": 21808,
       "sha256": "483c5c712cbfdc40327bf18c1c5b20ec8d19dc0d37a79cb60d11e984f371bc89"
@@ -1533,46 +1018,6 @@
       "path": "scene_intake/convert_city_200m_v2.py",
       "size": 11404,
       "sha256": "e6b712e5f923bb2bc3b4ff18f03054ac8aeaaf8a8aa3dfc36340ba84dc7e6340"
-    },
-    {
-      "path": "scene_intake/evaluate_forest_task.py",
-      "size": 14398,
-      "sha256": "63ebc2f04b5675ff6c91d42145ceb6bd9fc100f4984180f5ab847f1f48291917"
-    },
-    {
-      "path": "scene_intake/fire_thermal_proxy.py",
-      "size": 4168,
-      "sha256": "36a4b09274ae94f4ba1b4c62bf57e17a11623e3a11b9030670dc51f05cba9d43"
-    },
-    {
-      "path": "scene_intake/forest_collection.py",
-      "size": 25814,
-      "sha256": "29f24171c70b6e30ae039f39e3bf2b4299cbf1d72ba89502cf5852e9fd87d144"
-    },
-    {
-      "path": "scene_intake/forest_dataset.py",
-      "size": 7922,
-      "sha256": "c84a18252634522157f11ca09432cf2d0355b6fcc1db0ab3c5600926a8ca12b0"
-    },
-    {
-      "path": "scene_intake/forest_provenance.py",
-      "size": 4531,
-      "sha256": "39acbe212e48e8cbdd7a9682f78697b35de9c314c400381d96b47df278ab1cb1"
-    },
-    {
-      "path": "scene_intake/forest_replay_pose.py",
-      "size": 717,
-      "sha256": "6d192854a07eb2312dac09c886de3dc48abc527fd94a52698b4ba8625e1cd3b0"
-    },
-    {
-      "path": "scene_intake/forest_source_clock.py",
-      "size": 1083,
-      "sha256": "b1f9bfa66d6bd08fe5ce1b89cb0dfb8e75bc07676f8166f02f29872d6015cd90"
-    },
-    {
-      "path": "scene_intake/forest_sync_probe.py",
-      "size": 8757,
-      "sha256": "b0469b7f8d44735992de05347564c9d6e458d3d1f985f7d26c31fabf1ff25a2e"
     },
     {
       "path": "scene_intake/guard_pipeline.py",
@@ -1585,59 +1030,14 @@
       "sha256": "8940f9b569e967ef9b533732263ecece3d1a1ff8ea97e9a5c4a6e8e240e36968"
     },
     {
-      "path": "scene_intake/lighting_probe.py",
-      "size": 3006,
-      "sha256": "c1769bf0fb1293e9b212371c35ace90165beba837d43ad6c5ce6858563d0c39f"
-    },
-    {
-      "path": "scene_intake/look_through_camera.py",
-      "size": 1562,
-      "sha256": "21ad091ec61c9418acbcddc6061027d7071b8cd077d90e270a7d04909f2ce4ae"
-    },
-    {
-      "path": "scene_intake/make_replay_metadata.py",
-      "size": 8624,
-      "sha256": "057152e641f23023d3631a2ddd7e7e0531369d0cd970a5674106fb9c4eba8f39"
-    },
-    {
-      "path": "scene_intake/merge_replay_passes.py",
-      "size": 13385,
-      "sha256": "a62535e78ca377ff8192a9b1d3abe2a53e450db07f66e4dddea51a791e75994c"
-    },
-    {
-      "path": "scene_intake/prepare_scene.py",
-      "size": 7994,
-      "sha256": "5af26e5a4efde52bc82945aac7153fe8572a49f3720b1e8d9bf5b606d66ce4fa"
-    },
-    {
-      "path": "scene_intake/probe_pose.py",
-      "size": 1898,
-      "sha256": "700ed2931542abfbaf70a9382e9e5d4ef97d62406cc4ae93737e13c2c1e2e033"
-    },
-    {
-      "path": "scene_intake/probe_scene.py",
-      "size": 7733,
-      "sha256": "c704619b0f077baaec769102c22d3dfc436e24a16834d46bef249639339cd1a2"
-    },
-    {
       "path": "scene_intake/randomize_city_200m.py",
       "size": 12307,
       "sha256": "a96c0e923a31a94fb859fa4ac8e592e985870d098b90bf95f8b26f26bca9ec23"
     },
     {
-      "path": "scene_intake/retune_forest_thermal.py",
-      "size": 1993,
-      "sha256": "32ce833ff3471d3be259a0248dcc4a779c3583e7216a3eb5434c990548aef9a8"
-    },
-    {
       "path": "scene_intake/run_with_local_assets.py",
       "size": 1743,
       "sha256": "ff59a64c44ca67a56b4979fa1faeceb9483f7b4e134caf709d59e8f166b3c543"
-    },
-    {
-      "path": "scene_intake/test_fire_flight.py",
-      "size": 2521,
-      "sha256": "51f5c9376ac38f77b9b051b9497e2f41617ad12c2c99c87f4087be49c2c7c5a1"
     },
     {
       "path": "scene_intake/tune_scene_copy.py",
@@ -1648,21 +1048,6 @@
       "path": "scene_intake/validate_city_200m.py",
       "size": 8240,
       "sha256": "b28b2d3a12ff16f446a3d04de54451feb8ff8850ef6fb41bf62caec3fed7d9ac"
-    },
-    {
-      "path": "scene_intake/validate_project_scene.py",
-      "size": 4984,
-      "sha256": "3d58b8da3d83ea05d7000ff3a5901b2ed557c14f47a4bb024f83bce5fedb81cb"
-    },
-    {
-      "path": "scene_intake/verify_dataset.py",
-      "size": 12609,
-      "sha256": "df335dbfd65074684654fbb145a982142ed224c9b828227f82b52eb26bb295c9"
-    },
-    {
-      "path": "scene_intake/verify_lit.py",
-      "size": 2212,
-      "sha256": "43be4eb568b0ef0c46c3c56fac00acae512fd2cdb6e87720800d87ccc1097a0d"
     },
     {
       "path": "scripts/__init__.py",
@@ -1685,69 +1070,14 @@
       "sha256": "6e0fff39984d8f5be7a9a7f22e88802ce3f1fd1b8a1b3575214efe97258bee79"
     },
     {
-      "path": "scripts/aggregate_model02_v6_batches.py",
-      "size": 3186,
-      "sha256": "6188b86064059e668410c44f41c26e53876b0ef2136069260e41863bb728fab3"
-    },
-    {
-      "path": "scripts/assemble_model02_v6_exports.py",
-      "size": 2599,
-      "sha256": "362fc90602e5fed3165ddfccd5ba1718bd25e4a3f60b0b6ee0f5103458a743f0"
-    },
-    {
       "path": "scripts/authored_lighting.py",
       "size": 2696,
       "sha256": "57dead5710394c34cf0f36ce595be5c101a3f974e24a62cb90deab377fea07ba"
     },
     {
-      "path": "scripts/bc_action_protocol.py",
-      "size": 5014,
-      "sha256": "2ff22ca2ea754d1c3d3f65dbf2a1fb12e8d801517151a99a615d6b633c24e45c"
-    },
-    {
-      "path": "scripts/bc_checkpoint_checks.py",
-      "size": 2546,
-      "sha256": "9d8ce96b380b08d7bd726d554c04902bf64e13481a2adc34c4020817fd24db5f"
-    },
-    {
-      "path": "scripts/bc_model_inputs.py",
-      "size": 7079,
-      "sha256": "a1a336a18ad38a0369afa65cc532f6dab2389bb54ae64dc3c3fc49f7a4a241a7"
-    },
-    {
-      "path": "scripts/bc_pose_targets.py",
-      "size": 3459,
-      "sha256": "2a2b028a19c5fc89cfd31f03a6013c50901368c383d21686fd818b2c5f33f1e7"
-    },
-    {
-      "path": "scripts/bc_resume_checks.py",
-      "size": 5910,
-      "sha256": "7045a34b5b5afc38424ca80df660d24c58ad056cc22111a5e0c590be4b2ab02d"
-    },
-    {
-      "path": "scripts/bc_tinyfit_checks.py",
-      "size": 1825,
-      "sha256": "03db94f90166aaa1fe8b2d5da12e39202bf7afb49342fac8a2b2167ea33177c6"
-    },
-    {
-      "path": "scripts/bc_token_diagnostic_checks.py",
-      "size": 1644,
-      "sha256": "b184cf9e8d97c22d8a44e290eb4d77881c3fc44b86470a6bdb21d210f366ca4a"
-    },
-    {
-      "path": "scripts/bc_training_checks.py",
-      "size": 5667,
-      "sha256": "3106c09434b685f5063e35eecd0dabb1ce313fcc7fc6fbea0147db42336b5a50"
-    },
-    {
       "path": "scripts/benchmark_driving_acceptance.ps1",
       "size": 2113,
       "sha256": "1c678e26390425ce5c53a240d3f9dd2c01955e76145e926813a85c47a717ce91"
-    },
-    {
-      "path": "scripts/benchmark_factory_preview.ps1",
-      "size": 1907,
-      "sha256": "0e0dc84fb80b273a6c26d90918e0b9e657ea06688051eba1e8e28a32deffa1e2"
     },
     {
       "path": "scripts/benchmark_first_round.ps1",
@@ -1765,254 +1095,9 @@
       "sha256": "e70f9f7edb3c829e04d0eef5dd9ac3270b1da7efcb2392c8d4b0fb0d159ea7d7"
     },
     {
-      "path": "scripts/blender/apply_model02_configuration.py",
-      "size": 4129,
-      "sha256": "28d910e49e6bdb0245701f7b19e241799a3b12e4f317a0761a3c2dee1da91a6f"
-    },
-    {
-      "path": "scripts/blender/assemble_model02_v6_project.py",
-      "size": 5251,
-      "sha256": "1dc20cf79251e6a89b7065c857990a2ee33ff55c218086cc829825d11eb5faba"
-    },
-    {
-      "path": "scripts/blender/audit_model02_full_factory.py",
-      "size": 5256,
-      "sha256": "71d33a67912e4675a2ceaeea6fd82dc6e55ef7c85e8bec2bbff7231cb74283e1"
-    },
-    {
-      "path": "scripts/blender/audit_model02_source_files.py",
-      "size": 2178,
-      "sha256": "4964e06e53a7f21565a5ab075edf54295c55a265e6246e845ff03a1282864e1c"
-    },
-    {
-      "path": "scripts/blender/audit_model02_v4.py",
-      "size": 3217,
-      "sha256": "87cba9e3641ea27e235a06cce99ccea83f05c310c905ee0c0e648f41cfd4b570"
-    },
-    {
-      "path": "scripts/blender/audit_model02_v5_ground.py",
-      "size": 3156,
-      "sha256": "0b6e9d0ddecbf5d1cec912368bdad075cb64d28b93ac971321ab6eead33818d9"
-    },
-    {
-      "path": "scripts/blender/author_model02_v6_batch.py",
-      "size": 3540,
-      "sha256": "0d733db4eb7fa58a45986040a9169470fa394f350f031ebb4e22869a2e73094c"
-    },
-    {
-      "path": "scripts/blender/build_model02_refined_usd.py",
-      "size": 6479,
-      "sha256": "cce15420e37d330f0decf0e173d59ee8ecf8a02a5a3da66dd6aaaab653711c97"
-    },
-    {
-      "path": "scripts/blender/build_model02_weaklight_usd.py",
-      "size": 4566,
-      "sha256": "341d2bc74058df8f5a44c703ffe5d765fe2df7a5ef63c4d9111db0f0b390a171"
-    },
-    {
-      "path": "scripts/blender/check_model02_v4_route.py",
-      "size": 2295,
-      "sha256": "e5b301b77cab6f07ae9be7298b72534172331896c54b9bb9feb3bf2d58469b73"
-    },
-    {
-      "path": "scripts/blender/compose_model02_v3.py",
-      "size": 8610,
-      "sha256": "c556925f8652fc698cb9bb1b08facb6457bba464a1c7f992e44fe160eff1c892"
-    },
-    {
-      "path": "scripts/blender/export_model02_v3.py",
-      "size": 6416,
-      "sha256": "1a1ce5e67bd5b997508dc54acc3da238c1bf6b70863d89e5c85be4a7cd5e9d90"
-    },
-    {
-      "path": "scripts/blender/export_model02_v4.py",
-      "size": 4381,
-      "sha256": "049d5f8e83b737f291b5cfaecdc4426010556af58678e0feff59e5fcded02cfc"
-    },
-    {
-      "path": "scripts/blender/export_model02_v6.py",
-      "size": 5701,
-      "sha256": "0e750489ae1ed69e486345c092e5e2b76b5a40a1289a446dbad0462c9e11bf72"
-    },
-    {
-      "path": "scripts/blender/export_model02_v6_batch.py",
-      "size": 9325,
-      "sha256": "553f73b2ab0e4aeafdf8c1761576d0d9ce116c99924b1544d0ca0286222339e0"
-    },
-    {
-      "path": "scripts/blender/finalize_model02_route.py",
-      "size": 14154,
-      "sha256": "050236b04b71b19f68c66583a199b0d78f3e5fdfd412a45da4701e72bd9b8070"
-    },
-    {
-      "path": "scripts/blender/finalize_model02_v3_colliders.py",
-      "size": 2304,
-      "sha256": "a4da6cb78c7b38e37eabd2c0672db210f8b369e1bc8d359ff4d904a00d6f11a3"
-    },
-    {
-      "path": "scripts/blender/merge_model02_v6_ground.py",
-      "size": 1557,
-      "sha256": "000daa94a6bc42a9704d25f759f8ab373a50fce9ff88233352f7b547d53c3c93"
-    },
-    {
-      "path": "scripts/blender/model02_add_lights.py",
-      "size": 4930,
-      "sha256": "626630bb5d6cef321374afc91367837f1b82c4beb8580b8a218b6ba911f33d50"
-    },
-    {
-      "path": "scripts/blender/model02_full_factory_authoring.py",
-      "size": 9594,
-      "sha256": "b482afffa09ed56928a9c2339006df07ba34207ab986e1e600b83c5a9ebb7f99"
-    },
-    {
-      "path": "scripts/blender/model02_full_factory_common.py",
-      "size": 8391,
-      "sha256": "97d5e1d37bbf201d5814256d1e91982fb92cd6c276c8751c83633cfe819e5066"
-    },
-    {
-      "path": "scripts/blender/model02_full_factory_openings.py",
-      "size": 12447,
-      "sha256": "4ed1393c989cc6a70ca5d183e3f44b52ce38e3e85035f51e635041dde3110757"
-    },
-    {
-      "path": "scripts/blender/model02_geometry.py",
-      "size": 23586,
-      "sha256": "81cf313d60a9db3091f9ba3b57fc780cc7b275cc4b0c9a73482635d066ae714e"
-    },
-    {
-      "path": "scripts/blender/model02_inventory.py",
-      "size": 2651,
-      "sha256": "a37058b7ef3c293a72bd58edf9eba217aed8a9d6baf1a775d9419229496f55a8"
-    },
-    {
-      "path": "scripts/blender/model02_lighting.py",
-      "size": 11236,
-      "sha256": "d9d43b9dc945f749b5e5e5ab3d2ec0cc0945e8b44d4c3c860bbea05bb1c63beb"
-    },
-    {
-      "path": "scripts/blender/model02_route_refinement.py",
-      "size": 20957,
-      "sha256": "9bd53b2b472d23ec1bd8e915776853d66e0a21f6b7032e1393e0f5afee26a73a"
-    },
-    {
-      "path": "scripts/blender/model02_route_zones.py",
-      "size": 1545,
-      "sha256": "e00c9b18090638975e63191f895cc2d18391a18d39537247ceebca925402b7a7"
-    },
-    {
-      "path": "scripts/blender/open_model02_v6_batch.py",
-      "size": 1782,
-      "sha256": "d8de03eeac5ea24e81c682994e20b1dbce729e83bd34c0f55b250bf66c0943bd"
-    },
-    {
-      "path": "scripts/blender/refine_model02_v4.py",
-      "size": 11430,
-      "sha256": "228ab4e91729a335222404e766c5c86b3d3f6d1d168c5991850163723aab77a0"
-    },
-    {
-      "path": "scripts/blender/refine_model02_v5_ground.py",
-      "size": 7762,
-      "sha256": "b644ba0c4092096cc15ff5ca85b27da3a237f41ee8214fb2ba2cc4fb41d26c66"
-    },
-    {
-      "path": "scripts/blender/refine_model02_v6_buildings.py",
-      "size": 4159,
-      "sha256": "78896e538b8433323ff709136dc80f9a8da27633d5c429c38a14da3208ba24bd"
-    },
-    {
-      "path": "scripts/blender/refine_model02_v6_equipment.py",
-      "size": 4934,
-      "sha256": "87aba65ae922e9aba79af767e738f5774debdb76ce7575b62023d6a8be076b8c"
-    },
-    {
-      "path": "scripts/blender/refine_model02_v6_ground.py",
-      "size": 6917,
-      "sha256": "97bd5d683ff284e5d5af0eeefbca472605a2b621288616df0691759479212cf8"
-    },
-    {
-      "path": "scripts/blender/render_model02_route_diagnostics.py",
-      "size": 2059,
-      "sha256": "3aae600ab2f12a054d947f4f93330510897ff7feec381e381c1b5a7b0e7e8920"
-    },
-    {
-      "path": "scripts/blender/review_model02_v6_buildings.py",
-      "size": 1796,
-      "sha256": "42035b82171928803cd3348609fd8c5c6da06a5b29014fae80f459e7d68f6f59"
-    },
-    {
-      "path": "scripts/blender/review_model02_v6_ground.py",
-      "size": 3387,
-      "sha256": "bf2c2f6d39cb30c0b85de0c14a38964f1eca255f264f9783e6e70c6f8ecf9175"
-    },
-    {
-      "path": "scripts/blender/run_model02_route_batch.py",
-      "size": 1472,
-      "sha256": "d5aebd3c8fa010926f3db74884fbcbbae4e8d490c8e561908577a9f72e25342d"
-    },
-    {
-      "path": "scripts/blender/validate_model02_export.py",
-      "size": 1531,
-      "sha256": "6beaab8c4f59ec6185e457c9f4f37f155c8ad2e24595ccb588a4d9cd0b777cec"
-    },
-    {
-      "path": "scripts/blender/validate_model02_lighting.py",
-      "size": 3100,
-      "sha256": "35b6aaa11660866ae2c68f189471e06adeae9b4633cf5d00702d03ab891915b1"
-    },
-    {
-      "path": "scripts/blender/validate_model02_refinement.py",
-      "size": 2064,
-      "sha256": "246ef25c2d0ee04127f4dc96a8797962df6b7b82dbaa291d75ff3b170ac6ac8e"
-    },
-    {
       "path": "scripts/build_city_thermal_v3.py",
       "size": 5931,
       "sha256": "844b7250d719eff309873faa0a0baefc396543c402146881bb35c0f92be4e7dd"
-    },
-    {
-      "path": "scripts/build_dataset.py",
-      "size": 13469,
-      "sha256": "62ec356ac1137f35d4c5283f8b6d3d033b1046795c5ca08d65fd14b1cb2217e4"
-    },
-    {
-      "path": "scripts/build_factory_inspection.py",
-      "size": 14608,
-      "sha256": "6dfe9331fa3b4c4abb72e57a93995904476a89eec0ea6547153672a956c920cf"
-    },
-    {
-      "path": "scripts/build_model02_ground_textures.py",
-      "size": 2182,
-      "sha256": "9d39b1745ecd5323cd82d679a6bed87f85ea981ff7c8cb50673ef899d38a3ac5"
-    },
-    {
-      "path": "scripts/build_model02_refined_configs.py",
-      "size": 3663,
-      "sha256": "97f7ba7ea82cd68faef8f19bbafe54bc424aef49d4a319034c9c776f8e17fb95"
-    },
-    {
-      "path": "scripts/build_model02_v3_configs.py",
-      "size": 7910,
-      "sha256": "c464473f22afcc723e7e77a48cd852bd61c9a41f3eb6c20e83fac816e30bc104"
-    },
-    {
-      "path": "scripts/build_model02_v4_scene.py",
-      "size": 14245,
-      "sha256": "4efd9bf1441fcb806c715884d3fe36900e599b27e1a9525ba5481eecaee38838"
-    },
-    {
-      "path": "scripts/build_model02_v5_scene.py",
-      "size": 4549,
-      "sha256": "4b448a69450395a573f867b356511f85cd37ab3aa9ac9f4e20306ff8cb403b34"
-    },
-    {
-      "path": "scripts/build_model02_v6_scene.py",
-      "size": 6617,
-      "sha256": "0b3e18f43216a6ae2909323ec320fdc5c75e1b8d5e1201537a671485c80de3e4"
-    },
-    {
-      "path": "scripts/build_model02_weaklight_configs.py",
-      "size": 2548,
-      "sha256": "c84f971b2858aabd3d25c58d9faa62e6d3c9154887f422871fc18686438a17fb"
     },
     {
       "path": "scripts/build_neighbourhood_scene.py",
@@ -2023,16 +1108,6 @@
       "path": "scripts/capture_crazyflie_thermal_static.py",
       "size": 14042,
       "sha256": "ffc82dddbd3d458594dcb9e7c2f5679c50db2600401034a40de027d5991a3282"
-    },
-    {
-      "path": "scripts/check_factory_native.py",
-      "size": 5679,
-      "sha256": "abf316018829857bad5a7e299b3b68eceba27f85c82e09fe102a088f16eef1ed"
-    },
-    {
-      "path": "scripts/check_factory_route.py",
-      "size": 5020,
-      "sha256": "ef84e57bf652df9f5052e2ee3fe946bab08cba30ee3065f3745d3faaf3b1a355"
     },
     {
       "path": "scripts/check_materials.py",
@@ -2058,11 +1133,6 @@
       "path": "scripts/collection_capture_defaults.py",
       "size": 2409,
       "sha256": "56b9f62717f91397288c18be99689c7247fb6b5603afbbaa7fb38fe2559af841"
-    },
-    {
-      "path": "scripts/collection_episode.py",
-      "size": 23407,
-      "sha256": "241c4713f055b719023fdaed6641831751b536359884998f27fd9cdeed87b9e4"
     },
     {
       "path": "scripts/collection_mileage.py",
@@ -2111,8 +1181,8 @@
     },
     {
       "path": "scripts/continuous_collision.py",
-      "size": 4608,
-      "sha256": "6f1e14acf2fa812015c1719e9771a02b6a08ce787c26dfd32121cec8bc0215e9"
+      "size": 4594,
+      "sha256": "a1968fe44de240d4959fa8aa8cf1b06a615347dbcb3d11a31abc3f205e3c0569"
     },
     {
       "path": "scripts/crazyflie_thermal_capture.py",
@@ -2181,18 +1251,13 @@
     },
     {
       "path": "scripts/episode_replay_source.py",
-      "size": 5270,
-      "sha256": "5960036144dcd4fb96cd6ca49de9fdec0d120a5691cc17df93743dacb5fd2e6f"
+      "size": 5419,
+      "sha256": "737ee28d41dc6c86bb3f8b95a530301faef8a5df5ff243c299b1ba0bd9cd009c"
     },
     {
       "path": "scripts/estimate_surface_temperatures.py",
       "size": 15900,
       "sha256": "7c7e8f4be7532e870288a7b48b3db4bf920ba1fef0958edc0db1310ab2558c3b"
-    },
-    {
-      "path": "scripts/evaluate_factory_inspection.py",
-      "size": 26137,
-      "sha256": "383871d17b73c00b9d0e24bac3af7746534ba276557a5fcace277f846cdb2e17"
     },
     {
       "path": "scripts/evaluate_neighbourhood_task.py",
@@ -2205,61 +1270,6 @@
       "sha256": "419bf7063091d1348d5ade30ca3b59f8e8de01d31174c145592394adcb764065"
     },
     {
-      "path": "scripts/export_model02_v3_diagnostics.py",
-      "size": 2856,
-      "sha256": "d3a8c71a0de39d733bab0a2d6070eb6fe34e931da8685de902aadec4ec5749c8"
-    },
-    {
-      "path": "scripts/factory_bc_pilot.py",
-      "size": 13171,
-      "sha256": "6594768e988a1f61e88bba49ce684ae61f2b58aa4008a6fe3718f60a6da91964"
-    },
-    {
-      "path": "scripts/factory_closed_loop.py",
-      "size": 7528,
-      "sha256": "3dfac2d468c75fe3f2b10b641dd423739c477e1b16dd6dbb0ae55bcea935ed49"
-    },
-    {
-      "path": "scripts/factory_collection_config.py",
-      "size": 5303,
-      "sha256": "6718f22e2d229b20dad2cdaf75221e635d581d0175e448c4b7144a9be6b29ad9"
-    },
-    {
-      "path": "scripts/factory_geometry_provenance.py",
-      "size": 2231,
-      "sha256": "194184065e67f30e3b71695942475fb8b26faf9ffd926bb9d859f95cfee8ef26"
-    },
-    {
-      "path": "scripts/factory_occlusion.py",
-      "size": 10925,
-      "sha256": "6576186695bd708d50e4490a4740fa47d0838cdb76cd3dd51489a412cf67f86a"
-    },
-    {
-      "path": "scripts/factory_pilot_hud.py",
-      "size": 4838,
-      "sha256": "ae905b648f6cc9c12cad676d97f4e9e903e848ea2e67ce375b8ac204e328e4d3"
-    },
-    {
-      "path": "scripts/finalize_model02_v6_registry.py",
-      "size": 3171,
-      "sha256": "8cc6d63a410d9a62bc14d2e84273297ca1a9ef02b4a9fcae93f5032c642ad4bf"
-    },
-    {
-      "path": "scripts/forest_collection_config.py",
-      "size": 2086,
-      "sha256": "e685ad8e6154a59a494b4d1dc38dd5af1c203015c1c793e5f185972846657c35"
-    },
-    {
-      "path": "scripts/forest_readiness.py",
-      "size": 4862,
-      "sha256": "b752b7c301d23353bd8f86fb2de5722a3547a1d7dc58dc69bfae4b094054da41"
-    },
-    {
-      "path": "scripts/forest_target_evidence.py",
-      "size": 1493,
-      "sha256": "be7cc699d6fcb4a4d3719b06e7c3ac4c875195ef42708fec449de948c229715c"
-    },
-    {
       "path": "scripts/frame_metadata.py",
       "size": 8268,
       "sha256": "a9556fa5dd754f9c6b5e5534f96aeb2ec66d217f0ff971c8208bd4eb98b5ac15"
@@ -2268,11 +1278,6 @@
       "path": "scripts/generate_replay_video.py",
       "size": 29502,
       "sha256": "718dca9255547ca518b8113293e3a988ad20933804da65dcb4653c1dbf4dda3f"
-    },
-    {
-      "path": "scripts/inspect_factory_scene.py",
-      "size": 4752,
-      "sha256": "45aac9b614820b646f27418645dafc99c00672c3cae97aa63f315d4d1887b198"
     },
     {
       "path": "scripts/invoke_logged_powershell.ps1",
@@ -2300,59 +1305,9 @@
       "sha256": "ad9fa928aac4e3349a7d7d9b2109d4c08da0735c460873483962dd50ce2ef2bf"
     },
     {
-      "path": "scripts/measure_model02_scene.py",
-      "size": 4625,
-      "sha256": "ee7b1caf0de8c00e12362c9b068fd97533a9d82885b71b6d7cb1fcf4f2787a66"
-    },
-    {
-      "path": "scripts/model02_authoring.py",
-      "size": 12150,
-      "sha256": "92189a6cf652c54bc2cc13da8a185ce10a00cfa8e6b5bc0f9750ed463aedeb5c"
-    },
-    {
-      "path": "scripts/model02_collision.py",
-      "size": 974,
-      "sha256": "9234592d69696d024e55ab5bfce68c7b17c48e6584b28de864064bf810e67550"
-    },
-    {
-      "path": "scripts/model02_configuration_freshness.py",
-      "size": 797,
-      "sha256": "3c63fcdfa45ecd0eea780c8c14ae879d95222644550b9cd3fe7f90fa1b97a14e"
-    },
-    {
-      "path": "scripts/model02_full_factory_registry.py",
-      "size": 2845,
-      "sha256": "06627d113da14868e31bb0f6054ac93445a50bddf0bd1f31d1c3fc999387fcff"
-    },
-    {
-      "path": "scripts/model02_ground_relief.py",
-      "size": 1042,
-      "sha256": "97ed1cfca8b6d56a7307243755f405e71c2889393dac8fd4618aa29cd025d073"
-    },
-    {
-      "path": "scripts/model02_migration.py",
-      "size": 2576,
-      "sha256": "93d060869fc14e20148569405730e23ad4c311d81a9342bd79fdf10836d7afc0"
-    },
-    {
-      "path": "scripts/model02_paving.py",
-      "size": 2405,
-      "sha256": "fe8d63de8b3782c6ed716b264e10f9047d9b75bf976bef2ba89221a7736bb269"
-    },
-    {
-      "path": "scripts/model02_response.py",
-      "size": 902,
-      "sha256": "124d7b1d8a1957772b451c6e6ba09633eebed09f2a3acec679621e75a0ca882d"
-    },
-    {
-      "path": "scripts/model02_v4_configuration.py",
-      "size": 7489,
-      "sha256": "200ebf3026d6e3626c38024b5f2f61c575a7379a06c01c589726932e9ff527b5"
-    },
-    {
-      "path": "scripts/model02_v6_configuration.py",
-      "size": 17170,
-      "sha256": "0d4df5df3a98b25623ea04f6c9de9601e4f2b27dbbe3418f22ce9ba412972474"
+      "path": "scripts/mesh_distance.py",
+      "size": 2811,
+      "sha256": "d662323a59bd4272ce64bf21a604872b62015a676054fc4eeb5fa04ad751f760"
     },
     {
       "path": "scripts/model_observation.py",
@@ -2361,23 +1316,13 @@
     },
     {
       "path": "scripts/model_worker_protocol.py",
-      "size": 3137,
-      "sha256": "9357f9f44823d2c7018b881f87589fd9e81da7c95855350d253ed3c42e851230"
+      "size": 3318,
+      "sha256": "f53b05216ca33db679b338d1246e5ac12e0c8a3a1397f922047a32b45dbcb028"
     },
     {
       "path": "scripts/on_demand_ir.py",
       "size": 3415,
       "sha256": "c99a09893c4247986bd780e7ee85e0750df7f06c426b8b7905be70fc31f095dd"
-    },
-    {
-      "path": "scripts/organize_config_scene_view.ps1",
-      "size": 7564,
-      "sha256": "a2a29e86b9481bd53d53e29d53843f4d26eebc002b615f621f0dea6d58c59d70"
-    },
-    {
-      "path": "scripts/prepare_bc_samples.py",
-      "size": 12323,
-      "sha256": "bb7f5523cdea4760ba473d34743c12b4f98ff5468b0f9499281b3cf433aad793"
     },
     {
       "path": "scripts/prepare_city20_long_start_trial.py",
@@ -2405,14 +1350,9 @@
       "sha256": "dbbc4a4ad9a3e158650270f619aa62e0d38fcdff708db464efe88631fcd227aa"
     },
     {
-      "path": "scripts/probe_factory_action.py",
-      "size": 11686,
-      "sha256": "3b540985167a7a489215e311ccb4a010db2410c8587b6e968acccf0f0089efb6"
-    },
-    {
       "path": "scripts/process.ps1",
-      "size": 9985,
-      "sha256": "05670b6ad77dcf8f3e56eaabd6554c54ac8b799f9b8e4c9da5855c91e023fd8f"
+      "size": 9334,
+      "sha256": "662cdeb7c67fa079e8d762c1b24c61aae9d527eef69774a3a99f50b964b4c8e7"
     },
     {
       "path": "scripts/process.ps1.bak-20261030",
@@ -2420,39 +1360,9 @@
       "sha256": "942b8a5fa986ece2a61c7a6d07aff01e591b5e8429d98c6aa895fff33603fd6c"
     },
     {
-      "path": "scripts/process_collection_episode.py",
-      "size": 5596,
-      "sha256": "3092f15b4fbd9d7797b715b55814678d04d79d1bfd5c1efdaf954254b799bca5"
-    },
-    {
-      "path": "scripts/process_factory_inspection.ps1",
-      "size": 5898,
-      "sha256": "04bae25cfb47698252104fb0b1bb88adcfea628aa3399add97ea6bcaf45ad441"
-    },
-    {
       "path": "scripts/process_manual_preview.ps1",
       "size": 606,
       "sha256": "c550cffdb94ed2f1a6c214cdfcac51657d6572bbfca6c5bdca168d1fddb9805d"
-    },
-    {
-      "path": "scripts/process_model02.ps1",
-      "size": 542,
-      "sha256": "74354b97b4c98545a368a99920cb34cbb1dd5ab1c698318e4c14171c68fe3b50"
-    },
-    {
-      "path": "scripts/process_model02_refined.ps1",
-      "size": 542,
-      "sha256": "bb08890988e8370e5489b8fcb02c9656d3a299f896511f5239f9b2a26f552211"
-    },
-    {
-      "path": "scripts/process_model02_v3.ps1",
-      "size": 593,
-      "sha256": "80d240f89023ebaad00089ced0f48a8a555d8553344a247e782bca5071d5e7e9"
-    },
-    {
-      "path": "scripts/process_model02_v4.ps1",
-      "size": 653,
-      "sha256": "decd8647c46d80aa778c7f7583548c9d126271d3f578e3aaa39b092a53383d6c"
     },
     {
       "path": "scripts/process_queue.ps1",
@@ -2471,8 +1381,8 @@
     },
     {
       "path": "scripts/record.ps1",
-      "size": 6129,
-      "sha256": "9b4bf98dfcf3eee281da5dc0d66a908b4f50106e03682247b1697dc1e6439436"
+      "size": 5507,
+      "sha256": "359ae6ea30ce1a00b61b63b1f44d3e363d0efdba0db805afd713422db27bc5f7"
     },
     {
       "path": "scripts/record_city_bc_pilot.ps1",
@@ -2485,46 +1395,6 @@
       "sha256": "6d17966b3af5c0955c2e59dd75f8eaf67786d85afdf0404cd569832718bc7375"
     },
     {
-      "path": "scripts/record_factory_bc_pilot.ps1",
-      "size": 2222,
-      "sha256": "6555f236ac3daea7c080f0c629930bfada4ee90064b6bc11a6d79c49deab0dfc"
-    },
-    {
-      "path": "scripts/record_factory_inspection.ps1",
-      "size": 539,
-      "sha256": "a537c03d76820fd69fc8a98b2cd352c058f4ab23c3b99702ef49ee082f9e877b"
-    },
-    {
-      "path": "scripts/record_model02.ps1",
-      "size": 341,
-      "sha256": "df38e89ed1aa51c7593da1a0fdd6632fc6e88172b887ef677456a125650058b2"
-    },
-    {
-      "path": "scripts/record_model02_refined.ps1",
-      "size": 341,
-      "sha256": "65f4ab2a100c7b46576277ece0808d18f44272b8b62733d7027bdaebdaf2515f"
-    },
-    {
-      "path": "scripts/record_model02_v3.ps1",
-      "size": 392,
-      "sha256": "aae9e836c7bf52f1efa744a28ccc877624d415768774393abff0e9339164bacf"
-    },
-    {
-      "path": "scripts/record_model02_v4.ps1",
-      "size": 548,
-      "sha256": "e58e12708f6e53e81bee6eaea120c18cdeeda9a976b1852a833d98b9271f4fd6"
-    },
-    {
-      "path": "scripts/record_model02_v5.ps1",
-      "size": 548,
-      "sha256": "f4e03888387d0efb9df6da88e57b68a9694adf87c3f014a730ec68af39789166"
-    },
-    {
-      "path": "scripts/record_model02_v6.ps1",
-      "size": 697,
-      "sha256": "5c6414da19bf0875cee36bda207359c261c19c0172ea90df8f07ca01a1eab0aa"
-    },
-    {
       "path": "scripts/recording_quality.py",
       "size": 4888,
       "sha256": "a75137e7ced8974d81c307588f68d946c51e76f8555be76cdfa48562667e9ab3"
@@ -2535,29 +1405,14 @@
       "sha256": "d0044bab6275aa975d57343ca7a6cbf6639be32b1a2c8111539c94b522446892"
     },
     {
-      "path": "scripts/render_factory_observation.py",
-      "size": 5645,
-      "sha256": "ebbd7ec03851261e006e72fe9ec5540f9e837c7dcbb9cc15b2886dfe4c59b328"
-    },
-    {
-      "path": "scripts/render_factory_views.py",
-      "size": 2697,
-      "sha256": "9bfd8572ed8eb8e6600354b4b8791d2201cf9c24c4ab0aba972ed3c59dfa900a"
-    },
-    {
-      "path": "scripts/render_model02_weaklight.py",
-      "size": 5647,
-      "sha256": "47c8c296d0429e3440946c0ca822bf18b932cfb87a7e95407d39d4164df63279"
-    },
-    {
-      "path": "scripts/replay_factory_inspection.py",
-      "size": 35989,
-      "sha256": "4c24e90ac1332636634b9c321b21fd336b2aaafeb0b02decdef57ae481b2760f"
-    },
-    {
       "path": "scripts/replay_pose.py",
       "size": 5803,
       "sha256": "fd3e404bba041ec08a2d277b8473abe25bae9c41529e3a38ea83c6943c4b6767"
+    },
+    {
+      "path": "scripts/replay_source.py",
+      "size": 1409,
+      "sha256": "37ee72402c90ca75b03947dcb7439adec8ce39fb6e04003045d60c4b7d6f7e2b"
     },
     {
       "path": "scripts/replay_trajectory_highres.py",
@@ -2585,19 +1440,9 @@
       "sha256": "4f0e362d2ac075047128c0a82edd2eb2c35d5b53e49c9ba8dbd78a26e0058f5a"
     },
     {
-      "path": "scripts/review_factory_replay.py",
-      "size": 17162,
-      "sha256": "1510a567a197967b4a43c3f2f2904ab5f2c2a52d2c7b8f47a83d6975cfaaf555"
-    },
-    {
       "path": "scripts/rgb_scene_diagnostics.py",
       "size": 10713,
       "sha256": "1686e62f4e82a9c901a71bc7e5fede4e391410bcfdce98b03838c6702dab133d"
-    },
-    {
-      "path": "scripts/run_factory_closed_loop.py",
-      "size": 16022,
-      "sha256": "5111c80aa505395397293c4e5eeff613d6b65050a527dc085caa8cc7a32f6081"
     },
     {
       "path": "scripts/run_isaac_with_clean_env.ps1",
@@ -2621,13 +1466,8 @@
     },
     {
       "path": "scripts/start_crazyflie_dual_camera_view.py",
-      "size": 86958,
-      "sha256": "4ad9428e2cd0c57cd4ebbb8d76e468a7114a18ecdb8b78d21c3147e2db1ce9e7"
-    },
-    {
-      "path": "scripts/summarize_factory_preview.py",
-      "size": 2596,
-      "sha256": "13b97eebefb315ae1406f0243c81e627202cd48a486ae4cddaf48a4b268c5cb7"
+      "size": 86971,
+      "sha256": "6a5525433b0936f6ea15e8b71b41bfda80a3ecb523b889d6667ef092d3ccd0b0"
     },
     {
       "path": "scripts/summarize_material_cache.py",
@@ -2690,69 +1530,9 @@
       "sha256": "6d2b634adce7150f5b8a8fd7699f120d3f7a9be235760d30d20a802f1eff6c01"
     },
     {
-      "path": "scripts/validate_model02_ir_distance_probe.py",
-      "size": 13877,
-      "sha256": "065577261ec2714b6a7a14dd32b115b825ef19335dce85d58ac9e1ae65bc5b31"
-    },
-    {
-      "path": "scripts/validate_model02_ir_surface_channels.py",
-      "size": 9652,
-      "sha256": "dc26ad6dd2a5923cffed5db2a7ed12ed89dbc7a94fbc5786a7de7709d38093ad"
-    },
-    {
-      "path": "scripts/validate_model02_v3_isaac.py",
-      "size": 15152,
-      "sha256": "4e414356a47fd47df473c3bf65bea5ad31c328703f7cc3903f5a2768ed2a0088"
-    },
-    {
-      "path": "scripts/validate_model02_v4_isaac.py",
-      "size": 16581,
-      "sha256": "394ba2f3fb0fbe821487fb78b9ec3d0efb5e9f436b80ffa2d692d08252f6dcf1"
-    },
-    {
-      "path": "scripts/validate_model02_v5_ground.py",
-      "size": 7567,
-      "sha256": "c66b100d4a707d6b054b7958f89c418fc6e077662326d0987861ede2dfd8fa7c"
-    },
-    {
-      "path": "scripts/validate_model02_v6.py",
-      "size": 24973,
-      "sha256": "6c806c452c5e23f844ec299d2611e3726966143b1346158168b806336833ae1a"
-    },
-    {
       "path": "scripts/validate_replay_outputs.py",
       "size": 11131,
       "sha256": "30355228c36f844d0c377bf07f1d845f074ce313ba7236eb910ef1d0ba1d3fb4"
-    },
-    {
-      "path": "scripts/verify_bc_checkpoint_roundtrip.py",
-      "size": 10071,
-      "sha256": "fe5eec270766b82ce36a7d0087bab190bfdf4b8c509dfd1ec53d9acc1d8e5ed1"
-    },
-    {
-      "path": "scripts/verify_bc_resume.py",
-      "size": 14187,
-      "sha256": "bb8d748775e432e376ef31949de530052f0cdca6200bcdac94acc11df7a6f0d7"
-    },
-    {
-      "path": "scripts/verify_bc_tiny_fit.py",
-      "size": 11104,
-      "sha256": "86560a67f338836fb3f31fa75cd923758f6b5fb991073834ed11468fb0533ab0"
-    },
-    {
-      "path": "scripts/verify_bc_training_interface.py",
-      "size": 11918,
-      "sha256": "2815b271c1950f9dafadfe8785f1c99c91e486a813ed021c67e33f87f87ac5fd"
-    },
-    {
-      "path": "scripts/verify_factory_collection.py",
-      "size": 8548,
-      "sha256": "38f27a69b24e280f83dc046307d57020fff1360d25eb0c8dd68d2f4d2c2aefce"
-    },
-    {
-      "path": "scripts/verify_factory_replay_video.py",
-      "size": 2548,
-      "sha256": "db69631cbd237987ab6aef9ae16a19f1b0a0ed5714243c99017d1673c3fbc721"
     },
     {
       "path": "scripts/video.ps1",
@@ -2776,8 +1556,8 @@
     },
     {
       "path": "tests/isaac_city_collision_undo.py",
-      "size": 8971,
-      "sha256": "fcf2d8c9036f4ba15989fecb2429dd8c0271db8f8f031f2f0215227a1d850eff"
+      "size": 8959,
+      "sha256": "fdbf8e252b7647977f69fece0ab2dbfb47658069fcb838ac119e17a8ac27f5ec"
     },
     {
       "path": "tests/isaac_dual_camera_performance.py",
@@ -2795,11 +1575,6 @@
       "sha256": "9a27e619618273a4f4104926f9f327d19e062ed7c23332fc60f44217702c1dec"
     },
     {
-      "path": "tests/isaac_factory_inspection.py",
-      "size": 10736,
-      "sha256": "b47e261bce1573f3488c94b18812a9f49ef6a3da0e586b9659c11edcf307228f"
-    },
-    {
       "path": "tests/isaac_hover_smoke.py",
       "size": 4779,
       "sha256": "3c0b5d1f824576faab12fac553fb3bce0ecde7b41e5be65edb4f250d75cce902"
@@ -2813,11 +1588,6 @@
       "path": "tests/isaac_school_camera_coverage.py",
       "size": 6783,
       "sha256": "67a8e0a752bfe6b83b7df280694855eb14d6b0026868310788bda5920770702c"
-    },
-    {
-      "path": "tests/isaac_shared_collision_undo.py",
-      "size": 10265,
-      "sha256": "a4c67c6df915bba2615fb6aa44ef77cec14e9df801667779b6c339ae323f476c"
     },
     {
       "path": "tests/isaac_thermal_baseline.py",
@@ -2850,66 +1620,6 @@
       "sha256": "df2a8c8cc510c3b9be6f3d58a184db100e708e64e9c5039da3219ca72871c6c2"
     },
     {
-      "path": "tests/test_bc_action_protocol.py",
-      "size": 3382,
-      "sha256": "469b9df50919f8523c8c1a83e24d1149869ab1e92b3c20b60b6c189ae0a084de"
-    },
-    {
-      "path": "tests/test_bc_checkpoint_checks.py",
-      "size": 2842,
-      "sha256": "38d2f36fd0fd619ceecf8593b10e4af0152f48278c5e8d36c15793f6e244ad9c"
-    },
-    {
-      "path": "tests/test_bc_checkpoint_command.py",
-      "size": 1414,
-      "sha256": "8f838883f1d78d3e6d9c63cc49555927cca1891077c5dd6d53d938b26950e479"
-    },
-    {
-      "path": "tests/test_bc_model_inputs.py",
-      "size": 6610,
-      "sha256": "2da22e4e408bba79773997e8a9a6aaf5cbca7da0768062ed396a79624316970c"
-    },
-    {
-      "path": "tests/test_bc_pose_targets.py",
-      "size": 3349,
-      "sha256": "9649d3799438f391fc3b7bbd359b8975ea028952fe91b5a1f44cc95b4fa8f870"
-    },
-    {
-      "path": "tests/test_bc_resume_checks.py",
-      "size": 5069,
-      "sha256": "4369486fc3ad84076b76907ca65208fb348f6f73dd482cc3f1c6fe52d8c2de27"
-    },
-    {
-      "path": "tests/test_bc_sample_preparation.py",
-      "size": 9205,
-      "sha256": "f64786e94e85d5e48258af94254781576251b6aca18533c28490cabfa15d6b8d"
-    },
-    {
-      "path": "tests/test_bc_tinyfit_checks.py",
-      "size": 2014,
-      "sha256": "7bc4bfe0755255cee0477d90c284f3cbd0fd7a24ee893d80e653bdb40e819077"
-    },
-    {
-      "path": "tests/test_bc_tinyfit_command.py",
-      "size": 1397,
-      "sha256": "2d76ba3b2869765d7363401a8c3d93672bbe2b063a2ed7cdf0b8306dcdfa830f"
-    },
-    {
-      "path": "tests/test_bc_token_diagnostic_checks.py",
-      "size": 1972,
-      "sha256": "302524fa8c0e48b87ac86c1ed617a9a00a895f343a0f239889fc7d83d6a5fdf3"
-    },
-    {
-      "path": "tests/test_bc_training_checks.py",
-      "size": 5485,
-      "sha256": "396e41dadd97ffce03ffc33df9d8c51d587a3ad96e233ef0aae46e487ddf15b0"
-    },
-    {
-      "path": "tests/test_bc_training_command.py",
-      "size": 1489,
-      "sha256": "45f4642f04c3647acb8fad8c6ff971d5727e6c39ee6fdc8403c9b20c9dbfb5f1"
-    },
-    {
       "path": "tests/test_camera_acceptance.py",
       "size": 3414,
       "sha256": "2bad125ca684ae70dc518410d049b494cc128f522ffca6eb284c28d19d210fe2"
@@ -2921,8 +1631,8 @@
     },
     {
       "path": "tests/test_city_asset_package.py",
-      "size": 1235,
-      "sha256": "7f483871e936af562a367b593948ec956459d045f6e54d3670e2f82248eee0d0"
+      "size": 2024,
+      "sha256": "bf673c85711a1f6b8a3e00ee8cb5099e3a011837536701d12d6cac534059a6e0"
     },
     {
       "path": "tests/test_city_material_partition.py",
@@ -2941,23 +1651,13 @@
     },
     {
       "path": "tests/test_collection_capture_revision.py",
-      "size": 11149,
-      "sha256": "300b07678088906697829b57e06f10fe43434de7ca3f6474ea20a7a5107a8da3"
-    },
-    {
-      "path": "tests/test_collection_episode.py",
-      "size": 6820,
-      "sha256": "e367b84c6e3f12bd2c8e72607a29bdd367c48d43424efb5c85421c2c84b53b0e"
+      "size": 5992,
+      "sha256": "dcd12ff4135530552324849430d1eff8aa5869703a11417591f0082fe38b7527"
     },
     {
       "path": "tests/test_collection_mileage.py",
       "size": 3540,
       "sha256": "b926ef91435877c72a86595aaa13fbff811e29c0152862c2a06259f57b100e8b"
-    },
-    {
-      "path": "tests/test_collection_occluded_readiness.py",
-      "size": 4648,
-      "sha256": "e9ec8f345e9147230d55a1b495784a807a97d316600c3cd8c83eb766060ad770"
     },
     {
       "path": "tests/test_collection_shell.py",
@@ -3032,132 +1732,12 @@
     {
       "path": "tests/test_episode_dataset.py",
       "size": 6030,
-      "sha256": "6c62622b638dd990b0f95e39a3ee7ba2f9a42bb72a3fb453a77804ce3d7b6d0c"
+      "sha256": "d7439dac86f94c6438d00e9b9c2d36fc599b772b98d2a7560d7f28aafd54b051"
     },
     {
       "path": "tests/test_episode_replay_source.py",
-      "size": 6073,
-      "sha256": "16ac7ecfba5365931b732dddba3d3e256a82ad8ec1a61e9d7dd7058f0ce47130"
-    },
-    {
-      "path": "tests/test_factory_action_entry.py",
-      "size": 1627,
-      "sha256": "a85c13a40b7537e4e07873a85ea5c5bf8509e7480741fd1efd61abfeff5722ae"
-    },
-    {
-      "path": "tests/test_factory_bc_pilot.py",
-      "size": 9770,
-      "sha256": "ca874d190b22b2d2d699c216ef3d4ddbf241495834d8d5c9665191711ec425a0"
-    },
-    {
-      "path": "tests/test_factory_capture_dependencies.py",
-      "size": 654,
-      "sha256": "98bbfb423381cae193bfe5b6826c4892d0ffbadeafd18df729c167b7a811e60b"
-    },
-    {
-      "path": "tests/test_factory_closed_loop.py",
-      "size": 7609,
-      "sha256": "a7519ee6154751cf744f100a139bb7592993e1db9120d3c1f28c82a88c91cbcc"
-    },
-    {
-      "path": "tests/test_factory_closed_loop_entry.py",
-      "size": 1544,
-      "sha256": "4a2bdcc660e472903105960d96853cdc8ae04509f53c32ba120cb2a8c1c1fa46"
-    },
-    {
-      "path": "tests/test_factory_geometry_provenance.py",
-      "size": 3353,
-      "sha256": "f8a587e8c903292cbb3c38b358bd703210e8225779abad2d789ccb17af302a1b"
-    },
-    {
-      "path": "tests/test_factory_inspection_config.py",
-      "size": 3820,
-      "sha256": "c363756eeaff0e19ddfbb941c41991e141a5542cd8f24ee52b838514b57dda69"
-    },
-    {
-      "path": "tests/test_factory_inspection_evaluation.py",
-      "size": 20446,
-      "sha256": "4a784e950253bd1a4ca4bbd0b1f31fcc264255b86c9a613a9e3636e9431162f8"
-    },
-    {
-      "path": "tests/test_factory_inspection_replay.py",
-      "size": 9347,
-      "sha256": "29fa362c4f685d1267777dd386274e070b758e84fd1dd7e789e4030e2410a935"
-    },
-    {
-      "path": "tests/test_factory_interior_manifest.py",
-      "size": 2512,
-      "sha256": "6116249496ea93624f28769dfcfa9bf5c9deaee9e4482dd67a2e6c55eae6f26c"
-    },
-    {
-      "path": "tests/test_factory_occlusion.py",
-      "size": 9219,
-      "sha256": "f69cc98bccfe613bf10bf356630e2dcb03dc1a854f9cefacf66a0c61e93031c0"
-    },
-    {
-      "path": "tests/test_factory_pilot_hud.py",
-      "size": 3782,
-      "sha256": "f01b4e4b5c3e5ee7af938173e01b74f80bba1decf98392f858154f6173d56ea1"
-    },
-    {
-      "path": "tests/test_factory_replay_repair.py",
-      "size": 2397,
-      "sha256": "ffd3b0fa3e328bca3085956f62843cc72f3ab2737400da5ce097671728703621"
-    },
-    {
-      "path": "tests/test_factory_two_target.py",
-      "size": 12640,
-      "sha256": "d8e4d5cb4fef6e6a2975c9cad0461ff873a436773737e9136792921fd8fdce6d"
-    },
-    {
-      "path": "tests/test_forest_collection.py",
-      "size": 2438,
-      "sha256": "7c6504601d44e040a7d16b11fe915840553faf5f1203a118c150b9218dd04efe"
-    },
-    {
-      "path": "tests/test_forest_dataset.py",
-      "size": 4050,
-      "sha256": "deaf830501a668ae67ae02e6614a967e697a3029ae4e7984a34dbf53c5c22efe"
-    },
-    {
-      "path": "tests/test_forest_merge.py",
-      "size": 6057,
-      "sha256": "c78f559db386ea2d80b54855f623d1c59f6a510491274d18a2df4d283052202d"
-    },
-    {
-      "path": "tests/test_forest_provenance_link.py",
-      "size": 5827,
-      "sha256": "90436835d19b40b0f6349ea37424b48c695adb9b4754bbd3dbab399845771481"
-    },
-    {
-      "path": "tests/test_forest_recorded_contract.py",
-      "size": 1113,
-      "sha256": "6d355c2a98baf5a12780c2b824a7003e167916735f2ef8024fc320907ad4c69d"
-    },
-    {
-      "path": "tests/test_forest_replay_link.py",
-      "size": 8333,
-      "sha256": "d739ca7911d0bf2096036bbe1b02c8439ff1c1d3a879d8f455207b055cf09bcb"
-    },
-    {
-      "path": "tests/test_forest_source_clock.py",
-      "size": 1596,
-      "sha256": "d5b1208562bc35ebb41aa7cee0b7d1dcefb376a3ed8d7876ad907465e38f6af9"
-    },
-    {
-      "path": "tests/test_forest_sync_probe.py",
-      "size": 1781,
-      "sha256": "e9c9bd64a197259b6818d6b04ca72681cb280d788e5df10d912455a8b5021904"
-    },
-    {
-      "path": "tests/test_forest_two_target.py",
-      "size": 7465,
-      "sha256": "d5e73e1b8d99f2ef1bc646dbc841e6cf1ce27f8af9e85e63d9e9b373ea443540"
-    },
-    {
-      "path": "tests/test_forest_usd_proxy.py",
-      "size": 2443,
-      "sha256": "e20872d94ed5beebff3e30b1bf80f6f8a56807940bd41ca146292c8235d3986d"
+      "size": 6061,
+      "sha256": "34aa3fcbb10c777f724a9a64f8cbd68a8897b7f53b45a2e652400d466a5a3c8d"
     },
     {
       "path": "tests/test_frame_metadata.py",
@@ -3185,104 +1765,14 @@
       "sha256": "85307446843227e9364792aaa397ec2eabbcccb5e19b7d3d7e5850b6fd496017"
     },
     {
-      "path": "tests/test_model02_authoring.py",
-      "size": 2168,
-      "sha256": "e22489d96d19a5490503d6299bab0aad353d776555853562026e3e2db7788b0f"
-    },
-    {
-      "path": "tests/test_model02_collision.py",
-      "size": 740,
-      "sha256": "cb1591a5a19c63a51f987303124a4a40359a53c948ab6c2c9ae4f714255ada73"
-    },
-    {
-      "path": "tests/test_model02_configuration_freshness.py",
-      "size": 1459,
-      "sha256": "d06ad954a105a1f9139f016fc33209f29d656c0e360b6660319a01924e1807e3"
-    },
-    {
-      "path": "tests/test_model02_full_factory_acceptance.py",
-      "size": 2947,
-      "sha256": "5b108e12354dbe41f957b2fd25ed1a2ebe717b95b1039bd28ef7783d82a5a6fc"
-    },
-    {
-      "path": "tests/test_model02_full_factory_configuration.py",
-      "size": 4243,
-      "sha256": "a7cc95aabe87cbb87a2bb0b37c0aa660cee03b6dc86efc4f1b5341c63e31d6f3"
-    },
-    {
-      "path": "tests/test_model02_full_factory_geometry.py",
-      "size": 5913,
-      "sha256": "940552ef7feaf30f1557ba4a5f26b0464865d3a9f528893cf1f931c640fd5d0b"
-    },
-    {
-      "path": "tests/test_model02_full_factory_registry.py",
-      "size": 3895,
-      "sha256": "403fe94ca7d0fd2787443f866d100ccd67e7dcd51d557f6ec31cd98ee4398c6b"
-    },
-    {
-      "path": "tests/test_model02_geometry_contract.py",
-      "size": 1403,
-      "sha256": "6e13f79b4262430159c96272092c59fffe5daeee72bc61a100816f724e3f42b2"
-    },
-    {
-      "path": "tests/test_model02_ground_relief.py",
-      "size": 1856,
-      "sha256": "fe89848f9272f46386d985587cdb13ff82741d97f8a42d2903395a4916d7889f"
-    },
-    {
-      "path": "tests/test_model02_ir_distance_probe.py",
-      "size": 3050,
-      "sha256": "02c65ae17a43ae60f42920799f5399a4f69208db101cea8b61e5591a8a6400f6"
-    },
-    {
-      "path": "tests/test_model02_ir_surface_channels.py",
-      "size": 2431,
-      "sha256": "d613a73a557519412ff682b2d9ff750c27043ae7cb9e0944761028ae65708bbb"
-    },
-    {
-      "path": "tests/test_model02_migration.py",
-      "size": 5747,
-      "sha256": "e8e8a278704877096dcdd34fb17ed121fa812eefc04b8131257898da47422745"
-    },
-    {
-      "path": "tests/test_model02_partition_contract.py",
-      "size": 1422,
-      "sha256": "3ae6c205fb8b5b9a9a2a19179734c238e0b4faff9cdfc8413200b1691010e6a6"
-    },
-    {
-      "path": "tests/test_model02_paving.py",
-      "size": 2929,
-      "sha256": "b722e0762fe64321baab3ead7405f843d19217542fd925d8b9838d1cebb4242e"
-    },
-    {
-      "path": "tests/test_model02_response.py",
-      "size": 855,
-      "sha256": "285e0c8271b0c4e9f72e97f2e432b20c0fbc5d8e72315adc46c3c4f3e9b8edb1"
-    },
-    {
-      "path": "tests/test_model02_review_fixes.py",
-      "size": 4635,
-      "sha256": "9a431e021dbed6886fc2fc879572109a86ebbd666fa20ef6cda2fa7459dd5c84"
-    },
-    {
-      "path": "tests/test_model02_route_zones.py",
-      "size": 1864,
-      "sha256": "b9f0dd0f4a1923acf6cca0998e75f1eb8d154c72c59bbfa9a6c4f254c406702c"
-    },
-    {
-      "path": "tests/test_model02_weaklight_render.py",
-      "size": 983,
-      "sha256": "1b5989c15ee3edf237ef0aac9aa64d271dd7e455537a6effdc7c45544ab62fa2"
-    },
-    {
       "path": "tests/test_model_observation.py",
       "size": 3104,
       "sha256": "945720f0a0fffc9a1e4e882d24e310d7b3bc6bc02ccc637240713d289e601920"
     },
     {
       "path": "tests/test_model_worker_protocol.py",
-      "size": 2797,
-      "sha256": "b17c3ac381a0a310d1b1c568a81e0a4e66a9d0672fcc700775b6a674f582c255"
+      "size": 2750,
+      "sha256": "c33a84de3d2951efedf2cd626b1b5c2bc72aba5d9812ad3135c396747d25b467"
     },
     {
       "path": "tests/test_offline_capture_contract.py",
@@ -3291,8 +1781,8 @@
     },
     {
       "path": "tests/test_on_demand_ir.py",
-      "size": 6566,
-      "sha256": "e8db86f66b715f184c11c04d13e2101e15d7134309ca7163d955343e522e5cc1"
+      "size": 6560,
+      "sha256": "61eb998042ff91b2ea36f42a50736f96593f1f9989406df352fce200cafeba60"
     },
     {
       "path": "tests/test_preview_motion_options.py",
@@ -3345,11 +1835,6 @@
       "sha256": "ef0a61a9f90823e4e2bbec860c56b54ada0eb67b7c8d37410cc8c316fb7cfdef"
     },
     {
-      "path": "tests/test_replay_without_video.py",
-      "size": 13719,
-      "sha256": "c0be130ae218247c23c2c5a0c7c0dea89890946be4c1ccd5f0b50a69c8b2ec6c"
-    },
-    {
       "path": "tests/test_repository_setup.py",
       "size": 2243,
       "sha256": "ae95b00c11657df7685f9e1e03b37206f6dc5099f20fb14367e7d1bc520ff236"
@@ -3358,11 +1843,6 @@
       "path": "tests/test_reproduction_delivery.py",
       "size": 1637,
       "sha256": "b47c443cca361bfe913322a8c005a28380bb08951da1331231c8016b3a0777d3"
-    },
-    {
-      "path": "tests/test_review_factory_replay.py",
-      "size": 4435,
-      "sha256": "790b9f88535eb83b2d84f21b334aee373e787fe7f0237d478ee7fcee0926d5fb"
     },
     {
       "path": "tests/test_rgb_quality_comparison.py",
@@ -3376,13 +1856,13 @@
     },
     {
       "path": "tests/test_scene_config.py",
-      "size": 9395,
-      "sha256": "9d6e3030fc5a64c6d658c60e5061ded81d3bf69d5b85a31045e90df1e11af568"
+      "size": 8005,
+      "sha256": "8fbb4876987f9282ecc6433cba7a8254bbe3511fb589b722bce4be99efde2371"
     },
     {
       "path": "tests/test_shared_collection_recovery.py",
-      "size": 6487,
-      "sha256": "3c4e8674aeecee1fa6fbf859f2e0cf54d30870fc4856c5422add2ac1851a36c4"
+      "size": 5277,
+      "sha256": "ac9831b21754c4f9926417861db594974e8b5e582b34e3c5e47de97a80f4b29a"
     },
     {
       "path": "tests/test_start_crazyflie_controller.py",
@@ -3466,33 +1946,13 @@
     },
     {
       "path": "tools/build_city_asset_package.py",
-      "size": 3098,
-      "sha256": "29b6ad545aa038dde58fed62cc5bb16f25abad542ac3f3284a07c95451a294ff"
-    },
-    {
-      "path": "tools/build_dataset_package_setup.py",
-      "size": 9457,
-      "sha256": "03aa51f93e74a770e81a7954807db98598adfb51c047e2392fbdcf45959fd857"
-    },
-    {
-      "path": "tools/build_personal_dataset_guide.py",
-      "size": 24219,
-      "sha256": "e0305612862a89015217ab3811a3322fe61a1e1a633f0d5ef2e57d6c37affe71"
-    },
-    {
-      "path": "tools/build_practical_dataset_guide.py",
-      "size": 36742,
-      "sha256": "ebfe83db08fe68a6054371f09658c4537b25cf0d500249b3004fab12da34e82b"
-    },
-    {
-      "path": "tools/build_reproduction_delivery.py",
-      "size": 9413,
-      "sha256": "5156aea1fa1c16c859fa2b07ebdca6c31207e139350ecb2d472fd72052b62d72"
+      "size": 3232,
+      "sha256": "092d5df8a707102cf2e646b58c39d3feaa6f8321e06ed4b63154bdae086587ef"
     },
     {
       "path": "tools/install_city_assets.py",
-      "size": 1980,
-      "sha256": "56277d4a947700308633f9c446067ced6501013c5a4889a6ca03ad2233104400"
+      "size": 2140,
+      "sha256": "bba089cce4698db31287f7b12e0d641d085e864158f3b3ddeb3cb68d0eaaad73"
     },
     {
       "path": "tools/seal_repository_manifest.py",

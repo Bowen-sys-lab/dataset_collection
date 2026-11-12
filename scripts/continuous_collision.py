@@ -8,7 +8,7 @@ a closed solid or whether the supplied geometry covers the entire scene.
 """
 import math
 import numpy as np
-from scripts.evaluate_factory_inspection import point_to_mesh_distances
+from scripts.mesh_distance import point_to_mesh_distances
 
 
 def sweep_surface_segment(start, end, triangles, *, radius, spatial_tolerance=1e-3):

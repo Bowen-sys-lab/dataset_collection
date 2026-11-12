@@ -18,7 +18,7 @@ class EpisodeDatasetTests(unittest.TestCase):
             from scripts.trajectory_recorder import trajectory_provenance
             (replay/'replay_metadata.json').write_text(json.dumps({'result':'PASS','trajectory':str(trajectory),
                 'trajectory_provenance':trajectory_provenance(trajectory),'sample_interval_s':1.,
-                'rgb_resolution':[256,205],'thermal_resolution':[128,102]}))
+                'rgb_resolution':[256,256],'thermal_resolution':[256,256]}))
             (replay/'frame_000000.json').write_text(json.dumps({'trajectory_frame_id':0,'replay_simulation_time':1.}))
             for stream in ('rgb','thermal'):(replay/f'frame_000000_{stream}.png').write_bytes(b'image-reference-fixture')
             header=write_episode_index(run,replay,root/'index')
@@ -67,7 +67,7 @@ class EpisodeDatasetTests(unittest.TestCase):
             report={'result':'PASS','trajectory':str(trajectory),
                     'trajectory_provenance':trajectory_provenance(trajectory),
                     'capture_contract':capture_contract(),'sample_interval_s':1.,
-                    'rgb_resolution':[256,205],'thermal_resolution':[128,102]}
+                    'rgb_resolution':[256,256],'thermal_resolution':[256,256]}
             (replay/'replay_metadata.json').write_text(json.dumps(report))
             (replay/'frame_000000.json').write_text('{"trajectory_frame_id":0,"replay_simulation_time":0}')
             for stream in ('rgb','thermal'):
@@ -76,8 +76,8 @@ class EpisodeDatasetTests(unittest.TestCase):
             self.assertEqual(header['capture_contract'],capture_contract())
             self.assertEqual(header['source_sample_period_s'],.1)
             self.assertEqual(header['sample_interval_s'],1.)
-            self.assertEqual(header['rgb_resolution'],[256,205])
-            self.assertEqual(header['thermal_resolution'],[128,102])
+            self.assertEqual(header['rgb_resolution'],[256,256])
+            self.assertEqual(header['thermal_resolution'],[256,256])
 
 
 if __name__=='__main__':unittest.main()

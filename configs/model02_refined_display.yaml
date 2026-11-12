@@ -1,8 +1,0 @@
-schema_version: 1
-name: factory_fixed_apparent_temperature
-mode: fixed_apparent_temperature
-temperature_min_c: -30.0
-temperature_max_c: 100.0
-dde_gain: 0.0
-polarity: white_hot
-palette: gray

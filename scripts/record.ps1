@@ -3,7 +3,7 @@ param(
     [string]$RunId = '',
     [string]$Config = '',
     [double]$HorizontalSpeed = 5,
-    [ValidateSet('factory','city','forest')]
+    [ValidateSet('city')]
     [string]$Scene = '',
     [string]$Target = '',
     [ValidateRange(1,3)]
@@ -44,17 +44,7 @@ if ($Episode) {
         if (-not $?) { exit 1 }
         exit 0
     }
-    $episodeArgs = @('-B','-m','scripts.collection_episode','--scene',$Scene,'--episode',$Episode)
-    if ($PSBoundParameters.ContainsKey('CollisionUndo')) {
-        $episodeArgs += $(if ($CollisionUndo) { '--collision-undo' } else { '--no-collision-undo' })
-    }
-    if ($CheckOnly) { $episodeArgs += '--check-only' }
-    if ($SmokeFrames -gt 0) { $episodeArgs += @('--smoke-frames',[string]$SmokeFrames) }
-    Push-Location $projectRoot
-    $episodePreference = $ErrorActionPreference
-    try { $ErrorActionPreference='Continue'; & 'D:\isaacsim\python.bat' @episodeArgs; $episodeExit = $LASTEXITCODE }
-    finally { $ErrorActionPreference=$episodePreference; Pop-Location }
-    exit $episodeExit
+    throw 'Only City episodes are included in this handoff. Use -Scene city -Episode C01..C20.'
 }
 
 # Scene-aware dispatch: scene data comes from configs/collection_profiles/<scene>.yaml

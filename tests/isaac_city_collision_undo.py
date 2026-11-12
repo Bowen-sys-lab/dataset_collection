@@ -32,7 +32,7 @@ def main():
         from scripts.drone_control_math import orientation_wxyz_from_rpy
         from scripts.scene_config import load_scene_config
         from scripts.recording_undo import active_branch
-        from scripts.replay_factory_inspection import write_terminal_replay_source
+        from scripts.replay_source import write_terminal_replay_source
         config=load_scene_config(ROOT/'configs/city_200m_v2_scene.yaml',include_task=False)
         context=omni.usd.get_context()
         assert context.open_stage(str(config.scene.stage))

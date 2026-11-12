@@ -28,16 +28,7 @@ if (Test-Path -LiteralPath $episodeMetadataPath) {
     $episodeRecording = Get-Content -LiteralPath $episodeMetadataPath -Raw -Encoding UTF8 | ConvertFrom-Json
     $episodeSelection = $episodeRecording.task.environment_evidence.collection_episode
     if ($episodeSelection) {
-        if ($Config) { throw 'Episode replay uses its recorded configuration; omit -Config.' }
-        $episodeInterval = if ($PSBoundParameters.ContainsKey('SampleInterval')) { $SampleInterval } else { 1.0 }
-        $episodeArgs = @('-B','-m','scripts.process_collection_episode','--run',$runFolder,
-                         '--interval',$episodeInterval.ToString([Globalization.CultureInfo]::InvariantCulture))
-        if ($Out) { $episodeArgs += @('--out',$Out) }
-        Push-Location $projectRoot
-        $episodePreference = $ErrorActionPreference
-        try { $ErrorActionPreference='Continue'; & 'D:\isaacsim\python.bat' @episodeArgs; $episodeExit = $LASTEXITCODE }
-        finally { $ErrorActionPreference=$episodePreference; Pop-Location }
-        exit $episodeExit
+        throw 'Legacy collection_episode recordings are outside this City-only handoff. Use a City run with city_collection evidence.'
     }
 }
 if (-not $Config) {

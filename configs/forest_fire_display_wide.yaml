@@ -1,9 +1,0 @@
-# 宽量程显示：用于看 500/650 C 热点，不与作者预览图混用。
-schema_version: 1
-name: forest_fire_wide_temperature
-mode: fixed_apparent_temperature
-temperature_min_c: 10.0
-temperature_max_c: 700.0
-dde_gain: 0.0
-polarity: white_hot
-palette: gray

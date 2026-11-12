@@ -1,8 +1,0 @@
-schema_version: 1
-name: model02_v3_fixed_temperature
-mode: fixed_apparent_temperature
-temperature_min_c: 0.0
-temperature_max_c: 85.0
-dde_gain: 0.0
-polarity: white_hot
-palette: gray

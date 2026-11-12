@@ -1,8 +1,8 @@
 {
-  "scope": "GitHub undergraduate handoff; City-only package",
+  "scope": "City code handoff; private assets supplied separately",
   "archives": [
     {
-      "path": "resources/city/city-assets-20261112.zip",
+      "path": "private delivery: city-assets-20261112.zip",
       "files": 70,
       "bytes": 33079566,
       "sha256": "820bf5c58d763d91fd7938ffc04fb52da36f088902ab514626d96327107b8ac1"

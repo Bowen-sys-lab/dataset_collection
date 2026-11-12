@@ -8,8 +8,7 @@ import unittest
 
 class ModelWorkerProtocolTests(unittest.TestCase):
     def test_request_reply_binds_image_and_observation_and_keeps_each_step(self):
-        from scripts.model_worker_protocol import serve_requests, exchange_request, write_json
-        from scripts.factory_closed_loop import observation_digest
+        from scripts.model_worker_protocol import serve_requests, exchange_request, write_json, observation_digest
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             image = root/'rgb.png'

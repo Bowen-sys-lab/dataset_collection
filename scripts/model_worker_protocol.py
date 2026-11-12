@@ -5,7 +5,13 @@ import os
 from pathlib import Path
 import time
 
-from scripts.factory_closed_loop import observation_digest
+
+
+def observation_digest(observation):
+    """Stable identity for one model input observation."""
+    return hashlib.sha256(json.dumps(
+        observation, sort_keys=True, allow_nan=False, separators=(',', ':')
+    ).encode()).hexdigest()
 
 
 def write_json(path, value):

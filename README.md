@@ -1,23 +1,23 @@
-# City 双模态数据采集：本科生试复现版
+# City 双模态数据采集与回放指南
 
-这个仓库只提供一个 City 场景，目标是让第一次接触 Isaac Sim 的同学先跑通一条完整链路：安装环境、装入场景、检查配置、实时飞行记录轨迹、离线回放并检查 RGB/红外结果。工厂和森林场景暂不上传，也不需要为本教程准备。
+这个仓库提供 City 采集代码和配置，用于完成一条可重复的链路：安装环境、接入受控场景资源、检查配置、实时飞行记录轨迹、离线回放并检查 RGB/红外结果。City 场景资产不放在公开 GitHub 仓库中，由项目负责人单独发放。工厂和森林场景及其代码已移除。
 
-这是“试复现版”，用于验证流程是否能在另一台电脑上跑起来。它不承诺不同显卡、驱动或 Isaac Sim 版本都能得到完全相同的画面；遇到问题请保留命令、版本和日志，交给项目负责人。
+不同显卡、驱动或 Isaac Sim 版本可能产生画面差异；遇到问题请保留命令、版本和日志，交给项目负责人。
 
 ## 先看哪些文件
 
-本科生按下面顺序看，其他目录先不用管：
+按下面顺序操作，其他目录暂时不用查看：
 
 1. `README.md`：本页安装和采集步骤。
 2. `docs/dataset-workflow-personal-guide.docx`：个人采集与标注说明。
 3. `handoff/receiver/start_session.ps1`：进入项目的 PowerShell 会话。
-4. `tools/install_city_assets.py`：安装并校验 City 资源包。
+4. `tools/install_city_assets.py`：安装并校验负责人发放的 City 资源包。
 5. `handoff/receiver/fetch_thermal.ps1`：取得固定版本红外组件并校验。
 6. `tools/verify_repository.py`：检查代码、City 资源和红外组件。
 7. `configs/city_200m_v3_scene.yaml`、`configs/city20_long_start_trial_v1/C06.yaml`：本次示例的场景和任务配置。
 8. `scripts/record_city_v2_task.ps1`：实时预览和轨迹记录入口。
 9. `scripts/process.ps1`：离线 RGB/红外回放入口。
-10. `handoff/dataset-workflow-kit/examples/`、`templates/`：任务卡、记录表和交付模板。
+10. `handoff/dataset-workflow-kit/templates/`：记录表和交付模板。
 
 ## 电脑要求
 
@@ -40,25 +40,31 @@ Get-Content D:\isaacsim\VERSION
 nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv,noheader
 ```
 
-安装仓库内的 City 资源包（约 33 MB）。它已经随 GitHub 仓库提供，不再领取工厂或森林资源：
+向项目负责人领取与 `resources/city/city-assets-manifest.json` 匹配的私有 City 资源包。资源包不上传 GitHub，也不通过公开链接分发。拿到压缩包后执行：
 
 ```powershell
-& D:\isaacsim\python.bat -B tools\install_city_assets.py
+& D:\isaacsim\python.bat -B tools\install_city_assets.py --archive D:\Downloads\city-assets-20261112.zip
 ```
 
 如果只想检查压缩包和已安装文件，不解压：
 
 ```powershell
-& D:\isaacsim\python.bat -B tools\install_city_assets.py --check-only
+& D:\isaacsim\python.bat -B tools\install_city_assets.py --archive D:\Downloads\city-assets-20261112.zip --check-only
 ```
 
-取得固定版本红外组件并检查哈希：
+如果可以访问锁定的上游仓库，取得固定版本红外组件并检查哈希：
 
 ```powershell
 .\handoff\receiver\fetch_thermal.ps1
 ```
 
-注意：截至 2026-11-12，锁定的上游地址在干净电脑上返回 `Repository not found`。因此项目负责人需要先提供该固定提交的本地目录或受控压缩包，或确认新的可访问地址，再让本科生执行这一步；不要让本科生自行替换红外版本。拿到依赖后再做完整检查：
+如果上游地址不可访问，使用项目负责人提供的、包含该提交的本地 Git checkout：
+
+```powershell
+.\handoff\receiver\fetch_thermal.ps1 -LocalDirectory D:\Downloads\isaac-thermal-camera-simulation
+```
+
+截至 2026-11-12，锁定的上游地址在干净电脑上返回 `Repository not found`。不要自行替换红外版本；拿到固定提交后再做完整检查：
 
 ```powershell
 & D:\isaacsim\python.bat -B tools\verify_repository.py --assets --dependency
@@ -134,7 +140,7 @@ D:\IsaacSim_Demo\validation\episodes\<RunId>\<处理时间>\
 
 ## 常见问题
 
-**找不到 USD 或贴图**：先重新运行 `tools/install_city_assets.py --check-only`，确认仓库根目录确实是 `D:\IsaacSim_Demo`，不要解压成 `D:\IsaacSim_Demo\IsaacSim_Demo`。
+**找不到 USD 或贴图**：先重新运行 `tools/install_city_assets.py --archive <City资源包路径> --check-only`，确认仓库根目录确实是 `D:\IsaacSim_Demo`，不要解压成 `D:\IsaacSim_Demo\IsaacSim_Demo`。
 
 **红外组件缺失**：重新运行 `handoff/receiver/fetch_thermal.ps1`，确认网络可用，并检查固定提交是否与 `handoff/receiver/dependency-lock.json` 一致。
 
@@ -144,9 +150,9 @@ D:\IsaacSim_Demo\validation\episodes\<RunId>\<处理时间>\
 
 ## 当前范围与待确认事项
 
-- 本仓库只上传 City 场景；工厂、森林代码可能仍在历史目录中，但不属于本科生复现路径。
-- City 源资产的完整对外分发授权仍需项目负责人确认。确认前请只在项目组范围内使用资源包。
-- 尚未在所有型号的本科生电脑上完成 GPU 实测验收，因此本仓库定位是“试复现和问题收集”，不是跨硬件发布版。
+- 本仓库只上传 City 采集代码、配置和资源哈希清单；City 源资产不在公开仓库中，必须通过项目负责人受控发放。
+- 工厂、森林场景代码和示例已从仓库移除。
+- 尚未在所有硬件组合上完成 GPU 实测验收，因此不同设备的结果需要记录版本和日志后再比较。
 - 新场景以后按同一原则增加：准备本地资产包、写场景配置、写一个 `CheckOnly` 入口、完成一次真实采集和离线回放验收后，再单独发布。
 
-资源包版本、文件哈希和来源说明见 `resources/city/city-assets-manifest.json`、`resources/asset-packages.json` 和 `handoff/receiver/SOURCE_NOTICES.txt`。
+资源包版本、文件哈希和来源说明见 `resources/city/city-assets-manifest.json`、`resources/asset-packages.json` 和 `handoff/receiver/SOURCE_NOTICES.txt`。这些文件只描述应有内容，不包含 City 资产本身。

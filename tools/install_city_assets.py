@@ -1,4 +1,4 @@
-"""Verify and extract the committed City asset package into the project root."""
+"""Verify and extract a maintainer-provided City asset package into the project root."""
 from pathlib import Path
 import argparse
 import hashlib
@@ -6,7 +6,6 @@ import json
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGE = ROOT/'resources/city/city-assets-20261112.zip'
 MANIFEST = ROOT/'resources/city/city-assets-manifest.json'
 
 
@@ -17,15 +16,18 @@ def sha(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--archive', type=Path, required=True,
+                        help='Path to the private City-only ZIP supplied by the project owner')
     parser.add_argument('--check-only', action='store_true')
     args = parser.parse_args()
+    package = args.archive.expanduser().resolve()
     data = json.loads(MANIFEST.read_text(encoding='utf8'))
-    if not PACKAGE.is_file():
-        raise FileNotFoundError(PACKAGE)
-    if PACKAGE.stat().st_size != data['bytes'] or sha(PACKAGE) != data['sha256']:
+    if not package.is_file():
+        raise FileNotFoundError(package)
+    if package.stat().st_size != data['bytes'] or sha(package) != data['sha256']:
         raise ValueError('City archive SHA256 or byte size does not match city-assets-manifest.json')
     if not args.check_only:
-        with zipfile.ZipFile(PACKAGE) as archive:
+        with zipfile.ZipFile(package) as archive:
             for item in archive.infolist():
                 target = (ROOT/Path(item.filename)).resolve()
                 if not target.is_relative_to(ROOT) or item.filename.replace('\\', '/') != item.filename:
@@ -41,7 +43,7 @@ def main():
     if failures:
         raise ValueError(json.dumps(failures[:10], ensure_ascii=False))
     print(json.dumps({'result': 'PASS', 'scene': data['scene'], 'files': len(data['files']),
-                      'archive': PACKAGE.name, 'check_only': args.check_only}, ensure_ascii=False))
+                      'archive': package.name, 'check_only': args.check_only}, ensure_ascii=False))
 
 
 if __name__ == '__main__':

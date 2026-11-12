@@ -8,8 +8,11 @@ from pathlib import Path
 
 
 def recorded_backend(metadata):
-    backend=(metadata.get('task') or {}).get('environment_evidence',{}).get('collection_episode',{}).get('scene')
-    if backend not in ('factory','forest'):raise ValueError('No supported recorded Episode backend')
+    evidence = (metadata.get('task') or {}).get('environment_evidence', {})
+    episode = evidence.get('city_collection') or evidence.get('collection_episode') or {}
+    backend = episode.get('scene', 'city' if evidence.get('city_collection') else None)
+    if backend not in ('city', 'factory', 'forest'):
+        raise ValueError('No supported recorded Episode backend')
     return backend
 
 
@@ -75,7 +78,7 @@ def select_source(records, metadata, interval):
 
 def prepare_source(original, output, interval):
     from scripts.trajectory_recorder import read_trajectory
-    from scripts.replay_factory_inspection import write_terminal_replay_source
+    from scripts.replay_source import write_terminal_replay_source
     original=Path(original).resolve()
     metadata=json.loads((original.parent/'run_metadata.json').read_text(encoding='utf-8'))
     rows=select_source(read_trajectory(original),metadata,interval)

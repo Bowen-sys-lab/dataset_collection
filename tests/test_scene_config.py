@@ -12,10 +12,6 @@ DEFAULT = ROOT / 'configs' / 'crazyflie_scene.yaml'
 
 
 class SceneConfigTests(unittest.TestCase):
-    def test_forest_explicitly_excludes_visual_fire_from_physical_obstacles(self):
-        config = load_scene_config(ROOT / 'configs/forest_pilot_two_target_scene.yaml')
-        self.assertIn('/World/Site/Target_BurningBarrel_001/Flames', config.scene.collision_exclude_paths)
-
     def test_optional_display_profile_loads_and_is_validated_before_kit(self):
         import yaml
         data = yaml.safe_load(DEFAULT.read_text(encoding='utf-8'))
@@ -34,24 +30,6 @@ class SceneConfigTests(unittest.TestCase):
             display.write_text('schema_version: 1\nmode: wrong\n', encoding='utf-8')
             with self.assertRaises(SceneConfigError):
                 load_scene_config(path)
-
-    def test_school_config_keeps_paths_and_temperatures_separate(self):
-        config = load_scene_config(ROOT/'configs/school_vln_scene.yaml')
-        self.assertEqual(config.scene.stage.name, 'school_vln_01.usd')
-        self.assertEqual(config.scene.static_targets,
-                         ('/World/Target_01', '/World/office', '/World/hospital'))
-        self.assertTrue(config.sensors.align_thermal_to_rgb)
-        self.assertEqual(config.sensors.thermal_config.name, 'school_vln_thermal.yaml')
-
-    def test_school_scene_loads_its_default_search_task(self):
-        config = load_scene_config(ROOT/'configs/school_vln_scene.yaml')
-
-        self.assertEqual(config.task['task_id'], 'school_find_spot_01')
-        self.assertIn('灌木绿化、树木', config.task['instruction'])
-        self.assertNotIn('/World/Target_01', config.task['instruction'])
-        self.assertEqual(config.task['target_prim_path'], '/World/Target_01')
-        self.assertEqual(config.task['environment_landmarks'],
-                         ['铺装空地', '灌木或绿化带', '树木', '低矮边界墙或花坛边缘'])
 
     def test_legacy_scene_without_task_remains_loadable(self):
         config = load_scene_config(DEFAULT)
