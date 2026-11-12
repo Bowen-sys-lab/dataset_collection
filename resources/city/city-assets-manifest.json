@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "scene": "city_200m_v3",
+  "package": "city-assets-20261112.zip",
+  "bytes": 33079566,
+  "sha256": "820bf5c58d763d91fd7938ffc04fb52da36f088902ab514626d96327107b8ac1",
+  "extract_to": "D:/IsaacSim_Demo",
+  "files": [
+    {
+      "path": "assets/isaac/cf2x/cf2x.usd",
+      "size": 220590,
+      "sha256": "102030370a06f7ae22d1f318912de6e886375ccfa34ded4eff9cda540211b7db"
+    },
+    {
+      "path": "assets/isaac/cf2x/configuration/cf2x_robot_schema.usd",
+      "size": 1369,
+      "sha256": "0829c341f44877161b9b97894713ebdd2d88b6c6c0c2b20ad3bc2d0f69b15acb"
+    },
+    {
+      "path": "city_200m_v2_flight.usda",
+      "size": 1646,
+      "sha256": "27b197f804c28c183604637baed71bb8ff642744c20df6d8aa457612b5228317"
+    },
+    {
+      "path": "city_200m_v2_local/city_200m.usda",
+      "size": 5524087,
+      "sha256": "b7da0c3207701afbf25e3c489d06c2d32f7407624f5f2bf808a8e4c986d243ff"
+    },
+    {
+      "path": "city_200m_v2_local/city_block_original.usda",
+      "size": 112962367,
+      "sha256": "bbd17d22d90e38c2b930d914b931aa867865f0a5fccbcdfd69195397c6ca1234"
+    },
+    {
+      "path": "city_200m_v2_local/city_environment.json",
+      "size": 7132,
+      "sha256": "2703498be59563767cf6838890435a651177b52d2c2fb00498fd2eb217e06621"
+    },
+    {
+      "path": "city_200m_v2_local/city_ir_resources/bark_base_color.jpg",
+      "size": 432533,
+      "sha256": "61f2404a6e66d9a260d7cbf7f5462a326193028173fb0b80ae7f55a258f313b6"
+    },
+    {
+      "path": "city_200m_v2_local/city_ir_resources/daylight_sky.hdr",
+      "size": 3633,
+      "sha256": "8de7cd79024f5630893c7e3a43cf9056ea3aeec242e8b47ba14f46d88bb8a01b"
+    },
+    {
+      "path": "city_200m_v2_local/environment/weather.csv",
+      "size": 221,
+      "sha256": "e6ab7b0a62fb30cad9dee0982b6815c1541295f15fdf739c1952f8a0625aacc5"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0433398910b54c489887ea78698911ce_RGB_WindowTrim_WindowTrim_BaseColor.jpg",
+      "size": 91861,
+      "sha256": "8dc954c251c71f0b2b23a33a6a877ff99359bbb171dd09b23376f592a3b912b9"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/06476b8ad749456f83edff11d501a9bd_N_solar_normal.jpg",
+      "size": 8194,
+      "sha256": "26160e92fa303f01a5ea3c0513f8817251c514a3adcb1039c96c953794468d3b"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/06daead5d4c6494d83df192e88e80a94_R_WindowTrim_WindowTrim_Roughness.jpg",
+      "size": 234526,
+      "sha256": "3d956027a7be1e1d753c67b33df456a2195cc4c4a0ac8af15d9a758b0f9494c3"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0c96fc92e08c4ce0ba3a1769f9d74407_N_T_BarricadeB_N.jpg",
+      "size": 299037,
+      "sha256": "ab17ebaa7daeb9a3293462f827310e1c64ffa9411d68b182a63eaf527b4800da"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0cbb49c5b442452ab518dc4d34faf450_N_Trim_Plane_Billboards_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/0f551ac324614852bdda9ffe35dd8bde_N_T_TrafficAssets_N.jpg",
+      "size": 453546,
+      "sha256": "9f19f776bd645267e5523e687b3adef0173790594e2e6513ee2ed3e5087510cf"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/1be3bc86fe094e7ba256f4aaf68d8050_RGB_T_TrafficAssets_C.jpg",
+      "size": 534909,
+      "sha256": "0201050e0bfc38c511b4d598be45bf75814582afea676b39a467b9359756ddb5"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/1d4c315f477c41a7b82981475d16759d_RGB_T_BarricadeB_C.jpg",
+      "size": 368708,
+      "sha256": "d1832427353ef44de21b6bc8a5512dd8619a386bcf45baf0e3a9d898b664145a"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/20ecbc1e3d6340b4b6f7ca24c44e39c0_RGB_red_plaster_weathered_diff_1k.jpg",
+      "size": 115113,
+      "sha256": "8dae46f992832836c8821fbcfe1eeed70b710f96029fb35c8c7c08a1ab90535e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/2102cabcce224a42aa781f31ec0149e3_N_brick_wall_006_nor_gl_1k.jpg",
+      "size": 330451,
+      "sha256": "eb494246baa1cedb151017ef0e44985c8cea7a52d400ec8dc23874e363181d0c"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/2d184d9cce1549d4b4e74b02d97e476d_N_marble_tiles_nor_gl_1k.jpg",
+      "size": 136717,
+      "sha256": "8e749e7c708a5dc41011776947a46a932bad79ecd0de53a35b4800eaf1903211"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/2e8fd15e309c4b1399bf2aafc88fd532_A_Low_Poly_Plant_PottedPlants_BaseColor.png",
+      "size": 829983,
+      "sha256": "1dfd295612ef9df81645a0ed3f55c5e786c47cc3eae7d4ed1a94fa36ef94b3f6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/33af2c2a17494a0f955ba5b36911553c_N_granular_concrete_nor_gl_1k.jpg",
+      "size": 397497,
+      "sha256": "81b378f9a747ca0fe0ac6e4411aa36147763ba0b20f92c27a6ebb2512b8f94a6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/36bf3a98535e4f9bb39efa3081575e32_N_red_plaster_weathered_nor_gl_1k.jpg",
+      "size": 85438,
+      "sha256": "d78341cb1088d91b5dfc4361760af64c4fe1313a4c9818adb3a99f6a9fca9fb6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/3cb8d400ea344425a7acb2ba7981902c_N_floor_tiles_02_nor_gl_1k.jpg",
+      "size": 43474,
+      "sha256": "45fd66620e4441133ad63ef6b62d98be1d4c64ce88fb147fad08709b1c111f62"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/41805e5040e049cfb608012d1531f99b_RGB_illum.jpg",
+      "size": 895,
+      "sha256": "94fd8c32dadc10eadb2248d867eaa610d2d198c151f7895aa517124cb44a643e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/41f42bf6b7604e488f53deaafb003d0a_R_T_BarricadeA_AO-74f9d3fc13aa4fb6bcdbd1b672ad1198_R_T_BarricadeA_R.jpg",
+      "size": 458123,
+      "sha256": "a4d48dc82e1f22ec6cd74ccff1c1b13b48c59fcad3bf26c05885fd3e8b5030d2"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/41f42bf6b7604e488f53deaafb003d0a_R_T_BarricadeA_AO.png-74f9d3fc13aa4fb6bcdbd1b672ad1198_R_T_BarricadeA_R.png.jpg",
+      "size": 458123,
+      "sha256": "a4d48dc82e1f22ec6cd74ccff1c1b13b48c59fcad3bf26c05885fd3e8b5030d2"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/42ac3f8d5f494f88828fca43df2745fa_N_AC_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/480d95508ff8457b8c9809c650570ac4_RGB_T_TrafficBarrier_C.jpg",
+      "size": 621984,
+      "sha256": "916f10b89e483317f1fae5c363fff7a9c680d8a309a0e95b1dc8d58303dfaa64"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/4e4fcb3a2d624e25814169df55f42dfb_N_plastered_stone_wall_nor_gl_1k.jpg",
+      "size": 296519,
+      "sha256": "5d38f02a125afb468b5f8c9b0b02a9005291096e660af6a98b4e8286bcf640b6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/5fc2c4e555bb4cdb9b4c0d19df6ac747_RGB_T_BarricadeA_C.jpg",
+      "size": 375715,
+      "sha256": "95256fd6511fd198deebbccf5a487ed58038c1aa19fc10c729e17bfd65716cd0"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/601b212d675c4e3789195cd356176082_N_T_Light_N.jpg",
+      "size": 291536,
+      "sha256": "5d5d8ff422524c7016e8190d13fc33591baa20506c9ecfac5eddb97561d7666e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/601d1d387ff94fa194837e33e4ee9589_RGB_AC_Diffuse.jpg",
+      "size": 220966,
+      "sha256": "07d912275dc776f9e21d97874c92de403f1327c4c0dd5324a70279114c86c7b5"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6863f94af5d04dec86f50980981bbc8b_RGB_Modular_Roads_Road_BaseColor.jpg",
+      "size": 248589,
+      "sha256": "8541be75c4c1d38f3cf28a9194582c81d74342987f503b2e0d82bbebf8ca7a26"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6c9440f4d0944f9a8c9c1610ba11917b_RGB_T_Light_C.jpg",
+      "size": 288229,
+      "sha256": "26aee7bd7388605a23fed34e7a5762f9b43fce1aff25e0864e00936ca005879f"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6dedb55809df4ddfbce7b5c45964239c_RGB_marble_tiles_diff_1k.jpg",
+      "size": 259147,
+      "sha256": "79ee3f6b66c46881e552c98f0b60bd22fcebb5394e35cb661ee18b1fd77ee683"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/6df0c4701fe44c36bf8ea5b6a3de178c_R_solar_spec.jpg",
+      "size": 3184,
+      "sha256": "a8d5b50ff435a86155670d21ad219372db13a91d4bebb62e05fbdadce6401aee"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/7a91c7acaecb4be6958af932cea5c17d_RGB_solar_rgb.jpg",
+      "size": 1733,
+      "sha256": "4a2bc55e0966dc2328f21bbb5091a2f59e1fa3b5107bd2bf3353b8003b4a5db2"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/81c2461a53064a2a96352c8960661260_N_T_TrafficBarrier_N.jpg",
+      "size": 527122,
+      "sha256": "072df99616cf15542f0f3ba0f73552d7c03f589d226acc13402758d9ed3a23d3"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/8c9e6f47a1df4f1aaf8b3be8076447bc_N_Modular_Roads_Road_Normal.jpg",
+      "size": 278380,
+      "sha256": "3d07db7f9d59d9c7b5646ec892942e987b2e03f52fd5170bc4f785ed5e63563b"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/9058a73704434c0bacb0431c6065015d_N_WindowTrim_WindowTrim_Normal.jpg",
+      "size": 17093,
+      "sha256": "239942d73db77c3ca23a6f15c0407264ea3331a7c1c398a44b8018b82a719191"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/95134b36d039436abed16f8048c468eb_N_Low_Poly_Plant_PottedPlants_Normal.jpg",
+      "size": 192195,
+      "sha256": "fd5739744c7d3077fc8e855b6f9bf0ae04b51c89dccbbc91cf05eed9ce1469e7"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/96daeb66bbf440ccaafc084253402646_R_T_TrafficAssets_AO-b724719d28474d6ea156a6998c4afe9d_R_T_TrafficAssets_R.jpg",
+      "size": 509282,
+      "sha256": "9fdd3774c016ae552a294e796523be6ed7a2fca8b7501c888043c41568b64165"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/96daeb66bbf440ccaafc084253402646_R_T_TrafficAssets_AO.png-b724719d28474d6ea156a6998c4afe9d_R_T_TrafficAssets_R.png.jpg",
+      "size": 509282,
+      "sha256": "9fdd3774c016ae552a294e796523be6ed7a2fca8b7501c888043c41568b64165"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/99189e647c944dddaa39f251820b9458_R_T_Light_AO-ce91e05d4f684a04a1d5d09763fed121_R_T_Light_R.jpg",
+      "size": 369448,
+      "sha256": "6c88c2d3d34cc3fa2c7387e9d838f6e6c847a4aae8ee93c60134646b66464a12"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/9ca83981621449b795dc8cfad6da0c48_RGB_Trim_Plane_Billboards_BaseColor.jpg",
+      "size": 299787,
+      "sha256": "befc444386db4fd53738f6194050e080837a8352eb25527a734f8f8e2aa65f86"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_0.jpg",
+      "size": 144642,
+      "sha256": "579578542d9ae2ac0a30a836e0754ebc6f4bce4b0f787cc1a781c837410e1c8b"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_1.jpg",
+      "size": 97215,
+      "sha256": "b2223692e9545462bfff4ff970791412b0eb860d7bc2c39f597dd44c8687c976"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_2.jpg",
+      "size": 185893,
+      "sha256": "94f1f647ef0faf129bbcd151b7615855c552c1b95934a8174da886cbc91a7831"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_3.jpg",
+      "size": 372641,
+      "sha256": "e31f05d27e49fdbd8673ba5d8c1669f5934460ad86aaa842003aee2be60ddc37"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_4.jpg",
+      "size": 737432,
+      "sha256": "0d9ea6db7bc2108fe670870d7cf3bff4475cc77570629cf333e58527ea22a133"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_5.png",
+      "size": 838472,
+      "sha256": "805fdc52212c4a589fc2359bfffceb4355788885506d5c3df38198dcebe2f47f"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_6.jpg",
+      "size": 165037,
+      "sha256": "b4f5ea30061b43c5fa68b3597657a00093da086a55772dce2a22d7f07b6e6283"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/Image_7.jpg",
+      "size": 321608,
+      "sha256": "9dca3de978b050ed4653127ff8529dc1a4546fac07c80cc3f669627cca77bf22"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/a98679f0e7944a0aa83516a88e18a814_RGB_colors.jpg",
+      "size": 901,
+      "sha256": "de03881858cbbced232d63c204736ad0f08db251550d3f1bb2fa25da2d93cd14"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/bc7f200f59374f84aac53203a5246182_RGB_granular_concrete_diff_1k.jpg",
+      "size": 170615,
+      "sha256": "959e46c4860248c1008cff61cb38f2ea7b37462b356dcba6f4ef587068502242"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c29dbdb06a3c420289058717738aede0_R_T_TrafficBarrier_AO-1d9d6e83b8af4da3b132f7ba79b55ef5_R_T_TrafficBarrier_R.jpg",
+      "size": 483547,
+      "sha256": "25afbd1bc7990da0f8752d222252d993247dcd5c9339bb18a8fd6fdc2ae5f11e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c29dbdb06a3c420289058717738aede0_R_T_TrafficBarrier_AO.png-1d9d6e83b8af4da3b132f7ba79b55ef5_R_T_TrafficBarrier_R.png.jpg",
+      "size": 483547,
+      "sha256": "25afbd1bc7990da0f8752d222252d993247dcd5c9339bb18a8fd6fdc2ae5f11e"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c454fe40e84643948b5a6f3d9ebca6ab_RGB_plastered_stone_wall_diff_1k.jpg",
+      "size": 128507,
+      "sha256": "37e9c7b496d32d22d55c23c3f4f7b595531751676a20f100c61517357244bf62"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c5b305160b2a431f8e4baf207c4943f7_RGB_floor_tiles_02_diff_1k.jpg",
+      "size": 101217,
+      "sha256": "c8016c0f5718278debd505da185b10a7cbd12d530445f26490be3fd6cef72ea6"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c6e18c7717c04bdcaac29917dc559cae_R_T_BarricadeB_AO-0d46613691904d4b99b49127d136909c_R_T_BarricadeB_R.jpg",
+      "size": 470322,
+      "sha256": "09165b0a0d4e479cdcd319acb905ab3acb46cec8a4b7edcad59b6638161cf889"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c6e18c7717c04bdcaac29917dc559cae_R_T_BarricadeB_AO.png-0d46613691904d4b99b49127d136909c_R_T_BarricadeB_R.png.jpg",
+      "size": 470322,
+      "sha256": "09165b0a0d4e479cdcd319acb905ab3acb46cec8a4b7edcad59b6638161cf889"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c6ecb51321b844bd989ea0760822c0d2_N_T_BarricadeA_N.jpg",
+      "size": 295337,
+      "sha256": "c99c2cca8b469eda19d10947d68893380a1bb2b3e35b50e103000af279628d30"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/c7a16f20064c42c1a115ed14e322f44f_R_Trim_Plane_Billboards_Roughness.jpg",
+      "size": 14080,
+      "sha256": "0188a68d1a2a17a39a819eea5656c76e73cee8ea9b857ad247e9821c260bf049"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/d133878627ee4af59c17fd9589d314ee_RGB_T_Light_E.jpg",
+      "size": 183460,
+      "sha256": "349a1ea8fcb159d4b31a374fbc394da84220d1bcb5abbd6dbba27418a7f56b16"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/e918f6ebc68940d68c66a4c7ad5e83aa_R_Modular_Roads_Road_Roughness.jpg",
+      "size": 312799,
+      "sha256": "95b61424918564661735633808f1675c324727e83f9aacba723fe74433a11717"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/ef549eda9442409888c3c4418e28297c_RGB_brick_wall_006_diff_1k.jpg",
+      "size": 261518,
+      "sha256": "3c005b54b8a417662b550582c490ff81a1b126c2039328ba72eba7ee6637ac32"
+    },
+    {
+      "path": "city_200m_v2_local/neighbourhood_usd/textures/f7ca1ef8a8e541d5966eecbc9c31e7cf_RGB_Trim_Plane_Billboards_Emissive.jpg",
+      "size": 275042,
+      "sha256": "b9ada6e4d31763a5f3f08f0e0b1ad1fead8df6fd41613677cacc60f96b46f430"
+    },
+    {
+      "path": "city_200m_v3_flight.usdc",
+      "size": 21698001,
+      "sha256": "aefb11d33f0dd56b49cc898d643af88372d68b34e3ea4b7f71c4c0bd6627ddc7"
+    },
+    {
+      "path": "lesson_crazyflie.usd",
+      "size": 9831,
+      "sha256": "a17c9ede900b1b4e4db75c818ea10c69cf252603cd13baa87449550a3fd58db9"
+    }
+  ],
+  "scope": "City-only runtime scene closure plus localized Crazyflie payload and weather CSV.",
+  "not_included": [
+    "factory assets",
+    "forest assets",
+    "Isaac Sim installation",
+    "thermal simulator source"
+  ]
+}

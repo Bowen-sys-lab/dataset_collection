@@ -1241,13 +1241,13 @@
     },
     {
       "path": "handoff/receiver/archives.json",
-      "size": 657,
-      "sha256": "bdfbc095bd78255b6a12828813d35e1b5806ef0e57e1ef1d22a7d3c0b9cacac0"
+      "size": 293,
+      "sha256": "2adcb3b0d37d5f33369b4401f651eb5e1fd3ce2de96e0c03bb2ece1cfa228b7d"
     },
     {
       "path": "handoff/receiver/assets-manifest.json",
-      "size": 155343,
-      "sha256": "ba36e0a2bd3e3202495f4cfe825ce61c72403cd81a1d2e8f10fa6a02a110cb29"
+      "size": 16930,
+      "sha256": "b8ee8b974402c18d4d2705deeec3881ce0b387bf1f58ecbea7a8e96adbe442e2"
     },
     {
       "path": "handoff/receiver/bin/python.cmd",
@@ -1321,13 +1321,13 @@
     },
     {
       "path": "handoff/receiver/SOURCE_NOTICES.txt",
-      "size": 1700,
-      "sha256": "158c0d1dc25c56928b6cd0e7d4deecdba096417fef23ad3354223d5b315f4c8e"
+      "size": 1781,
+      "sha256": "3db6e98af3e4caf14d32a7e233747711a2c2614ec499303b8e57b4c99347332e"
     },
     {
       "path": "handoff/receiver/START_HERE.txt",
-      "size": 1217,
-      "sha256": "b509482c2946ad14ab075f2732decee954741103590d9c6ca4243ceb4a6be79f"
+      "size": 758,
+      "sha256": "4046c7b8c9cfff242f5ff0b472aea0f22cc8b6fe205b50becbcc06e98e1c00ab"
     },
     {
       "path": "handoff/receiver/start_session.ps1",
@@ -1341,8 +1341,8 @@
     },
     {
       "path": "README.md",
-      "size": 16247,
-      "sha256": "5cca53936f09ef0c38a92fca88f9e0c3951fc7bfc04a7ba11d1825dbd7380725"
+      "size": 7080,
+      "sha256": "fcb551037ac1a5f1f80fb95835e3737207ba0aed8e08c89d81786aae63cb892a"
     },
     {
       "path": "requirements-collection-reference.txt",
@@ -1351,8 +1351,18 @@
     },
     {
       "path": "resources/asset-packages.json",
-      "size": 1051,
-      "sha256": "f0ff51f97efdb0fa537526447282b1deb8479ebab8a5f9829f859bd0748a7b5c"
+      "size": 904,
+      "sha256": "122d7a5abb2e11c36860856d415d7e8cfcdddd5203b8afe42db18ac6644dbaa8"
+    },
+    {
+      "path": "resources/city/city-assets-20261112.zip",
+      "size": 33079566,
+      "sha256": "820bf5c58d763d91fd7938ffc04fb52da36f088902ab514626d96327107b8ac1"
+    },
+    {
+      "path": "resources/city/city-assets-manifest.json",
+      "size": 17091,
+      "sha256": "9e7c95d9452738e692038c93fa7050c98d7c35602a1b4923c2c3d905da604f89"
     },
     {
       "path": "run_bc_pilot_collect.bat",
@@ -2910,6 +2920,11 @@
       "sha256": "6fcf013a1b8fe078b585f00272e8aa93b4cae5eada5700afd71bfe952d0874a1"
     },
     {
+      "path": "tests/test_city_asset_package.py",
+      "size": 1235,
+      "sha256": "7f483871e936af562a367b593948ec956459d045f6e54d3670e2f82248eee0d0"
+    },
+    {
       "path": "tests/test_city_material_partition.py",
       "size": 5232,
       "sha256": "5036882f5f9b72920e2e0a795b631929e2a8cff5dfa7aa78722c5467c00da806"
@@ -3450,6 +3465,11 @@
       "sha256": "f88a283a0cf28df0444065219eb519cea244ae9e9de60612198073ce3f3d5550"
     },
     {
+      "path": "tools/build_city_asset_package.py",
+      "size": 3098,
+      "sha256": "29b6ad545aa038dde58fed62cc5bb16f25abad542ac3f3284a07c95451a294ff"
+    },
+    {
       "path": "tools/build_dataset_package_setup.py",
       "size": 9457,
       "sha256": "03aa51f93e74a770e81a7954807db98598adfb51c047e2392fbdcf45959fd857"
@@ -3468,6 +3488,11 @@
       "path": "tools/build_reproduction_delivery.py",
       "size": 9413,
       "sha256": "5156aea1fa1c16c859fa2b07ebdca6c31207e139350ecb2d472fd72052b62d72"
+    },
+    {
+      "path": "tools/install_city_assets.py",
+      "size": 1980,
+      "sha256": "56277d4a947700308633f9c446067ced6501013c5a4889a6ca03ad2233104400"
     },
     {
       "path": "tools/seal_repository_manifest.py",

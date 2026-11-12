@@ -1,19 +1,12 @@
-GitHub仓库部署请先读根目录README.md。
+先读仓库根目录 README.md。本仓库面向本科生试复现，只走 City 场景路径。
 
-克隆后先安装匹配Isaac，再领取并解压资源包，用fetch_thermal.ps1取得固定红外组件。
-检查仓库运行tools/verify_repository.py，检查完整资源加--assets --dependency。
-每次新开PowerShell先点调用start_session.ps1。
-Word安装说明描述原本地交付包，GitHub克隆的安装以README为准。
+最短步骤：
+1. 安装匹配的 Isaac Sim 到 D:\\isaacsim。
+2. 克隆仓库到 D:\\IsaacSim_Demo。
+3. 运行 tools\\install_city_assets.py 安装并校验仓库内 City 资源包。
+4. 运行 fetch_thermal.ps1 取得固定版本红外组件。
+5. 运行 tools\\verify_repository.py --assets --dependency。
+6. 运行 scripts\\record_city_v2_task.ps1 -Task city-v2-hvac-s1 -CheckOnly。
+7. 按 README 进行一次真实采集和 scripts\\process.ps1 离线回放。
 
-以下是2026-11-09本地ZIP交付包的说明：
-
-先读同目录的 dataset-package-setup.docx，再读 docs/dataset-workflow-personal-guide.docx。
-代码包、资源包都解压到 D:\，合并成为 D:\IsaacSim_Demo；样例包可选。
-不要在已有采集工程上直接覆盖；先备份或在接收方新电脑部署。
-
-Isaac Sim 需单独安装，准确基线与Python依赖见 environment-baseline.json。
-红外源码未打包；阅读其原仓库条款后，运行 fetch_thermal.ps1 取得固定版本。
-start_session.ps1 要用点调用，避免City包装脚本用到错误的Python。
-
-此包尚未替代接收方电脑的真实试采验收。正式任务仍受原有就绪门禁限制。
-资源来自多种来源，仅用于本次受控交接，未经来源许可核对不应直接公开整个资源包。
+工厂、森林资源本次不上传；历史代码和文档中的相关目录不属于本科生复现路径。资源授权和跨硬件实测状态见 README.md 与 SOURCE_NOTICES.txt。

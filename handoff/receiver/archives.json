@@ -1,23 +1,11 @@
 {
-  "scope": "Local controlled handoff; no GitHub upload",
+  "scope": "GitHub undergraduate handoff; City-only package",
   "archives": [
     {
-      "path": "dataset-code-20261109.zip",
-      "files": 688,
-      "bytes": 7092723,
-      "sha256": "8e9d67766ae583e3d5285453a8271387df04fc51e83f5074e3a199d082b7ef74"
-    },
-    {
-      "path": "dataset-assets-20261109.zip",
-      "files": 725,
-      "bytes": 390641443,
-      "sha256": "32c92fb6db48a7684beb9aee8f235450a7523cacac281f391779b50fe88bfbcf"
-    },
-    {
-      "path": "dataset-sample-20261109.zip",
-      "files": 684,
-      "bytes": 62939117,
-      "sha256": "f1c5373b4a56609825435113410989df070fc783b5e688c7ea1c7fc04a1e7846"
+      "path": "resources/city/city-assets-20261112.zip",
+      "files": 70,
+      "bytes": 33079566,
+      "sha256": "820bf5c58d763d91fd7938ffc04fb52da36f088902ab514626d96327107b8ac1"
     }
   ]
 }
